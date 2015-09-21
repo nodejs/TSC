@@ -6,7 +6,7 @@
 
 ## Governance
 
-## Contributions
+## Contribution Process
 
 ## Tools
 
@@ -21,8 +21,6 @@
 
 ## Working Groups
 
-None at this time.
+## Requirements
 
-## Provisional
-
-The membership is already well under the 1/4 representation limit and these conferences have been happening since 2011.
+* Link to DCO, LICENSE, and CoC.

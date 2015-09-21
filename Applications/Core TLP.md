@@ -8,7 +8,7 @@ Created by Ryan Dahl, now the largest programming ecosystem on the planet.
 
 ## Scope
 
-The Core TLP will have sole responsibility and discretion over io.js and node.js in the following areas:
+The Core TLP will have sole responsibility and discretion over the node.js project in the following areas:
 
 * Setting release dates
 * Release quality standards
@@ -67,4 +67,4 @@ All relevant IP is already managed by the Node.js Foundation.
 
 ## Provisional
 
-The membership is already well under the 1/4 representation limit and the project has been well established for quite a while.
+The membership is already well under the 1/4 representation limit and the project has been well established for quite a while. It should skip the incubation phase.

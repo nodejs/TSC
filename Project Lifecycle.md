@@ -34,21 +34,27 @@ While certain processes are strongly recommended because of the TSC's experience
 * TC is 5 members or greater.
 * No more than 1/4 of the TC is affiliated with the same employer.
 * Members of the TC live in at least 4 different timezones.
-* The decision making process is documented and publicly accessible.
+* The decision making and release process is documented and publicly accessible.
 
 A project may apply to graduate from incubation at any time by calling for a vote in the TSC.
+
+While a project is incubating it is assigned at least 3 [mentors](https://github.com/nodejs/TSC/blob/master/README.md#mentors) who are responsible for working with the project to adopt policies and gain the health and contributorship it will need in order to graduate from incubation.
 
 ## Lifecycle
 
 The Foundation shall encourage new Projects and innovation in the community. New Projects enter the Node.js Foundation through a [Proposal](#Proposal).
 
-Project should have some prior history, be considered mature and contain a wide contributorship before submitting a proposal to enter the foundation.
+The project should be considered mature and have a history of releases before applying to enter the foundation.
 
 ## Top Level Project and Working Group Requirements
 
-All TLPs and WGs are expected to operation in a transparent manor. Decisions must be made publicly through a documented public process managed by each TLP TC or WG.
+All TLPs and WGs are expected to operate in a transparent manor. Decisions must be made publicly through a documented public process managed by each TLP TC or WG.
 
 All TLPs and WGs must use a participatory decision making process. All TLP TCs must ensure they are accurately representing the WGs in their TLP.
+
+### Security
+
+All projects in the foundation share the same base security policy. The foundation's security team triages issues sent to security@nodejs.org. Top Level Projects, whether in the incubator or not, are expected to maintain a private security repository where the security team can bring project specific issues.
 
 ## Top Level Projects
 
@@ -64,14 +70,25 @@ A proposal to join the Node.js Foundation as a Top Level Project or Working Grou
 * Project history.
 * Any available metrics or even estimates about the user base, ecosystem and community.
 * Project scope.
-* Project governance process.
-* Project contribution process.
- * Must include [DCO](https://github.com/nodejs/io.js/blob/master/CONTRIBUTING.md#developers-certificate-of-origin-10).
- * Must include approved license (MIT, Apache2, etc).
- * Must include a [Code of Conduct](https://github.com/nodejs/io.js/blob/master/CONTRIBUTING.md#code-of-conduct).
+* Current governance process.
+* Current contribution process.
 * List of current tools in use by the project (forums, issue trackers, GitHub orgs, etc).
 * Existing IP Policy and relevant intellectual property (trademarks, domain names, etc).
 * List of initial TC members.
 * List of initial Working Groups.
+* Prior to being admitted the project:
+ * Must include [DCO](https://github.com/nodejs/io.js/blob/master/CONTRIBUTING.md#developers-certificate-of-origin-10).
+ * Must include approved license (MIT, Apache2, etc).
+ * Must include a [Code of Conduct](https://github.com/nodejs/io.js/blob/master/CONTRIBUTING.md#code-of-conduct).
 
 Each proposal should be sent as a pull request to this repository in the Applications directory. Proposals do not have to be complete to be submitted, the TSC can work with the authors and their respective communities in each Pull Request.
+
+### Approved Licenses
+
+At this time the foundation is only accepting projects which use an MIT, BSD, or Apache2 license.
+
+### Admittance
+
+The Node.js Foundation is quite new and currently has a limited number of resources available to mentor new projects. As such, projects are chosen for admission in groups as mentors become available. The next set of projects will be chosen on November 1st.
+
+You can apply at any time and the TSC and available mentors will help improve your application while awaiting the next available approval phase.
