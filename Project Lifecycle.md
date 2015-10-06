@@ -19,7 +19,7 @@ Projects are free to create "Working Groups" which are autonomous groups collabo
   |-- Working Group B (Chartered by TSC)
 ```
 
-Both TLDs and TSC WGs may elect a representative to the TSC. TLDs and WGs with *incubation* status are not granted voting privileges on the TSC.
+Both TLPs and TSC WGs may elect a representative to the TSC. TLPs and WGs with *incubation* status are not granted voting privileges on the TSC.
 
 ## Incubation
 
