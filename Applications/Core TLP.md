@@ -4,7 +4,7 @@ Currently the Node.js Foundation directly oversees the development of the core p
 
 ## History & Metrics
 
-Created by Ryan Dahl, now the largest programming ecosystem on the planet.
+Created by Ryan Dahl, now the largest programming ecosystem in the world.
 
 ## Scope
 
@@ -18,14 +18,15 @@ The Core TLP will have sole responsibility and discretion over the node.js proje
 * Maintaining the list of additional Collaborators.
 * Development process and any coding standards.
 * Mediating technical conflicts between Collaborators and Working Groups.
+* Node.js build and CI infrastructure.
 
 ## Governance
 
-https://github.com/nodejs/io.js/blob/master/GOVERNANCE.md
+https://github.com/nodejs/node/blob/master/GOVERNANCE.md
 
 ## Contributions
 
-https://github.com/nodejs/io.js/blob/master/CONTRIBUTING.md
+https://github.com/nodejs/node/blob/master/CONTRIBUTING.md
 
 ## Tools
 
@@ -57,13 +58,13 @@ All relevant IP is already managed by the Node.js Foundation.
 
 ## Working Groups
 
-* [Website](https://github.com/nodejs/io.js/blob/master/WORKING_GROUPS.md#website)
-* [Streams](https://github.com/nodejs/io.js/blob/master/WORKING_GROUPS.md#streams)
-* [Build](https://github.com/nodejs/io.js/blob/master/WORKING_GROUPS.md#build)
-* [Tracing](https://github.com/nodejs/io.js/blob/master/WORKING_GROUPS.md#tracing)
-* [Roadmap](https://github.com/nodejs/io.js/blob/master/WORKING_GROUPS.md#roadmap)
-* [Docker](https://github.com/nodejs/io.js/blob/master/WORKING_GROUPS.md#docker)
-* [Addon API](https://github.com/nodejs/io.js/blob/master/WORKING_GROUPS.md#addon-api)
+* [Website](https://github.com/nodejs/node/blob/master/WORKING_GROUPS.md#website)
+* [Streams](https://github.com/nodejs/node/blob/master/WORKING_GROUPS.md#streams)
+* [Build](https://github.com/nodejs/node/blob/master/WORKING_GROUPS.md#build)
+* [Tracing](https://github.com/nodejs/node/blob/master/WORKING_GROUPS.md#tracing)
+* [Roadmap](https://github.com/nodejs/node/blob/master/WORKING_GROUPS.md#roadmap)
+* [Docker](https://github.com/nodejs/node/blob/master/WORKING_GROUPS.md#docker)
+* [Addon API](https://github.com/nodejs/node/blob/master/WORKING_GROUPS.md#addon-api)
 
 ## Provisional
 

@@ -33,7 +33,7 @@ While certain processes are strongly recommended because of the TSC's experience
 
 * TC is 5 members or greater.
 * No more than 1/4 of the TC is affiliated with the same employer.
-* Members of the TC live in at least 4 different timezones.
+* Members of the TC live in at least 4 different timezones and representing no fewer than three countries.
 * The decision making and release process is documented and publicly accessible.
 
 A project may apply to graduate from incubation at any time by calling for a vote in the TSC.
@@ -77,18 +77,18 @@ A proposal to join the Node.js Foundation as a Top Level Project or Working Grou
 * List of initial TC members.
 * List of initial Working Groups.
 * Prior to being admitted the project:
- * Must include [DCO](https://github.com/nodejs/io.js/blob/master/CONTRIBUTING.md#developers-certificate-of-origin-10).
+ * Must include [DCO](https://github.com/nodejs/node/blob/master/CONTRIBUTING.md#developers-certificate-of-origin-10).
  * Must include approved license (MIT, Apache2, etc).
- * Must include a [Code of Conduct](https://github.com/nodejs/io.js/blob/master/CONTRIBUTING.md#code-of-conduct).
+ * Must include a [Code of Conduct](https://github.com/nodejs/node/blob/master/CONTRIBUTING.md#code-of-conduct).
 
 Each proposal should be sent as a pull request to this repository in the Applications directory. Proposals do not have to be complete to be submitted, the TSC can work with the authors and their respective communities in each Pull Request.
 
 ### Approved Licenses
 
-At this time the foundation is only accepting projects which use an MIT, BSD, or Apache2 license.
+At this time the foundation is only accepting projects which use an MIT, BSD, ISC or Apache2 license.
 
 ### Admittance
 
-The Node.js Foundation is quite new and currently has a limited number of resources available to mentor new projects. As such, projects are chosen for admission in groups as mentors become available. The next set of projects will be chosen on November 1st.
+The Node.js Foundation is quite new and currently has a limited number of resources available to mentor new projects. As such, projects are chosen for admission in groups as mentors become available.
 
 You can apply at any time and the TSC and available mentors will help improve your application while awaiting the next available approval phase.
