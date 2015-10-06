@@ -51,8 +51,6 @@ All relevant IP is already managed by the Node.js Foundation.
 * **Alexis Campailla** &lt;orangemocha@nodejs.org&gt; ([@orangemocha](https://github.com/orangemocha))
 * **Julien Gilli** &lt;jgilli@nodejs.org&gt; ([@misterdjules](https://github.com/misterdjules))
 * **James M Snell** &lt;jasnell@gmail.com&gt; ([@jasnell](https://github.com/jasnell))
-* **Steven R Loomis** &lt;srloomis@us.ibm.com&gt; ([@srl295](https://github.com/srl295))
-* **Michael Dawson** &lt;michael_dawson@ca.ibm.com&gt; ([@mhdawson](https://github.com/mhdawson))
 * **Shigeki Ohtsu** &lt;ohtsu@iij.ad.jp&gt; ([@shigeki](https://github.com/shigeki))
 * **Brian White** &lt;mscdex@mscdex.net&gt; ([@mscdex](https://github.com/mscdex))
 
