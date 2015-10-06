@@ -96,8 +96,8 @@ Collaborators may opt to elevate significant or controversial modifications, or 
 
 ## Section 10. Definitions
 
-Contributors: contribute code or other artifacts, but do not have the right to commit to the code base. Contributors work with the Project’s Collaborators to have code committed to the code base. A Contributor may be promoted to a Collaborator by the projects’ Maintainer or the TSC. Contributors should rarely be encumbered by the TSC and never by the Board.
+* **Contributors**: contribute code or other artifacts, but do not have the right to commit to the code base. Contributors work with the Project’s Collaborators to have code committed to the code base. A Contributor may be promoted to a Collaborator by the projects’ Maintainer or the TSC. Contributors should rarely be encumbered by the TSC and never by the Board.
 
-Project: a technical collaboration effort, e.g. a subsystem, that is organized through the project creation process and approved by the TSC.
+* **Project**: a technical collaboration effort, e.g. a subsystem, that is organized through the project creation process and approved by the TSC.
 
 * **Maintainer**: a Collaborator within a Core Project elected to represent the Core Project on the TSC.
