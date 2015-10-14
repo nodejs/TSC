@@ -14,6 +14,7 @@ If your project is interested in joining the Node.js Foundation please read the 
  * Mentors
 * Top-Level Projects
  * Core TLP
+  * Core WGs (streams, http, Intl)
 
 ## Mentors
 
