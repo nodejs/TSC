@@ -61,13 +61,7 @@ All relevant IP is managed by the Node.js Foundation.
 
 ## Working Groups
 
-* [Website](https://github.com/nodejs/node/blob/master/WORKING_GROUPS.md#website)
-* [Streams](https://github.com/nodejs/node/blob/master/WORKING_GROUPS.md#streams)
-* [Build](https://github.com/nodejs/node/blob/master/WORKING_GROUPS.md#build)
-* [Tracing](https://github.com/nodejs/node/blob/master/WORKING_GROUPS.md#tracing)
-* [Roadmap](https://github.com/nodejs/node/blob/master/WORKING_GROUPS.md#roadmap)
-* [Docker](https://github.com/nodejs/node/blob/master/WORKING_GROUPS.md#docker)
-* [Addon API](https://github.com/nodejs/node/blob/master/WORKING_GROUPS.md#addon-api)
+All previously existing chartered and un-chartered working groups.
 
 ## Provisional
 
