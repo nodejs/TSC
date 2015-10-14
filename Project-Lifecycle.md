@@ -70,7 +70,7 @@ before applying to enter the foundation.
 
 ## Top-Level Project and Working Group Requirements
 
-All TLPs and WGs are expected to operate in a transparent manor.
+All TLPs and WGs are expected to operate in a transparent manner.
 Decisions must be made publicly through a documented public process
 managed by each TLP TC or WG.
 
