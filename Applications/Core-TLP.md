@@ -1,6 +1,10 @@
 ## Introduction
 
-The Node.js Foundation directly oversees the development of the core platform and associated working groups. The addition of top-level Projects will predictably increase the workload on the TSC and so it makes sense to transfer these responsibilities to a top-level Project concerned solely with the development of the platform.
+The Node.js Foundation directly oversees the development of the core
+platform and associated working groups. The addition of top-level Projects
+will predictably increase the workload on the TSC and so it makes sense to
+transfer these responsibilities to a top-level Project concerned solely
+with the development of the platform.
 
 ## History & Metrics
 
@@ -8,7 +12,8 @@ Created by Ryan Dahl, now the largest programming ecosystem in the world.
 
 ## Scope
 
-The Core TLP will have sole responsibility and discretion over the Node.js project in the following areas:
+The Core TLP will have sole responsibility and discretion over the Node.js
+project in the following areas:
 
 * Setting release dates.
 * Release quality standards.
@@ -66,4 +71,6 @@ All relevant IP is managed by the Node.js Foundation.
 
 ## Provisional
 
-The membership is already well under the 1/4 representation limit and the project has been well established for quite a while. It should skip the incubation phase.
+The membership is already well under the 1/4 representation limit and the
+project has been well established for quite a while. It should skip the
+incubation phase.
