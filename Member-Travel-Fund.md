@@ -19,7 +19,7 @@ New slide decks are added to the list of approved decks on an ongoing basis.
  the list above.
 * Slide deck must be approved by the TSC.
 
-Any member can apply to give an approved talk. Request may take up to a month
+Any member can apply to give an approved talk. Each request may take up to a month
 for the TSC to approve or decline.
 
 * Log an issue in this repository.
@@ -27,13 +27,18 @@ for the TSC to approve or decline.
  * Include the location of the event and where you will be traveling from.
  * Include the presentation you intend to give.
  * Include the size of the stipend you wish to receive.
-  * Stipends are anywhere from $100 to $1,500 USD and vary with travel distance.
+  * Reimbursement stipends are anywhere from $100 to $1,500 USD and vary with travel distance.
 
 The TSC will consider each proposal in its next regular meeting. While it is
 ultimately at the TSC's discretion who to approve the following considerations
 are made.
 
-* Impact: Preference given to underserved communities.
+* Impact: Preference given to underserved communities. More specifically,
+within a subject the foundation trying to promote awareness about (e.g. general
+knowledge about the foundation) there are people, communities and geographies
+where that knowledge is not very wide spread. This is where preference will
+be given. For instance, an event in San Francisco would be less attractive
+than an event of the same size in Kansas City.
 * Cost: The larger the stipend the more critically the TSC will consider the application.
 Budget for this program is a finite resource.
 * Equity: Preference given to individuals who do not have a corporate travel fund and have
