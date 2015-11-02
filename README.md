@@ -4,7 +4,7 @@ The Node.js Foundation Technical Steering Committee is the technical governing b
 
 For more details read the [TSC Charter](https://github.com/nodejs/TSC/blob/master/TSC-Charter.md) adopted by the Node.js Foundation Board of Directors on June 17th 2015.
 
-If your project is interested in joining the Node.js Foundation please read the [Project Lifecyle.md](./Project Lifecycle.md) documentation.
+If your project is interested in joining the Node.js Foundation please read the [Project Lifecycle.md](./Project-Lifecycle.md) documentation.
 
 ## TSC Members
 
