@@ -8,6 +8,12 @@ Individual Working Groups and Top Level Projects chartered by the TSC may adopt 
 * The Moderation Policy is openly documented as part of the Working Group or Project Charter and;
 * Includes provisions for clearly and openly documenting Moderation actions taken.
 
+If a particular repository can be considered to fall under the stewardship of multiple Working Groups (or Top Level Projects) that have adopted different Moderation Policies, they can choose to either:
+* Decide between themselves which Moderation Policy will be in effect for the repository in question, or
+* Ask the TSC to determine which Moderation Policy should apply.
+
+Any alternative Moderation Policy used for a given repository must be included in the root directory of the repository using the `Moderation-Policy.md` filename.
+
 ### Terms
 
 * "Collaborator" refers to any individual member or "outside collaborator" of the Node.js Github Organization.
@@ -22,9 +28,34 @@ Individual Working Groups and Top Level Projects chartered by the TSC may adopt 
 * Only a TSC member may Ban an individual from the Node.js Github Organization.
 * Any individual Banned from the Node.js Github Organization will be recommended for exclusion from any Node.js Foundation sponsored event or activity.
 
+#### Requesting Moderation
+
+Anyone may request Moderation of a Post.
+
+Moderation requests are only necessary when the Post in question was either:
+ 
+* Authored by a Collaborator, or
+* The request is originating from a non-Collaborator.
+
+Requesting Moderation of a Post can be accomplished in one of five ways:
+
+* Private communication between the individuals involved,
+* Via the `report@io.js` email address,
+* Via private email to individual TSC members,
+* Via a new Post in the same thread as the Post being requested for Moderation, or
+* Via a new Post in the private nodejs/moderation repository.
+
+Use of the `report@io.js` email address, or private email to individual TSC members, is appropriate when the individual requesting the Moderation does not feel comfortable directly or publicly making the request. All emails sent to the `report@io.js` address are currently forwarded to all members of the TSC. [[ED NOTE: This has not yet been set up]]
+
+Requests should contain as much information and context as possible, including the URL and a screenshot of the Post in question. Screenshots may be modified to obscure obscene or offensive content.
+
+External public venues or social media services such as Twitter should never be used to request Moderation or to discuss the details of a Moderation request.
+
+Multiple moderation requests for the same Post are unnecessary.
+
 #### Collaborator Posts
 
-* Collaborator's must not Moderate any Post authored by another Collaborator without first giving the author an opportunity of at least 24 hours (from the time of the initial request) to modify or remove the Post on their own.
+* Collaborator's must not Moderate any Post authored by another Collaborator without first giving the author at least 24 hours (from the time of the initial request) to modify or remove the Post on their own.
 * In extreme circumstances the TSC can be consulted to waive the 24 hour grace period.
 * If the author of the Post disagrees that Moderation is required, the matter can be escalated to the TSC by creating a new issue (or using an existing one) within the nodejs/moderation repository with the label `tsc-agenda`. In such cases, the TSC will serve as the final arbiter.
 * For Moderation issues involving a TSC member, the member in question is expected to recuse themselves from any decisions required to resolve the issue.
@@ -43,29 +74,13 @@ Individual Working Groups and Top Level Projects chartered by the TSC may adopt 
 * When Moderating non-Collaborator Posts, the moderating Collaborator should:
  * Explain the justification for Moderating the post, and
  * Identify all changes made to the Post.
-* Explanations of Moderation actions for non-Collaborator Posts must be provided in:
+* If an explanation of a Moderation action for a non-Collaborator Post is provided, it must be provided in:
  * The original Post being modified (as replacement or appended content),
  * A new post within the original thread, or
  * A new issue within the private nodejs/moderation repository.
 * Moderation of Posts authored by non-Collaborators may result in those non-Collaborators being Banned from further participation in the Node.js Github Organization for an indefinite period of time.
 
-#### Requesting Moderation
-
-Requests to Moderate a Post are only necessary when the Post in question was written by a Collaborator.
-
-Requesting Moderation of a Post can be accomplished in one of five ways:
-
-* Private communication between the individuals involved,
-* Via the `report@io.js` email address,
-* Via private email to individual TSC members,
-* Via a new Post in the same thread as the Post being requested for Moderation, or
-* Via a new Post in the private nodejs/moderation repository.
-
-Use of the `report@io.js` email address, or private email to individual TSC members, is appropriate when the individual requesting the Moderation does not feel comfortable directly or publicly making the request. All emails sent to the `report@io.js` address are currently forwarded to all members of the TSC. [[ED NOTE: This has not yet been set up]]
-
-Requests should contain as much information and context as possible, including the URL of the Post in question.
-
-External public venues or social media services such as Twitter should never be used to request Moderation or to discuss the details of a Moderation request.
+Note that Moderating non-Collaborator posts can often lead to retaliation or escalation of inappropriate behavior by the individual whose post is being Moderated. This is true primarily of individuals whose intent is to harass, disrupt or annoy individual members of the community. In such cases, it is best to handle the Moderation as quickly and as quietly as possible without drawing any further undue attention to the Post in question.
 
 ### Consideration of Intent
 
