@@ -21,20 +21,13 @@ Any alternative Moderation Policy used for a given repository must be included i
 * "Moderate" refers to the act of modifying the content of or deleting any Post.
 * "Ban" refers to the act of blocking an individual Github account from any further participation in the Node.js Github Organization.
 
-### Policy
-
-* All Posts are expected to respect the Node.js Code of Conduct.
-* Only Collaborators with commit rights to a given repository may Moderate Posts within that repository's issue tracker.
-* Only a TSC member may Ban an individual from the Node.js Github Organization.
-* Any individual Banned from the Node.js Github Organization will be recommended for exclusion from any Node.js Foundation sponsored event or activity.
-
-#### Requesting Moderation
+### Requesting Moderation
 
 Anyone may request Moderation of a Post.
 
-Moderation requests are only necessary when the Post in question was either:
+Moderation requests are only necessary when:
  
-* Authored by a Collaborator, or
+* The Post in question was authored by a Collaborator, or
 * The request is originating from a non-Collaborator.
 
 Requesting Moderation of a Post can be accomplished in one of five ways:
@@ -53,11 +46,19 @@ External public venues or social media services such as Twitter should never be 
 
 Multiple moderation requests for the same Post are unnecessary.
 
+### Policy
+
+* All Posts are expected to respect the [Node.js Code of Conduct](https://github.com/nodejs/node/blob/master/CODE_OF_CONDUCT.md).
+* Only Collaborators with commit rights to a given repository may Moderate Posts within that repository's issue tracker.
+* Only a TSC member may Ban an individual from the Node.js Github Organization.
+* Any individual Banned from the Node.js Github Organization will be recommended for exclusion from any Node.js Foundation sponsored event or activity.
+
 #### Collaborator Posts
 
 * Collaborator's must not Moderate any Post authored by another Collaborator without first giving the author at least 24 hours (from the time of the initial request) to modify or remove the Post on their own.
-* In extreme circumstances the TSC can be consulted to waive the 24 hour grace period.
 * If the author of the Post disagrees that Moderation is required, the matter can be escalated to the TSC by creating a new issue (or using an existing one) within the nodejs/moderation repository with the label `tsc-agenda`. In such cases, the TSC will serve as the final arbiter.
+* While Moderation of a Collaborator's Post is in dispute, no Moderation action should be taken until a decision by the TSC is made.
+* In extreme circumstances involving either obvious gross violations of the Node.js Code of Conduct or possible compromise of a Collaborator's Github account, the TSC can be consulted to waive the 24 hour grace period and dispute process.
 * For Moderation issues involving a TSC member, the member in question is expected to recuse themselves from any decisions required to resolve the issue.
 * When Moderating any Post authored by another Collaborator, the moderating Collaborator must:
  * Explain the justification for Moderating the post,
