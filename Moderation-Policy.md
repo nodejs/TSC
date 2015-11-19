@@ -91,6 +91,10 @@ Before Moderating a Post, Collaborator's should carefully consider the possible 
 
 The nodejs/moderation Repository is used to discuss the potentially sensitive details of any specific proposed or actual Moderation or Banning action. The repository is private but accessible to all Collaborators. The details of any issue discussed within the nodejs/moderation repository are expected to remain confidential and are not to be discussed in any public forum or social media service.
 
+### TSC Delegation of Authority to a "Moderation Working Group"
+
+For any Moderation action that does not directly involve a TSC member, the TSC may choose to delegate some or all of it's Moderation-related responsibilities to a "Moderation Working Group". All members of such a Working Group must be Collaborators and the TSC will have responsibility for selecting the membership of that Moderation Working Group.
+
 ### Modifications to This Policy
 
 Modifications to this policy are made through normal [TSC motion and vote](https://github.com/nodejs/TSC/blob/master/TSC-Charter.md#section-8-voting). Any Collaborator may submit a PR proposing changes to this policy. Those PRs must be labeled using the `tsc-agenda` label. Including a mention to `@nodejs/tsc` can be used to call the issue to TSC's attention.
