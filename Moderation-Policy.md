@@ -19,7 +19,7 @@ Individual Working Groups and Top Level Projects chartered by the TSC may adopt 
 
 * All Posts are expected to respect the Node.js Code of Conduct.
 * Only Collaborators with commit rights to a given repository may Moderate Posts within that repository's issue tracker.
-* Collaborator's must not Moderate any Post authored by another Collaborator without first giving the author an opportunity of at least 24 hours to modify or remove the Post on their own.
+* Collaborator's must not Moderate any Post authored by another Collaborator without first giving the author an opportunity of at least 24 hours to modify or remove the Post on their own. In extreme circumstances the TSC can be consulted to waive the 24 hour grace period.
 * Posts authored by non-Collaborator's are always subject to immediate Moderation by any Collaborator if the content is intentionally disruptive or in violation of the Node.js Code of Conduct.
 * When Moderating any Post authored by another Collaborator, the moderating Collaborator must:
  * Explain the justification for Moderating the post,
