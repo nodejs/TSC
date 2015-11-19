@@ -32,7 +32,7 @@ Individual Working Groups and Top Level Projects chartered by the TSC may adopt 
  * A new post within the original thread, or
  * A new issue within the private nodejs/moderation repository.
 * Explanations of Moderation actions for non-Collaborator Posts must be provided in:
- * The original Post being modified (as the replacement content),
+ * The original Post being modified (as replacement or appended content),
  * A new post within the original thread, or
  * A new issue within the private nodejs/moderation repository.
 * Any Collaborator who habitually authors Posts that must be Moderated will be subject to possible removal from the Node.js Github Organization. Such action can only be taken through normal TSC motion and vote.
