@@ -17,7 +17,7 @@ Any alternative Moderation Policy used for a given repository must be included i
 ### Terms
 
 * "Collaborator" refers to any individual member or "outside collaborator" of the Node.js Github Organization.
-* "Post" refers to the content of any issue, pull request or comment.
+* "Post" refers to the content of any issue, pull request, comment or wiki page.
 * "Moderate" refers to the act of modifying the content of or deleting any Post.
 * "Ban" refers to the act of blocking an individual Github account from any further participation in the Node.js Github Organization.
 
