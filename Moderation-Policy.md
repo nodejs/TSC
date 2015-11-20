@@ -47,8 +47,8 @@ Requesting Moderation of a Post can be accomplished in one of five ways:
 
 * Via the `report@node.js` email address,
 * Via private email to individual TSC members,
-* Via a new Post in the same thread as the Post being requested for Moderation, or
-* Via a new Post in the private nodejs/moderation repository.
+* Via a new Post in the same thread as the Post being requested for Moderation,
+* Via a new Post in the private nodejs/moderation repository, or
 * Private communication between the individuals involved,
 
 Use of the `report@node.js` email address, or private email to individual TSC members, is appropriate when the individual requesting the Moderation does not feel comfortable directly or publicly making the request. All emails sent to the `report@node.js` address are currently forwarded to all members of the TSC. [[ED NOTE: This has not yet been set up]]
