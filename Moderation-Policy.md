@@ -4,11 +4,13 @@ If you are not a member of the Node.js GitHub Organization and wish to submit a 
 
 * [Applicability](#applicability)
 * [Terms](#terms)
+* [Grounds for Moderation](#grounds-for-moderation)
 * [Requesting Moderation](#requesting-moderation)
 * [Consideration of Intent](#consideration-of-intent)
 * [Policy](#policy)
  * [Collaborator Posts](#collaborator-posts)
  * [Non-Collaborator Posts](#non-collaborator-posts)
+* [Escalation to the TSC](#escalation-to-the-tsc)
 * [Privacy of the nodejs/moderation Repository](#privacy-of-the-nodejsmoderation-repository)
 * [TSC Delegation of Authority to a "Moderation Working Group"](tsc-delegation-of-authority-to-a-moderation-working-group)
 * [Modifications to this Policy](#modifications-to-this-policy)
@@ -30,9 +32,14 @@ Any alternative Moderation Policy used for a given repository must be included i
 ### Terms
 
 * "Collaborator" refers to any individual with configured access permissions to any Node.js GitHub organization repository. See [GitHub's access permissions documentation](https://help.github.com/articles/what-are-the-different-access-permissions/) for more information.
+* "TSC" refers to the [Node.js Technical Steering Committee](https://github.com/nodejs/node#tsc-technical-steering-committee).
 * "Post" refers to the content and titles of any issue, pull request, comment or wiki page.
 * "Moderate" refers to the act of modifying the content and title of, or deleting, any Post.
 * "Ban" refers to the act of blocking an individual GitHub account from any further participation in the Node.js GitHub Organization.
+
+### Grounds for Moderation
+
+Any Post considered to be in violation of the [Node.js Code of Conduct](https://GitHub.com/nodejs/node/blob/master/CODE_OF_CONDUCT.md) is subject to Moderation.
 
 ### Requesting Moderation
 
@@ -61,20 +68,19 @@ Before Moderating a Post, Collaborators should carefully consider the possible i
 
 Note, however, that unfamiliarity with the [Code of Conduct](https://GitHub.com/nodejs/node/blob/master/CODE_OF_CONDUCT.md) does not excuse a Post from Moderation.
 
-### Policy
+### Guidelines and Requirements
 
 * All Posts are expected to respect the [Node.js Code of Conduct](https://GitHub.com/nodejs/node/blob/master/CODE_OF_CONDUCT.md).
 * Only Collaborators with commit rights to a given repository may Moderate Posts within that repository's issue tracker.
+* The TSC serves as the final arbiter for all Moderation issues (see [Escalation to the TSC](#escalation-to-the-tsc)).
 * Only a TSC member may Ban an individual from the Node.js GitHub Organization.
 * Any individual Banned from the Node.js GitHub Organization will be recommended for exclusion from any Node.js Foundation sponsored event or activity.
 
 #### Collaborator Posts
 
 * Collaborators must not Moderate any Post authored by another Collaborator without first giving the author at least 24 hours (from the time of the initial request) to modify or remove the Post on their own.
-* If the author of the Post disagrees that Moderation is required, the matter can be escalated to the TSC by creating a new issue (or using an existing one) within the nodejs/moderation repository with the label `tsc-agenda`. In such cases, the TSC will serve as the final arbiter.
-* While Moderation of a Collaborator's Post is in dispute, no Moderation action should be taken until a decision by the TSC is made.
+* If the author of the Post disagrees that Moderation is required, the matter can be [escalated to the TSC](#escalation-to-the-tsc) for resolution. In such cases, no Moderation action should be taken until a decision by the TSC is made.
 * In extreme circumstances involving either obvious gross violations of the [Node.js Code of Conduct](https://GitHub.com/nodejs/node/blob/master/CODE_OF_CONDUCT.md) or possible compromise of a Collaborator's GitHub account, the TSC can be consulted to waive the 24 hour grace period and dispute process.
-* For Moderation issues involving a TSC member, the member in question is expected to recuse themselves from any decisions required to resolve the issue.
 * When Moderating any Post authored by another Collaborator, the moderating Collaborator must:
  * Explain the justification for Moderating the post,
  * Identify all changes made to the Post, and
@@ -90,13 +96,21 @@ Note, however, that unfamiliarity with the [Code of Conduct](https://GitHub.com/
 * When Moderating non-Collaborator Posts, the moderating Collaborator should:
  * Explain the justification for Moderating the post, and
  * Identify all changes made to the Post.
-* If an explanation of a Moderation action for a non-Collaborator Post is provided, it must be provided in:
+* If an explanation of a Moderation action for a non-Collaborator Post is provided, it should be provided in:
  * The original Post being modified (as replacement or appended content),
  * A new post within the original thread, or
  * A new issue within the private nodejs/moderation repository.
 * Moderation of Posts authored by non-Collaborators may result in those non-Collaborators being Banned from further participation in the Node.js GitHub Organization for an indefinite period of time.
 
 Note that Moderating non-Collaborator posts can often lead to retaliation or escalation of inappropriate behavior by the individual whose post is being Moderated. This is true primarily of individuals whose intent is to harass, disrupt or annoy individual members of the community. In such cases, it is best to handle the Moderation as quickly and as quietly as possible without drawing any further undue attention to the Post in question.
+
+### Escalation to the TSC
+
+Any Moderation issue or dispute can be escalated to the TSC by "mentioning" `@nodejs/tsc` in the body of a GitHub issue either in the original thread or in the private nodejs/moderation repository. Optionally, the `tsc-agenda` label may be attached to the issue to request that it be added to the TSC meeting agenda.
+
+All Moderation-related decisions follow the normal [TSC motion and voting process](https://GitHub.com/nodejs/TSC/blob/master/TSC-Charter.md#section-8-voting).
+
+TSC members directly involved in a Moderation issue -- as either the requester or author of the Post in question -- are expected to excuse themselves from any decisions required to resolve the issue.
 
 ### Privacy of the nodejs/moderation Repository
 
