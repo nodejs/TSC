@@ -45,7 +45,7 @@ Anyone may request Moderation of a Post. Requesting Moderation of a Post can be 
 
 Use of the `report@node.js` email address -- or private email to individual TSC members -- is appropriate when the individual requesting the Moderation does not feel comfortable directly or publicly making the request. All emails sent to the `report@node.js` address are currently forwarded to all members of the TSC. [[ED NOTE: This has not yet been set up]]
 
-When a request is sent by email to the `report@node.js` (or directly to a TSC member) a new issue detailing the request must be created in the private nodejs/moderation repository. The identity of the individual submitting the request should be omitted from that issue unless specified by the reporter.
+When a request is sent by email to the `report@node.js` (or directly to a TSC member) a new issue detailing the request must be created in the private nodejs/moderation repository. The identity of the individual submitting the request should be omitted from the issue unless permission to include the identity is provided by the reporter.
 
 Requests should contain as much information and context as possible, including the URL and a screenshot of the Post in question. Screenshots should be modified to obscure obscene or offensive content.
 
