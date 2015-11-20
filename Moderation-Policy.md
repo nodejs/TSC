@@ -72,7 +72,7 @@ Note, however, that unfamiliarity with the [Code of Conduct](https://GitHub.com/
 
 * All Posts are expected to respect the [Node.js Code of Conduct](https://GitHub.com/nodejs/node/blob/master/CODE_OF_CONDUCT.md).
 * Only Collaborators with commit rights to a given repository may Moderate Posts within that repository's issue tracker.
-* The TSC serves as the final arbiter for all Moderation issues (see [Escalation to the TSC](#escalation-to-the-tsc)).
+* The TSC serves as the final arbiter for all Moderation issues (see: [Escalation to the TSC](#escalation-to-the-tsc)).
 * Only a TSC member may Ban an individual from the Node.js GitHub Organization.
 * Any individual Banned from the Node.js GitHub Organization will be recommended for exclusion from any Node.js Foundation sponsored event or activity.
 
@@ -88,7 +88,7 @@ Note, however, that unfamiliarity with the [Code of Conduct](https://GitHub.com/
 * Explanations of Moderation actions on Collaborator Posts must be provided in:
  * A new post within the original thread, or
  * A new issue within the private nodejs/moderation repository.
-* Any Collaborator who habitually authors Posts that must be Moderated will be subject to possible removal from the Node.js GitHub Organization. Such action can only be taken through normal TSC motion and vote.
+* Any Collaborator who habitually authors Posts that must be Moderated can be Banned from further participation in the Node.js GitHub organization for an indefinite period of time. Such action can only be taken through normal TSC motion and vote (see: [Escalation to the TSC](#escalation-to-the-tsc)).
 
 #### Non-Collaborator Posts
 
@@ -100,7 +100,7 @@ Note, however, that unfamiliarity with the [Code of Conduct](https://GitHub.com/
  * The original Post being modified (as replacement or appended content),
  * A new post within the original thread, or
  * A new issue within the private nodejs/moderation repository.
-* Moderation of Posts authored by non-Collaborators may result in those non-Collaborators being Banned from further participation in the Node.js GitHub Organization for an indefinite period of time.
+* Moderation of Posts authored by non-Collaborators may result in those non-Collaborators being Banned from further participation in the Node.js GitHub organization for an indefinite period of time.
 
 Note that Moderating non-Collaborator posts can often lead to retaliation or escalation of inappropriate behavior by the individual whose post is being Moderated. This is true primarily of individuals whose intent is to harass, disrupt or annoy individual members of the community. In such cases, it is best to handle the Moderation as quickly and as quietly as possible without drawing any further undue attention to the Post in question.
 
