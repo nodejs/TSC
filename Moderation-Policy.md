@@ -5,10 +5,10 @@ If you are not a member of the Node.js Github Organization and wish to submit a 
 * [Applicability](#applicability)
 * [Terms](#terms)
 * [Requesting Moderation](#requesting-moderation)
+* [Consideration of Intent](#consideration-of-intent)
 * [Policy](#policy)
  * [Collaborator Posts](#collaborator-posts)
  * [Non-Collaborator Posts](#non-collaborator-posts)
-* [Consideration of Intent](#consideration-of-intent)
 * [Privacy of the nodejs/moderation Repository](#privacy-of-the-nodejsmoderation-repository)
 * [TSC Delegation of Authority to a "Moderation Working Group"](tsc-delegation-of-authority-to-a-moderation-working-group)
 * [Modifications to this Policy](#modifications-to-this-policy)
@@ -55,9 +55,13 @@ Use of the `report@node.js` email address, or private email to individual TSC me
 
 Requests should contain as much information and context as possible, including the URL and a screenshot of the Post in question. Screenshots may be modified to obscure obscene or offensive content.
 
-External public venues or social media services such as Twitter should never be used to request Moderation or to discuss the details of a Moderation request.
+External public venues or social media services such as Twitter should never be used to request Moderation.
 
-Multiple moderation requests for the same Post are unnecessary.
+Collaborators should never discuss the specific details of a Moderation request in any public forum or any social media service outside of the Node.js Github Organization.
+
+### Consideration of Intent
+
+Before Moderating or a Post, Collaborators should carefully consider the possible intent of the author. It may be that the author has simply made an error or is not familiar with the [Code of Conduct](https://github.com/nodejs/node/blob/master/CODE_OF_CONDUCT.md); or it may be that cultural differences exist or that the author is unaware that certain content is considered inappropriate. Unless the offense or the intent to disrupt, annoy or harass is obvious, an author should be given the benefit of the doubt and be given an opportunity to correct any mistake that may have been made.
 
 ### Policy
 
@@ -71,7 +75,7 @@ Multiple moderation requests for the same Post are unnecessary.
 * Collaborators must not Moderate any Post authored by another Collaborator without first giving the author at least 24 hours (from the time of the initial request) to modify or remove the Post on their own.
 * If the author of the Post disagrees that Moderation is required, the matter can be escalated to the TSC by creating a new issue (or using an existing one) within the nodejs/moderation repository with the label `tsc-agenda`. In such cases, the TSC will serve as the final arbiter.
 * While Moderation of a Collaborator's Post is in dispute, no Moderation action should be taken until a decision by the TSC is made.
-* In extreme circumstances involving either obvious gross violations of the Node.js Code of Conduct or possible compromise of a Collaborator's Github account, the TSC can be consulted to waive the 24 hour grace period and dispute process.
+* In extreme circumstances involving either obvious gross violations of the [Node.js Code of Conduct](https://github.com/nodejs/node/blob/master/CODE_OF_CONDUCT.md) or possible compromise of a Collaborator's Github account, the TSC can be consulted to waive the 24 hour grace period and dispute process.
 * For Moderation issues involving a TSC member, the member in question is expected to recuse themselves from any decisions required to resolve the issue.
 * When Moderating any Post authored by another Collaborator, the moderating Collaborator must:
  * Explain the justification for Moderating the post,
@@ -84,7 +88,7 @@ Multiple moderation requests for the same Post are unnecessary.
 
 #### Non-Collaborator Posts
 
-* Posts authored by non-Collaborators are always subject to immediate Moderation by any Collaborator if the content is intentionally disruptive or in violation of the Node.js Code of Conduct.
+* Posts authored by non-Collaborators are always subject to immediate Moderation by any Collaborator if the content is intentionally disruptive or in violation of the [Node.js Code of Conduct](https://github.com/nodejs/node/blob/master/CODE_OF_CONDUCT.md).
 * When Moderating non-Collaborator Posts, the moderating Collaborator should:
  * Explain the justification for Moderating the post, and
  * Identify all changes made to the Post.
@@ -95,10 +99,6 @@ Multiple moderation requests for the same Post are unnecessary.
 * Moderation of Posts authored by non-Collaborators may result in those non-Collaborators being Banned from further participation in the Node.js Github Organization for an indefinite period of time.
 
 Note that Moderating non-Collaborator posts can often lead to retaliation or escalation of inappropriate behavior by the individual whose post is being Moderated. This is true primarily of individuals whose intent is to harass, disrupt or annoy individual members of the community. In such cases, it is best to handle the Moderation as quickly and as quietly as possible without drawing any further undue attention to the Post in question.
-
-### Consideration of Intent
-
-Before Moderating a Post, Collaborators should carefully consider the possible intent of the author. It may be that the author has simply made an error or is not familiar with the Code of Conduct; or it may be that cultural differences exist or that the author is unaware that certain content is considered inappropriate. Unless the offense or the intent to disrupt, annoy or harass is obvious, an author should be given the benefit of the doubt and be given an opportunity to correct any mistake that may have been made.
 
 ### Privacy of the nodejs/moderation Repository
 
