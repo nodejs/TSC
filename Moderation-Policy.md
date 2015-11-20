@@ -62,6 +62,8 @@ External public venues or social media services such as Twitter should never be 
 
 Collaborators should never discuss the specific details of a Moderation request in any public forum or any social media service outside of the Node.js GitHub Organization.
 
+Note that quoting the original content of a Post within a Moderation request or nodejs/moderation repository issue is not considered a violation of the Code of Conduct. However, discretion is advised when including such quotes in requests posted to public repositories.
+
 ### Consideration of Intent
 
 Before Moderating a Post, Collaborators should carefully consider the possible intent of the author. It may be that the author has simply made an error or is not yet familiar with the [Code of Conduct](https://GitHub.com/nodejs/node/blob/master/CODE_OF_CONDUCT.md); or it may be that cultural differences exist, or that the author is unaware that certain content is considered inappropriate. In such cases, the author should be given an opportunity to correct any error that may have been made.
