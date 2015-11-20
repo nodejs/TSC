@@ -30,39 +30,36 @@ Any alternative Moderation Policy used for a given repository must be included i
 ### Terms
 
 * "Collaborator" refers to any individual member or "outside collaborator" of the Node.js GitHub Organization.
-* "Post" refers to the content of any issue, pull request, comment or wiki page.
-* "Moderate" refers to the act of modifying the content of or deleting any Post.
+* "Post" refers to the content and titles of any issue, pull request, comment or wiki page.
+* "Moderate" refers to the act of modifying the content and title of, or deleting, any Post.
 * "Ban" refers to the act of blocking an individual GitHub account from any further participation in the Node.js GitHub Organization.
 
 ### Requesting Moderation
 
-Anyone may request Moderation of a Post.
-
-Moderation requests are only necessary when:
- 
-* The Post in question was authored by a Collaborator, or
-* The request is originating from a non-Collaborator.
-
-Requesting Moderation of a Post can be accomplished in one of four ways:
+Anyone may request Moderation of a Post. Requesting Moderation of a Post can be accomplished in one of four ways:
 
 * Via the `report@node.js` email address,
 * Via private email to individual TSC members,
 * Via a new Post in the same thread as the Post being requested for Moderation,
 * Via a new Post in the private nodejs/moderation repository.
 
-Use of the `report@node.js` email address, or private email to individual TSC members, is appropriate when the individual requesting the Moderation does not feel comfortable directly or publicly making the request. All emails sent to the `report@node.js` address are currently forwarded to all members of the TSC. [[ED NOTE: This has not yet been set up]]
+Use of the `report@node.js` email address -- or private email to individual TSC members -- is appropriate when the individual requesting the Moderation does not feel comfortable directly or publicly making the request. All emails sent to the `report@node.js` address are currently forwarded to all members of the TSC. [[ED NOTE: This has not yet been set up]]
 
-When a request is sent by email either to the `report@node.js` or directly to a TSC member, a new issue detailing the request must be created in the private nodejs/moderation repository. The identity of the individual submitting the request may be omitted from that issue.
+When a request is sent by email to the `report@node.js` (or directly to a TSC member) a new issue detailing the request must be created in the private nodejs/moderation repository. The identity of the individual submitting the request should be omitted from that issue unless specified by the reporter.
 
-Requests should contain as much information and context as possible, including the URL and a screenshot of the Post in question. Screenshots may be modified to obscure obscene or offensive content.
+Requests should contain as much information and context as possible, including the URL and a screenshot of the Post in question. Screenshots should be modified to obscure obscene or offensive content.
 
 External public venues or social media services such as Twitter should never be used to request Moderation.
 
 Collaborators should never discuss the specific details of a Moderation request in any public forum or any social media service outside of the Node.js GitHub Organization.
 
+Note that Collaborators may Moderate non-Collaborator Posts at any time without submitting an initial request (see: [Non-Collaborator Posts](#non-collaborator-posts)).
+
 ### Consideration of Intent
 
-Before Moderating a Post, Collaborators should carefully consider the possible intent of the author. It may be that the author has simply made an error or is not familiar with the [Code of Conduct](https://GitHub.com/nodejs/node/blob/master/CODE_OF_CONDUCT.md); or it may be that cultural differences exist or that the author is unaware that certain content is considered inappropriate. Unless the offense or the intent to disrupt, annoy or harass is obvious, an author should be given the benefit of the doubt and be given an opportunity to correct any mistake that may have been made.
+Before Moderating a Post, Collaborators should carefully consider the possible intent of the author. It may be that the author has simply made an error or is not yet familiar with the [Code of Conduct](https://GitHub.com/nodejs/node/blob/master/CODE_OF_CONDUCT.md); or it may be that cultural differences exist, or that the author is unaware that certain content is considered inappropriate. In such cases, the author should be given an opportunity to correct any error that may have been made.
+
+Note, however, that unfamiliarity with the [Code of Conduct](https://GitHub.com/nodejs/node/blob/master/CODE_OF_CONDUCT.md) does not excuse a Post from Moderation.
 
 ### Policy
 
