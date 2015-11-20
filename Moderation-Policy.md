@@ -1,5 +1,18 @@
 ## Moderation policy
 
+If you are not a member of the Node.js Github Organization and wish to submit a moderation request, please see [Requesting Moderation](#requesting-moderation)
+
+* [Applicability](#applicability)
+* [Terms](#terms)
+* [Requesting Moderation](#requesting-moderation)
+* [Policy](#policy)
+ * [Collaborator Posts](#collaborator-posts)
+ * [Non-Collaborator Posts](#non-collaborator-posts)
+* [Consideration of Intent](#consideration-of-intent)
+* [Privacy of the nodejs/moderation Repository](#privacy-of-the-nodejsmoderation-repository)
+* [TSC Delegation of Authority to a "Moderation Working Group"](tsc-delegation-of-authority-to-a-moderation-working-group)
+* [Modifications to this Policy](#modifications-to-this-policy)
+
 ### Applicability
 
 By default, this policy applies to all repositories under the Node.js Github Organization and all Node.js Working Groups.
@@ -12,7 +25,7 @@ If a particular repository can be considered to fall under the stewardship of mu
 * Decide between themselves which Moderation Policy will be in effect for the repository in question, or
 * Ask the TSC to determine which Moderation Policy should apply.
 
-Any alternative Moderation Policy used for a given repository must be included in the root directory of the repository using the `Moderation-Policy.md` filename.
+Any alternative Moderation Policy used for a given repository must be included in the root directory of the repository using the `Moderation-Policy.md` filename. If a repository does not contain a `Moderation-Policy.md` file, then this default policy applies.
 
 ### Terms
 
@@ -32,13 +45,13 @@ Moderation requests are only necessary when:
 
 Requesting Moderation of a Post can be accomplished in one of five ways:
 
-* Private communication between the individuals involved,
-* Via the `report@io.js` email address,
+* Via the `report@node.js` email address,
 * Via private email to individual TSC members,
 * Via a new Post in the same thread as the Post being requested for Moderation, or
 * Via a new Post in the private nodejs/moderation repository.
+* Private communication between the individuals involved,
 
-Use of the `report@io.js` email address, or private email to individual TSC members, is appropriate when the individual requesting the Moderation does not feel comfortable directly or publicly making the request. All emails sent to the `report@io.js` address are currently forwarded to all members of the TSC. [[ED NOTE: This has not yet been set up]]
+Use of the `report@node.js` email address, or private email to individual TSC members, is appropriate when the individual requesting the Moderation does not feel comfortable directly or publicly making the request. All emails sent to the `report@node.js` address are currently forwarded to all members of the TSC. [[ED NOTE: This has not yet been set up]]
 
 Requests should contain as much information and context as possible, including the URL and a screenshot of the Post in question. Screenshots may be modified to obscure obscene or offensive content.
 
@@ -55,7 +68,7 @@ Multiple moderation requests for the same Post are unnecessary.
 
 #### Collaborator Posts
 
-* Collaborator's must not Moderate any Post authored by another Collaborator without first giving the author at least 24 hours (from the time of the initial request) to modify or remove the Post on their own.
+* Collaborators must not Moderate any Post authored by another Collaborator without first giving the author at least 24 hours (from the time of the initial request) to modify or remove the Post on their own.
 * If the author of the Post disagrees that Moderation is required, the matter can be escalated to the TSC by creating a new issue (or using an existing one) within the nodejs/moderation repository with the label `tsc-agenda`. In such cases, the TSC will serve as the final arbiter.
 * While Moderation of a Collaborator's Post is in dispute, no Moderation action should be taken until a decision by the TSC is made.
 * In extreme circumstances involving either obvious gross violations of the Node.js Code of Conduct or possible compromise of a Collaborator's Github account, the TSC can be consulted to waive the 24 hour grace period and dispute process.
@@ -71,7 +84,7 @@ Multiple moderation requests for the same Post are unnecessary.
 
 #### Non-Collaborator Posts
 
-* Posts authored by non-Collaborator's are always subject to immediate Moderation by any Collaborator if the content is intentionally disruptive or in violation of the Node.js Code of Conduct.
+* Posts authored by non-Collaborators are always subject to immediate Moderation by any Collaborator if the content is intentionally disruptive or in violation of the Node.js Code of Conduct.
 * When Moderating non-Collaborator Posts, the moderating Collaborator should:
  * Explain the justification for Moderating the post, and
  * Identify all changes made to the Post.
@@ -85,7 +98,7 @@ Note that Moderating non-Collaborator posts can often lead to retaliation or esc
 
 ### Consideration of Intent
 
-Before Moderating a Post, Collaborator's should carefully consider the possible intent of the author. It may be that the author has simply made an error or is not familiar with the Code of Conduct; or it may be that cultural differences exist or that the author is unaware that certain content is considered inappropriate. Unless the offense or the intent to disrupt, annoy or harass is obvious, an author should be given the benefit of the doubt and be given an opportunity to correct any mistake that may have been made.
+Before Moderating a Post, Collaborators should carefully consider the possible intent of the author. It may be that the author has simply made an error or is not familiar with the Code of Conduct; or it may be that cultural differences exist or that the author is unaware that certain content is considered inappropriate. Unless the offense or the intent to disrupt, annoy or harass is obvious, an author should be given the benefit of the doubt and be given an opportunity to correct any mistake that may have been made.
 
 ### Privacy of the nodejs/moderation Repository
 
