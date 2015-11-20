@@ -43,6 +43,8 @@ Anyone may request Moderation of a Post. Requesting Moderation of a Post can be 
 * Via a new Post in the same thread as the Post being requested for Moderation,
 * Via a new Post in the private nodejs/moderation repository.
 
+Note that Collaborators may Moderate non-Collaborator Posts at any time without submitting an initial request (see: [Non-Collaborator Posts](#non-collaborator-posts)).
+
 Use of the `report@node.js` email address -- or private email to individual TSC members -- is appropriate when the individual requesting the Moderation does not feel comfortable directly or publicly making the request. All emails sent to the `report@node.js` address are currently forwarded to all members of the TSC. [[ED NOTE: This has not yet been set up]]
 
 When a request is sent by email to the `report@node.js` (or directly to a TSC member) a new issue detailing the request must be created in the private nodejs/moderation repository. The identity of the individual submitting the request should be omitted from the issue unless permission to include the identity is provided by the reporter.
@@ -52,8 +54,6 @@ Requests should contain as much information and context as possible, including t
 External public venues or social media services such as Twitter should never be used to request Moderation.
 
 Collaborators should never discuss the specific details of a Moderation request in any public forum or any social media service outside of the Node.js GitHub Organization.
-
-Note that Collaborators may Moderate non-Collaborator Posts at any time without submitting an initial request (see: [Non-Collaborator Posts](#non-collaborator-posts)).
 
 ### Consideration of Intent
 
