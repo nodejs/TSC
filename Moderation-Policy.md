@@ -47,7 +47,7 @@ Use of the `report@node.js` email address -- or private email to individual TSC 
 
 When a request is sent by email to the `report@node.js` (or directly to a TSC member) a new issue detailing the request must be created in the private nodejs/moderation repository. The identity of the individual submitting the request should be omitted from the issue unless permission to include the identity is provided by the reporter.
 
-Requests should contain as much information and context as possible, including the URL and a screenshot of the Post in question. Screenshots should be modified to obscure obscene or offensive content.
+Requests should contain as much information and context as possible, including the URL and a screenshot of the Post in question. Screenshots may be modified to obscure obscene or offensive content.
 
 External public venues or social media services such as Twitter should never be used to request Moderation.
 
