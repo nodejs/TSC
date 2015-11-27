@@ -34,7 +34,7 @@ Any alternative Moderation Policy used for a given repository must be included i
 * "Collaborator" refers to any individual with configured access permissions to any Node.js GitHub organization repository. See [GitHub's access permissions documentation](https://help.github.com/articles/what-are-the-different-access-permissions/) for more information.
 * "TSC" refers to the [Node.js Technical Steering Committee](https://github.com/nodejs/node#tsc-technical-steering-committee).
 * "Post" refers to the content and titles of any issue, pull request, comment or wiki page.
-* "Moderate" refers to the act of modifying the content and title of, or deleting, any Post.
+* "Moderate" refers to the act of modifying the content and title of, or deleting, any Post for the purpose of correcting or addressing Code of Conduct violations.
 * "Ban" refers to the act of blocking an individual GitHub account from any further participation in the Node.js GitHub Organization.
 
 ### Grounds for Moderation
@@ -77,6 +77,7 @@ Note, however, that unfamiliarity with the [Code of Conduct](https://GitHub.com/
 * The TSC serves as the final arbiter for all Moderation issues (see: [Escalation to the TSC](#escalation-to-the-tsc)).
 * Only a TSC member may Ban an individual from the Node.js GitHub Organization.
 * Any individual Banned from the Node.js GitHub Organization will be recommended for exclusion from any Node.js Foundation sponsored event or activity.
+* Minor edits to the formatting of a Post or to correct typographical errors are not considered to be "Moderation". Such edits and their intent should still be documented with a quick note indicating who made the edit and why.
 
 #### Collaborator Posts
 
@@ -105,6 +106,14 @@ Note, however, that unfamiliarity with the [Code of Conduct](https://GitHub.com/
 * Moderation of Posts authored by non-Collaborators may result in those non-Collaborators being Banned from further participation in the Node.js GitHub organization for an indefinite period of time.
 
 Note that Moderating non-Collaborator posts can often lead to retaliation or escalation of inappropriate behavior by the individual whose post is being Moderated. This is true primarily of individuals whose intent is to harass, disrupt or annoy individual members of the community. In such cases, it is best to handle the Moderation as quickly and as quietly as possible without drawing any further undue attention to the Post in question.
+
+#### Trolling
+
+Trolling is generally defined as the act of creating deliberatively offensive or provocative Posts for the sole purpose of derailing a conversation, stealing attention, inciting an angry response or disrupting the usability of physical and electronic spaces used by the contributors to the Node.js project. More specifically, within the context of the Node.js project, Trolling consists of *any behavior considered by the TSC to be intentionally disruptive, offensive or abusive*.
+
+Trolling behavior of any kind is not tolerated and will be subject to immediate Moderation. The author of Trolling Posts will be subject to permanent Banning from the GitHub organization and will be recommended for exclusion from all Node.js Foundation events and activities.
+
+Determination of what constitutes "Trolling behavior" within the Node.js project is solely at the discretion of the TSC.
 
 ### Escalation to the TSC
 
