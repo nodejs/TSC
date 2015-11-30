@@ -36,6 +36,7 @@ Any alternative Moderation Policy used for a given repository must be included i
 * "Post" refers to the content and titles of any issue, pull request, comment or wiki page.
 * "Moderate" refers to the act of modifying the content and title of, or deleting, any Post for the purpose of correcting or addressing Code of Conduct violations.
 * "Ban" refers to the act of blocking an individual GitHub account from any further participation in the Node.js GitHub Organization.
+* "Requester" refers to an individual requesting Moderation on a Post.
 
 ### Grounds for Moderation
 
@@ -77,7 +78,7 @@ Note, however, that unfamiliarity with the [Code of Conduct](https://GitHub.com/
 * The TSC serves as the final arbiter for all Moderation issues (see: [Escalation to the TSC](#escalation-to-the-tsc)).
 * Only a TSC member may Ban an individual from the Node.js GitHub Organization.
 * Any individual Banned from the Node.js GitHub Organization will be recommended for exclusion from any Node.js Foundation sponsored event or activity.
-* Minor edits to the formatting of a Post or to correct typographical errors are not considered to be "Moderation". Such edits and their intent should still be documented with a quick note indicating who made the edit and why.
+* Minor edits to the formatting of a Post or to correct typographical errors are not considered to be "Moderation". Such edits and their intent should still be documented with a short note indicating who made the edit and why.
 
 #### Collaborator Posts
 
@@ -109,7 +110,7 @@ Note that Moderating non-Collaborator posts can often lead to retaliation or esc
 
 #### Trolling
 
-Trolling is generally defined as the act of creating deliberatively offensive or provocative Posts for the sole purpose of derailing a conversation, stealing attention, inciting an angry response or disrupting the usability of physical and electronic spaces used by the contributors to the Node.js project. More specifically, within the context of the Node.js project, Trolling consists of *any behavior considered by the TSC to be intentionally disruptive, offensive or abusive*.
+Trolling is generally defined as the act of creating deliberately offensive or provocative Posts for the sole purpose of derailing a conversation, stealing attention, inciting an angry response or disrupting the usability of physical and electronic spaces used by the contributors to the Node.js project. More specifically, within the context of the Node.js project, Trolling consists of *any behavior considered by the TSC to be intentionally disruptive, offensive or abusive*.
 
 Trolling behavior of any kind is not tolerated and will be subject to immediate Moderation. The author of Trolling Posts will be subject to permanent Banning from the GitHub organization and will be recommended for exclusion from all Node.js Foundation events and activities.
 
@@ -121,7 +122,7 @@ Any Moderation issue or dispute can be escalated to the TSC by "mentioning" `@no
 
 All Moderation-related decisions follow the normal [TSC motion and voting process](https://GitHub.com/nodejs/TSC/blob/master/TSC-Charter.md#section-8-voting).
 
-TSC members directly involved in a Moderation issue -- as either the requester or author of the Post in question -- are expected to excuse themselves from any decisions required to resolve the issue.
+TSC members directly involved in a Moderation issue -- as either the Requester or author of the Post in question -- are expected to excuse themselves from any decisions required to resolve the issue.
 
 ### Privacy of the nodejs/moderation Repository
 
