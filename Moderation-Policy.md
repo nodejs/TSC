@@ -65,6 +65,8 @@ Collaborators should never discuss the specific details of a Moderation request 
 
 Note that quoting the original content of a Post within a Moderation request or nodejs/moderation repository issue is not considered a violation of the Code of Conduct. However, discretion is advised when including such quotes in requests posted to public repositories.
 
+Requests for Moderation that do not appear to have been submitted in good faith with intent to address a legitimate Code of Conduct violation, as determined by the TSC, may be ignored.
+
 ### Consideration of Intent
 
 Before Moderating a Post, Collaborators should carefully consider the possible intent of the author. It may be that the author has simply made an error or is not yet familiar with the [Code of Conduct](https://GitHub.com/nodejs/node/blob/master/CODE_OF_CONDUCT.md); or it may be that cultural differences exist, or that the author is unaware that certain content is considered inappropriate. In such cases, the author should be given an opportunity to correct any error that may have been made.
@@ -75,7 +77,7 @@ Note, however, that unfamiliarity with the [Code of Conduct](https://GitHub.com/
 
 * All Posts are expected to respect the [Node.js Code of Conduct](https://GitHub.com/nodejs/node/blob/master/CODE_OF_CONDUCT.md).
 * Only Collaborators with commit rights to a given repository may Moderate Posts within that repository's issue tracker.
-* The TSC serves as the final arbiter for all Moderation issues (see: [Escalation to the TSC](#escalation-to-the-tsc)).
+* The TSC serves as the final arbiter for all Moderation issues; including deciding what constitutes inappropriate behavior that may be subject to Moderation (see: [Escalation to the TSC](#escalation-to-the-tsc)).
 * Only a TSC member may Ban an individual from the Node.js GitHub Organization.
 * Any individual Banned from the Node.js GitHub Organization will be recommended for exclusion from any Node.js Foundation sponsored event or activity.
 * Minor edits to the formatting of a Post or to correct typographical errors are not considered to be "Moderation". Such edits and their intent should still be documented with a short note indicating who made the edit and why.
@@ -105,16 +107,9 @@ Note, however, that unfamiliarity with the [Code of Conduct](https://GitHub.com/
  * A new post within the original thread, or
  * A new issue within the private nodejs/moderation repository.
 * Moderation of Posts authored by non-Collaborators may result in those non-Collaborators being Banned from further participation in the Node.js GitHub organization for an indefinite period of time.
+* In the case where a GitHub Account appears to have been created with no intention to collaborate in good faith, swift actions may be taken without following the above procedures including: removing Posts, Banning, and reporting accounts to GitHub.
 
 Note that Moderating non-Collaborator posts can often lead to retaliation or escalation of inappropriate behavior by the individual whose post is being Moderated. This is true primarily of individuals whose intent is to harass, disrupt or annoy individual members of the community. In such cases, it is best to handle the Moderation as quickly and as quietly as possible without drawing any further undue attention to the Post in question.
-
-#### Trolling
-
-Trolling is generally defined as the act of creating deliberately offensive or provocative Posts for the sole purpose of derailing a conversation, stealing attention, inciting an angry response or disrupting the usability of physical and electronic spaces used by the contributors to the Node.js project. More specifically, within the context of the Node.js project, Trolling consists of *any behavior considered by the TSC to be intentionally disruptive, offensive or abusive*.
-
-Trolling behavior of any kind is not tolerated and will be subject to immediate Moderation. The author of Trolling Posts will be subject to permanent Banning from the GitHub organization and will be recommended for exclusion from all Node.js Foundation events and activities.
-
-Determination of what constitutes "Trolling behavior" within the Node.js project is solely at the discretion of the TSC.
 
 ### Escalation to the TSC
 
