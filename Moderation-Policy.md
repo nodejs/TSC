@@ -46,16 +46,16 @@ Any Post considered to be in violation of the [Node.js Code of Conduct](https://
 
 Anyone may request Moderation of a Post. Requesting Moderation of a Post can be accomplished in one of four ways:
 
-* Via the `report@node.js` email address,
+* Via the [report@nodejs.org](mailto:report@nodejs.org) email address,
 * Via private email to individual TSC members,
 * Via a new Post in the same thread as the Post being requested for Moderation,
 * Via a new Post in the private nodejs/moderation repository.
 
 Note that Collaborators may Moderate non-Collaborator Posts at any time without submitting an initial request (see: [Non-Collaborator Posts](#non-collaborator-posts)).
 
-Use of the `report@node.js` email address -- or private email to individual TSC members -- is appropriate when the individual requesting the Moderation does not feel comfortable directly or publicly making the request. All emails sent to the `report@node.js` address are currently forwarded to all members of the TSC. [[ED NOTE: This has not yet been set up]]
+Use of the [report@nodejs.org](mailto:report@nodejs.org) email address -- or private email to individual TSC members -- is appropriate when the individual requesting the Moderation does not feel comfortable directly or publicly making the request. All emails sent to the [report@nodejs.org](mailto:report@nodejs.org) address are currently forwarded to all members of the TSC. [[ED NOTE: This has not yet been set up]]
 
-When a request is sent by email to the `report@node.js` (or directly to a TSC member) a new issue detailing the request must be created in the private nodejs/moderation repository. The identity of the individual submitting the request should be omitted from the issue unless permission to include the identity is provided by the reporter.
+When a request is sent by email to the [report@nodejs.org](mailto:report@nodejs.org) (or directly to a TSC member) a new issue detailing the request must be created in the private nodejs/moderation repository. The identity of the individual submitting the request should be omitted from the issue unless permission to include the identity is provided by the reporter.
 
 Requests should contain as much information and context as possible, including the URL and a screenshot of the Post in question. Screenshots may be modified to obscure obscene or offensive content.
 
