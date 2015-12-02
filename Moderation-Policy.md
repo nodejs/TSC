@@ -31,12 +31,12 @@ Any alternative Moderation Policy used for a given repository must be included i
 
 ### Terms
 
-* "Collaborator" refers to any individual with configured access permissions to any Node.js GitHub organization repository. See [GitHub's access permissions documentation](https://help.github.com/articles/what-are-the-different-access-permissions/) for more information.
-* "TSC" refers to the [Node.js Technical Steering Committee](https://github.com/nodejs/node#tsc-technical-steering-committee).
-* "Post" refers to the content and titles of any issue, pull request, comment or wiki page.
-* "Moderate" refers to the act of modifying the content and title of, or deleting, any Post for the purpose of correcting or addressing Code of Conduct violations.
-* "Ban" refers to the act of blocking an individual GitHub account from any further participation in the Node.js GitHub Organization.
-* "Requester" refers to an individual requesting Moderation on a Post.
+* *Collaborator* refers to any individual with configured access permissions to any Node.js GitHub organization repository. See [GitHub's access permissions documentation](https://help.github.com/articles/what-are-the-different-access-permissions/) for more information.
+* *TSC* refers to the [Node.js Technical Steering Committee](https://github.com/nodejs/node#tsc-technical-steering-committee).
+* *Post* refers to the content and titles of any issue, pull request, comment or wiki page.
+* *Moderate* refers to the act of modifying the content and title of, or deleting, any Post for the purpose of correcting or addressing Code of Conduct violations.
+* *Ban* refers to the act of blocking an individual GitHub account from any further participation in the Node.js GitHub Organization.
+* *Requester* refers to an individual requesting Moderation on a Post.
 
 ### Grounds for Moderation
 
@@ -114,6 +114,8 @@ Note that Moderating non-Collaborator posts can often lead to retaliation or esc
 ### Escalation to the TSC
 
 Any Moderation issue or dispute can be escalated to the TSC by "mentioning" `@nodejs/tsc` in the body of a GitHub issue either in the original thread or in the private nodejs/moderation repository. Optionally, the `tsc-agenda` label may be attached to the issue to request that it be added to the TSC meeting agenda.
+
+(Note that using the `@nodejs/tsc` syntax to mention the TSC in the body of a request only will only work if the author of the Post is currently a member of the Node.js GitHub organization.)
 
 All Moderation-related decisions follow the normal [TSC motion and voting process](https://GitHub.com/nodejs/TSC/blob/master/TSC-Charter.md#section-8-voting).
 
