@@ -42,6 +42,8 @@ Any alternative Moderation Policy used for a given repository must be included i
 
 Any Post considered to be in violation of the [Node.js Code of Conduct](https://GitHub.com/nodejs/node/blob/master/CODE_OF_CONDUCT.md) is subject to Moderation.
 
+The TSC is solely responsible for deciding what constitutes inappropriate behavior that may be subject to Moderation (see: [Escalation to the TSC](#escalation-to-the-tsc)).
+
 ### Requesting Moderation
 
 Anyone may request Moderation of a Post. Requesting Moderation of a Post can be accomplished in one of four ways:
@@ -77,7 +79,7 @@ Note, however, that unfamiliarity with the [Code of Conduct](https://GitHub.com/
 
 * All Posts are expected to respect the [Node.js Code of Conduct](https://GitHub.com/nodejs/node/blob/master/CODE_OF_CONDUCT.md).
 * Only Collaborators with commit rights to a given repository may Moderate Posts within that repository's issue tracker.
-* The TSC serves as the final arbiter for all Moderation issues; including deciding what constitutes inappropriate behavior that may be subject to Moderation (see: [Escalation to the TSC](#escalation-to-the-tsc)).
+* The TSC serves as the final arbiter for all Moderation issues (see: [Escalation to the TSC](#escalation-to-the-tsc)).
 * Only a TSC member may Ban an individual from the Node.js GitHub Organization.
 * Any individual Banned from the Node.js GitHub Organization will be recommended for exclusion from any Node.js Foundation sponsored event or activity.
 * Minor edits to the formatting of a Post or to correct typographical errors are not considered to be "Moderation". Such edits and their intent should still be documented with a short note indicating who made the edit and why.
