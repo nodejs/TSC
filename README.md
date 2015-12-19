@@ -8,19 +8,22 @@ If your project is interested in joining the Node.js Foundation please read the 
 
 ## TSC Members
 
-## Top-Level WG and TLPs
+## Top-Level WGs and TLPs
 
-* Working Groups
- * Mentors
+* [Working Groups](WORKING_GROUPS.md)
+* Mentors
+
+    Project mentorship is not a technical role. In fact, mentors are
+    discouraged from giving technical advice to projects. Instead, the
+    purpose of mentorship is to encourage and improve a projects ability
+    to be participatory, transparent, and effective. Mentors are there to
+    help projects adopt and iterate on policies and processes that achieve
+    these goals and eventually allow them to graduate the incubation phase.
+
+      * Mikeal Rogers (@mikeal)
 * Top-Level Projects
  * Core TLP
   * Core WGs (streams, http, Intl)
-
-## Mentors
-
-Project mentorship is not a technical role. In fact, mentors are discouraged from giving technical advice to projects. Instead, the purpose of mentorship is to encourage and improve a projects ability to be participatory, transparent, and effective. Mentors are there to help projects adopt and iterate on policies and processes that achieve these goals and eventually allow them to graduate the incubation phase.
-
-* Mikeal Rogers (@mikeal)
 
 ## Policy Change Proposal Process
 
