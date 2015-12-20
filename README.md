@@ -24,8 +24,15 @@ Project mentorship is not a technical role. In fact, mentors are discouraged fro
 
 ## Policy Change Proposal Process
 
-For a proposal to create or change a process foundation-wide, a PR should be
-opened in the `nodejs/TSC` repository. 
+The Node.js TSC is chartered to oversee the technical governance of all Top
+Level Projects and Working Groups under the Node.js Foundation. The TSC
+establishes the default governance, conduct, and licensing policies for all Top
+Level Projects. Top Level Projects and Working Groups have broad powers of
+self-governance.
+
+To propose a change or addition to policies or prcesses that are intended to
+cover all Top Level Projects and Working Groups in the foundation, a PR should
+be opened in the `nodejs/TSC` repository. 
 
 The pull request can be labeled `tsc-agenda` to request that it be put on the
 agenda for the next TSC meeting.
