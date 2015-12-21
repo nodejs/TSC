@@ -27,9 +27,9 @@ maintained in the Working Group's README.
 
 Once the TC ratifies a charter the WG inherits the policies established by the
 TC for governance, contribution, conduct and an MIT LICENSE. WGs are free to
-change these documents through their own governance process. The template
-documents provided in this directory are provided to help bootstrap that
-process:
+change these documents through their own governance process but should retain
+at least the spirit of the original versions. The template documents provided 
+in this directory are provided to help bootstrap that process:
 
 * [Charter Template][]
 * [Governance Template][]
