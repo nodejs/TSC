@@ -51,10 +51,13 @@ make decisions efficiently.
 There is no specific set of requirements or qualifications for WG
 membership beyond these rules.
 
-The WG may add additional members to the WG by unanimous consensus.
+The WG may add additional members to the WG by consensus. If there are
+any objections to adding any individual member, an attempt should be
+made to resolve those objections following the WG's Consensus Seeking
+Process.
 
 A WG member may be removed from the WG by voluntary resignation, or by
-unanimous consensus of all other WG members.
+consensus of all other WG members.
 
 Changes to WG membership should be posted in the agenda, and may be
 suggested as any other agenda item (see "WG Meetings" below).
@@ -75,6 +78,10 @@ immediately remedied by the resignation or removal of one or more WG
 members affiliated with the over-represented employer(s).
 
 ### WG Meetings
+
+*Note: Working Groups are not required to hold regular meetings. Should
+a WG decide that it does not wish to hold meetings, this section may be
+removed from the Governance document.*
 
 The WG meets weekly on a Google Hangout On Air. A designated moderator
 approved by the WG runs the meeting. Each meeting should be
@@ -117,8 +124,10 @@ either a closing vote or a vote to table the issue to the next
 meeting. The call for a vote must be seconded by a majority of the WG
 or else the discussion will continue. Simple majority wins.
 
-Note that changes to WG membership require unanimous consensus.  See
-"WG Membership" above.
+Note that changes to WG membership require consensus. If there are any
+objections to adding or removing individual members, an effort must be
+made to resolve those objections. If consensus cannot be reached, a
+vote may be called following the process above.
 
 ### Developer's Certificate of Origin 1.0
 

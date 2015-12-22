@@ -9,8 +9,8 @@ WORKING_GROUPS.md document
 
 ### Template: *[insert WG name]* Working Group
 
-The Node.js *[insert WG name]* is jointly governed by a Working Group (WG)
-that is responsible for high-level guidance of the project.
+The Node.js *[insert WG name]* Working Group is jointly governed by the members
+of that Working Group (WG).
 
 The WG has final authority over this project including:
 

@@ -23,12 +23,12 @@ which adds it to the list of current Working Groups. The WG is considered
 to be chartered once that PR lands. Once ratified the list of members should be
 maintained in the Working Group's README.
 
-### Bootstrap Governance
+### Base Policies for new Working Groups
 
-Once the TC ratifies a charter the WG inherits the policies established by the
+Once the TC ratifies a charter, the WG inherits the policies established by the
 TC for governance, contribution, conduct and an MIT LICENSE. WGs are free to
 change these documents through their own governance process but should retain
-at least the spirit of the original versions. The template documents provided 
+at least the spirit of the original versions. The template documents provided
 in this directory are provided to help bootstrap that process:
 
 * [Charter Template][]
