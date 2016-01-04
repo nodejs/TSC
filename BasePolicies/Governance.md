@@ -17,9 +17,10 @@ Collaborators and given commit-access to the project. These
 individuals are identified by the WG and their addition as
 Collaborators is discussed during the weekly WG meeting.
 
-_Note:_ If you make a significant contribution and are not considered
-for commit-access log an issue or contact a WG member directly and it
-will be brought up in the next WG meeting.
+Individuals who have made significant contributions and who wish to be
+considered for commit-access may create an issue or contact a WG member
+directly. It is not necessary to wait for a WG member to nominate the
+individual.
 
 Modifications of the contents of the *[insert WG repo]* repository are made on
 a collaborative basis. Anybody with a GitHub account may propose a
@@ -33,11 +34,10 @@ participate and there is disagreement around a particular
 modification. See _Consensus Seeking Process_ below for further detail
 on the consensus model used for governance.
 
-Collaborators may opt to elevate significant or controversial
-modifications, or modifications that have not found consensus to the
-WG for discussion by assigning the ***WG-agenda*** tag to a pull
-request or issue. The WG should serve as the final arbiter where
-required.
+Collaborators may opt to esacalate discussion about significant or
+controversial modifications to the WG as a whole by assigning the
+***WG-agenda*** tag to a pull request or issue. The WG should serve as the
+final arbiter where required.
 
 For the current list of Collaborators, see the project [README.md][].
 

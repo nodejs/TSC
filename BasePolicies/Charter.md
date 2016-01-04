@@ -12,7 +12,7 @@ WORKING_GROUPS.md document
 The Node.js *[insert WG name]* Working Group is jointly governed by the members
 of that Working Group (WG).
 
-The WG has final authority over this project including:
+The WG responsibilities include:
 
 * Technical direction
 * Project governance and process (including this policy)
