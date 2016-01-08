@@ -55,7 +55,8 @@ take on the working group.
 
 ## TC Members
 
-* Mikeal Rogers (@mikeal)
+* Mikeal Rogers (@mikeal) from NodeConf Adventure
+* Nicolás Bevacqua (@bevacqua) from NodeConf Buenos Aires
 * *Awaiting Appointments by other Conference WGs*
 
 ## Working Groups
