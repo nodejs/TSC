@@ -17,16 +17,39 @@ should be dissolved and the responsibility for governance absorbed back into
 the TSC. A Working Group can be dissolved either through consensus of the
 Working Group membership or normal TSC motion and vote.
 
-## Current Working Groups
-
-> (none)
-
-Technical Working Groups exist in the [nodejs/node repository](https://github.com/nodejs/node/blob/master/WORKING_GROUPS.md).
-
-#### Process:
+## Process:
 
 * [Starting a Working Group](#starting-a-wg)
 * [Bootstrap Governance](#bootstrap-governance)
+
+## Current Working Groups
+
+NOTE: Technical Working Groups exist in the [nodejs/node repository](https://github.com/nodejs/node/blob/master/WORKING_GROUPS.md).
+
+* [Inclusivity](#inclusivity)
+
+### [Inclusivity](https://github.com/nodejs/inclusivity)
+
+The Inclusivity Working Group seeks to increase inclusivity and diversity
+for the Node.js project:
+  * *Increasing inclusivity* means making the Node.js project a safe and
+    friendly place for people from diverse backgrounds.
+  * *Increasing diversity* means actively onboarding people from diverse
+    backgrounds to the Node.js project and maintaining their participation.
+
+Its responsibilites are:
+
+* Foster a welcoming environment that ensures participants are valued and can
+feel confident contributing or joining discussions, regardless of any aspect of 
+their identity.
+* Proactively seek and propose concrete steps the project can take to increase
+inclusivity.
+* Serve as a resource for the development and enforcement of workflows that 
+protect community members and projects from harassment and abuse.
+* Acknowledge and celebrate existing diversity accomplishments within the
+project while seeking to build upon them.
+* Identify ways to measure diversity and inclusivity within the project and
+report them at regular intervals.
 
 ## Starting a WG
 
