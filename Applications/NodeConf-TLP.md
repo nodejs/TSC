@@ -29,7 +29,7 @@ Individual NodeConf's are considered Working Groups under the Foundation's Gover
 The NodeConf Community is independently governed by existing conference organizers. The TC (Technical Committee) will use the
 consensus seeking process that has become the standard in Node.js Core for some time.
 
-A single seat on the TC is appointed by each Conference WG.
+A single seat on the TC is appointed by each Conference WG that has succesfully run their conference.
 
 Because conferences can be significant financial liabilities full autonomy over decision making and finances is granted to
 Working Groups without restrictions on their governance structure. If the TC believes that a Working Group is no longer representing
@@ -55,9 +55,12 @@ take on the working group.
 
 ## TC Members
 
-* Mikeal Rogers (@mikeal) from NodeConf Adventure
-* Nicolás Bevacqua (@bevacqua) from NodeConf Buenos Aires
-* *Awaiting Appointments by other Conference WGs*
+* @mikeal from NodeConf Adventure
+* @patrickheneise from NodeConf Barcelona
+* *Awaiting Appointment by NodeConf EU WG*
+* *Awaiting Appointment by NodeConf Budapest WG*
+* *Awaiting Appointment by NodeConf Oslo WG*
+* *Awaiting Appointment by NodeConf Christchurch WG*
 
 ## Working Groups
 
