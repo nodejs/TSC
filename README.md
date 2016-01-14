@@ -8,6 +8,18 @@ If your project is interested in joining the Node.js Foundation please read the 
 
 ## TSC Members
 
+TSC members are responsible for top level technical community concerns. The role is 
+mostly administrative and is responsible for admitting new Top Level Projects, Top Level
+Working Groups, and advocating for any needs in the technical side of the foundation to
+the Node.js Foundation Board of Directors.
+
+TSC members can nominate new members at any time. Candidates for membership tend to be people
+who have a competancy for community management and a high tolerance and patience for process
+minutiae as the TSC delegates most of its responsibilities to other projects and working groups.
+
+Every Top Level Project not currently incubating can appoint someone to the TSC who they elect
+at their own discretion.
+
 ## Top-Level WGs and TLPs
 
 * [Working Groups](WORKING_GROUPS.md)
