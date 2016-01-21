@@ -98,6 +98,8 @@ vote to abstain from representation on the TSC.
 
 ## Applying to join
 
+The Node.js Foundation only admits projects written in Node.js.
+
 A proposal to join the Node.js Foundation as a top-level Project or
 Working Group must include:
 
