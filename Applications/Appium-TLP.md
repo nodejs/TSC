@@ -146,8 +146,11 @@ each. More contribution resources are available:
 
 ### Intellectual Property and Other Assets
 
-Appium does not currently have any registered trademarks. We own/manage the
-[appium.io](https://appium.io) domain name. We also have a logomark.
+Some assets would need to be released to the Foundation:
+
+* Sauce Labs holds Appium's copyright in general.
+* Sauce Labs owns the [appium.io](https://appium.io) domain name.
+* A Sauce Labs designer made the Appium logo/logomark on company time.
 
 ### Initial Technical Committee Members
 
