@@ -59,8 +59,8 @@ take on the working group.
 * @patrickheneise from NodeConf Barcelona
 * @digitalsadhu from NodeConf Oslo
 * @cianomaidin from NodeConf EU
-* *Awaiting Appointment by NodeConf Budapest WG*
-* *Awaiting Appointment by NodeConf Christchurch WG*
+* @georgewills from NodeConf Christchurch
+* @gergelyke for NodeConf Budapest
 
 ## Working Groups
 
