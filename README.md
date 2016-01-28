@@ -2,10 +2,12 @@
 
 The Node.js Foundation Technical Steering Committee is the technical governing body of the Node.js Foundation. It admits and oversees all top-level Projects in the Node.js Foundation. It also elects a representative to the Node.js Foundation Board of Directors.
 
-The TSC is community and contributor driven and is a home for community managed 
-projects and assets. The mission of the Node.js Foundation is to enable and encourage 
-the adoption of Node.js and the TSC is the home of the community driven portion
-of executing that mission.
+It is the mission of the Node.js Foundation and the TSC to provide a home for 
+openly-governed and community-managed open source projects that are focused on 
+supporting and providing benefit to the entire Node.js ecosystem.
+
+Project and Working Groups under the TSC are governed by the contributors
+and users of those projects.
 
 Since the Foundation and the TSC are intended to support the community the size and scope
 of the work and projects in it will grow to accomodate the needs of the community.
@@ -16,28 +18,39 @@ If your project is interested in joining the Node.js Foundation please read the 
 
 ## Projects, Working Groups and the Incubator
 
-The Node.js Foundation is setup to be the home of multiple autonomous projects. Projects are 
-admitted into the incubator and are mentored until their governance and contributor 
-base reach a state of maturity. They are then given a proper charter and a seat on the TSC.
+The Node.js Foundation is structured to serve as a home for multiple 
+autonomous projects. Projects are first admitted into an incubation 
+phase where they are mentored until the project governance and 
+contributor base reaches a state of maturity. The TSC then works 
+with the project to establish an official charter and a seat on the TSC.
 
 The TSC also forms Working Groups to tackle tasks that don't scope to a single project. These 
 Working Groups can be given a seat on the TSC at the TSC's discretion.
 
 The goal of the Incubator is to:
 
-* Support the Node.js Ecosystem.
-* Provide a neutral "home" for projects so that they are not owned by a single individual or company.
-* Mentor projects in the Node.js community on open governance and liberal contribution policies.
-* Ensure that the Node.js Foundation does not charter projects that do not adhere to the values 
-of the Node.js Foundation. Projects must be: Transparent, Participatory and Effective.
-* The TSC does not "pick winners" and may admit multiple projects that serve similar use cases. 
-Admitting a project for incubation or even chartering it is not an endorsement by the Node.js 
-Foundation or TSC on the technical merits of a project, it is only an endorsement that the project 
-adheres to the TSC's values.
+* Support the ecosystem of Node.js users and contributors by providing a 
+  home for openly governed and community managed projects built on, or 
+  built to support Node.js.
+* Mentor projects within the Node.js community on open governance and liberal 
+  contribution policies.
+* Ensure that the Node.js Foundation does not charter projects that do not 
+  adhere to the values upon which the Node.js Foundation was established. 
+  Projects must be: Transparent, Participatory and Effective.
+* Ensure that the Node.js Foundation and the TSC does not "pick a winner" in 
+  the ecosystem by equally and fairly mentoring multiple projects that serve 
+  similar use cases. Admitting project's for incubation, or chartering mature 
+  projects, is not an endorsement by the Node.js Foundation or TSC on the 
+  technical merits of a project; rather, it is an endorsement that the project 
+  adheres to the Node.js Foundation and TSC's open governance values.
 
-Other than being written in Node.js there are no technical requirements on projects to be admitted
-into the Node.js Foundation. However, because resources may be limited from time to the TSC may
-elect to delay admission until resources become available.
+There are no technical requirements on projects to be admitted into the Node.js 
+Foundation incubator. The projects will, however, be evaluated on various 
+criteria including alignment with Node.js Foundation goals, support of and for 
+the Node.js ecosystem, and relevance of scope to Node.js development. 
+
+Because resources may be limited from time to time the TSC may elect to delay 
+admission until resources become available.
 
 ## TSC Members
 
