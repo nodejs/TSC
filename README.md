@@ -4,7 +4,7 @@ The Node.js Foundation Technical Steering Committee is the technical governing b
 
 It is the mission of the Node.js Foundation and the TSC to provide a home for 
 openly-governed and community-managed open source projects that are focused on 
-supporting and providing benefit to the entire Node.js ecosystem.
+supporting and providing benefit to the Node.js ecosystem.
 
 Project and Working Groups under the TSC are governed by the contributors
 and users of those projects.
@@ -39,7 +39,7 @@ The goal of the Incubator is to:
   Projects must be: Transparent, Participatory and Effective.
 * Ensure that the Node.js Foundation and the TSC does not "pick a winner" in 
   the ecosystem by equally and fairly mentoring multiple projects that serve 
-  similar use cases. Admitting project's for incubation, or chartering mature 
+  similar use cases. Admitting projects for incubation, or chartering mature 
   projects, is not an endorsement by the Node.js Foundation or TSC on the 
   technical merits of a project; rather, it is an endorsement that the project 
   adheres to the Node.js Foundation and TSC's open governance values.
