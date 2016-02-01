@@ -8,8 +8,8 @@ The goal of this document is to create a contribution process that:
 
 * Encourages new contributions.
 * Encourages contributors to remain involved.
-* Avoids unnecessary processes and beuracracy whenenver possible.
-* Creates a more transparent decision making process which makes it clear how
+* Avoids unnecessary processes and beuracracy whenever possible.
+* Creates a transparent decision making process which makes it clear how
 contributors can be involved in decision making.
 
 This document is based on much prior art in the Node.js community, io.js,
@@ -52,10 +52,10 @@ If a contribution is controversial and committers cannot agree about how to get 
 or if it should land then it should be escalated to the TC. TC members should regularly
 discuss pending contributions in order to find a resolution.
 
-# Becoming a committer.
+# Becoming a Committer
 
-All contributors who send a non-trivial contribution should be on-boarded in a timely manor
-and added as a committer and be given write access to the repository.
+All contributors who send a non-trivial contribution should be on-boarded in a timely manner,
+and added as a committer, and be given write access to the repository.
 
 Committers are expected to follow this policy and continue to send pull requests, go through
 proper review, and have other committers merge their pull requests.
