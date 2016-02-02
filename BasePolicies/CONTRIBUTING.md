@@ -28,7 +28,7 @@ Log an issue for any question or problem you might have. When in doubt, log an i
 any additional policies about what to include will be provided in the responses.
 
 Committers may direct you to another repository, ask for additional clarifications, and
-add appropriate metadata before the issue addressed.
+add appropriate metadata before the issue is addressed.
 
 Please be courteous, respectful, and follow the project's Code of Conduct.
 
