@@ -2,13 +2,13 @@
 
 This document describes a very simple process suitable for most projects
 in the Node.js ecosystem. Projects are encouraged to adopt this whether they
-are hosted in the Node.js or not.
+are hosted in the Node.js Foundation or not.
 
 The goal of this document is to create a contribution process that:
 
 * Encourages new contributions.
 * Encourages contributors to remain involved.
-* Avoids unnecessary processes and beuracracy whenever possible.
+* Avoids unnecessary processes and bureaucracy whenever possible.
 * Creates a transparent decision making process which makes it clear how
 contributors can be involved in decision making.
 
@@ -34,18 +34,19 @@ Please be courteous, respectful, and follow the project's Code of Conduct.
 
 # Contributions
 
-Any change to resources in this repository must be pull requests. This applies to all change
-to documentation, code, binary files, etc. Even long term committers and TC members must be
+Any change to resources in this repository must be through pull requests. This applies to all changes
+to documentation, code, binary files, etc. Even long term committers and TC members must use
 pull requests.
 
-No pull request can be merged by the person that created it.
+No pull request can be merged without being reviewed. Committers should try to avoid merging
+their own pull requests and allow other committers to accept and merge them.
 
 For non-trivial contributions pull requests should sit for at least 36 hours to ensure that
 contributors in other timezones have time to review.
 
-The default for each contribution is that it is accepted once no commiter has an objection.
+The default for each contribution is that it is accepted once no committer has an objection.
 There is no additional "sign off" process for contributions to land. Once all issues brought
-by committers is addressed it can be landed by any committer. The majority of contributions
+by committers are addressed it can be landed by any committer. The majority of contributions
 should land this way without escalation to the TC.
 
 If a contribution is controversial and committers cannot agree about how to get it to land
@@ -54,7 +55,7 @@ discuss pending contributions in order to find a resolution.
 
 # Becoming a Committer
 
-All contributors who send a non-trivial contribution should be on-boarded in a timely manner,
+All contributors who land a non-trivial contribution should be on-boarded in a timely manner,
 and added as a committer, and be given write access to the repository.
 
 Committers are expected to follow this policy and continue to send pull requests, go through
@@ -62,9 +63,9 @@ proper review, and have other committers merge their pull requests.
 
 # TC Process
 
-The TC uses a "consensus seeking" process for issues that are esclated to the TC. 
+The TC uses a "consensus seeking" process for issues that are escalated to the TC. 
 The group tries to find a resolution that has no open objections among TC members.
-If a resolution cannot be reached that has no objections then a majority wins vote
+If a consensus cannot be reached that has no objections then a majority wins vote
 is called.
 
 Members can be added to the TC at any time. Any committer can nominate another committer
