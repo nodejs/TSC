@@ -7,7 +7,7 @@ If you are not a member of the Node.js GitHub Organization and wish to submit a 
 * [Grounds for Moderation](#grounds-for-moderation)
 * [Requesting Moderation](#requesting-moderation)
 * [Consideration of Intent](#consideration-of-intent)
-* [Policy](#policy)
+* [Guidelines and Requirements](#guidelines-and-requirements)
  * [Collaborator Posts](#collaborator-posts)
  * [Non-Collaborator Posts](#non-collaborator-posts)
 * [Escalation to the TSC](#escalation-to-the-tsc)
