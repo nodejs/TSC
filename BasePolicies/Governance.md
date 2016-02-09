@@ -129,7 +129,7 @@ objections to adding or removing individual members, an effort must be
 made to resolve those objections. If consensus cannot be reached, a
 vote may be called following the process above.
 
-# Developer's Certificate of Origin 1.1
+### Developer's Certificate of Origin 1.1
 
 By making a contribution to this project, I certify that:
 
