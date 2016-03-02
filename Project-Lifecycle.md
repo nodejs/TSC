@@ -106,8 +106,8 @@ case.  A few areas you may want to include:
 * how will the project help the Node.js ecosystem grow as a whole ?
 * what set of Node.js users is the project interesting/critical to ?
 * is there a direct relationship between the project and core Node.js
-  or one of the existing top-level projects?  For example is it a
-  Node.js dependency ?
+  or one of the existing top-level projects?  For example, does Node.js
+  itself depend on this project ?
 * how does the project support or enhance existing top level
   projects ?
 * how would the Node.js ecosytem be affected if the project
@@ -118,6 +118,8 @@ Working Group must include:
 
 * Introduction and project description.
 * An explanation of how the project betters the Node.js ecosystem.
+* Why does the project want to join the foundation and what do you
+  expect to get out of joining.
 * Project history.
 * Any available metrics or even estimates about the user base, ecosystem
 and community.
