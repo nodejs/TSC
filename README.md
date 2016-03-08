@@ -1,62 +1,66 @@
 # The Node.js Foundation TSC
 
-The Node.js Foundation Technical Steering Committee is the technical governing body of the Node.js Foundation. It admits and oversees all top-level Projects in the Node.js Foundation. It also elects a representative to the Node.js Foundation Board of Directors.
+This is the primary communication and governance hub of the Node.js
+Foundation's Technical Steering Committee. Its goal are:
 
-For more details read the [TSC Charter](https://github.com/nodejs/TSC/blob/master/TSC-Charter.md) adopted by the Node.js Foundation Board of Directors on June 17th 2015.
+* Maintaining, releasing and improving a healthy Node.js Core project.
+* Fostering and encouraging a healthy Node.js open source ecosystem.
 
-If your project is interested in joining the Node.js Foundation please read the [Project Lifecycle.md](./Project-Lifecycle.md) documentation.
+# TSC
+
+The TSC has many working groups and projects. Each group and project
+has a connection to the development of Node.js Core but their work and
+responsibilities often extend far beyond Core and potentially even Node.js.
+
+The TSC also leads several efforts to improve the health and sustainability
+of the ecosystem but it not a long term host of ecosystem projects which are
+not integrated into Core development.
+
+Each effort, project, and working group is autonomous. The scope of work and 
+autonomy is described in their charter. The TSC works to increase communication 
+and collaboration between these parts.
+
+Adding a new project or working group can be done through a pull request. Since
+each group is autonomous any new group taking on responsibility from another
+group would need that group's approval.
+
+## Projects
+
+* Core
+* Website
+* Streams
+* Docker
+* nan
+
+## Working Groups
+
+* Inclusivity
+* Build
+* Tracing
+* i18n
+* Evangelism
+* Roadmap
+* Addon API
+* Benchmarking
+* Post-mortem
+* Intl
+* HTTP
+* Documentation
+* Promises
+* Security
+
+## Mentorship Program
+
+The TSC administers a mentorship program for critical projects in the ecosystem.
+Projects are assigned mentors from the TSC to adapt modern best practices to the 
+specific needs of each project.
+
+* libuv
+* Express
+
 
 ## TSC Members
 
-TSC members are responsible for top level technical community concerns. The role is 
-mostly administrative and is responsible for admitting new Top Level Projects, Top Level
-Working Groups, and advocating for any needs in the technical side of the foundation to
-the Node.js Foundation Board of Directors.
-
-TSC members can nominate new members at any time. Candidates for membership tend to be people
-who have a competancy for community management and a high tolerance and patience for process
-minutiae as the TSC delegates most of its responsibilities to other projects and working groups.
-
-Every Top Level Project not currently incubating can appoint someone to the TSC who they elect
-at their own discretion.
-
-## Top-Level WGs and TLPs
-
-* [Working Groups](WORKING_GROUPS.md)
-* Mentors
-
-    Project mentorship is not a technical role. In fact, mentors are
-    discouraged from giving technical advice to projects. Instead, the
-    purpose of mentorship is to encourage and improve a projects ability
-    to be participatory, transparent, and effective. Mentors are there to
-    help projects adopt and iterate on policies and processes that achieve
-    these goals and eventually allow them to graduate the incubation phase.
-
-      * Mikeal Rogers (@mikeal)
-* Top-Level Projects
- * Core TLP
-  * Core WGs (streams, http, Intl)
-
-## Policy Change Proposal Process
-
-The Node.js TSC is chartered to oversee the technical governance of all Top
-Level Projects and Working Groups under the Node.js Foundation. The TSC
-establishes the default governance, conduct, and licensing policies for all Top
-Level Projects. Top Level Projects and Working Groups have broad powers of
-self-governance.
-
-To propose a change or addition to policies or processes that are intended to
-cover all Top Level Projects and Working Groups in the foundation, a PR should
-be opened in the `nodejs/TSC` repository.
-
-The pull request can be labeled `tsc-agenda` to request that it be put on the
-agenda for the next TSC meeting.
-
-The Node.js Foundation Board of Directors retains certain rights (especially
-legal considerations). If the TSC endorses a proposal, they will escalate to the
-Node.js Foundation Board of Directors when required to do so.
-
-In some cases, existing individual groups have the right to refuse changes to
-their charters. The TSC can not mandate existing working groups alter their
-charters. If such a situation arises, the TSC may decide to revoke the group's
-charter.
+TSC members are responsible for administration and communitication. The role is 
+mostly administrative and is responsible for admitting new projects, working groups 
+and representing them to  Node.js Foundation Board of Directors.
