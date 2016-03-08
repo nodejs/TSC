@@ -1,7 +1,7 @@
 # The Node.js Foundation TSC
 
 This is the primary communication and governance hub of the Node.js
-Foundation's Technical Steering Committee. Its goal are:
+Foundation's Technical Steering Committee. Its goals are:
 
 * Maintaining, releasing and improving a healthy Node.js Core project.
 * Fostering and encouraging a healthy Node.js open source ecosystem.
@@ -13,12 +13,12 @@ has a connection to the development of Node.js Core but their work and
 responsibilities often extend far beyond Core and potentially even Node.js.
 
 The TSC also leads several efforts to improve the health and sustainability
-of the ecosystem but it not a long term host of ecosystem projects which are
+of the ecosystem but it is not a long term host of ecosystem projects which are
 not integrated into Core development.
 
-Each effort, project, and working group is autonomous. The scope of work and 
+Each project and working group is autonomous. The scope of work and 
 autonomy is described in their charter. The TSC works to increase communication 
-and collaboration between these parts.
+and collaboration between all these parts.
 
 Adding a new project or working group can be done through a pull request. Since
 each group is autonomous any new group taking on responsibility from another
@@ -57,7 +57,6 @@ specific needs of each project.
 
 * libuv
 * Express
-
 
 ## TSC Members
 
