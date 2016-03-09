@@ -32,7 +32,11 @@ at their own discretion.
     help projects adopt and iterate on policies and processes that achieve
     these goals and eventually allow them to graduate the incubation phase.
 
-      * Mikeal Rogers (@mikeal)
+      * Mikeal Rogers (@mikeal) Currently assigned to Express.
+      * James Snell (@jasnell) Currently assigned to Express.
+      * Rod Vagg (@rvagg) Currently assigned to libuv.
+      * Alexis Campailla (@orangemocha) Currently assigned to libuv.
+
 * Top-Level Projects
  * Core TLP
   * Core WGs (streams, http, Intl)
