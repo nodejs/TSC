@@ -24,30 +24,24 @@ Adding a new project or working group can be done through a pull request. Since
 each group is autonomous any new group taking on responsibility from another
 group would need that group's approval.
 
+Any project or working group can create teams at their discretion. Any org member
+can create a new repo for organizing this kind of effort without a charter or other
+process. Examples of Core teams are: Long Term Support, Cryto, Roadmap, Benchmark,
+Streams, Testing.
+
 ## Projects
 
 * Core
 * Website
-* Streams
-* Docker
 * nan
 
 ## Working Groups
 
 * Inclusivity
 * Build
-* Tracing
 * i18n
 * Evangelism
-* Roadmap
-* Addon API
-* Benchmarking
-* Post-mortem
-* Intl
-* HTTP
 * Documentation
-* Promises
-* Security
 
 ## Mentorship Program
 
