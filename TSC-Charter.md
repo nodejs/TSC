@@ -23,8 +23,7 @@ additionally make amendments to the TSC charter at any time, though the
 Board will not interfere with day-to-day discussions, votes or meetings
 of the TSC.
 
-## Section 3. Board’s Role in Setting Node.js Foundation’s Strategic
-Direction.  
+## Section 3. Board’s Role in Setting Node.js Foundation’s Strategic Direction.  
 
 The Board will set the overall TSC Policy. The policy will describe the
 overarching scope of the Node.js Foundation initiative, Node.js
