@@ -54,7 +54,7 @@ cover all Top Level Projects and Working Groups in the foundation, a PR should
 be opened in the `nodejs/TSC` repository.
 
 The pull request can be labeled `tsc-agenda` to request that it be put on the
-agenda for the next TSC meeting.
+agenda for [the next TSC meeting](/MEETINGS.md).
 
 The Node.js Foundation Board of Directors retains certain rights (especially
 legal considerations). If the TSC endorses a proposal, they will escalate to the
