@@ -7,7 +7,6 @@ For more details read the [TSC Charter](https://github.com/nodejs/TSC/blob/maste
 If your project is interested in joining the Node.js Foundation please read the [Project Lifecycle.md](./Project-Lifecycle.md) documentation.
 
 ## TSC Members
-
 TSC members are responsible for top level technical community concerns. The role is 
 mostly administrative and is responsible for admitting new Top Level Projects, Top Level
 Working Groups, and advocating for any needs in the technical side of the foundation to
@@ -19,6 +18,25 @@ minutiae as the TSC delegates most of its responsibilities to other projects and
 
 Every Top Level Project not currently incubating can appoint someone to the TSC who they elect
 at their own discretion.
+
+### Current Members
+| Avatar | Information |
+|---|:---|
+| <a href="//github.com/rvagg">          <img width=100 src="https://avatars.githubusercontent.com/u/495647?s=100" alt="@rvagg"></a>        | Rod Vagg              <br> <a href="//github.com/rvagg">@rvagg</a>                  <br> rod@vagg.org <br><sub>Committee Chair</sub><br><sup>Board Director</sup> |
+| <a href="//github.com/orangemocha">    <img width=100 src="https://avatars.githubusercontent.com/u/1625870?s=100" alt="@orangemocha"></a> | **Alexis Campailla**  <br> <a href="//github.com/orangemocha">@orangemocha</a>      <br> orangemocha@nodejs.org |
+| <a href="//github.com/bnoordhuis">     <img width=100 src="https://avatars.githubusercontent.com/u/275871?s=100" alt="@bnoordhuis"></a>   | **Ben Noordhuis**     <br> <a href="//github.com/bnoordhuis">@bnoordhuis</a>        <br> info@bnoordhuis.nl |
+| <a href="//github.com/piscisaureus">   <img width=100 src="https://avatars.githubusercontent.com/u/218257?s=100" alt="@piscisaureus"></a> | **Bert Belder**       <br> <a href="//github.com/piscisaureus">@piscisaureus</a>    <br> bertbelder@gmail.com |
+| <a href="//github.com/mscdex">         <img width=100 src="https://avatars.githubusercontent.com/u/54666?s=100" alt="@mscdex"></a>        | **Brian White**       <br> <a href="//github.com/mscdex">@mscdex</a>                <br> mscdex@mscdex.net |
+| <a href="//github.com/chrisdickinson"> <img width=100 src="https://avatars.githubusercontent.com/u/37303?s=100" alt="@chrisdickinson"></a>| **Chris Dickinson**   <br> <a href="//github.com/chrisdickinson">@chrisdickinson</a><br> christopher.s.dickinson@gmail.com |
+| <a href="//github.com/cjihrig">        <img width=100 src="https://avatars.githubusercontent.com/u/2512748?s=100" alt="@cjihrig"></a>     | **Colin Ihrig**       <br> <a href="//github.com/cjihrig">@cjihrig</a>              <br> cjihrig@gmail.com |
+| <a href="//github.com/indutny">        <img width=100 src="https://avatars.githubusercontent.com/u/238531?s=100" alt="@indutny"></a>      | **Fedor Indutny**     <br> <a href="//github.com/indutny">@indutny</a>              <br> fedor.indutny@gmail.com |
+| <a href="//github.com/jasnell">        <img width=100 src="https://avatars.githubusercontent.com/u/439929?s=100" alt="@jasnell"></a>      | **James Snell**       <br> <a href="//github.com/jasnell">@jasnell</a>              <br> jasnell@gmail.com |
+| <a href="//github.com/fishrock123">    <img width=100 src="https://avatars.githubusercontent.com/u/1093990?s=100" alt="@fishrock123"></a> | **Jeremiah Senkpiel** <br> <a href="//github.com/fishrock123">@fishrock123</a>      <br> fishrock123@rocketmail.com |
+| <a href="//github.com/misterdjules">   <img width=100 src="https://avatars.githubusercontent.com/u/811047?s=100" alt="@misterdjules"></a> | **Julien Gilli**      <br> <a href="//github.com/misterdjules">@misterdjules</a>    <br> jgilli@nodejs.org |
+| <a href="//github.com/shigeki">        <img width=100 src="https://avatars.githubusercontent.com/u/782880?s=100" alt="@shigeki"></a>      | **Shigeki Ohtsu**     <br> <a href="//github.com/shigeki">@shigeki</a>              <br> ohtsu@iij.ad.jp |
+| <a href="//github.com/trevnorris">     <img width=100 src="https://avatars.githubusercontent.com/u/289174?s=100" alt="@trevnorris"></a>   | **Trevor Norris**     <br> <a href="//github.com/trevnorris">@trevnorris</a>        <br> trev.norris@gmail.com |
+
+
 
 ## Top-Level WGs and TLPs
 
