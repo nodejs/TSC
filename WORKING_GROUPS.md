@@ -30,6 +30,11 @@ NOTE: Technical Working Groups exist in the [nodejs/node repository](https://git
 
 ### [Inclusivity](https://github.com/nodejs/inclusivity)
 
+<!--
+This information should mostly mirror:
+https://github.com/nodejs/inclusivity#statement-of-purpose
+-->
+
 The Inclusivity Working Group seeks to increase inclusivity and diversity
 for the Node.js project:
   * *Increasing inclusivity* means making the Node.js project a safe and
@@ -38,6 +43,11 @@ for the Node.js project:
     backgrounds to the Node.js project and maintaining their participation.
 
 Its responsibilites are:
+
+<!--
+This information should mostly mirror:
+https://github.com/nodejs/inclusivity/blob/master/README.md#list-of-responsibilities
+-->
 
 * Foster a welcoming environment that ensures participants are valued and can
 feel confident contributing or joining discussions, regardless of any [aspect of
