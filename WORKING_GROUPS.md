@@ -1,9 +1,9 @@
-# Node.js Working Groups
+# Node.js Top-Level Working Groups
 
 Node.js Working Groups are autonomous projects created by the
-[Technical Steering Committee (TSC)](https://github.com/nodejs/node/blob/master/GOVERNANCE.md#technical-committee).
+[Technical Steering Committee (TSC)](https://github.com/nodejs/TSC#the-nodejs-foundation-tsc).
 
-Working Groups can be formed at any time but must be ratified by the TSC.
+Top-Level Working Groups can be formed at any time but must be ratified by the TSC.
 Once formed the work defined in the Working Group charter is the
 responsibility of the WG rather than the TSC.
 
