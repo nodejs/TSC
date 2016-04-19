@@ -121,14 +121,14 @@ formalizes the various kinds of contributions and the processes necessary for
 each. More contribution resources are available:
 
 * [Style Guide](https://github.com/appium/appium/blob/master/docs/en/contributing-to-appium/style-guide-2.0.md)
-* [Developer's Overview](https://github.com/appium/appium/blob/1.5/docs/en/contributing-to-appium/developers-overview.md)
-* [Run-down of Appium packages and organization](https://github.com/appium/appium/blob/1.5/docs/en/contributing-to-appium/appium-packages.md)
+* [Developer's Overview](https://github.com/appium/appium/blob/master/docs/en/contributing-to-appium/developers-overview.md)
+* [Run-down of Appium packages and organization](https://github.com/appium/appium/blob/master/docs/en/contributing-to-appium/appium-packages.md)
 * [How to run Appium from source](https://github.com/appium/appium/blob/master/docs/en/contributing-to-appium/appium-from-source.md)
 
 
 ### Governance Process
 
-* Our project's roles and procedures are documented on our [GOVERNANCE.md](https://github.com/appium/appium/blob/1.5/GOVERNANCE.md).
+* Our project's roles and procedures are documented on our [GOVERNANCE.md](https://github.com/appium/appium/blob/master/GOVERNANCE.md).
 
 ### Organizational Tools
 
@@ -178,8 +178,3 @@ a working group to plan and run such events.
 * [Code of Conduct](https://github.com/appium/appium/blob/master/CONDUCT.md)
 * [License](https://github.com/appium/appium/blob/master/LICENSE)
 * [CLA](https://docs.google.com/forms/d/1lOfXRw_0VCk7gYzjj4WLetGu7yelDVo5LWh0z7pGftE/viewform) (copyright will be transferred to Node/Linux Foundation when appropriate)
-
-
-### TODO
-
-* some of the linked documents are linked to the `1.5` branch since that is where development is currently taking place. Soon we will rename 1.5 to master so we will need to update this document with that change.
