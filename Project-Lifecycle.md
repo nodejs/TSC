@@ -116,7 +116,7 @@ and community.
 * List of initial Working Groups.
 * Prior to being admitted the project:
  * Must include
- [DCO](https://github.com/nodejs/node/blob/master/CONTRIBUTING.md#developers-certificate-of-origin-10).
+ [DCO](https://github.com/nodejs/node/blob/master/CONTRIBUTING.md#developers-certificate-of-origin).
  * Must include approved license. If it is not currently under an
  approved license it will need to be cleared by the TSC and the Node.js
  Foundation Legal Committee prior to acceptance in to the incubator.
