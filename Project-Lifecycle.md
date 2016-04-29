@@ -63,7 +63,7 @@ is expected to be larger than the TSC.
 
 The Foundation shall encourage new Projects and innovation in the
 community. New Projects enter the Node.js Foundation through a
-[Proposal](#Proposal).
+[Proposal](#applying-to-join).
 
 The project should be considered mature and have a history of releases
 before applying to enter the foundation.
@@ -97,6 +97,9 @@ Each TLP TC must elect a representative to the Node.js Foundation TSC or
 vote to abstain from representation on the TSC.
 
 ## Applying to join
+
+**SPECIAL NOTICE:**
+Project [admittance is on hold](#admittance).
 
 A proposal to join the Node.js Foundation as a top-level Project or
 Working Group must include:
@@ -134,10 +137,6 @@ BSD, ISC or Apache2 license.
 
 ### Admittance
 
-The Node.js Foundation is quite new and currently has limited resources
-available to mentor new projects. As such, projects are chosen for
-admission in groups as mentors become available.
-
-You can apply at any time and the TSC and available mentors will help
-improve your application while awaiting the next available approval
-phase.
+**SPECIAL NOTICE:**
+The TSC is not currently accepting new applications while it defines a 
+suitable organizational structure that can accommodate new projects.
