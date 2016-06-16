@@ -93,6 +93,7 @@ documentation for governance, contribution, conduct and an MIT
 LICENSE. The WG is free to change these documents through their own
 governance process, hence the term "bootstrap."
 
+```markdown
 ### *[insert WG name]* Working Group
 
 The Node.js *[insert WG name]* is jointly governed by a Working Group (WG)
@@ -264,3 +265,4 @@ The [Node.js Code of Conduct][] applies to this WG.
 
 [Node.js Code of Conduct]: https://github.com/nodejs/node/blob/master/CODE_OF_CONDUCT.md
 [Node.js Moderation Policy]: https://github.com/nodejs/TSC/blob/master/Moderation-Policy.md
+```
