@@ -5,8 +5,10 @@ other groups, for example the CTC).  Outside of these
 areas the TSC will collaborate with the board
 when making decisions:
 
-* Code/Doc/ changes to any of the repositories under github/nodejs
-* Standards and processes covering contributions to repositories under
+* Changes to the contents of any of the repositories
+  under github/nodejs.
+* Standards and processes covering contributions and interactions
+  with repositories and related Internet properties under
   github/nodejs.
 * Infrastructure and usage of build tools for components
   built from github/nodejs.  
