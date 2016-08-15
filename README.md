@@ -23,7 +23,6 @@ at their own discretion.
 | Avatar | Information |
 |---|:---|
 | <a href="//github.com/rvagg">          <img width=100 src="https://avatars.githubusercontent.com/u/495647?s=100" alt="@rvagg"></a>        | Rod Vagg              <br> <a href="//github.com/rvagg">@rvagg</a>                  <br> rod@vagg.org <br><sub>Committee Chair</sub><br><sup>Board Director</sup> |
-| <a href="//github.com/orangemocha">    <img width=100 src="https://avatars.githubusercontent.com/u/1625870?s=100" alt="@orangemocha"></a> | **Alexis Campailla**  <br> <a href="//github.com/orangemocha">@orangemocha</a>      <br> orangemocha@nodejs.org |
 | <a href="//github.com/bnoordhuis">     <img width=100 src="https://avatars.githubusercontent.com/u/275871?s=100" alt="@bnoordhuis"></a>   | **Ben Noordhuis**     <br> <a href="//github.com/bnoordhuis">@bnoordhuis</a>        <br> info@bnoordhuis.nl |
 | <a href="//github.com/piscisaureus">   <img width=100 src="https://avatars.githubusercontent.com/u/218257?s=100" alt="@piscisaureus"></a> | **Bert Belder**       <br> <a href="//github.com/piscisaureus">@piscisaureus</a>    <br> bertbelder@gmail.com |
 | <a href="//github.com/mscdex">         <img width=100 src="https://avatars.githubusercontent.com/u/54666?s=100" alt="@mscdex"></a>        | **Brian White**       <br> <a href="//github.com/mscdex">@mscdex</a>                <br> mscdex@mscdex.net |
