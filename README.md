@@ -32,7 +32,6 @@ at their own discretion.
 | <a href="//github.com/indutny">        <img width=100 src="https://avatars.githubusercontent.com/u/238531?s=100" alt="@indutny"></a>      | **Fedor Indutny**     <br> <a href="//github.com/indutny">@indutny</a>              <br> fedor.indutny@gmail.com |
 | <a href="//github.com/jasnell">        <img width=100 src="https://avatars.githubusercontent.com/u/439929?s=100" alt="@jasnell"></a>      | **James Snell**       <br> <a href="//github.com/jasnell">@jasnell</a>              <br> jasnell@gmail.com |
 | <a href="//github.com/fishrock123">    <img width=100 src="https://avatars.githubusercontent.com/u/1093990?s=100" alt="@fishrock123"></a> | **Jeremiah Senkpiel** <br> <a href="//github.com/fishrock123">@fishrock123</a>      <br> fishrock123@rocketmail.com |
-| <a href="//github.com/misterdjules">   <img width=100 src="https://avatars.githubusercontent.com/u/811047?s=100" alt="@misterdjules"></a> | **Julien Gilli**      <br> <a href="//github.com/misterdjules">@misterdjules</a>    <br> jgilli@nodejs.org |
 | <a href="//github.com/shigeki">        <img width=100 src="https://avatars.githubusercontent.com/u/782880?s=100" alt="@shigeki"></a>      | **Shigeki Ohtsu**     <br> <a href="//github.com/shigeki">@shigeki</a>              <br> ohtsu@iij.ad.jp |
 | <a href="//github.com/trevnorris">     <img width=100 src="https://avatars.githubusercontent.com/u/289174?s=100" alt="@trevnorris"></a>   | **Trevor Norris**     <br> <a href="//github.com/trevnorris">@trevnorris</a>        <br> trev.norris@gmail.com |
 
