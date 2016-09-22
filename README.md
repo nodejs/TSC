@@ -6,7 +6,61 @@ For more details read the [TSC Charter](https://github.com/nodejs/TSC/blob/maste
 
 If your project is interested in joining the Node.js Foundation please read the [Project Lifecycle.md](./Project-Lifecycle.md) documentation.
 
+## TSC Scope of Responsibility
+
+**The TSC is responsible for Node.js Core project, a number of projects depended upon by Node.js Core and a number of projects adjacent to Node.js Core.**
+
+### Node.js Core
+
+Node.js Core is defined as the code project existing in the repository located at <https://github.com/nodejs/node> _minus_ the vendored projects included in the codebase, specifically those located in the [deps](https://github.com/nodejs/node/tree/master/deps) and [tools](https://github.com/nodejs/node/tree/master/tools) directories that are copied in from externally maintained repositories.
+
+Also included in the Node.js Core project are projects required to plan, test, build, document and ship Node.js releases but _are not significant enough to require independent management and administration_. These projects are located in the following repositories:
+
+* https://github.com/nodejs/docs
+* https://github.com/nodejs/testing
+* https://github.com/nodejs/node-eps
+* https://github.com/nodejs/security (private)
+
+### Dependent Projects
+
+Additional projects fall within the TSC's scope of responsibility which are dependents of Node.js Core in that they are required to plan, test, build, document and ship Node.js releases, yet _are significant enough to require independent management and administration_. These projects are located in the following repositories:
+
+* https://github.com/nodejs/nodejs.org
+* https://github.com/nodejs/http-parser
+* https://github.com/nodejs/citgm
+* https://github.com/nodejs/build
+* https://github.com/nodejs/docker-node
+* https://github.com/nodejs/benchmarking
+* https://github.com/nodejs/readable-stream
+* https://github.com/nodejs/secrets (private, administered by build)
+* https://github.com/libuv/libuv (currently under Incubation)
+
+### Adjacent Projects
+
+The TSC is responsible for a number of projects that are not strictly required to plan, test, build, document and ship Node.js releases. Projects that are _adjacent_ are either created from within the technical organization managed by the TSC or are adopted into that organization from outside. In the case of adopting existing projects, once the TSC has decided that adoption appropriate, it should seek agreement from the Node.js Foundation Board for such adoption as it impacts on the scope of technical activities of the Foundation.
+
+Current adjacent projects that are within the TSC's scope of responsibility can be found at the following locations:
+
+* https://github.com/nodejs/github-bot
+* https://github.com/nodejs/installer
+* https://github.com/nodejs/nan
+* https://github.com/nodejs/nodereport
+* https://github.com/nodejs/node-gyp
+
+### Responsibilities
+
+In being responsible for these projects and resources, the TSC exercises autonomy to set up management and administrative structures for the purpose of:
+
+* Code and documentation creation and changes
+* Standard definitions covering contributions of code, documentation and other materials
+* Releases: types, schedules, frequency, delivery mechanisms
+* Decisions regarding dependents of the Node.js Core project, including what those dependencies are and how they are bundled with source code and releases
+* Creating new repositories and projects under the _nodejs_ GitHub organization as required
+* Setting overall technical direction for the Node.js Core project, including high-level goals and low-level specifics regarding features and functionality
+
+
 ## TSC Members
+
 TSC members are responsible for top level technical community concerns. The role is 
 mostly administrative and is responsible for admitting new Top Level Projects, Top Level
 Working Groups, and advocating for any needs in the technical side of the foundation to
