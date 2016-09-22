@@ -6,7 +6,96 @@ For more details read the [TSC Charter](https://github.com/nodejs/TSC/blob/maste
 
 If your project is interested in joining the Node.js Foundation please read the [Project Lifecycle.md](./Project-Lifecycle.md) documentation.
 
+## TSC Scope
+
+**The TSC is responsible for Node.js Core project, a number of projects depended upon by Node.js Core, and a number of projects adjacent to Node.js Core.**
+
+The TSC exercises autonomy in managing its responsibilities and seeks agreement from the Node.js Foundation Board on any change to the scope of those responsibilities as defined below.
+
+### Node.js Core
+
+Node.js Core is defined as the code project existing in the repository located at <https://github.com/nodejs/node> which the `node` executable and associated packages are built from, _minus_ the vendored projects included in the codebase, specifically those located in the [deps](https://github.com/nodejs/node/tree/master/deps) and [tools](https://github.com/nodejs/node/tree/master/tools) directories that are copied in from externally maintained repositories.
+
+### Dependent Projects
+
+Additional projects fall within the TSC's scope of responsibility which are dependencies of Node.js Core in that they are **required** to plan, test, build, document and ship Node.js releases.
+
+These projects are located in the following repositories:
+
+* https://github.com/nodejs/build — administration delegated to the Build Working Group
+* https://github.com/nodejs/citgm — administration delegated to the Core Technical Committee, managed by the Smoke Testing Team
+* https://github.com/nodejs/CTC — administration delegated to the Core Technical Committee
+* https://github.com/nodejs/docker-node — administration delegated to the Docker Working Group
+* https://github.com/nodejs/http-parser — administration delegated to the Core Technical Committee
+* https://github.com/nodejs/LTS — administration delegated to the Core Technical Committee, managed by the LTS Team
+* https://github.com/nodejs/node-eps — administration delegated to the Core Technical Committee
+* https://github.com/nodejs/nodejs-dist-indexer — administration delegated to the Build Working Group
+* https://github.com/nodejs/nodejs-latest-linker — administration delegated to the Build Working Group
+* https://github.com/nodejs/nodejs-nightly-builder — administration delegated to the Build Working Group
+* https://github.com/nodejs/nodejs.org — administration delegated to the Website Working Group
+* https://github.com/nodejs/secrets — _private_, administration delegated to the Build Working Group
+* https://github.com/libuv/libuv — currently under Incubation
+
+### Adjacent Projects
+
+The TSC is responsible for a number of projects that are not strictly required to plan, test, build, document and ship Node.js releases. Projects that are _adjacent_ are either created from within the technical organization managed by the TSC or are adopted into that organization from outside.
+
+In the case of adopting existing projects, once the TSC has decided that adoption appropriate, it should seek agreement from the Node.js Foundation Board for such adoption as it impacts on the scope of technical activities of the Foundation.
+
+If the Node.js Foundation Board wishes to adopt an existing project, it must seek agreement from the TSC that such adoption is appropriate and that any changes to scope that it entails are acceptable.
+
+Current adjacent projects that are within the TSC's scope of responsibility can be found at the following locations:
+
+* https://github.com/nodejs/abi-stable-node — administration delegated to the API Working Group
+* https://github.com/nodejs/abi-stable-node-addon-examples — administration delegated to the API Working Group
+* https://github.com/nodejs/api — administration delegated to the API Working Group
+* https://github.com/nodejs/benchmarking — administration delegated to the Benchmarking Working Group
+* https://github.com/nodejs/code-and-learn
+* https://github.com/nodejs/diagnostics — administration delegated to the Diagnostics Working Group
+* https://github.com/nodejs/docs — administration delegated to the Documentation Working Group
+* https://github.com/nodejs/education
+* https://github.com/nodejs/email — administration delegated to the Build Working Group
+* https://github.com/nodejs/evangelism — administration delegated to the Evangelism Working Group
+* https://github.com/nodejs/github-bot — administration delegated to the Core Technical Committee, managed by the GitHub Bot Team
+* https://github.com/nodejs/help — administration delegated to the Evangelism Working Group
+* https://github.com/nodejs/http — administration delegated to the Core Technical Committee, managed by the HTTP team
+* https://github.com/nodejs/http2 — administration delegated to the Core Technical Committee, managed by the HTTP/2 team
+* https://github.com/nodejs/iojs.org — administration delegated to the Website Working Group
+* https://github.com/nodejs/installer — administration delegated to the Core Technical Committee
+* https://github.com/nodejs/Intl — administration delegated to the Intl Working Group
+* https://github.com/nodejs/llnode — administration delegated to the Post Mortem Working Group
+* https://github.com/nodejs/nan — administration delegated to the Addon API Working Group
+* https://github.com/nodejs/node-addon-examples — administration delegated to the Addon API Working Group)
+* https://github.com/nodejs/node-chakracore — administration delegated to the Core Technical Committee
+* https://github.com/nodejs/node-gyp — administration delegated to the Core Technical Committee
+* https://github.com/nodejs/node-inspect — administration delegated to the Diagnostics Working Group
+* https://github.com/nodejs/nodereport — administration delegated to the Post Mortem Working Group
+* https://github.com/nodejs/post-mortem — administration delegated to the Post Mortem Working Group
+* https://github.com/nodejs/promises — administration delegated to the Promises Working Group
+* https://github.com/nodejs/readable-stream — administration delegated to the Streams Working Group
+* https://github.com/nodejs/summit
+* https://github.com/nodejs/testing — administration delegated to the Testing Working Group
+* _And_ various language and resource translation groups under https://github.com/nodejs/
+
+### List of TSC Responsibilities
+
+The TSC exercises autonomy in setting up and maintaining procedures, policies, and management and administrative structures as it deems appropriate for the maintenance and operation of these projects and resources.
+
+Included in the responsibilities of the TSC are:
+
+* Managing code and documentation creation and changes for the listed projects and resources
+* Setting and maintaining standards covering contributions of code, documentation and other materials
+* Managing code and binary releases: types, schedules, frequency, delivery mechanisms
+* Making decisions regarding dependencies of the Node.js Core project, including what those dependencies are and how they are bundled with source code and releases
+* Creating new repositories and projects under the _nodejs_ GitHub organization as required
+* Setting overall technical direction for the Node.js Core project, including high-level goals and low-level specifics regarding features and functionality
+* Setting and maintaining appropriate standards for community discourse via the various mediums under TSC control
+* Setting and maintaining governance rules for the conduct and make-up of the TSC, CTC, Working Groups and other bodies within the TSC's domain
+
+Many of these responsibilities will be delegated by the TSC to appropriate bodies such as the CTC and Working Groups.
+
 ## TSC Members
+
 TSC members are responsible for top level technical community concerns. The role is 
 mostly administrative and is responsible for admitting new Top Level Projects, Top Level
 Working Groups, and advocating for any needs in the technical side of the foundation to
