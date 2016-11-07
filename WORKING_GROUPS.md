@@ -42,23 +42,23 @@ for the Node.js project:
   * *Increasing diversity* means actively onboarding people from diverse
     backgrounds to the Node.js project and maintaining their participation.
 
-Its responsibilites are:
+Responsibilities include:
 
 <!--
 This information should mostly mirror:
 https://github.com/nodejs/inclusivity/blob/master/README.md#list-of-responsibilities
 -->
 
-* Foster a welcoming environment that ensures participants are valued and can
+* Fostering a welcoming environment that ensures participants are valued and can
 feel confident contributing or joining discussions, regardless of any [aspect of
 their identity](https://github.com/nodejs/inclusivity/#list-of-responsibilities).
-* Proactively seek and propose concrete steps the project can take to increase
+* Proactively seeking and proposing concrete steps the project can take to increase
 inclusivity.
-* Serve as a resource for the development and enforcement of workflows that
+* Serving as a resource for the development and enforcement of workflows that
 protect community members and projects from harassment and abuse.
-* Acknowledge and celebrate existing diversity accomplishments within the
+* Acknowledging and celebrating existing diversity accomplishments within the
 project while seeking to build upon them.
-* Identify ways to measure diversity and inclusivity within the project and
+* Identifying ways to measure diversity and inclusivity within the project and
 report them at regular intervals.
 
 ## Starting a WG
