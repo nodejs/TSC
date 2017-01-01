@@ -35,6 +35,16 @@ at their own discretion.
 | <a href="//github.com/shigeki">        <img width=100 src="https://avatars.githubusercontent.com/u/782880?s=100" alt="@shigeki"></a>      | **Shigeki Ohtsu**     <br> <a href="//github.com/shigeki">@shigeki</a>              <br> ohtsu@iij.ad.jp |
 | <a href="//github.com/trevnorris">     <img width=100 src="https://avatars.githubusercontent.com/u/289174?s=100" alt="@trevnorris"></a>   | **Trevor Norris**     <br> <a href="//github.com/trevnorris">@trevnorris</a>        <br> trev.norris@gmail.com |
 
+## YouTube
+Many teams/groups post meeting videos to the [Node.js Foundation YouTube channel](https://www.youtube.com/c/nodejs+foundation/). 
+
+Any GitHub team maintainer is allowed `Manager` access to the Google Plus account allowing
+them to add/manage video content and schedule events (live broadcasts).
+
+Members of the TSC and CTC are allowed `Owner` access to the Google Plus account. This role
+can do all `Manager` activities and add/remove other members from the Google Plus account.
+
+To request access, [open an issue](https://github.com/nodejs/TSC/issues/new).
 
 
 ## Top-Level WGs and TLPs
