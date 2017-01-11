@@ -6,7 +6,7 @@ This is a guide on how to set up Open Brodcaster Software for live broadcast of 
 
 ##### OBS (Open Broadcaster Software)
 
-OBS is a free, open-source encoder. This guide will focus on it.
+OBS is a free, open-source video encoder. This guide will focus on it.
 OBS can be downloaded from https://obsproject.com/ and its repo is at
 https://github.com/jp9000/obs-studio.
 
@@ -68,7 +68,7 @@ Set the `Sample Rate` to `48khz`.
 
 ### Video Settings
 
-Set the `Output (Scaled) Resolution` to `1280x720` (720p).
+Set the both the `Base (Canvas) Resolution` and `Output (Scaled) Resolution` to `1280x720` (720p).
 
 ## Scene Setup
 
@@ -76,20 +76,36 @@ On the menu bar, select `Scene Collection` and then `Rename`. Call the
 previously "untitled" scene `Node.js`.
 (Or create a new scene if existing scenes are present.)
 
-Under the `Sources` window, click the `+` symbol and select "Image".
+### Background Image
+
+Under the `Sources` window, click the `+` symbol and select `Image`.
 Call it `White Background`.
 Set the `Image File` to any pure-white `.png` file.
 
-Click on the white image in the preview so that a red boarder with control
+Click on the white image in the preview so that a red border with control
 points appears. Expand the image to, or beyond, the preview border.
+
+### Node.js Logo
 
 Under the `Sources` window, click the `+` symbol and select `Image`.
 Call it `Node Logo`.
 Set the `Image File` to a Node.js `.png` logo file at least 1280x720 in size.
 
-Expand the Node.js logo to about two-thirds of the preview.
-Then, right-click the logo image and select `Transform` and next,
-`Center to screen`.
+Right-click the Image source and select `Transform >` and click `Edit Transform...`.
+Set the `Position` to `160`, `90`.
+Set the `Bounding Box Type` to `Scale to inner bounds`.
+Set the `Bounding Box Size` to `960`, `540`.
+
+### Audio Only Text
+
+Under the `Sources` window, click the `+` symbol and select `Text (...)`.
+Call it `Audio Only (Text)`.
+Set the `Font` to `Source Sans Pro` at `72` point.
+(The font can be downloaded from [their repo](https://github.com/adobe-fonts/source-sans-pro#source-sans-pro).)
+Set the `Text` to `Audio Only`, and the `Color` to `#00000000` (black).
+
+Right-click the Text source and select `Transform >` and click `Edit Transform...`.
+Set the `Position` to `1002`, `630` and the `Size` to `260`, `72`.
 
 ## Audio setup
 
@@ -106,6 +122,7 @@ Select `Filters`. In the new window, click the `+` symbol and select
 
 If you are joining the meeting from a different computer, mute the `Mic/Aux`
 channel by clicking on the speaker icon.
+Otherwise, apply the same audio settings and filter to the `Mic/Aux` channel.
 
 #### macOS Audio
 
