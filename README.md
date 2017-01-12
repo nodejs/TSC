@@ -6,7 +6,7 @@ For more details read the [TSC Charter](https://github.com/nodejs/TSC/blob/maste
 
 If your project is interested in joining the Node.js Foundation please read the [Project Lifecycle.md](./Project-Lifecycle.md) documentation.
 
-## TSC Scope of Responsibility
+## TSC Scope
 
 **The TSC is responsible for Node.js Core project, a number of projects depended upon by Node.js Core, and a number of projects adjacent to Node.js Core.**
 
@@ -24,10 +24,10 @@ These projects are located in the following repositories:
 
 * https://github.com/nodejs/build — administration delegated to the Build Working Group
 * https://github.com/nodejs/citgm — administration delegated to the Core Technical Committee
-* https://github.com/nodejs/CTC — administration delegated to the Core Technical Committee
+* https://github.com/nodejs/CTC — administration delegated to the Core Technical Committee, managed by the Smoke Testing Team
 * https://github.com/nodejs/docker-node — administration delegated to the Docker Working Group
 * https://github.com/nodejs/http-parser — administration delegated to the Core Technical Committee
-* https://github.com/nodejs/LTS — administration delegated to the LTS Working Group
+* https://github.com/nodejs/LTS — administration delegated to the Core Technical Committee, managed by the LTS Team
 * https://github.com/nodejs/node-eps — administration delegated to the Core Technical Committee
 * https://github.com/nodejs/nodejs-dist-indexer — administration delegated to the Build Working Group
 * https://github.com/nodejs/nodejs-latest-linker — administration delegated to the Build Working Group
@@ -42,8 +42,12 @@ The TSC is responsible for a number of projects that are not strictly required t
 
 In the case of adopting existing projects, once the TSC has decided that adoption appropriate, it should seek agreement from the Node.js Foundation Board for such adoption as it impacts on the scope of technical activities of the Foundation.
 
+If the Node.js Foundation Board wishes to adopt an existing project, it must seek agreement from the TSC that such adoption is appropriate and that any changes to scope that it entails are acceptable.
+
 Current adjacent projects that are within the TSC's scope of responsibility can be found at the following locations:
 
+* https://github.com/nodejs/abi-stable-node - administration delegated to the API Working Group
+* https://github.com/nodejs/abi-stable-node-addon-examples - administration delegated to the API Working Group
 * https://github.com/nodejs/api — administration delegated to the API Working Group
 * https://github.com/nodejs/benchmarking — administration delegated to the Benchmarking Working Group
 * https://github.com/nodejs/code-and-learn
@@ -52,16 +56,16 @@ Current adjacent projects that are within the TSC's scope of responsibility can 
 * https://github.com/nodejs/education
 * https://github.com/nodejs/email — administration delegated to the Build Working Group
 * https://github.com/nodejs/evangelism — administration delegated to the Evangelism Working Group
-* https://github.com/nodejs/github-bot — administration delegated to the Core Technical Committee
-* https://github.com/nodejs/help — administration delegated to the Core Technical Committee
+* https://github.com/nodejs/github-bot — administration delegated to the Core Technical Committee, managed by the GitHub Bot Team
+* https://github.com/nodejs/help — administration delegated to the Evangelism Working Group
 * https://github.com/nodejs/http — administration delegated to the HTTP Working Group
 * https://github.com/nodejs/http2 — administration delegated to the Core Technical Committee
 * https://github.com/nodejs/iojs.org — administration delegated to the Website Working Group
 * https://github.com/nodejs/installer — administration delegated to the Core Technical Committee
 * https://github.com/nodejs/Intl — administration delegated to the Intl Working Group
-* https://github.com/nodejs/llnode — administration delegated to the Core Technical Committee
+* https://github.com/nodejs/llnode — administration delegated to the Post Mortem Working Group
 * https://github.com/nodejs/nan — administration delegated to the Addon API Working Group
-* https://github.com/nodejs/node-addon-examples — administration delegated to the Addon API WorkingGroup)
+* https://github.com/nodejs/node-addon-examples — administration delegated to the Addon API Working Group)
 * https://github.com/nodejs/node-chakracore — administration delegated to the Core Technical Committee
 * https://github.com/nodejs/node-gyp — administration delegated to the Core Technical Committee
 * https://github.com/nodejs/nodereport — administration delegated to the Post Mortem Working Group
@@ -72,7 +76,7 @@ Current adjacent projects that are within the TSC's scope of responsibility can 
 * https://github.com/nodejs/testing — administration delegated to the Testing Working Group
 * _And_ various language and resource translation groups under https://github.com/nodejs/
 
-### Responsibilities
+### List of TSC Responsibilities
 
 The TSC exercises autonomy in setting up and maintaining procedures, policies, and management and administrative structures as it deems appropriate for the maintenance and operation of these projects and resources.
 
@@ -85,7 +89,7 @@ Included in the responsibilities of the TSC are:
 * Creating new repositories and projects under the _nodejs_ GitHub organization as required
 * Setting overall technical direction for the Node.js Core project, including high-level goals and low-level specifics regarding features and functionality
 * Setting and maintaining appropriate standards for community discourse via the various mediums under TSC control
-* Setting and maintaining governance rules for the conduct and make-up of the TSC, CTC, Working Groups and other bodies under the TSC
+* Setting and maintaining governance rules for the conduct and make-up of the TSC, CTC, Working Groups and other bodies within the TSC's domain
 
 Many of these responsibilities will be delegated by the TSC to appropriate bodies such as the CTC and Working Groups.
 
