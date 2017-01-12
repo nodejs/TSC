@@ -23,8 +23,8 @@ Additional projects fall within the TSC's scope of responsibility which are depe
 These projects are located in the following repositories:
 
 * https://github.com/nodejs/build — administration delegated to the Build Working Group
-* https://github.com/nodejs/citgm — administration delegated to the Core Technical Committee
-* https://github.com/nodejs/CTC — administration delegated to the Core Technical Committee, managed by the Smoke Testing Team
+* https://github.com/nodejs/citgm — administration delegated to the Core Technical Committee, managed by the Smoke Testing Team
+* https://github.com/nodejs/CTC — administration delegated to the Core Technical Committee
 * https://github.com/nodejs/docker-node — administration delegated to the Docker Working Group
 * https://github.com/nodejs/http-parser — administration delegated to the Core Technical Committee
 * https://github.com/nodejs/LTS — administration delegated to the Core Technical Committee, managed by the LTS Team
@@ -58,7 +58,7 @@ Current adjacent projects that are within the TSC's scope of responsibility can 
 * https://github.com/nodejs/evangelism — administration delegated to the Evangelism Working Group
 * https://github.com/nodejs/github-bot — administration delegated to the Core Technical Committee, managed by the GitHub Bot Team
 * https://github.com/nodejs/help — administration delegated to the Evangelism Working Group
-* https://github.com/nodejs/http — administration delegated to the HTTP Working Group
+* https://github.com/nodejs/http — administration delegated to the Core Technical Committee
 * https://github.com/nodejs/http2 — administration delegated to the Core Technical Committee
 * https://github.com/nodejs/iojs.org — administration delegated to the Website Working Group
 * https://github.com/nodejs/installer — administration delegated to the Core Technical Committee
