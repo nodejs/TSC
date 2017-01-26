@@ -19,6 +19,7 @@ for the TSC to approve or decline.
  * Include the presentation you intend to give, if applicable.
  * Include the size of the stipend you wish to receive.
   * Reimbursement stipends are expected to vary with travel distance.
+* Once the final amount spent is known, update the table again with that information.
 
 The TSC will consider each proposal in its next regular meeting. While it is
 ultimately at the TSC's discretion who to approve the following considerations
