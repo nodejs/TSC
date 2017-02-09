@@ -70,7 +70,7 @@ Current adjacent projects that are within the TSC's scope of responsibility can 
 * https://github.com/nodejs/node-chakracore — administration delegated to the Core Technical Committee
 * https://github.com/nodejs/node-gyp — administration delegated to the Core Technical Committee
 * https://github.com/nodejs/node-inspect — administration delegated to the Diagnostics Working Group
-* https://github.com/nodejs/nodereport — administration delegated to the Post Mortem Working Group
+* https://github.com/nodejs/node-report — administration delegated to the Post Mortem Working Group
 * https://github.com/nodejs/post-mortem — administration delegated to the Post Mortem Working Group
 * https://github.com/nodejs/promises — administration delegated to the Promises Working Group
 * https://github.com/nodejs/readable-stream — administration delegated to the Streams Working Group
