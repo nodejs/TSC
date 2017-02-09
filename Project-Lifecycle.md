@@ -98,10 +98,28 @@ vote to abstain from representation on the TSC.
 
 ## Applying to join
 
+For a project to be accepted as a top-level project under the Node.js
+Foundation it must help better the Node.js ecosystem.  It is important
+that proposals include a clear explanation of why this will be the
+case.  A few areas you may want to include:
+
+* how will the project help the Node.js ecosystem grow as a whole ?
+* what set of Node.js users is the project interesting/critical to ?
+* is there a direct relationship between the project and core Node.js
+  or one of the existing top-level projects?  For example, does Node.js
+  itself depend on this project ?
+* how does the project support or enhance existing top level
+  projects ?
+* how would the Node.js ecosytem be affected if the project
+  did not exist ?
+
 A proposal to join the Node.js Foundation as a top-level Project or
 Working Group must include:
 
 * Introduction and project description.
+* An explanation of how the project betters the Node.js ecosystem.
+* Why does the project want to join the foundation and what do you
+  expect to get out of joining.
 * Project history.
 * Any available metrics or even estimates about the user base, ecosystem
 and community.
