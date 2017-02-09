@@ -22,6 +22,7 @@ Additional projects fall within the TSC's scope of responsibility which are depe
 
 These projects are located in the following repositories:
 
+* https://github.com/nodejs/TSC
 * https://github.com/nodejs/build — administration delegated to the Build Working Group
 * https://github.com/nodejs/citgm — administration delegated to the Core Technical Committee, managed by the Smoke Testing Team
 * https://github.com/nodejs/CTC — administration delegated to the Core Technical Committee
