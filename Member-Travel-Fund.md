@@ -39,7 +39,7 @@ not previously received a stipend.
 Name | Event | Kind of participation | Location | Date | Stipend size
 ---- | ----- | --------------------- | -------- | ---- | ------------
 Rich Trott | NINA 2016 | Collaborator Summit and Code & Learn | Austin, TX, US | 29 Nov – 2 Dec 2016 | US$ 2000
-Anna Henningsen | NINA 2016 | Collaborator Summit and Code & Learn | Austin, TX, US | 29 Nov – 2 Dec 2016 | US$ 3000
+Anna Henningsen | NINA 2016 | Collaborator Summit and Code & Learn | Austin, TX, US | 29 Nov – 2 Dec 2016 | US$ 2530
 Stephen Belanger | NINA 2016 | Collaborator Summit | Austin, TX, US | 1 Dec – 2 Dec 2016 | US$ 800
 Italo A. Casas | NINA 2016 | Collaborator Summit | Austin, TX, US | 1 Dec – 2 Dec 2016 | US$ 644
-Anna Henningsen | TC39 Meeting | Attendance | San Jose, CA, US | 24 Jan – 26 Jan 2017 | US$ 3000
+Anna Henningsen | TC39 Meeting | Attendance | San Jose, CA, US | 24 Jan – 26 Jan 2017 | US$ 1048
