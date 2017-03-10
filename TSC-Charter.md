@@ -45,7 +45,7 @@ There is no specific set of requirements or qualifications for TSC
 membership beyond these rules. The TSC may add additional members to the
 TSC by a standard TSC motion and vote. A TSC member may be removed from the
 TSC by voluntary resignation, by a standard TSC motion, or in accordance to the
-attendance rules described below.
+participation rules described below.
 
 Changes to TSC membership should be posted in the agenda, and may be suggested
 as any other agenda item.
@@ -68,13 +68,20 @@ delegated by the TSC Chairperson to any other TSC member. Minutes or an
 appropriate recording shall be taken and made available to the community
 through accessible public postings.
 
-In the case where an individual TSC member attends fewer than 25% of the
-regularly scheduled meetings held within a six month period, does not attend
-at least one meeting every three months, and does not proactively communicate
-with the TSC their intention not to attend those meetings, the member shall be
-asked to voluntarily resign their membership. Should a member fail to attend
-100% of the meetings within a six month period, the member shall be
-automatically removed from the TSC. In such cases, the member may ask to
+TSC members are expected to regularly participate in all TSC activities
+including:
+
+* Regular attendance in TSC meetings;
+* Actively participating in TSC related discussions on GitHub; and
+* Voting
+
+In the case where an individual TSC member: (a) attends fewer than 25% of the
+regularly scheduled meetings held within a six month period, (b) does not attend
+at least one meeting every three months, (c) does not regularly participate in
+TSC discussions, and (d) does not regularly participate in TSC votes, the member
+shall be asked to voluntarily resign their TSC position. Should a member fail to
+participate in *any* TSC activity within a six month period, the member shall be
+automatically removed from the TSC. In such cases, the member may request to
 continue as an invited observer to TSC meetings.
 
 ## Section 5. Responsibilities of the TSC.  
