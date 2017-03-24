@@ -68,21 +68,13 @@ delegated by the TSC Chairperson to any other TSC member. Minutes or an
 appropriate recording shall be taken and made available to the community
 through accessible public postings.
 
-TSC members are expected to regularly participate in all TSC activities
-including:
+TSC members are expected to regularly participate in TSC activities.
 
-* Regular attendance in TSC meetings;
-* Actively participating in TSC related discussions on GitHub; and
-* Voting
-
-In the case where an individual TSC member: (a) attends fewer than 25% of the
-regularly scheduled meetings held within a six month period, (b) does not attend
-at least one meeting every three months, (c) does not regularly participate in
-TSC discussions, and (d) does not regularly participate in TSC votes, the member
-shall be asked to voluntarily resign their TSC position. Should a member fail to
-participate in *any* TSC activity within a six month period, the member shall be
-automatically removed from the TSC. In such cases, the member may request to
-continue as an invited observer to TSC meetings.
+In the case where an individual TSC member -- within any three month period --
+attends fewer than 25% of the regularly scheduled meetings, does not
+participate in TSC discussions, *and* does not participate in TSC votes, the
+member shall be automatically removed from the TSC. The member may be invited
+to continue attending TSC meetings as an observer.
 
 ## Section 5. Responsibilities of the TSC.  
 
@@ -145,8 +137,8 @@ representatives of the community.
 For election of persons (TSC Chairperson, Maintainers, etc.) a
 multiple-candidate method should be used, e.g.:
 
-* [Condorcet](http://en.wikipedia.org/wiki/Condorcet_method) or
-* [Single Transferable Vote](http://en.wikipedia.org/wiki/Single_transferable_vote)
+* [Condorcet][] or
+* [Single Transferable Vote][]
 
 Multiple-candidate methods may be reduced to simple election by plurality
 when there are only two candidates for one position to be filled. No
@@ -172,18 +164,17 @@ Consensus. The TSC shall establish appropriate guidelines for
 implementing Lazy Consensus (e.g. expected notification and review time
 periods) within the development process.
 
-The TSC follows a [Consensus
-Seeking](http://en.wikipedia.org/wiki/Consensus-seeking_decision-making)
-decision making model. When an agenda item has appeared to reach a
-consensus the moderator will ask "Does anyone object?" as a final call
-for dissent from the consensus.
+The TSC follows a [Consensus Seeking][] decision making model. When an agenda
+item has appeared to reach a consensus the moderator will ask "Does anyone
+object?" as a final call for dissent from the consensus.
 
 If an agenda item cannot reach a consensus a TSC member can call for
 either a closing vote or a vote to table the issue to the next meeting.
 The call for a vote must be seconded by a majority of the TSC or else the
-discussion will continue. Simple majority wins with exception given only to
-removal of a member from the TSC, which shall require a two-thirds majority
-vote to approve.
+discussion will continue.
+
+For all votes, a simple majority of all TSC members for, or against, the issue
+wins. A TSC member may choose to participate in any vote through abstention.
 
 Note that, in addition to requiring a simple majority vote of the TSC, all
 changes to this charter are also subject to approval from the Node.js
@@ -224,3 +215,7 @@ TSC.
 
 * **Maintainer**: a Collaborator within a Core Project elected to
 represent the Core Project on the TSC.
+
+[Consensus Seeking]: http://en.wikipedia.org/wiki/Consensus-seeking_decision-making
+[Condorcet]: http://en.wikipedia.org/wiki/Condorcet_method
+[Single Transferable Vote]: http://en.wikipedia.org/wiki/Single_transferable_vote
