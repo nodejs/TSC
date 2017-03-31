@@ -24,7 +24,7 @@ Working Group membership or normal TSC motion and vote.
 
 ## Current Working Groups
 
-NOTE: Technical Working Groups exist in the [nodejs/node repository](https://github.com/nodejs/node/blob/master/WORKING_GROUPS.md).
+NOTE: Technical Working Groups exist in the [nodejs/ctc repository](https://github.com/nodejs/ctc/blob/master/WORKING_GROUPS.md).
 
 * [Inclusivity](#inclusivity)
 
