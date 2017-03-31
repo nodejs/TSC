@@ -26,9 +26,14 @@ Working Group membership or normal TSC motion and vote.
 
 NOTE: Technical Working Groups exist in the [nodejs/ctc repository](https://github.com/nodejs/ctc/blob/master/WORKING_GROUPS.md).
 
+## De-chartered Working Groups
+
 * [Inclusivity](#inclusivity)
 
 ### [Inclusivity](https://github.com/nodejs/inclusivity)
+
+*Note*: The efforts and mission of the Inclusivity Working Group have been
+assumed by the Node.js Foundation's [Community Committee][].
 
 <!--
 This information should mostly mirror:
@@ -266,3 +271,5 @@ The [Node.js Code of Conduct][] applies to this WG.
 [Node.js Code of Conduct]: https://github.com/nodejs/node/blob/master/CODE_OF_CONDUCT.md
 [Node.js Moderation Policy]: https://github.com/nodejs/TSC/blob/master/Moderation-Policy.md
 ```
+
+[Community Committee]: https://github.com/nodejs/community-committee
