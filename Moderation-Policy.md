@@ -17,26 +17,27 @@ If you are not a member of the Node.js GitHub Organization and wish to submit a 
 
 ### Applicability
 
-By default, this policy applies to all repositories under the Node.js GitHub Organization and all Node.js Working Groups.
+By default, this policy applies to all repositories under the Node.js GitHub Organization, all Node.js Working Groups, as well as all channels of communication officially provided by the Node.js project (including, but not limited to Slack channels, email and IRC).
 
 Individual Working Groups and Top Level Projects chartered by the TSC may adopt an alternative Moderation Policy for any repository under their stewardship so long as:
 * The Moderation Policy is openly documented as part of the Working Group or Project Charter and;
 * Includes provisions for clearly and openly documenting Moderation actions taken.
 
-If a particular repository can be considered to fall under the stewardship of multiple Working Groups (or Top Level Projects) that have adopted different Moderation Policies, they can choose to either:
+If a particular repository or communication channel can be considered to fall under the stewardship of multiple Working Groups (or Top Level Projects) that have adopted different Moderation Policies, they can choose to either:
 * Decide between themselves which Moderation Policy will be in effect for the repository in question, or
 * Ask the TSC to determine which Moderation Policy should apply.
 
-Any alternative Moderation Policy used for a given repository must be included in the root directory of the repository using the `Moderation-Policy.md` filename. If a repository does not contain a `Moderation-Policy.md` file, then this default policy applies.
+Any alternative Moderation Policy used for a given repository or communication channel must be included in the root directory of the repository using the `Moderation-Policy.md` filename, or clearly linked to via URL. If a repository does not contain a `Moderation-Policy.md` file, or a link to the alternative policy is not provided, then this default policy applies.
 
 ### Terms
 
 * *Collaborator* refers to any individual with configured write (commit) permissions to any Node.js GitHub organization repository *other than the Moderation Repository*. See [GitHub's access permissions documentation](https://help.github.com/articles/what-are-the-different-access-permissions/) for more information.
+* *Officially Supported Communication Channel* refers to any forum or technology provided and managed by the Node.js TSC for use by Collaborators for any purpose. Examples include, but are not limited to: Slack and IRC channels, conference calls, in-person meetings (such as conference events), and email.
 * *TSC* refers to the [Node.js Technical Steering Committee](https://github.com/nodejs/node#tsc-technical-steering-committee).
-* *Post* refers to the content and titles of any issue, pull request, comment or wiki page.
+* *Post* refers to the content and titles of any issue, pull request, comment or wiki page; or to any interaction occurring within an officially supported communication channel.
 * *Moderate* refers to the act of modifying the content and title of, or deleting, any Post for the purpose of correcting or addressing Code of Conduct violations.
-* *Remove* refers to the act of removing the configured write (commit) permissions for an individual Collaborator's GitHub account from *all* Node.js GitHub Organization repositories as well as removing the account from the Node.js GitHub Organization membership.
-* *Ban* refers to the act of blocking an individual GitHub account from any further participation in the Node.js GitHub Organization.
+* *Remove* refers to the act of removing the configured write (commit) permissions for an individual Collaborator's GitHub account from *all* Node.js GitHub Organization repositories as well as removing the account from the Node.js GitHub Organization membership; or to removing an individuals permissions to add Posts to any officially supported communication channel.
+* *Ban* refers to the act of blocking an individual GitHub account from any further participation in the Node.js GitHub Organization or any officially support communication channel.
 * *Requester* refers to an individual requesting Moderation on a Post.
 
 ### Grounds for Moderation
@@ -79,26 +80,27 @@ Note, however, that unfamiliarity with the [Code of Conduct](https://GitHub.com/
 ### Guidelines and Requirements
 
 * All Posts are expected to respect the [Node.js Code of Conduct](https://GitHub.com/nodejs/node/blob/master/CODE_OF_CONDUCT.md).
-* Only Collaborators with commit rights to a given repository may Moderate Posts within that repository's issue tracker.
+* Within a GitHub repository, Only Collaborators with commit rights to a given repository may Moderate Posts within that repository's issue tracker.
+* Within any other officially supported communication channel, the TSC shall select one or more Collaborators to operate as "Operators" who may exercise the right to Moderate Posts within that communication channel.
 * The TSC serves as the final arbiter for all Moderation issues (see: [Escalation to the TSC](#escalation-to-the-tsc)).
-* Only a TSC member may Remove or Ban an individual from the Node.js GitHub Organization.
+* Only a TSC member may Remove or Ban an individual from the Node.js GitHub Organization or officially supported communication channels.
 * For any Removal or Banning action, an issue describing the reasons for the action, and identifying the Github account being acted upon, must be posted to the Moderation Repository with an explanation provided by the TSC member performing the action.
-* Any individual Banned from the Node.js GitHub Organization will be recommended for exclusion from any Node.js Foundation sponsored event or activity.
+* Any individual Banned from the Node.js GitHub Organization, or officially support communication channels, will be recommended for exclusion from any Node.js Foundation sponsored event or activity.
 * Minor edits to the formatting of a Post or to correct typographical errors are not considered to be "Moderation". Such edits and their intent should still be documented with a short note indicating who made the edit and why.
 
 #### Collaborator Posts
 
-* Collaborators must not Moderate any Post authored by another Collaborator without first giving the author at least 24 hours (from the time of the initial request) to modify or remove the Post on their own.
+* Collaborators must not Moderate any Post authored by another Collaborator without first giving the author at least 24 hours (from the time of the initial request) to modify, remove or otherwise correct the Post on their own.
 * If the author of the Post disagrees that Moderation is required, the matter can be [escalated to the TSC](#escalation-to-the-tsc) for resolution. In such cases, no Moderation action should be taken until a decision by the TSC is made.
 * In extreme circumstances involving either obvious gross violations of the [Node.js Code of Conduct](https://GitHub.com/nodejs/node/blob/master/CODE_OF_CONDUCT.md) or possible compromise of a Collaborator's GitHub account, the TSC can be consulted to waive the 24 hour grace period and dispute process.
 * When Moderating any Post authored by another Collaborator, the moderating Collaborator must:
  * Explain the justification for Moderating the post,
- * Identify all changes made to the Post, and
+ * Identify all changes made to the Post or other actions taken, and
  * Identify the steps previously taken to resolve the issue.
 * Explanations of Moderation actions on Collaborator Posts must be provided in:
  * A new post within the original thread, or
  * A new issue within the private nodejs/moderation repository.
-* Any Collaborator who habitually authors Posts that must be Moderated can be Removed or Banned from further participation in the Node.js GitHub organization for an indefinite period of time. Such action can only be taken through normal TSC motion and vote (see: [Escalation to the TSC](#escalation-to-the-tsc)).
+* Any Collaborator who habitually authors Posts that must be Moderated can be Removed or Banned from further participation in the Node.js GitHub organization and officially support communication channels for an indefinite period of time. Such action can only be taken through normal TSC motion and vote (see: [Escalation to the TSC](#escalation-to-the-tsc)).
 
 #### Non-Collaborator Posts
 
@@ -129,7 +131,7 @@ TSC members directly involved in a Moderation issue -- as either the Requester o
 
 The nodejs/moderation Repository is used to discuss the potentially sensitive details of any specific moderation issue. The repository is private but accessible to all Collaborators. The details of any issue discussed within the nodejs/moderation repository are expected to remain confidential and are not to be discussed in any public forum or social media service.
 
-Any Collaborator found to be violating the privacy of the nodejs/moderation repository by repeatedly sharing or discussing the details of nodejs/moderation issues in any public forum or social media service risks being removed from the Node.js GitHub organization through standard TSC motion and vote.
+Any Collaborator found to be violating the privacy of the nodejs/moderation repository by repeatedly sharing or discussing the details of nodejs/moderation issues in any public forum or social media service risks being removed from the Node.js GitHub organization and officially support communication channels through standard TSC motion and vote.
 
 ### TSC Delegation of Authority to a "Moderation Working Group"
 
