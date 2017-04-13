@@ -124,6 +124,8 @@ at their own discretion.
 | <a href="//github.com/shigeki">        <img width=100 src="https://avatars.githubusercontent.com/u/782880?s=100" alt="@shigeki"></a>      | **Shigeki Ohtsu**     <br> <a href="//github.com/shigeki">@shigeki</a>              <br> ohtsu@iij.ad.jp |
 | <a href="//github.com/trevnorris">     <img width=100 src="https://avatars.githubusercontent.com/u/289174?s=100" alt="@trevnorris"></a>   | **Trevor Norris**     <br> <a href="//github.com/trevnorris">@trevnorris</a>        <br> trev.norris@gmail.com |
 | <a href="//github.com/joshgav">        <img width=100 src="https://avatars.githubusercontent.com/u/4421720?s=100" alt="@joshgav"></a>     | **Josh Gavant**       <br> <a href="//github.com/joshgav">@joshgav</a>              <br> josh.gavant@gmail.com |
+| <a href="//github.com/addaleax">       <img width=100 src="https://avatars.githubusercontent.com/u/899444?s=100" alt="@addaleax"></a>    | **Anna Henningsen**   <br> <a href="//github.com/addaleax">@addaleax</a>            <br> anna@addaleax.net |
+| <a href="//github.com/mhdawson">       <img width=100 src="https://avatars.githubusercontent.com/u/9373002?s=100" alt="@mhdawson"></a>    | **Michael Dawson**    <br> <a href="//github.com/mhdawson">@mhdawson</a>            <br> michael_dawson@ca.ibm.com |
 
 ## YouTube
 Many teams/groups post meeting videos to the [Node.js Foundation YouTube channel](https://www.youtube.com/c/nodejs+foundation/). 
