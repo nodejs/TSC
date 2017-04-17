@@ -43,5 +43,6 @@ Anna Henningsen | NINA 2016 | Collaborator Summit and Code & Learn | Austin, TX,
 Stephen Belanger | NINA 2016 | Collaborator Summit | Austin, TX, US | 1 Dec – 2 Dec 2016 | US$ 800
 Italo A. Casas | NINA 2016 | Collaborator Summit | Austin, TX, US | 1 Dec – 2 Dec 2016 | US$ 644
 Anna Henningsen | TC39 Meeting | Attendance | San Jose, CA, US | 24 Jan – 26 Jan 2017 | US$ 1048
+Michaël Zasso | Collaborator Summit | Attendance | Berlin, DE | 4 May – 5 May 2017 | US$ 318
 Anna Henningsen | Collaborator Summit | Attendance | Berlin, DE | 4 May – 5 May 2017 | US$ 240
 Calvin Metcalf | Collaborator Summit | Attendance | Berlin, DE | 4 May – 5 May 2017 | US$ 600
