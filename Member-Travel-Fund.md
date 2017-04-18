@@ -46,3 +46,4 @@ Anna Henningsen | TC39 Meeting | Attendance | San Jose, CA, US | 24 Jan – 26 J
 Michaël Zasso | Collaborator Summit | Attendance | Berlin, DE | 4 May – 5 May 2017 | US$ 318
 Anna Henningsen | Collaborator Summit | Attendance | Berlin, DE | 4 May – 5 May 2017 | US$ 240
 Calvin Metcalf | Collaborator Summit | Attendance | Berlin, DE | 4 May – 5 May 2017 | US$ 600
+Никита Сковорода | Collaborator Summit | Attendance | Berlin, DE | 4 May – 5 May 2017 | €573
