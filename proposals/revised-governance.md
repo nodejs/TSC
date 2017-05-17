@@ -45,8 +45,12 @@ What I am proposing is a revised TSC structure such that:
    All Admin team members are subject to consensus or vote by the working
    groups. 
 6. The CTC does not change with the exception that it does not charter its own
-   working groups. New working groups are chartered only through consensus or
-   vote of all working groups, including the CTC.
+   working groups.
+7. Working groups would be chartered through consensus of all the working
+   groups, including the CTC. The CTC would not have sole ability to override
+   a working group decision. If the CTC objected to a decision made by 
+   chartered working group, the final decision would be made through consensus
+   or vote of all the working groups. 
 
 ## Questions
 
