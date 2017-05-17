@@ -15,7 +15,7 @@ new working groups are chartered.
 
 ## Proposal
 
-What I am proposing is a revised TSC/CTC structure such that:
+What I am proposing is a revised TSC structure such that:
 
 1. Eliminate the TSC standing membership body. Rather than individual voting
    TSC members, each chartered working group has a single voting seat. It is
