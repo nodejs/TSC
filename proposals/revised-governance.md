@@ -1,240 +1,128 @@
 # A Proposal for the Governance Structure of the Node.js Project
 
-***This is a work in progress. Comments are definitely quite welcome.***
+## What problems are being addressed?
 
-The effort of the Node.js project since the establishment of the Node.js
-Foundation has been to empower a larger collective of contributors bound through
-the common goal of making Node.js a strong and stable platform for all uses and
-users.
+* The TSC as it exists today is largely disfunctional.
+ 
+## tl;dr version
 
-When launching the Foundation, working to bring Node.js and io.js back together,
-and working to heal many of the rifts that had emerged among the contributors,
-a governance structure was put in place that was modeled almost directly off
-that adopted by the io.js project.
+This proposal eliminates the TSC as a standing body of individual voting
+members and instead distributes the decision making authority previously
+held by that standing body to the chartered working groups.
 
-Now, two years later, the project has grown significantly in size and scope.
-The number of contributors has increased significantly, a number of new vital
-and active Working Groups have been chartered, and the Core Technical Committee
-has grown to over 20 individual members. It is no stretch of the imagination to
-say that our collective efforts over the past two years have been a resounding
-success.
-
-That said, it is vital to continually self-evaluate the effectiveness of our
-governing structure and evolving when necessary so that it better reflects the
-project that we are creating and the community we are supporting. To this end,
-I have a proposal.
-
-## Review of Current Structure and Limitations
-
-The vast majority of day-to-day activity and decision making within the Node.js
-project occurs through interactions among individual contributors in GitHub
-threads. Some of these occur within the context of chartered working groups,
-some within informal teams, most just within issues and pull requests in the
-various repositories.
-
-When disagreements arise, or when consensus cannot be reached on any particular
-issue, the issue is generally escalated to the Core Technical Committee for
-resolution. The CTC reviews the issue and attempts to come to consensus on its
-own. If it can reach consensus through discussion, a decision will be made.
-Otherwise, a vote can be called for to resolve the issue. The key point is that
-the CTC is intended to serve only as a backstop for times when consensus cannot
-be easily established.
-
-The Technical Steering Committee, on the other hand, is expected to deal with
-administrative and business focused details of the project. This includes
-interfacing with the Node.js Foundation Board of Directors, using allocated
-funds, defining and enforcing governance and participation policies, and overall
-management of necessary project resources (e.g. oversight of the GitHub
-repositories, etc).
-
-Chartered working groups are formal collections of individual contributors who
-share a common interest in a particular area of the Node.js project. These have
-an official charter that is approved by either the CTC or TSC and are supposed
-to be given full autonomy over specific aspects of the project. Through their
-charter, they are empowered to make decisions relevant to the areas of the
-project they have been granted authority over, and to refer to the CTC or TSC
-only when consensus cannot be reached, or when decisions have impact on areas
-beyond their chartered scope.
-
-Teams are informal collections of individual contributors. They are very similar
-to Working Groups but are not chartered and are not given full control to make
-decisions over any particular area. Teams may be formed at any time but must
-defer to either a Working Group, CTC or TSC for authority. 
-
-All Working Groups and teams are free to determine whatever process they wish
-to have for membership and decision making so long as those do not run counter
-to the basic, fundamental policies established by the TSC or CTC.
-
-The membership of the TSC and CTC are individual based. Members are selected by
-the existing members based on fairly arbitrary criteria. Generally, nominated
-members are selected based on how the existing members view the newcomers
-contributions and commitment to the project, as well as consideration of their
-ability to lead and conduct themselves in a manner that helps build consensus.
-
-What is interesting, and most limiting, about the TSC and CTC membership
-policies, however, is that (a) there is no time limit associated with individual
-membership, (b) there are no guidelines around participation beyond the recently
-passed rules for TSC members, and (c) there is no direct link between the
-individual contributors selected for participation in the CTC/TSC and the
-various Working Groups that are granted authority over key areas of the project.
-This is limiting in a number of ways:
-
-* Membership growth is theoretically unbounded in that new individual members
-  can be added indefinitely as the project grows.
-* There is no incentive for existing members to “rotate out” of their existing
-  seats when their personal level of activity in the project declines or when
-  there are no issues being discussed that they are interested in.
-* Most of the work within the project is being done within the working groups
-  but there is no direct representation of the working groups in the CTC or TSC.
-  While many of the individual members of the CTC and TSC happen to be members
-  of chartered working groups, decision making is still done on an individual
-  member basis. This means that it is possible (and likely) for a working group
-  member sitting on the TSC or CTC to cast votes that may run counter to the
-  consensus of a working group in which the individual is a member.
-* The current structures of both the CTC and TSC make it difficult to understand
-  what is happening within the chartered working groups.
-
-The proposal that follows is specifically geared towards dealing with these
-limitations through what is ultimately a fairly radical restructuring. The goals
-of this restructuring are straightforward:
-
-* Empower chartered working groups to take full ownership over their areas of
-  responsibility.
-* Empower individual working group members to play a more active role in the
-  evolution of the Node.js project.
-* Lessen the reliance on individual “core” decision makers.
-* Ensure that the overall governance model of the project more accurately
-  reflects the actual decision making processes followed.
+This proposal does not change the CTC in any way other than in terms of how
+new working groups are chartered.
 
 ## Proposal
 
 What I am proposing is a revised TSC/CTC structure such that:
 
-1. The TSC/CTC are generally folded back into a single administrative body
-   called the TSC.
-   * A Core Working Group with responsibility for overseeing the core Node.js
-     project (nodejs/node) is chartered (this is essentially what the CTC is
-     today)
-   * A special Admin team with responsibility over budget allocations and other
-     administrative actions would be established.
-2. The individual voting member seats in the TSC would be eliminated. Each
-   chartered working group would be granted a single voting seat within the TSC.
-   When a vote is required, each working group decides for itself the process it
-   will follow for exercising its one vote. The only requirement is that when a
-   vote is to be registered, there must be public documentation that details how
-   the vote was determined (could be meeting minutes, for instance).
-3. The TSC meeting schedule would be moved to one TSC meeting per month, on a
-   rotating time schedule.
+1. Eliminate the TSC standing membership body. Rather than individual voting
+   TSC members, each chartered working group has a single voting seat. It is
+   up to each working group to decide on its own process for exercising that
+   vote.
+2. An Admin team would be created that would be charged with handling the
+   more mundane administrative tasks currently handled by the TSC (budget
+   allocations, github org management, handling confidential information).
+   Tasks like administering the travel fund could be handed off to the
+   Community Committee. This admin team would not be a voting body.
+3. There would be only one TSC meeting per month.
    * The meeting may be in person or fully remote.
-   * The meeting would consist of a public portion only.
-   * Any documented member of any chartered working group may attend.
-   * Anyone who is not a current member of a chartered working group may attend
-     on invitation from a chartered Working Group member.
-   * The meeting would include a review of working group activities as opposed
-     to an individual stand-up.
-4. Most decisions are made within the working groups. Any working group member
-   may escalate any decision by any working group by tagging it as `tsc-review`
-   and at-mentioning the other working groups that should review that decision.
-   As much as possible, an attempt should be made to resolve the issue through
-   discussion on GitHub. If the tagged issue is not determined to be resolved
-   in time for the monthly TSC meeting, the TSC Chair (and only the TSC Chair)
-   may escalate it to `tsc-agenda` for discussion at the meeting.
-   * If it appears clear that consensus cannot be reached on an issue tagged
-     `tsc-agenda` through regular discussion on GitHub or at the TSC meeting,
-     any working group member may tag the issue as `tsc-vote`, which must be
-     seconded by at least one other working group member.
-   * Issues marked `tsc-vote` would go to a vote of chartered working groups.
-     Working group votes would be collected via GitHub comments on the issue,
-     with links to the documentation describing how the vote was reached. The
-     vote will be completed when either enough votes are received to consider
-     the matter decided, or by the next TSC meeting (whichever comes first).
-     Any votes not registered by the next TSC meeting would be considered to
-     be abstentions.
-5. New working groups would be chartered only through consensus or vote of all
-   other chartered working groups. (The Core Working Group would not charter its
-   own working groups)
-6. The TSC Chair and TSC Director positions remain with an annual election. Any
-   member of a chartered working group is eligible to run for either seat. All
-   documented members of the working groups would vote for the candidates.
-   * It will be the job of the TSC Chair to organize the agenda for, and
-     conduct, the monthly TSC meetings.
-   * It will be the job of the TSC Director to sit on the Node.js Board of
-     Directors and serve as the interface between the TSC and the Board. The
-     TSC Director would serve also as the Chair of the Admin team.
-7. As part of the chartered responsibilities, every working group would
-   nominate one member for participation in the Admin team. If a working group
-   chooses, it may request to opt out of this requirement during the charter
-   process. Additional people may be added to the Admin team through consensus
-   of the existing members. As with any issue, adding members is subject to
-   `tsc-review` and `tsc-vote`.
-8. Note that, from time to time, the Node.js Foundation must share confidential
-   details about various topics with the TSC. In such cases, this information
-   would be shared with the Admin team, which would pass those on to the larger
-   TSC only on approval of the Node.js Foundation Board.
-9. The Core Working Group would consist of the current members of the CTC and
-   would retain oversight over the Node.js core project. While the working
-   group would continue to be free to determine it’s own process for
-   establishing consensus (including voting if it chooses), decisions that
-   affect the areas of responsibility granted to other chartered working groups
-   must be made in coordination with those working groups. This means, for
-   instance, when the Core Working Group has an issue that affects Streams, the
-   Core Working Group must involve the Streams Working Group in the decision,
-   and that if consensus cannot be achieved, the issue would go to a discussion
-   among the full TSC (e.g. tagged as `tsc-review`).
+   * The meeting would consist of a public portion only that includes a
+     stand up of *working group* activities and issues, and discussion of
+     escalated issues.
+   * Any working group member may attend.
+   * Anyone who is not a working group member may attend on invitation from a
+     working group member.
+4. The TSC Chair and TSC Director positions remain with an annual election.
+   * Any working group member is eligible to run for either seat and all working
+     group members would vote.
+   * The TSC Chair organizes the agenda for, and conducts, the monthly meeting.
+   * The TSC Director sits on the Node.js Board of Directors and chairs the
+     Admin team.
+5. Any working group member may request to participate in the Admin team, and
+   the Admin team may have a process for adding non-working group members.
+   All Admin team members are subject to consensus or vote by the working
+   groups. 
+6. The CTC does not change with the exception that it does not charter its own
+   working groups. New working groups are chartered only through consensus or
+   vote of all working groups, including the CTC.
 
 ## Questions
 
+### Why not simply fold the TSC and CTC back together?
+
+For the simple reason that doing so does not address the cause of the
+disfunction.
+
+Also, the reason the TSC and CTC were split in the first place was because the
+overwhelming majority of CTC members do not want to deal with the administrative
+tasks delegated to the TSC, and I imagine that is still the case. We would still
+need an Admin team to handle those tasks.
+
+### Why working group votes?
+
+Currently, the TSC is the final arbiter on contentious decisions. If the CTC
+made a decision that a collaborator disagreed with, the issue can be flagged
+for TSC review and decision. While this *hardly ever happens*, it is an
+important step. The working group votes would only exist to preserve the
+ability to escalate issues in the exremely rare case it becommes necessary.
+But, rather than having a standing body of individuals decide the matter, it
+goes to a consensus of the working groups instead. It should be exceedingly
+rare for this to actually happen tho.
+
 ### What additional process does this require for Working Groups?
 
-Very little, in fact. Working groups could continue to operate as they do today.
-If the working group wished to do so, it could choose to opt out of
-participating in the Admin team. The working group could also choose not to
-appoint a chair, and could adopt any process it wanted to determining how to
-exercise its votes on the (hopefully) rare occasions when a vote is needed. The
-only additional requirement would be that the working group would be required to
-publish how it came to consensus on the vote.
+Exceedingly little. Working groups would generally continue to operate as they
+do today.
+
+The two additional requirements are that: 
+
+* On the rare occasion that a TSC vote is required, the working group would
+  need to determine whether and how to exercise its vote.
+* Working groups would need to more formally document their membership
 
 ### What additional benefit does this provide to Working Groups?
 
-Working groups would actually have more direct control over their areas of
-responsibility. The Core Working Group would no longer be in the critical path
-for decisions. Only if consensus cannot be reached within the working group
-would matters be escalated up to a discussion among all chartered working
-groups, among which the Core Working Group would have an equal voice (as
-opposed to the sole deciding voice).
+Working groups would have more direct control over their areas of
+responsibility.
 
-### Would Working Groups be required to name a Chair?
+For instance, if a working group wanted to bring in a new project that fell
+within it's area of responsibility, the only requirement would be to ask if
+there are any objections from the other working groups. It would not require
+a vote of the individual TSC members as is currently required. Rather, as
+long as there are no objections, the working group would just do what it feels
+it needs to do.
 
-No. How a working group conducts its business is entirely up to the working
-group. The only requirement is clear, public documentation of any decisions
-that are made.
+### Would Working Groups be required to name a chair?
 
-### What happens to the ctc-agenda and ctc-review labels?
+No. Again, working groups would continue to work however the working groups
+choose to work.
 
-Matters that require escalation go to their respective working groups for
-consideration. For instance, anything involving Streams would fall under the
-Streams Working Group area of responsibility. It would be the responsibility of
-the Streams Working Group to resolve the issue and would only be escalated to
-consideration by all Working Groups if consensus cannot be reached at that
-level.
+### Would individuals be forced into participating in particular ways?
 
-Any area of core not currently assigned to a chartered working group falls, by
-default, to the Core Working Group.
+For instance, would technical people be forced to do administrative stuff?
 
-### What about the weekly CTC meetings?
+No. This proposal does not change, in any way, how individuals paticipate in
+the project. Those who care only about the technical side of things can
+continue to keep focusing on the technical side.
 
-The CTC evolves into the Core Working Group. It would still define it’s own
-processes and its own meeting schedule.
+What this proposal does do, however, is open the opportunity for anyone who
+*wants* to participate in the administrative side of things to do so.
 
-### Why are working groups required to have someone on the Admin team?
+### How does this effect the CTC?
 
-This is to ensure proper representation among the working groups when key
+It doesn't really. The CTC processes are generally not impacted by this with
+exception only to how new working groups are chartered and how issues escalated
+to the TSC level are resolved. The proposal does not change how the CTC works
+at all.
+
+### Why would working groups nominate someone to the Admin team?
+
+This would be to ensure proper representation among the working groups when key
 decisions are made with regards to budget allocation and administrative actions
-such as moderation enforcement. Each working group is free to determine how it
-chooses the individual to sit on the Admin team, and may choose to opt out of the
-responsibility when the working group is chartered. A working group that has
-opted out may ask to join the Admin team at any time, and it would be up to the
-existing members of that WG to decide the membership policy.
+such as moderation enforcement. It's entirely up to the working group to
+decide if this is something they need or want.
 
 ### Why is the TSC Director the chair of the Admin team?
 
@@ -245,31 +133,14 @@ touch point for such activities. This also echoes the situation in the
 Community Committee where the individual member representatives on the board
 share the Community Committee chair responsibilities.
 
-### This takes some power away from the CTC!
-
-Yes and no. The Core Working Group (or what we call the CTC today) would still
-have overall responsibility for nodejs/node for any aspect that is not
-specifically delegated to another working group (like Streams, for instance).
-
-For items that are under Core's responsibility, the Working Group would still
-retain the ability to make decisions following whatever process it chooses
-(likely no different than the process we have today in the CTC). However, for
-areas that have been delegated to other working groups, those working groups
-make the decisions, with any working group member having the ability to
-escalate any discussion/decision to `tsc-review`.
-
 ### It will take longer to get things done!
 
-I disagree. I shouldn't take any longer than it does today.
-
-The goal is for working groups to be more empowered to make decisions on their
-own as much as possible. There will be less need to push decisions to the CTC
-and TSC and therefore less process around making decisions.
+It shouldn't take any longer than it does today.
 
 ### This just means we’ll have more Working Groups!
 
-I disagree. Working groups will carry with them a certain amount of required
-process. Chartering a new working group would also require consensus of all the
+Working groups will carry with them a certain amount of required process.
+Chartering a new working group would also require consensus of all the
 other working groups, which means that there would be a fairly high bar to
 adding a new working group. This would mean that the growth of the number of
 voting seats would be much slower and manageable than the current potentially
@@ -289,14 +160,15 @@ open `tsc-agenda` items.
 Existing working groups would essentially be rechartered under this new process
 with a few notable changes. Specifically:
 
-* The working groups would not be chartered by the CTC (or Core Working Group).
-  Only the TSC would charter working groups.
-* Working groups would be expected to nominate one of their members to the
-  Admin team.
+* New working groups would not be chartered solely by the CTC.
+* Working groups would be encouraged to nominate one of their members to the
+  Admin team. (preferably someone actually willing to do administrative stuff)
 * Working groups would be expected to have a bit more process around documenting
   who their members are.
-* Several of the existing working groups would be restructured:
-  * Core Working Group (current CTC)
+* Several of the existing working groups *could* be restructured *solely for
+  the purpose of voting*. This restructuring *does not change* how the teams
+  actually get things done or how people participate in them:
+  * CTC
   * Infrastructure and Tools Working Group
     * Build Team
     * Website Team
@@ -315,10 +187,29 @@ with a few notable changes. Specifically:
     * Post-Mortem Team
     * Benchmarking Team
 
-Note that the Admin team is not a working group and would not have a voting
-seat.
+Each chartered working group would have 1 TSC level vote. Note that the Admin
+team is not a working group and would not have a voting seat.
 
 The Evangelism Working Group would be moved to the Community Committee.
+
+### Build, Website and Localization in one working group?!
+
+This is solely for the purpose of voting. These would still be separate teams
+that would operate however they choose to operate. This proposal would not
+suddenly force working groups to have meetings, or force them to interact in
+any particular way. Having Build and Website under the same working group,
+for instance, would not mean that people only interested in build stuff would
+have to get involved with website stuff, and vice versa. What it means is that,
+when the rare occasion for a TSC level vote happens to come up, these teams
+vote as a single block. That's it. That's the extent of the requirement.
+
+Likewise with the Release and Support Working Group. Having the Release and
+LTS teams under this one working group does not mean that everyone on the
+release team has to participate in LTS team meetings and backporting sprints,
+etc. In fact, there would really be no reason at all for these teams and the
+individuals who participate in them to change anything at all about how they
+currently operate. The *only* difference is that when the rare TSC vote comes
+up, they vote as a single block.
 
 ### What about the current TSC Director and Chair positions?
 
