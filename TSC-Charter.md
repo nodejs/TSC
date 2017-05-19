@@ -1,6 +1,6 @@
 # Technical Steering Committee (TSC) Charter
 
-## Section 1. Guiding Principle.  
+## Section 1. Guiding Principle.
 
 The Node.js Foundation will operate transparently, openly,
 collaboratively, and ethically. Project proposals, timelines, and status
@@ -34,20 +34,21 @@ individual project scope and direction while they remain within the scope
 and direction of the policies as described in the TSC Policy document and
 approved by the Board.
 
-## Section 4. Establishment of the TSC.  
+## Section 4. Establishment of the TSC.
 
-TSC memberships are not time-limited. There is no fixed size of the TSC.
-However, the expected target is between 6 and 12, to ensure adequate
-coverage of important areas of expertise, balanced with the ability to
-make decisions efficiently.
+TSC memberships are not time-limited. There is no maximum size of the TSC.
+The size is expected to vary in order to ensure adequate coverage of important
+areas of expertise, balanced with the ability to make decisions efficiently.
+The TSC must have at least three members.
 
 There is no specific set of requirements or qualifications for TSC
 membership beyond these rules. The TSC may add additional members to the
-TSC by a standard TSC motion and vote.  A TSC member may be removed from
-the TSC by voluntary resignation, or by a standard TSC motion.
+TSC by a standard TSC motion and vote. A TSC member may be removed from the
+TSC by voluntary resignation, by a standard TSC motion, or in accordance to the
+participation rules described below.
 
-Changes to TSC membership should be posted in the agenda, and may be
-suggested as any other agenda item.
+Changes to TSC membership should be posted in the agenda, and may be suggested
+as any other agenda item.
 
 No more than one-fourth of the TSC members may be affiliated with the
 same employer. If removal or resignation of a TSC member, or a change of
@@ -56,14 +57,24 @@ one-fourth of the TSC membership shares an employer, then the situation
 must be immediately remedied by the resignation or removal of one or more
 TSC members affiliated with the over-represented employer(s).
 
-The TSC members shall consist of Maintainers from Core Projects as
-defined in the project lifecycle document and Section 7.
+The TSC may, at its discretion, invite any number of non-voting observers to
+participate in the public portion of TSC discussions and meetings.
 
 The TSC shall meet regularly using tools that enable participation by the
 community (e.g. weekly on a Google Hangout On Air, or through any other
 appropriate means selected by the TSC). The meeting shall be directed by
-the TSC Chairperson. Minutes or an appropriate recording shall be taken
-and made available to the community through accessible public postings.
+the TSC Chairperson. Responsibility for directing individual meetings may be
+delegated by the TSC Chairperson to any other TSC member. Minutes or an
+appropriate recording shall be taken and made available to the community
+through accessible public postings.
+
+TSC members are expected to regularly participate in TSC activities.
+
+In the case where an individual TSC member -- within any three month period --
+attends fewer than 25% of the regularly scheduled meetings, does not
+participate in TSC discussions, *and* does not participate in TSC votes, the
+member shall be automatically removed from the TSC. The member may be invited
+to continue attending TSC meetings as an observer.
 
 ## Section 5. Responsibilities of the TSC.  
 
@@ -126,8 +137,8 @@ representatives of the community.
 For election of persons (TSC Chairperson, Maintainers, etc.) a
 multiple-candidate method should be used, e.g.:
 
-* [Condorcet](http://en.wikipedia.org/wiki/Condorcet_method) or
-* [Single Transferable Vote](http://en.wikipedia.org/wiki/Single_transferable_vote)
+* [Condorcet][] or
+* [Single Transferable Vote][]
 
 Multiple-candidate methods may be reduced to simple election by plurality
 when there are only two candidates for one position to be filled. No
@@ -153,21 +164,21 @@ Consensus. The TSC shall establish appropriate guidelines for
 implementing Lazy Consensus (e.g. expected notification and review time
 periods) within the development process.
 
-The TSC follows a [Consensus
-Seeking](http://en.wikipedia.org/wiki/Consensus-seeking_decision-making)
-decision making model. When an agenda item has appeared to reach a
-consensus the moderator will ask "Does anyone object?" as a final call
-for dissent from the consensus.
+The TSC follows a [Consensus Seeking][] decision making model. When an agenda
+item has appeared to reach a consensus the moderator will ask "Does anyone
+object?" as a final call for dissent from the consensus.
 
 If an agenda item cannot reach a consensus a TSC member can call for
 either a closing vote or a vote to table the issue to the next meeting.
 The call for a vote must be seconded by a majority of the TSC or else the
-discussion will continue. Simple majority wins, with the following
-exceptions, which will require the affirmative vote of two-thirds of the
-members of the TSC to pass:
+discussion will continue.
 
-* Adding or removing members of the TSC
-* Changes to the TSC Charter (which also require Board approval)
+For all votes, a simple majority of all TSC members for, or against, the issue
+wins. A TSC member may choose to participate in any vote through abstention.
+
+Note that, in addition to requiring a simple majority vote of the TSC, all
+changes to this charter are also subject to approval from the Node.js
+Foundation board.
 
 ## Section 9. Project Roles
 
@@ -204,3 +215,7 @@ TSC.
 
 * **Maintainer**: a Collaborator within a Core Project elected to
 represent the Core Project on the TSC.
+
+[Consensus Seeking]: http://en.wikipedia.org/wiki/Consensus-seeking_decision-making
+[Condorcet]: http://en.wikipedia.org/wiki/Condorcet_method
+[Single Transferable Vote]: http://en.wikipedia.org/wiki/Single_transferable_vote
