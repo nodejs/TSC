@@ -8,8 +8,8 @@ If you are not a member of the Node.js GitHub Organization and wish to submit a 
 * [Requesting Moderation](#requesting-moderation)
 * [Consideration of Intent](#consideration-of-intent)
 * [Guidelines and Requirements](#guidelines-and-requirements)
- * [Collaborator Posts](#collaborator-posts)
- * [Non-Collaborator Posts](#non-collaborator-posts)
+  * [Collaborator Posts](#collaborator-posts)
+  * [Non-Collaborator Posts](#non-collaborator-posts)
 * [Escalation to the TSC](#escalation-to-the-tsc)
 * [Privacy of the nodejs/moderation Repository](#privacy-of-the-nodejsmoderation-repository)
 * [TSC Delegation of Authority to a "Moderation Working Group"](tsc-delegation-of-authority-to-a-moderation-working-group)
@@ -92,23 +92,23 @@ Note, however, that unfamiliarity with the [Code of Conduct][] does not excuse a
 * If the author of the Post disagrees that Moderation is required, the matter can be [escalated to the TSC](#escalation-to-the-tsc) for resolution. In such cases, no Moderation action should be taken until a decision by the TSC is made.
 * In extreme circumstances involving either obvious gross violations of the Node.js [Code of Conduct][] or possible compromise of a Collaborator's GitHub account, the TSC can be consulted to waive the 24 hour grace period and dispute process.
 * When Moderating any Post authored by another Collaborator, the moderating Collaborator must:
- * Explain the justification for Moderating the post,
- * Identify all changes made to the Post, and
- * Identify the steps previously taken to resolve the issue.
+  * Explain the justification for Moderating the post,
+  * Identify all changes made to the Post, and
+  * Identify the steps previously taken to resolve the issue.
 * Explanations of Moderation actions on Collaborator Posts must be provided in:
- * A new post within the original thread, or
- * A new issue within the private nodejs/moderation repository.
+  * A new post within the original thread, or
+  * A new issue within the private nodejs/moderation repository.
 * Any Collaborator who habitually authors Posts that must be Moderated can be Removed or Banned from further participation in the Node.js GitHub organization for an indefinite period of time. Such action can only be taken through normal TSC motion and vote (see: [Escalation to the TSC](#escalation-to-the-tsc)).
 
 #### Non-Collaborator Posts
 
 * Posts authored by non-Collaborators are always subject to immediate Moderation by any Collaborator if the content is intentionally disruptive or in violation of the [Code of Conduct][].
 * When Moderating non-Collaborator Posts, the moderating Collaborator should:
- * Explain the justification for Moderating the post, and
- * Identify all changes made to the Post.
+  * Explain the justification for Moderating the post, and
+  * Identify all changes made to the Post.
 * If an explanation of a Moderation action for a non-Collaborator Post is provided, it should be provided in:
- * The original Post being modified (as replacement or appended content),
- * A new post within the original thread, or
+  * The original Post being modified (as replacement or appended content),
+  * A new post within the original thread, or
  * A new issue within the private nodejs/moderation repository.
 * Moderation of Posts authored by non-Collaborators may result in those non-Collaborators being Banned from further participation in the Node.js GitHub organization for an indefinite period of time.
 * In the case where a GitHub Account appears to have been created with no intention to collaborate in good faith, swift actions may be taken without following the above procedures including: removing Posts, Banning, and reporting accounts to GitHub.
