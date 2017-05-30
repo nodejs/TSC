@@ -8,8 +8,8 @@ If you are not a member of the Node.js GitHub Organization and wish to submit a 
 * [Requesting Moderation](#requesting-moderation)
 * [Consideration of Intent](#consideration-of-intent)
 * [Guidelines and Requirements](#guidelines-and-requirements)
- * [Collaborator Posts](#collaborator-posts)
- * [Non-Collaborator Posts](#non-collaborator-posts)
+  * [Collaborator Posts](#collaborator-posts)
+  * [Non-Collaborator Posts](#non-collaborator-posts)
 * [Escalation to the TSC](#escalation-to-the-tsc)
 * [Privacy of the nodejs/moderation Repository](#privacy-of-the-nodejsmoderation-repository)
 * [TSC Delegation of Authority to a "Moderation Working Group"](tsc-delegation-of-authority-to-a-moderation-working-group)
@@ -41,7 +41,7 @@ Any alternative Moderation Policy used for a given repository must be included i
 
 ### Grounds for Moderation
 
-Any Post considered to be in violation of the [Node.js Code of Conduct](https://GitHub.com/nodejs/node/blob/master/CODE_OF_CONDUCT.md) is subject to Moderation.
+Any Post considered to be in violation of the Node.js [Code of Conduct][] is subject to Moderation.
 
 The TSC is solely responsible for deciding what constitutes inappropriate behavior that may be subject to Moderation (see: [Escalation to the TSC](#escalation-to-the-tsc)).
 
@@ -66,19 +66,19 @@ External public venues or social media services such as Twitter should never be 
 
 Collaborators should never discuss the specific details of a Moderation request in any public forum or any social media service outside of the Node.js GitHub Organization.
 
-Note that quoting the original content of a Post within a Moderation request or nodejs/moderation repository issue is not considered a violation of the Code of Conduct. However, discretion is advised when including such quotes in requests posted to public repositories.
+Note that quoting the original content of a Post within a Moderation request or nodejs/moderation repository issue is not considered a violation of the [Code of Conduct][]. However, discretion is advised when including such quotes in requests posted to public repositories.
 
-Requests for Moderation that do not appear to have been submitted in good faith with intent to address a legitimate Code of Conduct violation, as determined by the TSC, may be ignored.
+Requests for Moderation that do not appear to have been submitted in good faith with intent to address a legitimate [Code of Conduct][] violation, as determined by the TSC, may be ignored.
 
 ### Consideration of Intent
 
-Before Moderating a Post, Collaborators should carefully consider the possible intent of the author. It may be that the author has simply made an error or is not yet familiar with the [Code of Conduct](https://GitHub.com/nodejs/node/blob/master/CODE_OF_CONDUCT.md); or it may be that cultural differences exist, or that the author is unaware that certain content is considered inappropriate. In such cases, the author should be given an opportunity to correct any error that may have been made.
+Before Moderating a Post, Collaborators should carefully consider the possible intent of the author. It may be that the author has simply made an error or is not yet familiar with the [Code of Conduct][]; or it may be that cultural differences exist, or that the author is unaware that certain content is considered inappropriate. In such cases, the author should be given an opportunity to correct any error that may have been made.
 
-Note, however, that unfamiliarity with the [Code of Conduct](https://GitHub.com/nodejs/node/blob/master/CODE_OF_CONDUCT.md) does not excuse a Post from Moderation.
+Note, however, that unfamiliarity with the [Code of Conduct][] does not excuse a Post from Moderation.
 
 ### Guidelines and Requirements
 
-* All Posts are expected to respect the [Node.js Code of Conduct](https://GitHub.com/nodejs/node/blob/master/CODE_OF_CONDUCT.md).
+* All Posts are expected to respect the Node.js [Code of Conduct][].
 * Only Collaborators with commit rights to a given repository may Moderate Posts within that repository's issue tracker.
 * The TSC serves as the final arbiter for all Moderation issues (see: [Escalation to the TSC](#escalation-to-the-tsc)).
 * Only a TSC member may Remove or Ban an individual from the Node.js GitHub Organization.
@@ -90,25 +90,25 @@ Note, however, that unfamiliarity with the [Code of Conduct](https://GitHub.com/
 
 * Collaborators must not Moderate any Post authored by another Collaborator without first giving the author at least 24 hours (from the time of the initial request) to modify or remove the Post on their own.
 * If the author of the Post disagrees that Moderation is required, the matter can be [escalated to the TSC](#escalation-to-the-tsc) for resolution. In such cases, no Moderation action should be taken until a decision by the TSC is made.
-* In extreme circumstances involving either obvious gross violations of the [Node.js Code of Conduct](https://GitHub.com/nodejs/node/blob/master/CODE_OF_CONDUCT.md) or possible compromise of a Collaborator's GitHub account, the TSC can be consulted to waive the 24 hour grace period and dispute process.
+* In extreme circumstances involving either obvious gross violations of the Node.js [Code of Conduct][] or possible compromise of a Collaborator's GitHub account, the TSC can be consulted to waive the 24 hour grace period and dispute process.
 * When Moderating any Post authored by another Collaborator, the moderating Collaborator must:
- * Explain the justification for Moderating the post,
- * Identify all changes made to the Post, and
- * Identify the steps previously taken to resolve the issue.
+  * Explain the justification for Moderating the post,
+  * Identify all changes made to the Post, and
+  * Identify the steps previously taken to resolve the issue.
 * Explanations of Moderation actions on Collaborator Posts must be provided in:
- * A new post within the original thread, or
- * A new issue within the private nodejs/moderation repository.
+  * A new post within the original thread, or
+  * A new issue within the private nodejs/moderation repository.
 * Any Collaborator who habitually authors Posts that must be Moderated can be Removed or Banned from further participation in the Node.js GitHub organization for an indefinite period of time. Such action can only be taken through normal TSC motion and vote (see: [Escalation to the TSC](#escalation-to-the-tsc)).
 
 #### Non-Collaborator Posts
 
-* Posts authored by non-Collaborators are always subject to immediate Moderation by any Collaborator if the content is intentionally disruptive or in violation of the [Node.js Code of Conduct](https://GitHub.com/nodejs/node/blob/master/CODE_OF_CONDUCT.md).
+* Posts authored by non-Collaborators are always subject to immediate Moderation by any Collaborator if the content is intentionally disruptive or in violation of the [Code of Conduct][].
 * When Moderating non-Collaborator Posts, the moderating Collaborator should:
- * Explain the justification for Moderating the post, and
- * Identify all changes made to the Post.
+  * Explain the justification for Moderating the post, and
+  * Identify all changes made to the Post.
 * If an explanation of a Moderation action for a non-Collaborator Post is provided, it should be provided in:
- * The original Post being modified (as replacement or appended content),
- * A new post within the original thread, or
+  * The original Post being modified (as replacement or appended content),
+  * A new post within the original thread, or
  * A new issue within the private nodejs/moderation repository.
 * Moderation of Posts authored by non-Collaborators may result in those non-Collaborators being Banned from further participation in the Node.js GitHub organization for an indefinite period of time.
 * In the case where a GitHub Account appears to have been created with no intention to collaborate in good faith, swift actions may be taken without following the above procedures including: removing Posts, Banning, and reporting accounts to GitHub.
@@ -138,3 +138,5 @@ For any Moderation issue that does not directly involve a TSC member, the TSC ma
 ### Modifications to This Policy
 
 Modifications to this policy are made through normal [TSC motion and vote](https://GitHub.com/nodejs/TSC/blob/master/TSC-Charter.md#section-8-voting). Any Collaborator may submit a PR proposing changes to this policy. Those PRs must be labeled using the `tsc-agenda` label. Including a mention to `@nodejs/tsc` can be used to call the issue to TSC's attention.
+
+[Code of Conduct]: https://GitHub.com/nodejs/TSC/blob/master/CODE_OF_CONDUCT.md
