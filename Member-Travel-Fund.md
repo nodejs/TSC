@@ -48,3 +48,4 @@ Anna Henningsen | Collaborator Summit | Attendance | Berlin, DE | 4 May – 5 Ma
 Santiago Gimeno | Collaborator Summit | Attendance | Berlin, DE | 4 May – 5 May 2017 | US$ 160
 Calvin Metcalf | Collaborator Summit | Attendance | Berlin, DE | 4 May – 5 May 2017 | US$ 600
 Никита Сковорода | Collaborator Summit | Attendance | Berlin, DE | 4 May – 5 May 2017 | €573
+Bryan English | JSConf.cn 2017 | Code & Learn Mentor | Shanghai, CN | 15 July - 16 July 2017 | $1100
