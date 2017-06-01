@@ -153,7 +153,6 @@ To request access, [open an issue](https://github.com/nodejs/TSC/issues/new).
       * Mikeal Rogers (@mikeal) Currently assigned to Express.
       * James Snell (@jasnell) Currently assigned to Express.
       * Rod Vagg (@rvagg) Currently assigned to libuv.
-      * Alexis Campailla (@orangemocha) Currently assigned to libuv.
 
 * Top-Level Projects
  * Core TLP
