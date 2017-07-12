@@ -125,6 +125,7 @@ at their own discretion.
 | <a href="//github.com/joshgav">        <img width=100 src="https://avatars.githubusercontent.com/u/4421720?s=100" alt="@joshgav"></a>     | **Josh Gavant**       <br> <a href="//github.com/joshgav">@joshgav</a>              <br> josh.gavant@gmail.com |
 | <a href="//github.com/addaleax">       <img width=100 src="https://avatars.githubusercontent.com/u/899444?s=100" alt="@addaleax"></a>    | **Anna Henningsen**   <br> <a href="//github.com/addaleax">@addaleax</a>            <br> anna@addaleax.net |
 | <a href="//github.com/mhdawson">       <img width=100 src="https://avatars.githubusercontent.com/u/9373002?s=100" alt="@mhdawson"></a>    | **Michael Dawson**    <br> <a href="//github.com/mhdawson">@mhdawson</a>            <br> michael_dawson@ca.ibm.com |
+| <a href="//github.com/mylesborins">       <img width=100 src="https://avatars.githubusercontent.com/u/498775?s=100" alt="@mylesborins"></a>    | **Myles Borins**    <br> <a href="//github.com/mylesborins">@MylesBorins</a>            <br> mylesborins@google.com |
 
 ## YouTube
 Many teams/groups post meeting videos to the [Node.js Foundation YouTube channel](https://www.youtube.com/c/nodejs+foundation/). 
