@@ -112,25 +112,25 @@ at their own discretion.
 ### Current Members
 | Avatar | Information |
 |---|:---|
-| <a href="//github.com/rvagg">          <img width=100 src="https://avatars.githubusercontent.com/u/495647?s=100" alt="@rvagg"></a>        | Rod Vagg              <br> <a href="//github.com/rvagg">@rvagg</a>                  <br> rod@vagg.org <br><sub>Committee Chair</sub><br><sup>Board Director</sup> |
+| <a href="//github.com/rvagg">          <img width=100 src="https://avatars.githubusercontent.com/u/495647?s=100" alt="@rvagg"></a>        | Rod Vagg              <br> <a href="//github.com/rvagg">@rvagg</a>                  <br> rod@vagg.org |
 | <a href="//github.com/mscdex">         <img width=100 src="https://avatars.githubusercontent.com/u/54666?s=100" alt="@mscdex"></a>        | **Brian White**       <br> <a href="//github.com/mscdex">@mscdex</a>                <br> mscdex@mscdex.net |
 | <a href="//github.com/nebrius">        <img width=100 src="https://avatars.githubusercontent.com/u/1141386?s=100" alt="@nebrius"></a>     | **Bryan Hughes**      <br> <a href="//github.com/nebrius">@nebrius</a>              <br> bryan@nebri.us |
 | <a href="//github.com/cjihrig">        <img width=100 src="https://avatars.githubusercontent.com/u/2512748?s=100" alt="@cjihrig"></a>     | **Colin Ihrig**       <br> <a href="//github.com/cjihrig">@cjihrig</a>              <br> cjihrig@gmail.com |
 | <a href="//github.com/indutny">        <img width=100 src="https://avatars.githubusercontent.com/u/238531?s=100" alt="@indutny"></a>      | **Fedor Indutny**     <br> <a href="//github.com/indutny">@indutny</a>              <br> fedor.indutny@gmail.com |
-| <a href="//github.com/jasnell">        <img width=100 src="https://avatars.githubusercontent.com/u/439929?s=100" alt="@jasnell"></a>      | **James Snell**       <br> <a href="//github.com/jasnell">@jasnell</a>              <br> jasnell@gmail.com |
+| <a href="//github.com/jasnell">        <img width=100 src="https://avatars.githubusercontent.com/u/439929?s=100" alt="@jasnell"></a>      | **James Snell**       <br> <a href="//github.com/jasnell">@jasnell</a>              <br> jasnell@gmail.com<br><sup>Board Director</sup> |
 | <a href="//github.com/fishrock123">    <img width=100 src="https://avatars.githubusercontent.com/u/1093990?s=100" alt="@fishrock123"></a> | **Jeremiah Senkpiel** <br> <a href="//github.com/fishrock123">@fishrock123</a>      <br> fishrock123@rocketmail.com |
 | <a href="//github.com/shigeki">        <img width=100 src="https://avatars.githubusercontent.com/u/782880?s=100" alt="@shigeki"></a>      | **Shigeki Ohtsu**     <br> <a href="//github.com/shigeki">@shigeki</a>              <br> ohtsu@iij.ad.jp |
 | <a href="//github.com/trevnorris">     <img width=100 src="https://avatars.githubusercontent.com/u/289174?s=100" alt="@trevnorris"></a>   | **Trevor Norris**     <br> <a href="//github.com/trevnorris">@trevnorris</a>        <br> trev.norris@gmail.com |
 | <a href="//github.com/joshgav">        <img width=100 src="https://avatars.githubusercontent.com/u/4421720?s=100" alt="@joshgav"></a>     | **Josh Gavant**       <br> <a href="//github.com/joshgav">@joshgav</a>              <br> josh.gavant@gmail.com |
 | <a href="//github.com/addaleax">       <img width=100 src="https://avatars.githubusercontent.com/u/899444?s=100" alt="@addaleax"></a>    | **Anna Henningsen**   <br> <a href="//github.com/addaleax">@addaleax</a>            <br> anna@addaleax.net |
-| <a href="//github.com/mhdawson">       <img width=100 src="https://avatars.githubusercontent.com/u/9373002?s=100" alt="@mhdawson"></a>    | **Michael Dawson**    <br> <a href="//github.com/mhdawson">@mhdawson</a>            <br> michael_dawson@ca.ibm.com |
+| <a href="//github.com/mhdawson">       <img width=100 src="https://avatars.githubusercontent.com/u/9373002?s=100" alt="@mhdawson"></a>    | **Michael Dawson**    <br> <a href="//github.com/mhdawson">@mhdawson</a>            <br> michael_dawson@ca.ibm.com<br><sub>Committee Chair</sub> |
 | <a href="//github.com/mylesborins">       <img width=100 src="https://avatars.githubusercontent.com/u/498775?s=100" alt="@mylesborins"></a>    | **Myles Borins**    <br> <a href="//github.com/mylesborins">@MylesBorins</a>            <br> mylesborins@google.com |
 
 #### Emiterus Members
 | Avatar | Information |
 |---|:---|
 | <a href="//github.com/piscisaureus">   <img width=100 src="https://avatars.githubusercontent.com/u/218257?s=100" alt="@piscisaureus"></a> | **Bert Belder**       <br> <a href="//github.com/piscisaureus">@piscisaureus</a>    <br> bertbelder@gmail.com |
-
+| <a href="//github.com/bnoordhuis">     <img width=100 src="https://avatars.githubusercontent.com/u/275871?s=100" alt="@bnoordhuis"></a>   | **Ben Noordhuis**     <br> <a href="//github.com/bnoordhuis">@bnoordhuis</a>        <br> info@bnoordhuis.nl |
 
 ## YouTube
 Many teams/groups post meeting videos to the [Node.js Foundation YouTube channel](https://www.youtube.com/c/nodejs+foundation/). 
