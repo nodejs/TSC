@@ -55,15 +55,6 @@ advances
 * Other conduct which could reasonably be considered inappropriate in a
   professional setting
 
-In addition, the following guidelines apply:
-
-* Please be kind and courteous. There's no need to be mean or rude.
-* Respect that some individuals and cultures consider the casual use of profanity and sexualized language offensive and off-putting.
-* Respect that people have differences of opinion and that every design or implementation choice carries a trade-off and numerous costs. There is seldom a right answer.
-* Please keep unstructured critique to a minimum. If you have solid ideas you want to experiment with, make a fork and see how it works.
-* Insulting, demeaning, or harassing anyone, in public or in private, is not welcome behavior and will be grounds for banning from the project.
-* Use of personal pronouns in code comments and documentation is to be avoided.
-
 The TSC is responsible for deciding what constitutes inappropriate behavior that may be subject to Moderation (see: [Escalation to the TSC](#escalation-to-the-tsc)).
 
 ### Requesting Moderation
