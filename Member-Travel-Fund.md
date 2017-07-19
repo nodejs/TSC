@@ -14,13 +14,14 @@ Members of both the TSC and CommComm are responsible for approving fund requests
 and communicating approval/denial through the PR filed by the member requesting. 
 
 Travel fund admins will consider each proposal tagged for their respective group 
-in its next regular meeting. Requests tagged for both committees must be coordinated 
-and communicated together by the Chair of each. See considerations below to set 
-yourself up for success to be approved.
+in its next regular meeting. Requests tagged for both committees must be reviewed 
+and given opportunity to objection through lazy consensus by both groups and 
+communicated together by the two chairs. See considerations below to set yourself 
+up for success to be approved. 
 
 Linux Foundation Accounts Payable and the Node.js community manager are responsible for 
 verifying the requester is an Individual Member of the Node.js Foundation and dispersing funds,
-as required to receive funds(see Reimbursement below).
+as required to receive funds (see Reimbursement below).
 
 ## Process
 
@@ -34,11 +35,13 @@ for the travel fund administrators to approve or decline.
  * Include the presentation you intend to give, if applicable.
  * Include the size of the stipend you wish to receive.
   * Reimbursement stipends are expected to vary with travel distance.
-  * In the PR description, tag the group relevant to the request: @nodejs/tsc or @nodejs/commcomm-members. If unsure, include both.
+  * In the PR description, tag the group relevant to the request: @nodejs/tsc or @nodejs/commcomm-members. 
+  If unsure, just pick one, and that group will tag with the other group if they believe it is more appropriate.
 * Once the final amount spent is known, update the table again with that information.
 
 ### Reimbursement
-Once the request has been approved, provide receipts as attachments in an email stating your name, the participation covered, and the total approved for reimbursement. Send to ap@linuxfoundation.org and cc tracyhinds@linuxfoundation.org with subject ```Node.js Member Travel Fund```. Due to privacy, the Individual Members list is not public. This team will verify the requester is on the Individual Members list before funds are dispersed. This dispersement is generally processed within 30 days. 
+  
+Once the request has been approved, provide receipts as attachments in an email stating your name, the participation covered, and the total approved for reimbursement. Send to ap@linuxfoundation.org and cc tracyhinds@linuxfoundation.org with subject `Node.js Member Travel Fund`. Due to privacy, the Individual Members list is not public. This team will verify the requester is on the Individual Members list before funds are dispersed. This dispersement is generally processed within 30 days. The community manager or a member of the Node.js Foundation team within the Linux Foundation will report back amounts consumed from the travel allocation on a monthly basis to the Chairs.
 
 **The following considerations are made for approval of the request:**
 
@@ -55,7 +58,8 @@ not previously received a stipend.
 
 Examples of prior travel requests include attending a TC39 meeting, Collab Summit, and Code + Learn mentoring.
 
-## 2017 Approved Travel Requests  
+## 2017 Approved Travel Requests 
+  
 Name | Event | Kind of participation | Location | Date | Stipend size
 ---- | ----- | --------------------- | -------- | ---- | ------------
 Rich Trott | NINA 2016 | Collaborator Summit and Code & Learn | Austin, TX, US | 29 Nov – 2 Dec 2016 | US$ 2000
