@@ -43,7 +43,19 @@ Any alternative Moderation Policy used for a given repository must be included i
 
 Any Post considered to be in violation of the Node.js [Code of Conduct][] is subject to Moderation.
 
-The TSC is solely responsible for deciding what constitutes inappropriate behavior that may be subject to Moderation (see: [Escalation to the TSC](#escalation-to-the-tsc)).
+The [Code of Conduct][] calls out the following as specific examples of
+unacceptable behavior:
+
+* The use of sexualized language or imagery and unwelcome sexual attention or
+advances
+* Trolling, insulting/derogatory comments, and personal or political attacks
+* Public or private harassment
+* Publishing others' private information, such as a physical or electronic
+  address, without explicit permission
+* Other conduct which could reasonably be considered inappropriate in a
+  professional setting
+
+The TSC is responsible for deciding what constitutes inappropriate behavior that may be subject to Moderation (see: [Escalation to the TSC](#escalation-to-the-tsc)).
 
 ### Requesting Moderation
 
