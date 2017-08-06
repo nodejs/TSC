@@ -66,8 +66,10 @@ faith may face temporary or permanent repercussions as determined by other
 members of the project's leadership.
 
 To learn more about the process of how moderators enforce the Code of Conduct, 
-review the [Moderation Policy](https://github.com/nodejs/TSC/blob/master/Moderation-Policy.md#moderation-policy)
-and [Requesting Moderation](https://github.com/nodejs/TSC/blob/master/Moderation-Policy.md#requesting-moderation).
+review the [Moderation Policy] and [Requesting Moderation].
+
+[Moderation Policy]: https://github.com/nodejs/TSC/blob/master/Moderation-Policy.md#moderation-policy
+[Requesting Moderation]: https://github.com/nodejs/TSC/blob/master/Moderation-Policy.md#requesting-moderation
 
 ## Attribution
 
