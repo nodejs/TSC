@@ -121,7 +121,7 @@ Note, however, that unfamiliarity with the [Code of Conduct][] does not excuse a
 * If an explanation of a Moderation action for a non-Collaborator Post is provided, it should be provided in:
   * The original Post being modified (as replacement or appended content),
   * A new post within the original thread, or
- * A new issue within the private nodejs/moderation repository.
+  * A new issue within the private nodejs/moderation repository.
 * Moderation of Posts authored by non-Collaborators may result in those non-Collaborators being Banned from further participation in the Node.js GitHub organization for an indefinite period of time.
 * In the case where a GitHub Account appears to have been created with no intention to collaborate in good faith, swift actions may be taken without following the above procedures including: removing Posts, Banning, and reporting accounts to GitHub.
 
