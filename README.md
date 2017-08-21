@@ -97,7 +97,7 @@ Many of these responsibilities will be delegated by the TSC to appropriate bodie
 
 ## TSC Members
 
-TSC members are responsible for top level technical community concerns. The role is 
+TSC members are responsible for top level technical community concerns. The role is
 mostly administrative and is responsible for admitting new Top Level Projects, Top Level
 Working Groups, and advocating for any needs in the technical side of the foundation to
 the Node.js Foundation Board of Directors.
@@ -114,7 +114,6 @@ at their own discretion.
 |---|:---|
 | <a href="//github.com/rvagg">          <img width=100 src="https://avatars.githubusercontent.com/u/495647?s=100" alt="@rvagg"></a>        | **Rod Vagg**          <br> <a href="//github.com/rvagg">@rvagg</a>                  <br> rod@vagg.org |
 | <a href="//github.com/mscdex">         <img width=100 src="https://avatars.githubusercontent.com/u/54666?s=100" alt="@mscdex"></a>        | **Brian White**       <br> <a href="//github.com/mscdex">@mscdex</a>                <br> mscdex@mscdex.net |
-| <a href="//github.com/nebrius">        <img width=100 src="https://avatars.githubusercontent.com/u/1141386?s=100" alt="@nebrius"></a>     | **Bryan Hughes**      <br> <a href="//github.com/nebrius">@nebrius</a>              <br> bryan@nebri.us |
 | <a href="//github.com/cjihrig">        <img width=100 src="https://avatars.githubusercontent.com/u/2512748?s=100" alt="@cjihrig"></a>     | **Colin Ihrig**       <br> <a href="//github.com/cjihrig">@cjihrig</a>              <br> cjihrig@gmail.com |
 | <a href="//github.com/indutny">        <img width=100 src="https://avatars.githubusercontent.com/u/238531?s=100" alt="@indutny"></a>      | **Fedor Indutny**     <br> <a href="//github.com/indutny">@indutny</a>              <br> fedor.indutny@gmail.com |
 | <a href="//github.com/jasnell">        <img width=100 src="https://avatars.githubusercontent.com/u/439929?s=100" alt="@jasnell"></a>      | **James Snell**       <br> <a href="//github.com/jasnell">@jasnell</a>              <br> jasnell@gmail.com<br><sup>Board Director</sup> |
@@ -128,11 +127,13 @@ at their own discretion.
 #### Emeritus Members
 | Avatar | Information |
 |---|:---|
-| <a href="//github.com/piscisaureus">   <img width=100 src="https://avatars.githubusercontent.com/u/218257?s=100" alt="@piscisaureus"></a> | **Bert Belder**       <br> <a href="//github.com/piscisaureus">@piscisaureus</a>    <br> bertbelder@gmail.com |
+| <a href="//github.com/addaleax">       <img width=100 src="https://avatars.githubusercontent.com/u/899444?s=100" alt="@addaleax"></a>     | **Anna Henningsen**   <br> <a href="//github.com/addaleax">@addaleax</a>            <br> anna@addaleax.net |
 | <a href="//github.com/bnoordhuis">     <img width=100 src="https://avatars.githubusercontent.com/u/275871?s=100" alt="@bnoordhuis"></a>   | **Ben Noordhuis**     <br> <a href="//github.com/bnoordhuis">@bnoordhuis</a>        <br> info@bnoordhuis.nl |
+| <a href="//github.com/piscisaureus">   <img width=100 src="https://avatars.githubusercontent.com/u/218257?s=100" alt="@piscisaureus"></a> | **Bert Belder**       <br> <a href="//github.com/piscisaureus">@piscisaureus</a>    <br> bertbelder@gmail.com |
+| <a href="//github.com/nebrius">        <img width=100 src="https://avatars.githubusercontent.com/u/1141386?s=100" alt="@nebrius"></a>      | **Bryan Hughes**      <br> <a href="//github.com/nebrius">@nebrius</a>              <br> bryan@nebri.us |
 
 ## YouTube
-Many teams/groups post meeting videos to the [Node.js Foundation YouTube channel](https://www.youtube.com/c/nodejs+foundation/). 
+Many teams/groups post meeting videos to the [Node.js Foundation YouTube channel](https://www.youtube.com/c/nodejs+foundation/).
 
 Any GitHub team maintainer is allowed `Manager` access to the Google Plus account allowing
 them to add/manage video content and schedule events (live broadcasts).
