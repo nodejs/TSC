@@ -65,6 +65,12 @@ Project maintainers who do not follow or enforce the Code of Conduct in good
 faith may face temporary or permanent repercussions as determined by other
 members of the project's leadership.
 
+To learn more about the process of how moderators enforce the Code of Conduct, 
+review the [Moderation Policy] and [Requesting Moderation].
+
+[Moderation Policy]: https://github.com/nodejs/TSC/blob/master/Moderation-Policy.md#moderation-policy
+[Requesting Moderation]: https://github.com/nodejs/TSC/blob/master/Moderation-Policy.md#requesting-moderation
+
 ## Attribution
 
 This Code of Conduct is adapted from the [Contributor Covenant][homepage],
