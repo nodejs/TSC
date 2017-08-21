@@ -127,8 +127,10 @@ at their own discretion.
 #### Emeritus Members
 | Avatar | Information |
 |---|:---|
-| <a href="//github.com/piscisaureus">   <img width=100 src="https://avatars.githubusercontent.com/u/218257?s=100" alt="@piscisaureus"></a> | **Bert Belder**       <br> <a href="//github.com/piscisaureus">@piscisaureus</a>    <br> bertbelder@gmail.com |
+| <a href="//github.com/addaleax">       <img width=100 src="https://avatars.githubusercontent.com/u/899444?s=100" alt="@addaleax"></a>     | **Anna Henningsen**   <br> <a href="//github.com/addaleax">@addaleax</a>            <br> anna@addaleax.net |
 | <a href="//github.com/bnoordhuis">     <img width=100 src="https://avatars.githubusercontent.com/u/275871?s=100" alt="@bnoordhuis"></a>   | **Ben Noordhuis**     <br> <a href="//github.com/bnoordhuis">@bnoordhuis</a>        <br> info@bnoordhuis.nl |
+| <a href="//github.com/piscisaureus">   <img width=100 src="https://avatars.githubusercontent.com/u/218257?s=100" alt="@piscisaureus"></a> | **Bert Belder**       <br> <a href="//github.com/piscisaureus">@piscisaureus</a>    <br> bertbelder@gmail.com |
+| <a href="//github.com/nebrius">        <img width=100 src="https://avatars.githubusercontent.com/u/1141386?s=100" alt="@nebrius"></a>      | **Bryan Hughes**      <br> <a href="//github.com/nebrius">@nebrius</a>              <br> bryan@nebri.us |
 
 ## YouTube
 Many teams/groups post meeting videos to the [Node.js Foundation YouTube channel](https://www.youtube.com/c/nodejs+foundation/).
