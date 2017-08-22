@@ -17,6 +17,22 @@ should be dissolved and the responsibility for governance absorbed back into
 the TSC. A Working Group can be dissolved either through consensus of the
 Working Group membership or normal TSC motion and vote.
 
+## Working Group Oversight of TSC Actions
+
+Chartered Working Groups are granted an oversight capability over all TSC
+decisions. Should a simple majority of the documented members of any single
+Chartered Working Group vote to challenge a TSC decision, the issue will be
+raised automatically for consideration by all chartered Working Groups. Should
+a simple majority of all chartered Working Groups vote with a simple majority
+of their documented members to overturn the TSC decision, the decision will be
+vacated and returned the TSC for further consideration.
+
+Individual Working Groups may choose to abstain from participation in any
+such action.
+
+Working Groups will decide for themselves what process to be followed for
+organizing and conducting such votes.
+
 ## Process:
 
 * [Starting a Working Group](#starting-a-wg)
