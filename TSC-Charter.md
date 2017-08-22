@@ -36,16 +36,25 @@ approved by the Board.
 
 ## Section 4. Establishment of the TSC.
 
-TSC memberships are not time-limited. There is no maximum size of the TSC.
-The size is expected to vary in order to ensure adequate coverage of important
-areas of expertise, balanced with the ability to make decisions efficiently.
-The TSC must have at least three members.
+TSC memberships are limited to 2 consecutive year periods. An individual
+members term starts at 12am GMT the day after their nomination to the TSC
+is approved and ends precisely two years later. Individuals may be nominated
+to the TSC multiple times but at least one year must pass between terms.
+
+There is no maximum size of the TSC. The size is expected to vary in order to
+ensure adequate coverage of important areas of expertise, balanced with the
+ability to make decisions efficiently. The TSC must have at least three members.
+
+Individuals nominated to the TSC must be members of at least one Node.js
+Working Group at the time of their nomination and must maintain active
+participation in at least one Working Group throughout their term.
 
 There is no specific set of requirements or qualifications for TSC
-membership beyond these rules. The TSC may add additional members to the
-TSC by a standard TSC motion and vote. A TSC member may be removed from the
-TSC by voluntary resignation, by a standard TSC motion, or in accordance to the
-participation rules described below.
+membership beyond these rules.
+
+The TSC may add additional members to the TSC by a standard TSC motion and vote.
+A TSC member may be removed from the TSC by voluntary resignation, by a standard
+TSC motion, or in accordance to the participation rules described below.
 
 Changes to TSC membership should be posted in the agenda, and may be suggested
 as any other agenda item.
@@ -215,6 +224,15 @@ TSC.
 
 * **Maintainer**: a Collaborator within a Core Project elected to
 represent the Core Project on the TSC.
+
+## Section 11. Escalation of Disputes and Code of Conduct Violations
+
+Participation in the Node.js project is governed by a Code of Conduct policy
+that is established by the TSC. Any accusations of Code of Conduct or policy
+violations on the part of TSC members will be referred to binding, independent
+third party mediation under the oversight of the Node.js Foundation Board. All
+TSC members, upon acceptance of their nomination to the TSC body, voluntarily
+agree to abide by the decisions of the independent third party mediator.
 
 [Consensus Seeking]: http://en.wikipedia.org/wiki/Consensus-seeking_decision-making
 [Condorcet]: http://en.wikipedia.org/wiki/Condorcet_method
