@@ -48,8 +48,8 @@ ensure adequate coverage of important areas of expertise, balanced with the
 ability to make decisions efficiently. The TSC must have at least three members.
 
 Individuals nominated to the TSC must be members of at least one Node.js
-Working Group at the time of their nomination and must maintain active
-participation in at least one Working Group throughout their term.
+Working Group or Team at the time of their nomination and must maintain active
+participation in at least one Working Group or Team throughout their term.
 
 There is no specific set of requirements or qualifications for TSC
 membership beyond these rules.
