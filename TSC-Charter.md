@@ -36,10 +36,12 @@ approved by the Board.
 
 ## Section 4. Establishment of the TSC.
 
-TSC memberships are for one year terms that must be recertified by a simple
-majority of TSC members every year. Recertified members will continue through
-the next years term. Members failing recertification may return to the TSC
-after no less than six months following normal TSC motion.
+TSC memberships are for one year terms that must be recertified. Motions for
+recertification are automatic and require a vote. Members are recertified if a
+simple majority of TSC members vote in favor of recertifying the individual as
+a TSC member. Such members will continue through the next years term.
+Individuals failing recertification may return to the TSC after no less than
+six months following normal TSC motion.
 
 There is no maximum size of the TSC. The size is expected to vary in order to
 ensure adequate coverage of important areas of expertise, balanced with the
@@ -184,6 +186,11 @@ discussion will continue.
 
 For all votes, a simple majority of all TSC members for, or against, the issue
 wins. A TSC member may choose to participate in any vote through abstention.
+
+While the results of all votes must be made public, the actual individual
+ballots cast for most votes may be made public or confidential at the discretion
+of the TSC Chair. However, individual ballots for recertification or removal of
+TSC members must remain confidential.
 
 Note that, in addition to requiring a simple majority vote of the TSC, all
 changes to this charter are also subject to approval from the Node.js
