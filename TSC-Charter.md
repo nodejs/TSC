@@ -228,7 +228,7 @@ represent the Core Project on the TSC.
 ## Section 11. Escalation of Disputes and Code of Conduct Violations
 
 Participation in the Node.js project is governed by a Code of Conduct policy
-that is established by the TSC. The TSC is required to established a policy
+that is established by the TSC. The TSC is required to establish a policy
 for the enforcement of Code of Conduct issues. Any reports of Code of Conduct
 or policy violations on the part of TSC members that are not resolvable through
 that established policy will be referred to binding, independent third party
