@@ -205,28 +205,6 @@ Foundation board.
 
 ### Votes to Remove Members
 
-Requests to remove a member from the TSC may be raised only by other members of
-the TSC or by members of the Node.js Foundation Board. When an issue to remove
-someone from the TSC is raised, the issue must include a list of the specific
-issues the TSC is being asked to consider as grounds for removal. The discussion
-and vote will be limited strictly to considering of the specific issues listed
-in the issue. The issue must also include a description of what outcome those
-reporting the issue expect.
-
-The vote must be structured in terms of whether or not the specific issues
-listed constitute grounds for removal.
-
-When votes to remove individuals from the TSC are scheduled, the member in
-question is to be notified about the vote in advance along with adequate
-contextual details of why the vote is taking place, what, if any, specific
-complaints are being leveled, and the specific questions that the members are
-being asked to consider. The member in question shall be given no less than one
-week before the vote to provide an answer or rebuttal to those issues.
-
-Neither the member in question, nor the member or members raising the issue
-shall participate in the vote and the remaining members of the TSC may meet or
-discuss the issue privately without the member in question present.
-
 Should a vote to remove a member result in a tie (50%/50% split of non
 abstaining participants) the matter shall be referred to a Foundation
 appointed independent third party mediator for arbitration.
@@ -301,11 +279,11 @@ the decisions of the independent third party mediator.
 ## Section 12: Selection of Mediators
 
 When it becomes necessary within the context of this charter to select a
-third party mediator for arbitration, the mediator shall be selected by the
-Node.js Foundation Board of Directors (or an individual designated by the Board
-to so act on their behalf). The only requirement for this mediator is that the
-individual selected must not be a member of the TSC, Node.js Community
-Committee, or Node.js Foundation Board of Directors.
+third party mediator for arbitration, a qualified mediator shall be selected by
+the Node.js Foundation Board of Directors (or an individual designated by the
+Board to so act on their behalf). The mediator should be trained and qualified
+in mediation/conflict resolution and must not be a member of the TSC, Node.js
+Community Committee, or Node.js Foundation Board of Directors.
 
 [Consensus Seeking]: http://en.wikipedia.org/wiki/Consensus-seeking_decision-making
 [Condorcet]: http://en.wikipedia.org/wiki/Condorcet_method
