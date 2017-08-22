@@ -228,11 +228,13 @@ represent the Core Project on the TSC.
 ## Section 11. Escalation of Disputes and Code of Conduct Violations
 
 Participation in the Node.js project is governed by a Code of Conduct policy
-that is established by the TSC. Any accusations of Code of Conduct or policy
-violations on the part of TSC members will be referred to binding, independent
-third party mediation under the oversight of the Node.js Foundation Board. All
-TSC members, upon acceptance of their nomination to the TSC body, voluntarily
-agree to abide by the decisions of the independent third party mediator.
+that is established by the TSC. The TSC is required to established a policy
+for the enforcement of Code of Conduct issues. Any reports of Code of Conduct
+or policy violations on the part of TSC members that are not resolvable through
+that established policy will be referred to binding, independent third party
+mediation under the oversight of the Node.js Foundation Board. All TSC members,
+upon acceptance of their nomination to the TSC body, voluntarily agree to abide
+by the decisions of the independent third party mediator.
 
 [Consensus Seeking]: http://en.wikipedia.org/wiki/Consensus-seeking_decision-making
 [Condorcet]: http://en.wikipedia.org/wiki/Condorcet_method
