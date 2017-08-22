@@ -225,7 +225,7 @@ be discussed in any public forum or social media service.
 Any Collaborator found to be violating the privacy of the nodejs/moderation
 repository by repeatedly sharing or discussing the details of nodejs/moderation
 issues in any public forum or social media service risks being permanently
-Removed from the Node.js GitHub organization.
+removed from the Node.js GitHub organization.
 
 ## Moderation Team
 
@@ -244,7 +244,7 @@ actions taken by the Moderation Team to both the CommComm and TSC.
 
 ## Escalation of Issues
 
-Moderation issues disputes not involving a TSC, CommComm or Moderation Team
+Moderation issue disputes not involving a TSC, CommComm or Moderation Team
 member may be escalated to the TSC and CommComm for review by tagging the
 original issue, pull request, or associated nodejs/moderation repository
 tracking issue with the `moderation-review` label. Any such Moderation action
