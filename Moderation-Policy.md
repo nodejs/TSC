@@ -13,6 +13,7 @@ moderation request, please see [Requesting Moderation][]
   * [Non-Collaborator Posts][]
   * [Escalation to the TSC][]
   * [Temporary Interaction Limits][]
+  * [Temporary and Indefinite Bans][]
 * [Privacy of the nodejs/moderation Repository][]
 * [Moderation Team][]
 * [Escalation of Issues][]
@@ -63,7 +64,7 @@ this default policy applies.
   the Node.js GitHub Organization membership.
 * *Ban* refers to the act of blocking an individual GitHub account from any
   further participation in the Node.js GitHub Organization. Bans may be
-  *temporary* (24 hours) or *indefinite*.
+  *temporary* or *indefinite*.
 * *Requester* refers to an individual requesting Moderation on a Post.
 
 ## Grounds for Moderation
@@ -214,6 +215,16 @@ Interaction Limits by posting an issue to the moderation repository. If the
 Moderation Team choose not to do so, then a comment explaining why that
 decision was made should be added to the moderation repository thread.
 
+### Temporary and Indefinite Bans
+
+An Indefinite Ban is set for an unspecified period of time and may only be
+lifted for an individual through a simple majority vote of the the Moderation
+Team.
+
+A Temporary Ban is time limited, with the timeframe decided on by the Moderation
+Team at the time of issuing, depending on the severity of the issue. Recommended
+default options are 24-hour, 48-hour, and 7-day periods.
+
 ## Privacy of the nodejs/moderation Repository
 
 The nodejs/moderation Repository is used to discuss the potentially sensitive
@@ -286,6 +297,7 @@ in *favor* of the change is required.
 [Non-Collaborator Posts]: #non-collaborator-posts
 [Escalation to the TSC]: #escalation-to-the-tsc
 [Temporary Interaction Limits]: #temporary-interaction-limits
+[Temporary and Indefinite Bans]: #temporary-and-indefinite-bans
 [Privacy of the nodejs/moderation Repository]: #privacy-of-the-nodejs-moderation-repository
 [Moderation Team]: #moderation-team
 [Escalation of Issues]: #escalation-of-issues
