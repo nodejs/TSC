@@ -190,11 +190,67 @@ wins. A TSC member may choose to participate in any vote through abstention.
 While the results of all votes must be made public, the actual individual
 ballots cast for most votes may be made public or confidential at the discretion
 of the TSC Chair. However, individual ballots for recertification or removal of
-TSC members must remain confidential.
+TSC members must remain confidential. The names of members voting or abstaining
+in all votes must be made public.
+
+Following the completion of all votes, a public statement must be made via
+GitHub specifying the results of the vote. Contextual detail about why the
+vote was held, including a listing of the specific questions voted on must be
+included in the statement.
 
 Note that, in addition to requiring a simple majority vote of the TSC, all
 changes to this charter are also subject to approval from the Node.js
 Foundation board.
+
+### Votes to Remove Members
+
+Requests to remove a member from the TSC may be raised only by other members of
+the TSC or by members of the Node.js Foundation Board. When an issue to remove
+someone from the TSC is raised, the issue must include a list of the specific
+issues the TSC is being asked to consider as grounds for removal. The discussion
+and vote will be limited strictly to considering of the specific issues listed
+in the issue. The issue must also include a description of what outcome those
+reporting the issue expect.
+
+The vote must be structured in terms of whether or not the specific issues
+listed constitute grounds for removal.
+
+When votes to remove individuals from the TSC are scheduled, the member in
+question is to be notified about the vote in advance along with adequate
+contextual details of why the vote is taking place, what, if any, specific
+complaints are being leveled, and the specific questions that the members are
+being asked to consider. The member in question shall be given no less than one
+week before the vote to provide an answer or rebuttal to those issues.
+
+Neither the member in question, nor the member or members raising the issue
+shall participate in the vote and the remaining members of the TSC may meet or
+discuss the issue privately without the member in question present.
+
+Should a vote to remove a member result in a tie (50%/50% split of non
+abstaining participants) the matter shall be referred to a Node.js Foundation
+appointed independent third party mediator for arbitration.
+
+At any point during this process, the individual member in question, the
+individuals opening the request, or the TSC Chair may request that the issue
+be referred to a Node.js Foundation appointed third party mediator for
+arbitration.
+
+All decisions regarding removal of TSC members is subject to review by the
+Node.js Foundation Board. Should the Board decide to vacate the TSC vote, the
+matter shall be referred to a Node.js Foundation appointed third party mediator
+for arbitration.
+
+All decisions regarding removal of TSC members is subject to review by the body
+of Node.js collaborators. Should no fewer than one-quarter of the current
+Node.js project Collaborators (as defined by the TSC's governance and
+contribution policies) disagree with the TSC vote, the matter shall be referred
+to a Node.js Foundation appointed third party mediator for arbitration. 
+
+Once referred to arbitration, the decision of the mediator will be considered
+final and binding on all parties.
+
+The third party mediator selected must not be a member of either the TSC,
+Node.js Community Committee, or Node.js Foundation Board of Directors.
 
 ## Section 9. Project Roles
 
@@ -242,6 +298,9 @@ that established policy will be referred to binding, independent third party
 mediation under the oversight of the Node.js Foundation Board. All TSC members,
 upon acceptance of their nomination to the TSC body, voluntarily agree to abide
 by the decisions of the independent third party mediator.
+
+The third party mediator selected must not be a member of either the TSC,
+Node.js Community Committee, or Node.js Foundation Board of Directors.
 
 [Consensus Seeking]: http://en.wikipedia.org/wiki/Consensus-seeking_decision-making
 [Condorcet]: http://en.wikipedia.org/wiki/Condorcet_method
