@@ -122,7 +122,6 @@ at their own discretion.
 | <a href="//github.com/trevnorris">     <img width=100 src="https://avatars.githubusercontent.com/u/289174?s=100" alt="@trevnorris"></a>   | **Trevor Norris**     <br> <a href="//github.com/trevnorris">@trevnorris</a>        <br> trev.norris@gmail.com |
 | <a href="//github.com/joshgav">        <img width=100 src="https://avatars.githubusercontent.com/u/4421720?s=100" alt="@joshgav"></a>     | **Josh Gavant**       <br> <a href="//github.com/joshgav">@joshgav</a>              <br> josh.gavant@gmail.com |
 | <a href="//github.com/mhdawson">       <img width=100 src="https://avatars.githubusercontent.com/u/9373002?s=100" alt="@mhdawson"></a>    | **Michael Dawson**    <br> <a href="//github.com/mhdawson">@mhdawson</a>            <br> michael_dawson@ca.ibm.com<br><sub>Committee Chair</sub> |
-| <a href="//github.com/mylesborins">    <img width=100 src="https://avatars.githubusercontent.com/u/498775?s=100" alt="@mylesborins"></a>  | **Myles Borins**      <br> <a href="//github.com/mylesborins">@MylesBorins</a>      <br> mylesborins@google.com |
 
 #### Emeritus Members
 | Avatar | Information |
@@ -131,6 +130,7 @@ at their own discretion.
 | <a href="//github.com/bnoordhuis">     <img width=100 src="https://avatars.githubusercontent.com/u/275871?s=100" alt="@bnoordhuis"></a>   | **Ben Noordhuis**     <br> <a href="//github.com/bnoordhuis">@bnoordhuis</a>        <br> info@bnoordhuis.nl |
 | <a href="//github.com/piscisaureus">   <img width=100 src="https://avatars.githubusercontent.com/u/218257?s=100" alt="@piscisaureus"></a> | **Bert Belder**       <br> <a href="//github.com/piscisaureus">@piscisaureus</a>    <br> bertbelder@gmail.com |
 | <a href="//github.com/nebrius">        <img width=100 src="https://avatars.githubusercontent.com/u/1141386?s=100" alt="@nebrius"></a>      | **Bryan Hughes**      <br> <a href="//github.com/nebrius">@nebrius</a>              <br> bryan@nebri.us |
+| <a href="//github.com/mylesborins">    <img width=100 src="https://avatars.githubusercontent.com/u/498775?s=100" alt="@mylesborins"></a>  | **Myles Borins**      <br> <a href="//github.com/mylesborins">@MylesBorins</a>      <br> mylesborins@google.com |
 
 ## YouTube
 Many teams/groups post meeting videos to the [Node.js Foundation YouTube channel](https://www.youtube.com/c/nodejs+foundation/).
