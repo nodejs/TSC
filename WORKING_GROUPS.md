@@ -25,12 +25,12 @@ Chartered Working Group vote to challenge a TSC decision, the issue will be
 raised automatically for consideration by all chartered Working Groups. Should
 a simple majority of all chartered Working Groups vote with a simple majority
 of their documented members to overturn the TSC decision, the decision will be
-vacated and returned the TSC for further consideration.
+vacated and returned to the TSC for further consideration.
 
 Individual Working Groups may choose to abstain from participation in any
 such action.
 
-Working Groups will decide for themselves what process to be followed for
+Working Groups will decide for themselves what process will be followed for
 organizing and conducting such votes.
 
 ## Process:
