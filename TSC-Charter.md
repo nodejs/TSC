@@ -36,10 +36,10 @@ approved by the Board.
 
 ## Section 4. Establishment of the TSC.
 
-TSC memberships are limited to 2 consecutive year periods. An individual
-members term starts at 12am GMT the day after their nomination to the TSC
-is approved and ends precisely two years later. Individuals may be nominated
-to the TSC multiple times but at least one year must pass between terms.
+TSC memberships are for one year terms that must be recertified by a simple
+majority of TSC members every year. Recertified members will continue through
+the next years term. Members failing recertification may return to the TSC
+after no less than six months following normal TSC motion.
 
 There is no maximum size of the TSC. The size is expected to vary in order to
 ensure adequate coverage of important areas of expertise, balanced with the
