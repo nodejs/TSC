@@ -116,7 +116,7 @@ nodejs/moderation repository issue is not considered a violation of the
 in requests posted to public repositories.
 
 Requests for Moderation that do not appear to have been submitted in good faith
-with intent to address a legitimate [Code of Conduct][] violation may be
+with intent to address a legitimate [Code of Conduct][] violation will be
 ignored.
 
 ## Consideration of Intent
@@ -163,8 +163,8 @@ a Post from Moderation.
   * Identify all changes made to the Post, and
   * Identify the steps previously taken to resolve the issue.
   * If the Moderation action included Banning an indication of whether the Ban
-    is permanent or temporary is required, along with a note justifying the
-    action.
+    is permanent or temporary is required, along with an issue posted to the
+    moderation repository justifying the action.
 * Explanations of Moderation actions on Collaborator Posts must be provided in:
   * A new post within the original thread, or
   * A new issue within the private nodejs/moderation repository.
@@ -208,6 +208,11 @@ any further undue attention to the Post in question.
 The Moderation Team may, at their discretion, choose to enable GitHub's
 [Temporary Interaction Limits][] on any GitHub repository in the Node.js GitHub
 Organization.
+
+Any Collaborator may request that the Moderation Team enable the Temporary
+Interaction Limits by posting an issue to the moderation repository. If the
+Moderation Team choose not to do so, then a comment explaining why that
+decision was made should be added to the moderation repository thread.
 
 ## Privacy of the nodejs/moderation Repository
 
