@@ -39,7 +39,7 @@ approved by the Board.
 TSC memberships are for one year terms that must be recertified. Motions for
 recertification are automatic and require a vote. Members are recertified if a
 simple majority of TSC members vote in favor of recertifying the individual as
-a TSC member. Such members will continue through the next years term.
+a TSC member. Such members will continue through the next year's term.
 Individuals failing recertification may return to the TSC after no less than
 six months following normal TSC motion.
 
