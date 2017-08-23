@@ -244,11 +244,12 @@ The Node.js Moderation Team is tasked with enforcement of this policy.
 
 Moderation team members are Collaborators nominated by either the TSC or
 CommComm and must be approved by *both* committees. If there are no objections
-after 72 hours, the nomination becomes automatic. If there are objections to
-a specific nomination, then a simple majority vote of each the TSC and CommComm
-members in *favor* of the nomination is required. Moderators are removed from
-the Moderation Team following the same process. Votes to remove moderators
-succeed only if a simple majority of both committees is in *favor* of removal.
+after seven days, the nomination is automatically accepted. If there are
+objections to a specific nomination, then a simple majority vote of each the
+TSC and CommComm members in *favor* of the nomination is required. Moderators
+are removed from the Moderation Team following the same process. Votes to remove
+moderators succeed only if a simple majority of both committees is in *favor* of
+removal.
 
 Once per month, the Moderation Team must provide a report of all Moderation
 actions taken by the Moderation Team to both the CommComm and TSC.
