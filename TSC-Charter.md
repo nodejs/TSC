@@ -209,7 +209,7 @@ Should a vote to remove a member result in a tie (50%/50% split of non
 abstaining participants) the matter shall be referred to a Foundation
 appointed independent third party mediator for arbitration.
 
-At any point during this process, the individual member in question, the
+At any point prior to calling for a vote, the individual member in question, the
 individuals opening the request, or the TSC Chair may request that the issue
 be referred to a Foundation appointed third party mediator for
 arbitration.
