@@ -17,6 +17,31 @@ should be dissolved and the responsibility for governance absorbed back into
 the TSC. A Working Group can be dissolved either through consensus of the
 Working Group membership or normal TSC motion and vote.
 
+## Working Group Oversight of TSC Actions
+
+Chartered Working Groups are granted an oversight capability over all TSC
+decisions. Should a simple majority of the documented members of any single
+Chartered Working Group vote to challenge a TSC decision, the issue will be
+raised automatically for consideration by all chartered Working Groups. Should
+a simple majority of all chartered Working Groups vote with a simple majority
+of their documented members to overturn the TSC decision, the decision will be
+vacated and returned to the TSC for further consideration.
+
+Individual Working Groups may choose to abstain from participation in any
+such action.
+
+Working Groups will decide for themselves what process will be followed for
+organizing and conducting such votes.
+
+Note that the simple majority vote excludes those who explicitly abstain. For
+instance, if a Working Group has ten members, and two of those members
+abstain, then five of those Working Group members constitute a simple majority
+of members.
+
+Likewise, if there are ten chartered Working Groups, and two of those choose to
+abstain, then five of those Working Groups constitute a simple majority of
+Working Groups.
+
 ## Process:
 
 * [Starting a Working Group](#starting-a-wg)
@@ -88,7 +113,7 @@ ratified by that WG.
 You can submit the WG charter for ratification by sending
 a Pull Request to this document, which adds it to the
 list of current Working Groups. Once ratified the list of
-members should be maintained in the Working Group's
+members must be maintained in the Working Group's
 README.
 
 ## Bootstrap Governance
