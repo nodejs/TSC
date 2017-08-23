@@ -266,7 +266,7 @@ that is established by the TSC. The TSC is required to establish a policy
 for the enforcement of Code of Conduct issues. Any reports of Code of Conduct
 or policy violations on the part of TSC members that are not resolvable through
 that established policy will be referred to binding, independent third party
-arbitration with a Foundation appointed mediator All TSC members, upon
+arbitration with a Foundation appointed mediator. All TSC members, upon
 acceptance of their nomination to the TSC body, voluntarily agree to abide by
 the decisions of the independent third party mediator.
 
