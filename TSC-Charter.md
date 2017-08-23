@@ -220,12 +220,6 @@ overturn or vacate the decision of the TSC, the Board may issue a statement
 requesting that the TSC revisit the decision and recommend that the matter be
 referred to a Foundation appointed third party mediator for arbitration.
 
-All decisions regarding removal of TSC members is subject to review by the body
-of Node.js collaborators. Should no fewer than one-quarter of the current
-Node.js project Collaborators (as defined by the TSC's governance and
-contribution policies) disagree with the TSC vote, the matter shall be referred
-to a Foundation appointed third party mediator for arbitration. 
-
 Once referred to arbitration, the decision of the mediator will be considered
 final and binding on all parties.
 
