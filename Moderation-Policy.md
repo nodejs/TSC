@@ -163,7 +163,7 @@ a Post from Moderation.
   * Explain the justification for Moderating the post,
   * Identify all changes made to the Post, and
   * Identify the steps previously taken to resolve the issue.
-  * If the Moderation action included Banning an indication of whether the Ban
+  * If the Moderation action included Banning, an indication of whether the Ban
     is permanent or temporary is required, along with an issue posted to the
     moderation repository justifying the action.
 * Explanations of Moderation actions on Collaborator Posts must be provided in:
@@ -181,7 +181,7 @@ of the [Code of Conduct][].
 * When Moderating non-Collaborator Posts, the moderating Collaborator should:
   * Explain the justification for Moderating the post, and
   * Identify all changes made to the Post.
-  * If the Moderation action included Banning an indication of whether the Ban
+  * If the Moderation action included Banning, an indication of whether the Ban
     is permanent or temporary is required, along with a note justifying the
     action.
 * If an explanation of a Moderation action for a non-Collaborator Post is
