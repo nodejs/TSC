@@ -21,8 +21,9 @@ moderation request, please see [Requesting Moderation][]
 
 ## Applicability
 
-By default, this policy applies to all repositories under the Node.js GitHub
-Organization and all Node.js Working Groups.
+By default, this policy applies to all repositories under all Node.js Foundation
+owned GitHub Organizations, all officially recognized Node.js project
+communications channels, and all Node.js Working Groups.
 
 Individual Working Groups and Top Level Projects may adopt an alternative
 Moderation Policy for any repository under their stewardship so long as:
@@ -74,6 +75,26 @@ subject to Moderation.
 
 The Moderation Team is responsible for deciding what constitutes inappropriate
 behavior that may be subject to Moderation.
+
+## Outside Commentary via Social Media
+
+Comments by individuals made in any venue falling outside the explicit scope of
+responsibility of the Node.js Foundation, TSC, or Community Committee are
+explicitly not covered by this policy unless the individual is explicitly acting
+or commenting on behalf of the Node.js Foundation, TSC or Community Committee
+in an official capacity. The statements, views, and opinions contained in such
+comments are not endorsed by, nor do they necessarily reflect, the opinions and
+views of the Node.js Foundation, TSC or Community Committee.
+
+Moderation requests based solely on the content of comments made in any such
+venue *may* be ignored.
+
+All Collaborator's are cautioned, however, that any statements made publicly by
+members of the Node.js GitHub Organization *will* be interpretted by readers
+as reflecting on the project as a whole, despite the statement above. It is
+therefore important for Collaborator's to remain cognizant of how their
+statements will be interpreted and what impact such statements may have on
+the project.
 
 ## Requesting Moderation
 
