@@ -90,9 +90,9 @@ Moderation requests based solely on the content of comments made in any such
 venue *may* be ignored.
 
 All Collaborator's are cautioned, however, that any statements made publicly by
-members of the Node.js GitHub Organization *will* be interpretted by readers
+members of the Node.js GitHub Organization *will* be interpreted by readers
 as reflecting on the project as a whole, despite the statement above. It is
-therefore important for Collaborator's to remain cognizant of how their
+therefore important for Collaborators to remain cognizant of how their
 statements will be interpreted and what impact such statements may have on
 the project.
 
