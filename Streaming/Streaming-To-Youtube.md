@@ -62,5 +62,5 @@ However, it may turn yellow and issue a warning in a "stream health" section bel
 
 Moderation follows the [Moderation Policy](../Moderation-Policy.md). Messages can be moderated right-clicking and selecting the necessary action, such as `remove`.
 
-During TSC and CTC meetings, there is a section of public Q&A at the end.
+During TSC meetings, there is a section of public Q&A at the end.
 It is important to solicit for questions **well in advance** of public Q&A sections so that people have time to think of and type questions.

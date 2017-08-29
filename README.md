@@ -1,31 +1,45 @@
 # The Node.js Foundation TSC
 
-The Node.js Foundation Technical Steering Committee is the technical governing body of the Node.js Foundation. It admits and oversees all top-level Projects in the Node.js Foundation. It also elects a representative to the Node.js Foundation Board of Directors.
+The Node.js Foundation Technical Steering Committee is the technical governing
+body of the Node.js Foundation. It admits and oversees all top-level Projects
+in the Node.js Foundation. It also elects a representative to the Node.js
+Foundation Board of Directors.
 
-For more details read the [TSC Charter](https://github.com/nodejs/TSC/blob/master/TSC-Charter.md) adopted by the Node.js Foundation Board of Directors on June 17th 2015.
+For more details read the [TSC Charter][] adopted by the Node.js Foundation
+Board of Directors on June 17th 2015.
 
-If your project is interested in joining the Node.js Foundation please read the [Project Lifecycle.md](./Project-Lifecycle.md) documentation.
+If your project is interested in joining the Node.js Foundation please read
+the [Project Lifecycle.md](./Project-Lifecycle.md) documentation.
 
 ## TSC Scope
 
-**The TSC is responsible for Node.js Core project, a number of projects depended upon by Node.js Core, and a number of projects adjacent to Node.js Core.**
+**The TSC is responsible for Node.js Core project, a number of projects
+depended upon by Node.js Core, and a number of projects adjacent to Node.js
+Core.**
 
-The TSC exercises autonomy in managing its responsibilities and seeks agreement from the Node.js Foundation Board on any change to the scope of those responsibilities as defined below.
+The TSC exercises autonomy in managing its responsibilities and seeks agreement
+from the Node.js Foundation Board on any change to the scope of those
+responsibilities as defined below.
 
 ### Node.js Core
 
-Node.js Core is defined as the code project existing in the repository located at <https://github.com/nodejs/node> which the `node` executable and associated packages are built from, _minus_ the vendored projects included in the codebase, specifically those located in the [deps](https://github.com/nodejs/node/tree/master/deps) and [tools](https://github.com/nodejs/node/tree/master/tools) directories that are copied in from externally maintained repositories.
+*Node.js Core* is defined as the contents of the repository located at
+<https://github.com/nodejs/node> from which the `node` executable and associated
+packages are built, excluding the vendored projects included in the codebase
+located in the [deps][] and [tools][] directories that are copied in from
+externally maintained repositories.
 
 ### Dependent Projects
 
-Additional projects fall within the TSC's scope of responsibility which are dependencies of Node.js Core in that they are **required** to plan, test, build, document and ship Node.js releases.
+Additional projects fall within the TSC's scope of responsibility which are
+dependencies of Node.js Core in that they are **required** to plan, test, build,
+document and ship Node.js releases.
 
 These projects are located in the following repositories:
 
 * https://github.com/nodejs/TSC
 * https://github.com/nodejs/build — administration delegated to the Build Working Group
 * https://github.com/nodejs/citgm — administration delegated to the Core Technical Committee, managed by the Smoke Testing Team
-* https://github.com/nodejs/CTC — administration delegated to the Core Technical Committee
 * https://github.com/nodejs/docker-node — administration delegated to the Docker Working Group
 * https://github.com/nodejs/http-parser — administration delegated to the Core Technical Committee
 * https://github.com/nodejs/LTS — administration delegated to the Core Technical Committee, managed by the LTS Team
@@ -39,13 +53,22 @@ These projects are located in the following repositories:
 
 ### Adjacent Projects
 
-The TSC is responsible for a number of projects that are not strictly required to plan, test, build, document and ship Node.js releases. Projects that are _adjacent_ are either created from within the technical organization managed by the TSC or are adopted into that organization from outside.
+The TSC is responsible for a number of projects that are not strictly required
+to plan, test, build, document and ship Node.js releases. Projects that are
+_adjacent_ are either created from within the technical organization managed by
+the TSC or are adopted into that organization from outside.
 
-In the case of adopting existing projects, once the TSC has decided that adoption appropriate, it should seek agreement from the Node.js Foundation Board for such adoption as it impacts on the scope of technical activities of the Foundation.
+In the case of adopting existing projects, once the TSC has decided that
+adoption appropriate, it should seek agreement from the Node.js Foundation Board
+for such adoption as it impacts on the scope of technical activities of the
+Foundation.
 
-If the Node.js Foundation Board wishes to adopt an existing project, it must seek agreement from the TSC that such adoption is appropriate and that any changes to scope that it entails are acceptable.
+If the Node.js Foundation Board wishes to adopt an existing project, it must
+seek agreement from the TSC that such adoption is appropriate and that any
+changes to scope that it entails are acceptable.
 
-Current adjacent projects that are within the TSC's scope of responsibility can be found at the following locations:
+Current adjacent projects that are within the TSC's scope of responsibility can
+be found at the following locations:
 
 * https://github.com/nodejs/abi-stable-node — administration delegated to the API Working Group
 * https://github.com/nodejs/abi-stable-node-addon-examples — administration delegated to the API Working Group
@@ -80,66 +103,120 @@ Current adjacent projects that are within the TSC's scope of responsibility can 
 
 ### List of TSC Responsibilities
 
-The TSC exercises autonomy in setting up and maintaining procedures, policies, and management and administrative structures as it deems appropriate for the maintenance and operation of these projects and resources.
+The TSC exercises autonomy in setting up and maintaining procedures, policies,
+and management and administrative structures as it deems appropriate for the
+maintenance and operation of these projects and resources.
 
 Included in the responsibilities of the TSC are:
 
-* Managing code and documentation creation and changes for the listed projects and resources
-* Setting and maintaining standards covering contributions of code, documentation and other materials
-* Managing code and binary releases: types, schedules, frequency, delivery mechanisms
-* Making decisions regarding dependencies of the Node.js Core project, including what those dependencies are and how they are bundled with source code and releases
-* Creating new repositories and projects under the _nodejs_ GitHub organization as required
-* Setting overall technical direction for the Node.js Core project, including high-level goals and low-level specifics regarding features and functionality
-* Setting and maintaining appropriate standards for community discourse via the various mediums under TSC control
-* Setting and maintaining governance rules for the conduct and make-up of the TSC, CTC, Working Groups and other bodies within the TSC's domain
+* Managing code and documentation creation and changes for the listed projects
+  and resources
+* Setting and maintaining standards covering contributions of code,
+  documentation and other materials
+* Managing code and binary releases: types, schedules, frequency, delivery
+  mechanisms
+* Making decisions regarding dependencies of the Node.js Core project,
+  including what those dependencies are and how they are bundled with source
+  code and releases
+* Creating new repositories and projects under the _nodejs_ GitHub organization
+  as required
+* Setting overall technical direction for the Node.js Core project, including
+  high-level goals and low-level specifics regarding features and functionality
+* Setting and maintaining appropriate standards for community discourse via the
+  various mediums under TSC control
+* Setting and maintaining governance rules for the conduct and make-up of the
+  TSC, Working Groups and other bodies within the TSC's domain
 
-Many of these responsibilities will be delegated by the TSC to appropriate bodies such as the CTC and Working Groups.
+Many of these responsibilities will be delegated by the TSC to appropriate
+bodies such as the Working Groups.
 
 ## TSC Members
 
-TSC members are responsible for top level technical community concerns. The role is
-mostly administrative and is responsible for admitting new Top Level Projects, Top Level
-Working Groups, and advocating for any needs in the technical side of the foundation to
-the Node.js Foundation Board of Directors.
+TSC members are responsible for top level technical community concerns. The role
+is mostly administrative and is responsible for admitting new Top Level
+Projects, Top Level Working Groups, and advocating for any needs in the
+technical side of the foundation to the Node.js Foundation Board of Directors.
 
-TSC members can nominate new members at any time. Candidates for membership tend to be people
-who have a competancy for community management and a high tolerance and patience for process
-minutiae as the TSC delegates most of its responsibilities to other projects and working groups.
+TSC members can nominate new members at any time. Candidates for membership tend
+to be people who have a competancy for community management and a high tolerance
+and patience for process minutiae as the TSC delegates most of its responsibilities
+to other projects and working groups.
 
-Every Top Level Project not currently incubating can appoint someone to the TSC who they elect
-at their own discretion.
+Every Top Level Project not currently incubating can appoint someone to the TSC
+whom they elect at their own discretion.
 
 ### Current Members
-| Avatar | Information |
-|---|:---|
-| <a href="//github.com/rvagg">          <img width=100 src="https://avatars.githubusercontent.com/u/495647?s=100" alt="@rvagg"></a>        | **Rod Vagg**          <br> <a href="//github.com/rvagg">@rvagg</a>                  <br> rod@vagg.org |
-| <a href="//github.com/mscdex">         <img width=100 src="https://avatars.githubusercontent.com/u/54666?s=100" alt="@mscdex"></a>        | **Brian White**       <br> <a href="//github.com/mscdex">@mscdex</a>                <br> mscdex@mscdex.net |
-| <a href="//github.com/cjihrig">        <img width=100 src="https://avatars.githubusercontent.com/u/2512748?s=100" alt="@cjihrig"></a>     | **Colin Ihrig**       <br> <a href="//github.com/cjihrig">@cjihrig</a>              <br> cjihrig@gmail.com |
-| <a href="//github.com/indutny">        <img width=100 src="https://avatars.githubusercontent.com/u/238531?s=100" alt="@indutny"></a>      | **Fedor Indutny**     <br> <a href="//github.com/indutny">@indutny</a>              <br> fedor.indutny@gmail.com |
-| <a href="//github.com/jasnell">        <img width=100 src="https://avatars.githubusercontent.com/u/439929?s=100" alt="@jasnell"></a>      | **James Snell**       <br> <a href="//github.com/jasnell">@jasnell</a>              <br> jasnell@gmail.com<br><sup>Board Director</sup> |
-| <a href="//github.com/shigeki">        <img width=100 src="https://avatars.githubusercontent.com/u/782880?s=100" alt="@shigeki"></a>      | **Shigeki Ohtsu**     <br> <a href="//github.com/shigeki">@shigeki</a>              <br> ohtsu@iij.ad.jp |
-| <a href="//github.com/trevnorris">     <img width=100 src="https://avatars.githubusercontent.com/u/289174?s=100" alt="@trevnorris"></a>   | **Trevor Norris**     <br> <a href="//github.com/trevnorris">@trevnorris</a>        <br> trev.norris@gmail.com |
-| <a href="//github.com/joshgav">        <img width=100 src="https://avatars.githubusercontent.com/u/4421720?s=100" alt="@joshgav"></a>     | **Josh Gavant**       <br> <a href="//github.com/joshgav">@joshgav</a>              <br> josh.gavant@gmail.com |
-| <a href="//github.com/mhdawson">       <img width=100 src="https://avatars.githubusercontent.com/u/9373002?s=100" alt="@mhdawson"></a>    | **Michael Dawson**    <br> <a href="//github.com/mhdawson">@mhdawson</a>            <br> michael_dawson@ca.ibm.com<br><sub>Committee Chair</sub> |
+* [addaleax](https://github.com/addaleax) -
+**Anna Henningsen** &lt;anna@addaleax.net&gt; (she/her)
+* [bnoordhuis](https://github.com/bnoordhuis) -
+**Ben Noordhuis** &lt;info@bnoordhuis.nl&gt;
+* [ChALkeR](https://github.com/ChALkeR) -
+**Сковорода Никита Андреевич** &lt;chalkerx@gmail.com&gt; (he/him)
+* [cjihrig](https://github.com/cjihrig) -
+**Colin Ihrig** &lt;cjihrig@gmail.com&gt;
+* [evanlucas](https://github.com/evanlucas) -
+**Evan Lucas** &lt;evanlucas@me.com&gt; (he/him)
+* [fhinkel](https://github.com/fhinkel) -
+**Franziska Hinkelmann** &lt;franziska.hinkelmann@gmail.com&gt;
+* [Fishrock123](https://github.com/Fishrock123) -
+**Jeremiah Senkpiel** &lt;fishrock123@rocketmail.com&gt;
+* [indutny](https://github.com/indutny) -
+**Fedor Indutny** &lt;fedor.indutny@gmail.com&gt;
+* [jasnell](https://github.com/jasnell) -
+**James M Snell** &lt;jasnell@gmail.com&gt; (he/him)
+* [joshgav](https://github.com/joshgav) -
+**Josh Gavant** &lt;josh.gavant@outlook.com&gt;
+* [joyeecheung](https://github.com/joyeecheung) -
+**Joyee Cheung** &lt;joyeec9h3@gmail.com&gt; (she/her)
+* [mcollina](https://github.com/mcollina) -
+**Matteo Collina** &lt;matteo.collina@gmail.com&gt; (he/him)
+* [mhdawson](https://github.com/mhdawson) -
+**Michael Dawson** &lt;michael_dawson@ca.ibm.com&gt; (he/him)
+* [mscdex](https://github.com/mscdex) -
+**Brian White** &lt;mscdex@mscdex.net&gt;
+* [MylesBorins](https://github.com/MylesBorins) -
+**Myles Borins** &lt;myles.borins@gmail.com&gt; (he/him)
+* [ofrobots](https://github.com/ofrobots) -
+**Ali Ijaz Sheikh** &lt;ofrobots@google.com&gt;
+* [rvagg](https://github.com/rvagg) -
+**Rod Vagg** &lt;rod@vagg.org&gt;
+* [shigeki](https://github.com/shigeki) -
+**Shigeki Ohtsu** &lt;ohtsu@ohtsu.org&gt; (he/him)
+* [targos](https://github.com/targos) -
+**Michaël Zasso** &lt;targos@protonmail.com&gt; (he/him)
+* [thefourtheye](https://github.com/thefourtheye) -
+**Sakthipriyan Vairamani** &lt;thechargingvolcano@gmail.com&gt; (he/him)
+* [trevnorris](https://github.com/trevnorris) -
+**Trevor Norris** &lt;trev.norris@gmail.com&gt;
+* [Trott](https://github.com/Trott) -
+**Rich Trott** &lt;rtrott@gmail.com&gt; (he/him)
 
-#### Emeritus Members
-| Avatar | Information |
-|---|:---|
-| <a href="//github.com/addaleax">       <img width=100 src="https://avatars.githubusercontent.com/u/899444?s=100" alt="@addaleax"></a>     | **Anna Henningsen**   <br> <a href="//github.com/addaleax">@addaleax</a>            <br> anna@addaleax.net |
-| <a href="//github.com/bnoordhuis">     <img width=100 src="https://avatars.githubusercontent.com/u/275871?s=100" alt="@bnoordhuis"></a>   | **Ben Noordhuis**     <br> <a href="//github.com/bnoordhuis">@bnoordhuis</a>        <br> info@bnoordhuis.nl |
-| <a href="//github.com/piscisaureus">   <img width=100 src="https://avatars.githubusercontent.com/u/218257?s=100" alt="@piscisaureus"></a> | **Bert Belder**       <br> <a href="//github.com/piscisaureus">@piscisaureus</a>    <br> bertbelder@gmail.com |
-| <a href="//github.com/nebrius">        <img width=100 src="https://avatars.githubusercontent.com/u/1141386?s=100" alt="@nebrius"></a>      | **Bryan Hughes**      <br> <a href="//github.com/nebrius">@nebrius</a>              <br> bryan@nebri.us |
-| <a href="//github.com/fishrock123">    <img width=100 src="https://avatars.githubusercontent.com/u/1093990?s=100" alt="@fishrock123"></a> | **Jeremiah Senkpiel** <br> <a href="//github.com/fishrock123">@fishrock123</a>      <br> fishrock123@rocketmail.com |
-| <a href="//github.com/mylesborins">    <img width=100 src="https://avatars.githubusercontent.com/u/498775?s=100" alt="@mylesborins"></a>  | **Myles Borins**      <br> <a href="//github.com/mylesborins">@MylesBorins</a>      <br> mylesborins@google.com |
+### TSC Emeriti
+
+* [chrisdickinson](https://github.com/chrisdickinson) -
+**Chris Dickinson** &lt;christopher.s.dickinson@gmail.com&gt;
+* [isaacs](https://github.com/isaacs) -
+**Isaac Z. Schlueter** &lt;i@izs.me&gt;
+* [orangemocha](https://github.com/orangemocha) -
+**Alexis Campailla** &lt;orangemocha@nodejs.org&gt;
+* [piscisaureus](https://github.com/piscisaureus) -
+**Bert Belder** &lt;bertbelder@gmail.com&gt;
+* [nebrius](https://github.com/nebrius) -
+**Bryan Hughes** &lt;bryan@nebri.us&gt;
+* [misterdjules](https://github.com/misterdjules) -
+**Julien Gilli** &lt;jgilli@nodejs.org&gt;
 
 ## YouTube
-Many teams/groups post meeting videos to the [Node.js Foundation YouTube channel](https://www.youtube.com/c/nodejs+foundation/).
+Many teams/groups post meeting videos to the
+[Node.js Foundation YouTube channel][].
 
-Any GitHub team maintainer is allowed `Manager` access to the Google Plus account allowing
-them to add/manage video content and schedule events (live broadcasts).
+Any GitHub team maintainer is allowed `Manager` access to the Google Plus
+account allowing them to add/manage video content and schedule events
+(live broadcasts).
 
-Members of the TSC and CTC are allowed `Owner` access to the Google Plus account. This role
-can do all `Manager` activities and add/remove other members from the Google Plus account.
+Members of the TSC are allowed `Owner` access to the Google Plus account. This
+role can do all `Manager` activities and add/remove other members from the
+Google Plus account.
 
 To request access, [open an issue](https://github.com/nodejs/TSC/issues/new).
 
@@ -187,3 +264,9 @@ In some cases, existing individual groups have the right to refuse changes to
 their charters. The TSC can not mandate existing working groups alter their
 charters. If such a situation arises, the TSC may decide to revoke the group's
 charter.
+
+[deps]: https://github.com/nodejs/node/tree/master/deps
+[tools]: https://github.com/nodejs/node/tree/master/tools
+[TSC Charter]: https://github.com/nodejs/TSC/blob/master/TSC-Charter.md
+[Project Lifecycle.md]: ./Project-Lifecycle.md
+[Node.js Foundation YouTube channel]: https://www.youtube.com/c/nodejs+foundation/
