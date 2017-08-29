@@ -243,13 +243,17 @@ removed from the Node.js GitHub organization.
 The Node.js Moderation Team is tasked with enforcement of this policy.
 
 Moderation team members are Collaborators nominated by either the TSC or
-CommComm and must be approved by *both* committees. If there are no objections
-after seven days, the nomination is automatically accepted. If there are
-objections to a specific nomination, then a simple majority vote of each the
-TSC and CommComm members in *favor* of the nomination is required. Moderators
-are removed from the Moderation Team following the same process. Votes to remove
-moderators succeed only if a simple majority of both committees is in *favor* of
-removal.
+CommComm and must be approved by *both* committees with annual recertification.
+If there are no objections after seven days, the nomination is automatically
+accepted. If there are objections to a specific nomination, then a simple majority
+vote of each the TSC and CommComm members in *favor* of the nomination is required.
+
+An annual recertification vote is required for all moderators. For an individual
+to continue as a moderator, a simple majority vote of each the TSC and CommComm
+members must vote in *favor* of retaining an individual moderator.
+
+A simple majority vote of each the TSC and CommComm members is required to remove
+a moderator.
 
 Once per month, the Moderation Team must provide a report of all Moderation
 actions taken by the Moderation Team to both the CommComm and TSC.
@@ -271,9 +275,7 @@ issue.
 Moderation disputes involving TSC, CommComm or Moderation Team members,
 including questions of whether TSC, CommComm or Moderation Team member has
 violated the Code of Conduct, *shall* be referred to an Independent Mediator
-selected by the Node.js Foundation Executive Director. In such cases, the
-decision of the selected Mediator will be considered final and binding on
-all parties.
+selected by the Node.js Foundation.
 
 ## Modifications to This Policy
 
