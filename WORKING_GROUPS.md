@@ -375,19 +375,6 @@ Responsibilities include:
 The Intl Working Group is not responsible for translation of content. That is the
 responsibility of the specific [i18n](#i18n) group for each language.
 
-### [Evangelism](https://github.com/nodejs/evangelism)
-
-The Evangelism Working Group promotes the accomplishments
-of Node.js and lets the community know how they can get involved.
-
-Responsibilities include:
-* Facilitating project messaging.
-* Managing official project social media.
-* Handling the promotion of speakers for meetups and conferences.
-* Handling the promotion of community events.
-* Publishing regular update summaries and other promotional
-  content.
-
 ### [Docker](https://github.com/nodejs/docker-node)
 
 The Docker Working Group's purpose is to build, maintain, and improve official
