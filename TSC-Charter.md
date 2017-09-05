@@ -152,10 +152,12 @@ Maintainer per Core Project that shall be nominated and elected by the
 Collaborators within the Core Project.
 
 The TSC will elect from amongst voting TSC members a TSC Chairperson to
-work on building an agenda for TSC meetings and represent the TSC to the
-Board for a term of one year according to the Node.js Foundation’s
-By-laws. The TSC shall hold annual elections to select a TSC Chairperson;
-there are no limits on the number of terms a TSC Chairperson may serve.
+work on building an agenda for TSC meetings and a TSC Director to represent
+the TSC to the Board for a term of one year according to the Node.js Foundation’s
+By-laws. The Chair and Director may be (but are not required to be)
+the same person. The TSC shall hold annual elections to select a TSC
+Chairperson and Director; there are no limits on the number of terms a
+TSC Chairperson or Director may serve.
 
 ## Section 8. Voting
 
