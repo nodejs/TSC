@@ -164,14 +164,14 @@ a Post from Moderation.
   * Identify all changes made to the Post, and
   * Identify the steps previously taken to resolve the issue.
   * If the Moderation action included Banning, an indication of whether the Ban
-    is permanent or temporary is required, along with an issue posted to the
+    is temporary or indefinite is required, along with an issue posted to the
     moderation repository justifying the action.
 * Explanations of Moderation actions on Collaborator Posts must be provided in:
   * A new post within the original thread, or
   * A new issue within the private nodejs/moderation repository.
 * Any Collaborator habitually violating the Code of Conduct or this Moderation
   policy may be Banned temporarily or, in extreme cases, Removed and Banned
-  permanently.
+  indefinitely.
 
 ### Non-Collaborator Posts
 
@@ -182,7 +182,7 @@ of the [Code of Conduct][].
   * Explain the justification for Moderating the post, and
   * Identify all changes made to the Post.
   * If the Moderation action included Banning, an indication of whether the Ban
-    is permanent or temporary is required, along with a note justifying the
+    is temporary or indefinite is required, along with a note justifying the
     action.
 * If an explanation of a Moderation action for a non-Collaborator Post is
   provided, it should be provided in:
@@ -190,12 +190,12 @@ of the [Code of Conduct][].
   * A new post within the original thread, or
   * A new issue within the private nodejs/moderation repository.
 * Moderation of Posts authored by non-Collaborators may result in those
-  non-Collaborators being Banned temporarily or permanently from further
+  non-Collaborators being Banned temporarily or indefinitely from further
   participation in the Node.js GitHub organization.
 * In the case where a GitHub Account appears to have been created with no
   intention to collaborate in good faith, swift actions may be taken without
-  following the above procedures including: removing Posts, Banning permanently,
-  and reporting accounts to GitHub.
+  following the above procedures including: removing Posts, Banning
+  indefinitely, and reporting accounts to GitHub.
 
 Note that Moderating non-Collaborator posts can often lead to retaliation or
 escalation of inappropriate behavior by the individual whose post is being
@@ -217,13 +217,13 @@ decision was made should be added to the moderation repository thread.
 
 ### Temporary and Indefinite Bans
 
-An Indefinite Ban is set for an unspecified period of time and may only be
-lifted for an individual through a simple majority vote of the the Moderation
-Team.
-
 A Temporary Ban is time limited, with the timeframe decided on by the Moderation
 Team at the time of issuing, depending on the severity of the issue. Recommended
 default options are 24-hour, 48-hour, and 7-day periods.
+
+An Indefinite Ban is set for an unspecified period of time and may only be
+lifted for an individual through a simple majority vote of the the Moderation
+Team.
 
 ## Privacy of the nodejs/moderation Repository
 
