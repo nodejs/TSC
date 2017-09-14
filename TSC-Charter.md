@@ -205,20 +205,21 @@ Foundation board.
 
 ### Votes to Remove Members
 
-Should a vote to remove a member result in a tie (50%/50% split of non
-abstaining participants) the matter shall be referred to a Foundation
-appointed independent third party mediator for arbitration.
+Should a situation arise that considers the removal of a TSC member, an
+attempt should first be made to resolve the issue without requiring a vote.
+The TSC Chair may, at their discretion, request that the issue be referred
+to a Foundation appointed third-party mediator for arbitration.
 
-At any point prior to calling for a vote, the individual member in question, the
-individuals opening the request, or the TSC Chair may request that the issue
-be referred to a Foundation appointed third party mediator for
-arbitration.
+Failing all other possible resolutions, a simple majority vote of TSC members
+is required to remove a member. Should such a vote to result in a tie (50%/50%
+split of non-abstaining participants) the matter shall be referred to a
+Foundation appointed independent third-party mediator for arbitration.
 
-All decisions regarding removal of TSC members is subject to review by the
-Node.js Foundation Board. While the Board will not have the ability to
-overturn or vacate the decision of the TSC, the Board may issue a statement
+All decisions regarding removal of TSC members will be subject to review by
+the Node.js Foundation Board. While the Board will not have the ability to
+overturn or vacate the decisions of the TSC, the Board may issue a statement
 requesting that the TSC revisit the decision and recommend that the matter be
-referred to a Foundation appointed third party mediator for arbitration.
+referred to a Foundation appointed third-party mediator for arbitration.
 
 Once referred to arbitration, the decision of the mediator will be considered
 final and binding on all parties.
@@ -265,12 +266,25 @@ Participation in the Node.js project is governed by a Code of Conduct policy
 that is established by the TSC. The TSC is required to establish a policy
 for the enforcement of Code of Conduct issues. Any reports of Code of Conduct
 or policy violations on the part of TSC members that are not resolvable through
-that established policy will be referred to binding, independent third party
+that established policy will be referred to binding, independent third-party
 arbitration with a Foundation appointed mediator. All TSC members, upon
 acceptance of their nomination to the TSC body, voluntarily agree to abide by
-the decisions of the independent third party mediator.
+the decisions of the independent third-party mediator.
 
-## Section 12: Selection of Mediators
+## Section 12: Leaves of Absence and Temporary Suspension of TSC Membership
+
+TSC Members may voluntarily temporarily suspend their memberships in the TSC
+for any period of time not in excess of twelve months. In such cases, the member
+may return to full TSC membership status at any time.
+
+TSC Members may have their memberships involuntarily suspended by a simple
+majority vote of the other TSC members for any period of time not in excess of
+twelve months. The suspension period must be specified in advance of the
+decision. The members privileges as a TSC member will be restored automatically
+after the given period has passed. The TSC may decide, through simple majority
+vote, to lift the suspension early.
+
+## Section 13: Selection of Mediators
 
 When it becomes necessary within the context of this charter to select a
 third party mediator for arbitration, a qualified mediator shall be selected by
