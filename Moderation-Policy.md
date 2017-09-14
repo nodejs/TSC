@@ -222,7 +222,7 @@ Team at the time of issuing, depending on the severity of the issue. Recommended
 default options are 24-hour, 48-hour, and 7-day periods.
 
 An Indefinite Ban is set for an unspecified period of time and may only be
-lifted for an individual through a simple majority vote of the the Moderation
+lifted for an individual through a simple majority vote of the Moderation
 Team.
 
 ## Privacy of the nodejs/moderation Repository
