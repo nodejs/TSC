@@ -3,11 +3,12 @@ in a way that not only complies with the
 [Code of Conduct](https://github.com/nodejs/TSC/blob/master/CODE_OF_CONDUCT.md)
 but that supports the vision, mission and operating principles of the Node.js project.
 
-Members are encouraged to have individual opinions and are encouraged
+It is understood that members will have individual opinions and are encouraged
 to express those opinions during discussions within the organization. While
 discourse is encouraged internally, members also have the obligation outside
 of the organization (for example in social media) to be respectful of the
-decisions made within the projects's documented processes.  A member who does
+decisions made within the projects's documented processes even (and especially)
+if the results run counter to their person point of view.  A member who does
 not support a team decision or current team value may express the member's
 opposition within the team in an appropriate manner, but must be extremely
 careful when expressing the opinion externally.  External communication must
@@ -16,13 +17,11 @@ actions of the team. If another team member expresses that they believe external
 communications appear to have the intent to undermine the committee
 it is the responsibility of the individual expressing their opinions to rectify
 the situation immediately. If a member feels that there is no recourse aside
-from going public regarding an extremely contentious issue then they should
-resign from the team before doing so.
+from going public to campain against the teams decision on an extremely
+contentious issue then they should resign from the team before doing so.
 
-In addition to being willing to act as a team player, members of our
-leadership groups must conduct themselves in a professional and
-respectful manner. Some general
-guidelines include:
+Members of our leadership groups must also conduct themselves in a
+professional and respectful manner. Some general guidelines include:
 
 - Serve as ambassadors of the vision, mission and operating
   principles of the Node.js project.
@@ -41,7 +40,7 @@ guidelines include:
   set of standards.  Everyone gets to speak up. 
 - Deal with issues directly with the person in question. Resist complaining
   about others in the project in a public sphere.
-- Built trust by keeping your promises.
+- Build trust by keeping your promises.
 - Be the model of accountability and leadership. Provide the example of
   ownership and stewardship that everyone can follow to success.
 - Commit to ongoing development and learning best practices for governing.
@@ -49,8 +48,6 @@ guidelines include:
   whenever possible, and taking responsibility for our statements by
   speaking as much as possible
   in the first person (.I. statements) rather than in the third person.
-- Collectively and as an individual serve as a role model to demonstrate
-  the highest standards of ethical conduct.
   
 Finally, the public behavior of members reflects on the Node.js project.  It is
 often difficult for those external to the project to separate actions which 
