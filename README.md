@@ -148,8 +148,6 @@ whom they elect at their own discretion.
 ### Current Members
 * [addaleax](https://github.com/addaleax) -
 **Anna Henningsen** &lt;anna@addaleax.net&gt; (she/her)
-* [bnoordhuis](https://github.com/bnoordhuis) -
-**Ben Noordhuis** &lt;info@bnoordhuis.nl&gt;
 * [ChALkeR](https://github.com/ChALkeR) -
 **Сковорода Никита Андреевич** &lt;chalkerx@gmail.com&gt; (he/him)
 * [cjihrig](https://github.com/cjihrig) -
@@ -193,18 +191,18 @@ whom they elect at their own discretion.
 
 ### TSC Emeriti
 
+* [bnoordhuis](https://github.com/bnoordhuis) -
+**Ben Noordhuis** &lt;info@bnoordhuis.nl&gt;
 * [chrisdickinson](https://github.com/chrisdickinson) -
 **Chris Dickinson** &lt;christopher.s.dickinson@gmail.com&gt;
 * [isaacs](https://github.com/isaacs) -
 **Isaac Z. Schlueter** &lt;i@izs.me&gt;
+* [nebrius](https://github.com/nebrius) -
+**Bryan Hughes** &lt;bryan@nebri.us&gt;
 * [orangemocha](https://github.com/orangemocha) -
 **Alexis Campailla** &lt;orangemocha@nodejs.org&gt;
 * [piscisaureus](https://github.com/piscisaureus) -
 **Bert Belder** &lt;bertbelder@gmail.com&gt;
-* [nebrius](https://github.com/nebrius) -
-**Bryan Hughes** &lt;bryan@nebri.us&gt;
-* [misterdjules](https://github.com/misterdjules) -
-**Julien Gilli** &lt;jgilli@nodejs.org&gt;
 
 ## YouTube
 Many teams/groups post meeting videos to the
