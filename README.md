@@ -155,7 +155,7 @@ whom they elect at their own discretion.
 * [evanlucas](https://github.com/evanlucas) -
 **Evan Lucas** &lt;evanlucas@me.com&gt; (he/him)
 * [fhinkel](https://github.com/fhinkel) -
-**Franziska Hinkelmann** &lt;franziska.hinkelmann@gmail.com&gt;
+**Franziska Hinkelmann** &lt;franziska.hinkelmann@gmail.com&gt; (she/her)
 * [Fishrock123](https://github.com/Fishrock123) -
 **Jeremiah Senkpiel** &lt;fishrock123@rocketmail.com&gt;
 * [indutny](https://github.com/indutny) -
