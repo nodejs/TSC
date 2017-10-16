@@ -27,15 +27,15 @@ the working group's repository.
 ## Starting A Core Working Group
 
 A Working Group is established by first defining a charter  that can be
-ratified by the TC. A charter is a *statement of purpose*, a
+ratified by the TSC. A charter is a *statement of purpose*, a
 *list of responsibilities* and a *list of initial membership*.
 
 A working group needs 3 initial members. These should be individuals
 already undertaking the work described in the charter.
 
 The list of responsibilities should be specific. Once established, these
-responsibilities are no longer governed by the TC and therefore should
-not be broad or subjective. The only recourse the TC has over the working
+responsibilities are no longer governed by the TSC and therefore should
+not be broad or subjective. The only recourse the TSC has over the working
 group is to revoke the entire charter and take on the work previously
 done by the working group themselves.
 
@@ -51,7 +51,7 @@ README.
 
 ## Bootstrap Governance
 
-Once the TC ratifies a charter the WG inherits the following
+Once the TSC ratifies a charter the WG inherits the following
 documentation for governance, contribution, conduct and an MIT
 LICENSE. The WG is free to change these documents through their own
 governance process, hence the term "bootstrap."
