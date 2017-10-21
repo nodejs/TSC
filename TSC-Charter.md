@@ -6,6 +6,23 @@ The Node.js Foundation will operate transparently, openly,
 collaboratively, and ethically. Project proposals, timelines, and status
 must not merely be open, but also easily visible to outsiders.
 
+We endeavour to conduct as much discussion in public as possible. This 
+encourages openness, provides a public record, and stimulates the 
+broader community.
+
+However sometimes internal private communication is necessary. You must 
+never divulge such information in public without the express permission 
+of the discussion participants. Also never copy a message between 
+private and public comms. Such an event would go beyond the normal need
+for communication ettiquette and be a serious breach of confidence. It 
+could have serious ramifications, cause unnecessary confusion and 
+ill-informed discussion.
+
+Private communication is typically only used for matters pertaining to 
+people as individuals (like voting), and legal matters that require 
+confidentiality. Other types of governance, code reviews, personal 
+complaints, etc should be held on public.
+
 ## Section 2. Evolution of Node.js Foundation Governance.
 
 Most large, complex open source communities have both a business and a
