@@ -196,6 +196,8 @@ of the [Code of Conduct][].
   intention to collaborate in good faith, swift actions may be taken without
   following the above procedures including: removing Posts, Banning
   indefinitely, and reporting accounts to GitHub.
+* Accounts that are reasonably believed to be bots (other than bots authorized
+  by the TSC) are subject to immediate Banning.
 
 Note that Moderating non-Collaborator posts can often lead to retaliation or
 escalation of inappropriate behavior by the individual whose post is being
