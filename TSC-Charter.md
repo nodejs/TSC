@@ -36,16 +36,27 @@ approved by the Board.
 
 ## Section 4. Establishment of the TSC.
 
-TSC memberships are not time-limited. There is no maximum size of the TSC.
-The size is expected to vary in order to ensure adequate coverage of important
-areas of expertise, balanced with the ability to make decisions efficiently.
-The TSC must have at least three members.
+TSC memberships are for one year terms that must be recertified. Motions for
+recertification are automatic and require a vote. Members are recertified if a
+simple majority of TSC members vote in favor of recertifying the individual as
+a TSC member. Such members will continue through the next year's term.
+Individuals failing recertification may return to the TSC after no less than
+six months following normal TSC motion.
+
+There is no maximum size of the TSC. The size is expected to vary in order to
+ensure adequate coverage of important areas of expertise, balanced with the
+ability to make decisions efficiently. The TSC must have at least three members.
+
+Individuals nominated to the TSC must be members of at least one Node.js
+Working Group or Team at the time of their nomination and must maintain active
+participation in at least one Working Group or Team throughout their term.
 
 There is no specific set of requirements or qualifications for TSC
-membership beyond these rules. The TSC may add additional members to the
-TSC by a standard TSC motion and vote. A TSC member may be removed from the
-TSC by voluntary resignation, by a standard TSC motion, or in accordance to the
-participation rules described below.
+membership beyond these rules.
+
+The TSC may add additional members to the TSC by a standard TSC motion and vote.
+A TSC member may be removed from the TSC by voluntary resignation, by a standard
+TSC motion, or in accordance to the participation rules described below.
 
 Changes to TSC membership should be posted in the agenda, and may be suggested
 as any other agenda item.
@@ -178,9 +189,42 @@ discussion will continue.
 For all votes, a simple majority of all TSC members for, or against, the issue
 wins. A TSC member may choose to participate in any vote through abstention.
 
+While the results of all votes must be made public, the actual individual
+ballots cast for most votes may be made public or confidential at the discretion
+of the TSC Chair. However, individual ballots for recertification or removal of
+TSC members must remain confidential. The names of members voting or abstaining
+in all votes must be made public with a clear indication given of whether the
+individual voted or abstained.
+
+Following the completion of all votes, a public statement must be made via
+GitHub specifying the results of the vote. Contextual detail about why the
+vote was held, including a listing of the specific questions voted on must be
+included in the statement.
+
 Note that, in addition to requiring a simple majority vote of the TSC, all
 changes to this charter are also subject to approval from the Node.js
 Foundation board.
+
+### Votes to Remove Members
+
+Should a situation arise that considers the removal of a TSC member, an
+attempt should first be made to resolve the issue without requiring a vote.
+The TSC Chair may, at their discretion, request that the issue be referred
+to a Foundation appointed third-party mediator for arbitration.
+
+Failing all other possible resolutions, a simple majority vote of TSC members
+is required to remove a member. Should such a vote to result in a tie (50%/50%
+split of non-abstaining participants) the matter shall be referred to a
+Foundation appointed independent third-party mediator for arbitration.
+
+All decisions regarding removal of TSC members will be subject to review by
+the Node.js Foundation Board. While the Board will not have the ability to
+overturn or vacate the decisions of the TSC, the Board may issue a statement
+requesting that the TSC revisit the decision and recommend that the matter be
+referred to a Foundation appointed third-party mediator for arbitration.
+
+Once referred to arbitration, the decision of the mediator will be considered
+final and binding on all parties.
 
 ## Section 9. Project Roles
 
@@ -217,6 +261,39 @@ TSC.
 
 * **Maintainer**: a Collaborator within a Core Project elected to
 represent the Core Project on the TSC.
+
+## Section 11. Escalation of Disputes and Code of Conduct Violations
+
+Participation in the Node.js project is governed by a Code of Conduct policy
+that is established by the TSC. The TSC is required to establish a policy
+for the enforcement of Code of Conduct issues. Any reports of Code of Conduct
+or policy violations on the part of TSC members that are not resolvable through
+that established policy will be referred to binding, independent third-party
+arbitration with a Foundation appointed mediator. All TSC members, upon
+acceptance of their nomination to the TSC body, voluntarily agree to abide by
+the decisions of the independent third-party mediator.
+
+## Section 12: Leaves of Absence and Temporary Suspension of TSC Membership
+
+TSC Members may voluntarily temporarily suspend their memberships in the TSC
+for any period of time not in excess of twelve months. In such cases, the member
+may return to full TSC membership status at any time.
+
+TSC Members may have their memberships involuntarily suspended by a simple
+majority vote of the other TSC members for any period of time not in excess of
+twelve months. The suspension period must be specified in advance of the
+decision. The members privileges as a TSC member will be restored automatically
+after the given period has passed. The TSC may decide, through simple majority
+vote, to lift the suspension early.
+
+## Section 13: Selection of Mediators
+
+When it becomes necessary within the context of this charter to select a
+third party mediator for arbitration, a qualified mediator shall be selected by
+the Node.js Foundation Board of Directors (or an individual designated by the
+Board to so act on their behalf). The mediator should be trained and qualified
+in mediation/conflict resolution and must not be a member of the TSC, Node.js
+Community Committee, or Node.js Foundation Board of Directors.
 
 [Consensus Seeking]: http://en.wikipedia.org/wiki/Consensus-seeking_decision-making
 [Condorcet]: http://en.wikipedia.org/wiki/Condorcet_method
