@@ -24,4 +24,4 @@ adopt the recommended changes, the TSC may choose to revoke the WGs charter.
 
 The [Node.js Code of Conduct][] applies to this WG.
 
-[Node.js Code of Conduct]: https://github.com/nodejs/TSC/blob/master/CODE_OF_CONDUCT.md
+[Node.js Code of Conduct]: https://github.com/nodejs/admin/blob/master/CODE_OF_CONDUCT.md
