@@ -34,6 +34,6 @@ and have the support needed.
 | Initiative        | Champion        | Links                                                            |
 |-------------------|-----------------|------------------------------------------------------------------|
 | Mentoring         | ?               |                                                                  |
-| nps and modules   | ?               |                                                                  |
+| nsp and modules   | ?               |                                                                  |
 
 
