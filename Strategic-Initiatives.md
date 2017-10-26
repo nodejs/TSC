@@ -22,7 +22,7 @@ and have the support needed.
 | CVE Management    | Michael Dawson  | https://github.com/nodejs/security-wg/issues/33                  |
 | Core Promise APIs | James Snell     |                                                                  | 
 | TSC Governance    | Myles Borins    | https://github.com/nodejs/TSC/issues/383                         |
-| New Streams APIs  | James Snell     | https://github.com/ nodejs/node#16414                            | 
+| New Streams APIs  | James Snell     | https://github.com/nodejs/node#16414                             | 
 | Diagnotics        | Michael Dawson  | Happy to have other volunteers but will work to restart          |
 | Moderation        | Rich Trot       |                                                                  |
 | Async Hooks       | Trevor Norris   |                                                                  |
