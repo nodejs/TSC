@@ -26,7 +26,7 @@ and have the support needed.
 | Diagnostics WG    | Michael Dawson  | Happy to have other volunteers but will work to restart          |
 | Moderation        | Rich Trott      |                                                                  |
 | Async Hooks       | Trevor Norris   |                                                                  |
-| V8 Currency       | MichaëZasso     |                                                                  |
+| V8 Currency       | Michaël Zasso   |                                                                  |
 | Collab onboarding | Rich Trott      |                                                                  |
 | New collab onramp | Rich Trott      |                                                                  |
 | Automation        | Joyee Cheung    | https://github.com/nodejs/automation                             |
