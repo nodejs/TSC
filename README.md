@@ -13,7 +13,7 @@ the [Project Lifecycle.md](./Project-Lifecycle.md) documentation.
 
 ## TSC Scope
 
-**The TSC is responsible for Node.js Core project, a number of projects
+**The TSC is responsible for the Node.js Core project, a number of projects
 depended upon by Node.js Core, and a number of projects adjacent to Node.js
 Core.**
 
