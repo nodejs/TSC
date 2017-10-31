@@ -23,17 +23,13 @@ and have the support needed.
 | Core Promise APIs | James Snell     |                                                                  | 
 | TSC Governance    | Myles Borins    | https://github.com/nodejs/TSC/issues/383                         |
 | New Streams APIs  | James Snell     | https://github.com/nodejs/node/pull/16414                        | 
-| Diagnostics WG    | Michael Dawson  | Happy to have other volunteers but will work to restart          |
+| Diagnostics       | Michael Dawson  | Happy to have other volunteers but will work to restart          |
 | Moderation        | Rich Trott      |                                                                  |
 | Async Hooks       | Trevor Norris   |                                                                  |
 | V8 Currency       | Michaël Zasso   |                                                                  |
 | Collab onboarding | Rich Trott      |                                                                  |
 | New collab onramp | Rich Trott      |                                                                  |
 | Automation        | Joyee Cheung    | https://github.com/nodejs/automation                             |
-| Streams WG        | Matteo Colina   | https://github.com/nodejs/readable-stream                        |
-| Build WG          | Rod Vagg        | https://github.com/nodejs/build                                  |
-| Benchmarking WG   | Michael Dawson  | https://github.com/nodejs/benchmarking                           |
-| Post-mortem       | Michael Dawson  | https://github.com/nodejs/post-mortem                            |
 
 
 # Need volunteers for
@@ -42,10 +38,5 @@ and have the support needed.
 |-------------------|-----------------|------------------------------------------------------------------|
 | Mentoring         | ?               |                                                                  |
 | nsp and modules   | ?               |                                                                  |
-| Website WG        | ?               |                                                                  |
-| i18n              | ?               |                                                                  |
-| Docker            | ?               |                                                                  |
-| Addon API         | ?               |                                                                  |
-| Release           | ?               |                                                                  |
 
 
