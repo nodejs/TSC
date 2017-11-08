@@ -177,6 +177,8 @@ discussion will continue.
 
 For all votes, a simple majority of all TSC members for, or against, the issue
 wins. A TSC member may choose to participate in any vote through abstention.
+Once a vote is called in an issue, any TSC member who does not cast a vote
+within 2 weeks will have their vote automatically recorded as an abstention.
 
 Note that, in addition to requiring a simple majority vote of the TSC, all
 changes to this charter are also subject to approval from the Node.js
