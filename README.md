@@ -222,19 +222,6 @@ To request access, [open an issue](https://github.com/nodejs/TSC/issues/new).
 ## Top-Level WGs and TLPs
 
 * [Working Groups](WORKING_GROUPS.md)
-* Mentors
-
-    Project mentorship is not a technical role. In fact, mentors are
-    discouraged from giving technical advice to projects. Instead, the
-    purpose of mentorship is to encourage and improve a projects ability
-    to be participatory, transparent, and effective. Mentors are there to
-    help projects adopt and iterate on policies and processes that achieve
-    these goals and eventually allow them to graduate the incubation phase.
-
-      * Mikeal Rogers (@mikeal) Currently assigned to Express.
-      * James Snell (@jasnell) Currently assigned to Express.
-      * Rod Vagg (@rvagg) Currently assigned to libuv.
-
 * Top-Level Projects
  * Core TLP
   * Core WGs (streams, http, Intl)
