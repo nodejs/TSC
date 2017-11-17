@@ -22,7 +22,6 @@ and have the support needed.
 | Core Promise APIs | James Snell                     |                                                                  |
 | TSC Governance    | Myles Borins                    | https://github.com/nodejs/TSC/issues/383                         |
 | New Streams APIs  | James Snell + Jeremia Senkpiel  | https://github.com/nodejs/node/pull/16414                        |
-|                   | Jeremia Senkpiel                |                                                                  |
 | Moderation        | Rich Trott                      |                                                                  |
 | Async Hooks       | Trevor Norris                   |                                                                  |
 | V8 Currency       | Michaël Zasso   |                                                                                  |
