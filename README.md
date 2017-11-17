@@ -218,6 +218,16 @@ Google Plus account.
 
 To request access, [open an issue](https://github.com/nodejs/TSC/issues/new).
 
+## Strategic Initiatives
+
+At any one time the Node.js project has a number of strategic initiatives
+underway.  The goal of the TSC is to have a champion for each of these
+initiatives and to support the initiatives in order to enable their
+success.
+
+For more information look here:
+[Strategic Initiatives](https://github.com/nodejs/TSC/Strategic-Initiatives.md)
+
 
 ## Top-Level WGs and TLPs
 
