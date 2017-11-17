@@ -226,8 +226,7 @@ initiatives and to support the initiatives in order to enable their
 success.
 
 For more information look here:
-[Strategic Initiatives](https://github.com/nodejs/TSC/Strategic-Initiatives.md)
-
+[Strategic Initiatives](https://github.com/nodejs/TSC/blob/master/Strategic-Initiatives.md)
 
 ## Top-Level WGs and TLPs
 
