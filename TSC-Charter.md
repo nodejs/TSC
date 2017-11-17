@@ -10,9 +10,8 @@ must not merely be open, but also easily visible to outsiders.
 
 Most large, complex open source communities have both a business and a
 technical governance model. Node.js Foundation’s technical leadership
-contains both a Technical Steering Committee (“TSC”) and Maintainers for
-major components or subsystems. Node.js Foundation’s business leadership
-is instantiated in a Board of Directors (the “Board”).  
+is the Technical Steering Committee (“TSC”). Node.js Foundation’s business
+leadership is the Board of Directors (the “Board”).
 
 This Technical Steering Committee Charter reflects a carefully
 constructed balanced role for the TSC and the Board in the governance of
@@ -134,8 +133,8 @@ review of contributions, including the Node.js Foundation IP Policy.
 Leadership roles in Node.js Foundation will be peer elected
 representatives of the community.
 
-For election of persons (TSC Chairperson, Maintainers, etc.) a
-multiple-candidate method should be used, e.g.:
+For election of persons (such as the TSC Chairperson), a multiple-candidate
+method should be used, such as:
 
 * [Condorcet][] or
 * [Single Transferable Vote][]
@@ -202,9 +201,8 @@ looking to participate in the development effort.
 * **Contributors**: contribute code or other artifacts, but do not have
 the right to commit to the code base. Contributors work with the
 Project’s Collaborators to have code committed to the code base. A
-Contributor may be promoted to a Collaborator by the projects’ Maintainer
-or the TSC. Contributors should rarely be encumbered by the TSC and never
-by the Board.
+Contributor may be promoted to a Collaborator by the TSC. Contributors should
+rarely be encumbered by the TSC and never by the Board.
 
 * **Project**: a technical collaboration effort, e.g. a subsystem, that
 is organized through the project creation process and approved by the
