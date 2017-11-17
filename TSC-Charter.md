@@ -146,11 +146,6 @@ election is required if there is only one candidate and no objections to
 the candidates election. Elections shall be done within the Projects by
 the Collaborators active in the Project.
 
-Each Core Project’s Collaborators shall elect one Maintainer from the
-Collaborators on the project to serve on the TSC. There may be only one
-Maintainer per Core Project that shall be nominated and elected by the
-Collaborators within the Core Project.
-
 The TSC will elect from amongst voting TSC members a TSC Chairperson to
 work on building an agenda for TSC meetings and a TSC Director to represent
 the TSC to the Board for a term of one year according to the Node.js Foundation’s
@@ -214,9 +209,6 @@ by the Board.
 * **Project**: a technical collaboration effort, e.g. a subsystem, that
 is organized through the project creation process and approved by the
 TSC.
-
-* **Maintainer**: a Collaborator within a Core Project elected to
-represent the Core Project on the TSC.
 
 [Consensus Seeking]: http://en.wikipedia.org/wiki/Consensus-seeking_decision-making
 [Condorcet]: http://en.wikipedia.org/wiki/Condorcet_method
