@@ -21,7 +21,7 @@ and have the support needed.
 | Error Messages    | James Snell                     | https://github.com/nodejs/node/issues/11273                      |
 | Core Promise APIs | James Snell                     |                                                                  |
 | TSC Governance    | Myles Borins                    | https://github.com/nodejs/TSC/issues/383                         |
-| New Streams APIs  | James Snell + Jeremia Senkpiel  | https://github.com/nodejs/node/pull/16414                        |
+| New Streams APIs  | James Snell + Jeremiah Senkpiel | https://github.com/nodejs/node/pull/16414                        |
 | Moderation        | Rich Trott                      |                                                                  |
 | Async Hooks       | Trevor Norris                   |                                                                  |
 | V8 Currency       | Michaël Zasso   |                                                                                  |
@@ -41,4 +41,4 @@ and have the support needed.
 | Initiative        | Champion                        | Links                                                            |
 |-------------------|---------------------------------|------------------------------------------------------------------|
 | CVE Management    | Michael Dawson                  | https://github.com/nodejs/security-wg/issues/33                  |
-| VM module fix     | Francisca Hinkelmann            |                                                                  |
+| VM module fix     | Franziska Hinkelmann            | https://github.com/nodejs/node/issues/6283                       |
