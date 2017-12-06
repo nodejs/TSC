@@ -24,8 +24,7 @@ and have the support needed.
 | New Streams APIs  | James Snell + Jeremiah Senkpiel | https://github.com/nodejs/node/pull/16414                        |
 | Moderation        | Rich Trott                      |                                                                  |
 | Async Hooks       | Trevor Norris                   |                                                                  |
-| V8 Currency       | Michaël Zasso   |                                                                                  |
-| Collab onboarding | Rich Trott                      |                                                                  |
+| V8 Currency       | Michaël Zasso                   |                                                                  |
 
 
 # Need volunteers for
