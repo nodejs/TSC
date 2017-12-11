@@ -233,7 +233,7 @@ For more information look here:
 * [Working Groups](WORKING_GROUPS.md)
 * Top-Level Projects
  * Core TLP
-  * Core WGs (streams, http, Intl)
+  * Core WGs (for example, streams)
 
 ## Policy Change Proposal Process
 
