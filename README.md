@@ -67,8 +67,8 @@ If the Node.js Foundation Board wishes to adopt an existing project, it must
 seek agreement from the TSC that such adoption is appropriate and that any
 changes to scope that it entails are acceptable.
 
-Current adjacent projects that are within the TSC's scope of responsibility can
-be found at the following locations:
+Current adjacent projects that are within the TSC's scope of responsibility
+include:
 
 * https://github.com/nodejs/abi-stable-node — administration delegated to the API Working Group
 * https://github.com/nodejs/abi-stable-node-addon-examples — administration delegated to the API Working Group
@@ -76,29 +76,29 @@ be found at the following locations:
 * https://github.com/nodejs/benchmarking — administration delegated to the Benchmarking Working Group
 * https://github.com/nodejs/code-and-learn
 * https://github.com/nodejs/diagnostics — administration delegated to the Diagnostics Working Group
-* https://github.com/nodejs/docs — administration delegated to the Documentation Working Group
+* https://github.com/nodejs/docs
 * https://github.com/nodejs/education
 * https://github.com/nodejs/email — administration delegated to the Build Working Group
 * https://github.com/nodejs/evangelism — administration delegated to the Evangelism Working Group
-* https://github.com/nodejs/github-bot — administration delegated to the Core Technical Committee, managed by the GitHub Bot Team
+* https://github.com/nodejs/github-bot
 * https://github.com/nodejs/help — administration delegated to the Evangelism Working Group
-* https://github.com/nodejs/http — administration delegated to the Core Technical Committee, managed by the HTTP team
-* https://github.com/nodejs/http2 — administration delegated to the Core Technical Committee, managed by the HTTP/2 team
-* https://github.com/nodejs/iojs.org — administration delegated to the Website Working Group
-* https://github.com/nodejs/installer — administration delegated to the Core Technical Committee
-* https://github.com/nodejs/Intl — administration delegated to the Intl Working Group
+* https://github.com/nodejs/http
+* https://github.com/nodejs/http2
+* https://github.com/nodejs/installer
+* https://github.com/nodejs/Intl
 * https://github.com/nodejs/llnode — administration delegated to the Post Mortem Working Group
 * https://github.com/nodejs/nan — administration delegated to the Addon API Working Group
 * https://github.com/nodejs/node-addon-examples — administration delegated to the Addon API Working Group)
-* https://github.com/nodejs/node-chakracore — administration delegated to the Core Technical Committee
-* https://github.com/nodejs/node-gyp — administration delegated to the Core Technical Committee
+* https://github.com/nodejs/node-chakracore
+* https://github.com/nodejs/node-gyp
 * https://github.com/nodejs/node-inspect — administration delegated to the Diagnostics Working Group
 * https://github.com/nodejs/node-report — administration delegated to the Post Mortem Working Group
+* https://github.com/nodejs/nodejs.org — administration delegated to the Website Working Group
 * https://github.com/nodejs/post-mortem — administration delegated to the Post Mortem Working Group
-* https://github.com/nodejs/promises — administration delegated to the Promises Working Group
+* https://github.com/nodejs/promises
 * https://github.com/nodejs/readable-stream — administration delegated to the Streams Working Group
 * https://github.com/nodejs/summit
-* https://github.com/nodejs/testing — administration delegated to the Testing Working Group
+* https://github.com/nodejs/testing
 * _And_ various language and resource translation groups under https://github.com/nodejs/
 
 ### List of TSC Responsibilities
