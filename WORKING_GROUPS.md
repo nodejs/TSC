@@ -243,7 +243,6 @@ The [Node.js Code of Conduct][] applies to this WG.
 * [Addon API](#addon-api)
 * [Benchmarking](#benchmarking)
 * [Post-mortem](#post-mortem)
-* [Intl](#intl)
 * [Release](#release)
 
 ### [Website](https://github.com/nodejs/nodejs.org)
@@ -321,8 +320,6 @@ Responsibilities include:
 * Managing and monitoring social media channels in their language.
 * Promoting Node.js speakers for meetups and conferences in their language.
 
-Note that the i18n Working Groups are distinct from the [Intl](#Intl) Working Group.
-
 Each language community maintains its own membership.
 
 * [nodejs-ar - Arabic (اللغة العربية)](https://github.com/nodejs/nodejs-ar)
@@ -359,21 +356,6 @@ Each language community maintains its own membership.
 * [nodejs-zh-TW - Taiwanese (Hō-ló)](https://github.com/nodejs/nodejs-zh-TW)
 * [nodejs-uk - Ukrainian (Українська)](https://github.com/nodejs/nodejs-uk)
 * [nodejs-vi - Vietnamese (Tiếng Việtnam)](https://github.com/nodejs/nodejs-vi)
-
-### [Intl](https://github.com/nodejs/Intl)
-
-The Intl Working Group is dedicated to support and improvement of
-Internationalization (i18n) and Localization (l10n) in Node.
-
-Responsibilities include:
-* Ensuring functionality & compliance (standards: ECMA, Unicode…)
-* Supporting Globalization and Internationalization issues that come up
-  in the tracker
-* Communicating guidance and best practices
-* Refining the existing `Intl` implementation
-
-The Intl Working Group is not responsible for translation of content. That is the
-responsibility of the specific [i18n](#i18n) group for each language.
 
 ### [Docker](https://github.com/nodejs/docker-node)
 
