@@ -11,19 +11,19 @@ and have the support needed.
 
 # Current Initiatives
 
-| Initiative        | Champion                        | Links                                                            |
-|-------------------|---------------------------------|------------------------------------------------------------------|
-| http2             | James Snell                     |                                                                  |
-| Modules           | Myles Borins                    | https://github.com/nodejs/node-eps/blob/master/002-es-modules.md |
-| N-API             | Michael Dawson                  | https://github.com/nodejs/abi-stable-node                        |
-| OpenSSL Evolution | Rod Vagg                        | https://github.com/nodejs/TSC/issues/364                         |
-| Workers           | Anna Henningson                 | https://github.com/nodejs/worker                                 |
-| Error Messages    | James Snell                     | https://github.com/nodejs/node/issues/11273                      |
-| Core Promise APIs | James Snell                     |                                                                  |
-| TSC Governance    | Myles Borins                    | https://github.com/nodejs/TSC/issues/383                         |
-| New Streams APIs  | James Snell + Jeremiah Senkpiel | https://github.com/nodejs/node/pull/16414                        |
-| Async Hooks       | Trevor Norris                   |                                                                  |
-| V8 Currency       | Michaël Zasso                   |                                                                  |
+| Initiative        | Champion                                                  | Links                                                            |
+|-------------------|-----------------------------------------------------------|------------------------------------------------------------------|
+| http2             | [James Snell][jasnell]                                    |                                                                  |
+| Modules           | [Myles Borins][MylesBorins]                               | https://github.com/nodejs/node-eps/blob/master/002-es-modules.md |
+| N-API             | [Michael Dawson][mhdawson]                                | https://github.com/nodejs/abi-stable-node                        |
+| OpenSSL Evolution | [Rod Vagg][rvagg]                                         | https://github.com/nodejs/TSC/issues/364                         |
+| Workers           | [Anna Henningson][addaleax]                               | https://github.com/nodejs/worker                                 |
+| Error Messages    | [James Snell][jasnell]                                    | https://github.com/nodejs/node/issues/11273                      |
+| Core Promise APIs | [James Snell][jasnell]                                    |                                                                  |
+| TSC Governance    | [Myles Borins][MylesBorins]                               | https://github.com/nodejs/TSC/issues/383                         |
+| New Streams APIs  | [James Snell][jasnell] + [Jeremiah Senkpiel][fishrock123] | https://github.com/nodejs/node/pull/16414                        |
+| Async Hooks       | [Trevor Norris][trevnorris]                               |                                                                  |
+| V8 Currency       | [Michaël Zasso][targos]                                   |                                                                  |
 
 
 # Need volunteers for
@@ -40,3 +40,13 @@ and have the support needed.
 |-------------------|---------------------------------|------------------------------------------------------------------|
 | CVE Management    | Michael Dawson                  | https://github.com/nodejs/security-wg/issues/33                  |
 | VM module fix     | Franziska Hinkelmann            | https://github.com/nodejs/node/issues/6283                       |
+
+[jasnell]: https://github.com/jasnell
+[MylesBorins]: https://github.com/MylesBorins
+[fishrock123]: https://github.com/fishrock123
+[addaleax]: https://github.com/addaleax
+[mhdawson]: https://github.com/mhdawson
+[rvagg]: https://github.com/rvagg
+[trott]: https://github.com/trott
+[trevnorris]: https://github.com/trevnorris
+[targos]: https://github.com/targos
