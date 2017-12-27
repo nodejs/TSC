@@ -16,8 +16,8 @@ have write permissions to the nodejs/admin repository.
 
 ### Owners
 
-The TSC Director shall be the only individuals granted Owner permissions within
-the Node.js GitHub Organization.
+The TSC shall be the only individuals granted Owner permissions within the
+Node.js GitHub Organization.
 
 ### Members
 
