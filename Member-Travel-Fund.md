@@ -76,3 +76,4 @@ Bryan English | JSConf.cn 2017 | Code & Learn Mentor | Shanghai, CN | 15 July - 
 Tobias Nießen | NINA 2017 | Collaborator Summit and Code & Learn | Vancouver, BC, CA | 5 Oct - 8 Oct 2017 | €1300
 Tiancheng Gu | NINA 2017 | Collaborator Summit | Vancouver, BC, CA | 3 Oct – 8 Oct 2017 | US$ 1200
 Ruben Bridgewater | NINA 2017 | Collaborator Summit and Code & Learn | Vancouver, BC, CA | 4 Oct - 8 Oct 2017 | €1500
+Joyee Cheung | Diagnostics WG Summit | Attendance | Ottawa, ON, CA | 12 Feb - 13 Feb 2018 | US$ 1400
