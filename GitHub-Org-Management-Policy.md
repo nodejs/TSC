@@ -16,7 +16,7 @@ have write permissions to the nodejs/admin repository.
 
 ### Owners
 
-The TSC shall be the only individuals granted Owner permissions within the
+TSC memberes are the only individuals granted Owner permissions within the
 Node.js GitHub Organization.
 
 ### Members
