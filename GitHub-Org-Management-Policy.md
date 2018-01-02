@@ -7,10 +7,10 @@ Community Committee (CommComm).
 
 ## Node.js Admin Repository
 
-The Node.js Admin Repository (https://github.com/nodejs/admin) will serve as the
-central location for managing Node.js GitHub Organization administrative
+The [Node.js admin repository](https://github.com/nodejs/admin) will serve as
+the central location for managing Node.js GitHub Organization administrative
 activities. Only Node.js GitHub Organization owners, TSC members, and Community
-Committee members will have write permissions to the nodejs/admin repository.
+Committee members will have write permissions to the Node.js admin repository.
 
 ## Organization Roles
 
@@ -34,7 +34,7 @@ after 72 hours. If any objection is made, the request may be moved to a vote in
 each of the Technical Steering and Community Committees.  A simple majority of
 each group *rejecting* the creation of the repository is required to block
 creating the repository. Such requests must be posted as issues in the
-nodejs/admin repository.
+Node.js admin repository.
 
 Any repository created under the Node.js GitHub Organization is considered to be
 a project under the ownership of the Node.js Foundation, and thereby subject
@@ -52,7 +52,7 @@ Node.js Foundation membership or ban individuals. This is due largely to
 limitations in the way GitHub permissions are structured.
 
 To remove any current member from the GitHub organization, an issue must be
-opened in the nodejs/admin repository. If, after 72 hours, there are no
+opened in the Node.js admin repository. If, after 72 hours, there are no
 objections from any TSC or Community Committee members, removal becomes
 automatic. If there are objections, then simple majority votes of each of the
 Technical Steering and Community Committees in favor of removal are required.
