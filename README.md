@@ -191,10 +191,10 @@ whom they elect at their own discretion.
 **Ben Noordhuis** &lt;info@bnoordhuis.nl&gt;
 * [chrisdickinson](https://github.com/chrisdickinson) -
 **Chris Dickinson** &lt;christopher.s.dickinson@gmail.com&gt;
-* [joshgav](https://github.com/joshgav) -
-**Josh Gavant** &lt;josh.gavant@gmail.com&gt;
 * [isaacs](https://github.com/isaacs) -
 **Isaac Z. Schlueter** &lt;i@izs.me&gt;
+* [joshgav](https://github.com/joshgav) -
+**Josh Gavant** &lt;josh.gavant@gmail.com&gt;
 * [nebrius](https://github.com/nebrius) -
 **Bryan Hughes** &lt;bryan@nebri.us&gt;
 * [orangemocha](https://github.com/orangemocha) -
