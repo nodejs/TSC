@@ -187,12 +187,12 @@ whom they elect at their own discretion.
 
 ### TSC Emeriti
 
-* [joshgav](https://github.com/joshgav) -
-**Josh Gavant** &lt;josh.gavant@gmail.com&gt;
 * [bnoordhuis](https://github.com/bnoordhuis) -
 **Ben Noordhuis** &lt;info@bnoordhuis.nl&gt;
 * [chrisdickinson](https://github.com/chrisdickinson) -
 **Chris Dickinson** &lt;christopher.s.dickinson@gmail.com&gt;
+* [joshgav](https://github.com/joshgav) -
+**Josh Gavant** &lt;josh.gavant@gmail.com&gt;
 * [isaacs](https://github.com/isaacs) -
 **Isaac Z. Schlueter** &lt;i@izs.me&gt;
 * [nebrius](https://github.com/nebrius) -
