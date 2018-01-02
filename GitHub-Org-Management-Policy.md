@@ -16,8 +16,8 @@ have write permissions to the nodejs/admin repository.
 
 ### Owners
 
-TSC members are the only individuals granted Owner permissions within the
-Node.js GitHub Organization.
+TSC members and the Chair of the Community Comittee are the only individuals granted
+Owner permissions within the Node.js GitHub Organization.
 
 ### Members
 
@@ -29,7 +29,7 @@ to the organization when requested by a Working Group.
 
 Any organization member may request the creation of a new repository within the
 Node.js Foundation GitHub Organization. Provided there are no objections from
-any TSC member, such requests are approved automatically
+any TSC or CommComm members, such requests are approved automatically
 after 72 hours. If any objection is made, the request may be moved to a vote in
 each of the Technical Steering and Community Committees.  A simple majority of
 each group *rejecting* the creation of the repository is required to block
@@ -41,9 +41,9 @@ a project under the ownership of the Node.js Foundation, and thereby subject
 to the Intellectual Property and Governance policies of the Foundation.
 
 No repository may be deleted, transferred in to, or transferred out of the
-Node.js Foundation GitHub Organization without a simple majority of the TSC in
-favor of the action. In certain cases, Node.js Foundation Board of Directors
-approval may also be required.
+Node.js Foundation GitHub Organization without a simple majority of both the
+TSC and CommCom in favor of the action. In certain cases, Node.js Foundation
+Board of Directors approval may also be required.
 
 ## Removing or Banning Individuals
 
@@ -64,7 +64,7 @@ Guidelines.
 ## Use of Bots and Services
 
 Automation tools such as bots and third-party services on any repository must
-be approved by the TSC and are subject to regular security audits. Bots that
-perform actions on behalf of the project (such as moderation or membership
-management actions) are required to maintain a log, accessible to the TSC, of
-all actions taken.
+be approved by the TSC and CommComm and are subject to regular security audits.
+Bots that perform actions on behalf of the project (such as moderation or membership
+management actions) are required to maintain a log, accessible to all individuals
+granted Owner permissions, of all actions taken.
