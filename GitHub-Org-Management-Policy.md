@@ -7,10 +7,10 @@ Community Committee (CommComm).
 
 ## Node.js Admin Repository
 
-The Node.js Admin Repository (nodejs/admin) will serve as the central location
-for managing Node.js GitHub Organization administrative activities. Only Node.js
-GitHub Organization owners, TSC members, and Community Committee members will
-have write permissions to the nodejs/admin repository.
+The Node.js Admin Repository (https://github.com/nodejs/admin) will serve as the
+central location for managing Node.js GitHub Organization administrative
+activities. Only Node.js GitHub Organization owners, TSC members, and Community
+Committee members will have write permissions to the nodejs/admin repository.
 
 ## Organization Roles
 
