@@ -16,7 +16,7 @@ have write permissions to the nodejs/admin repository.
 
 ### Owners
 
-TSC memberes are the only individuals granted Owner permissions within the
+TSC members are the only individuals granted Owner permissions within the
 Node.js GitHub Organization.
 
 ### Members
@@ -40,6 +40,11 @@ Any repository created under the Node.js GitHub Organization is considered to be
 a project under the ownership of the Node.js Foundation, and thereby subject
 to the Intellectual Property and Governance policies of the Foundation.
 
+No repository may be deleted, transferred in to, or transferred out of the
+Node.js Foundation GitHub Organization without a simple majority of the TSC in
+favor of the action. In certain cases, Node.js Foundation Board of Directors
+approval may also be required.
+
 ## Removing or Banning Individuals
 
 Only Node.js GitHub Organization owners may remove an individual from the
@@ -49,8 +54,8 @@ limitations in the way GitHub permissions are structured.
 To remove any current member from the GitHub organization, an issue must be
 opened in the nodejs/admin repository. If, after 72 hours, there are no
 objections from any TSC or Community Committee members, removal becomes
-automatic. If there are objections, then a simple majority vote of each of the
-Technical Steering and Community Committees in *favor* of removal is required.
+automatic. If there are objections, then simple majority votes of each of the
+Technical Steering and Community Committees in favor of removal are required.
 
 Banning an individual who is not currently a member of the GitHub organization
 may occur at any time subject to the policies outlined in the Moderation
