@@ -16,7 +16,7 @@ have write permissions to the nodejs/admin repository.
 
 ### Owners
 
-TSC members and the Chair of the Community Comittee are the only individuals granted
+TSC members and the Chair of the Community Committee are the only individuals granted
 Owner permissions within the Node.js GitHub Organization.
 
 ### Members
