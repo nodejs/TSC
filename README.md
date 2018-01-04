@@ -1,8 +1,7 @@
 # The Node.js Foundation TSC
 
 The Node.js Foundation Technical Steering Committee is the technical governing
-body of the Node.js Foundation. It admits and oversees all top-level Projects
-in the Node.js Foundation. It also elects a representative to the Node.js
+body of the Node.js Foundation. It elects a representative to the Node.js
 Foundation Board of Directors.
 
 For more details read the [TSC Charter][] adopted by the Node.js Foundation
@@ -133,17 +132,14 @@ bodies such as the Working Groups.
 ## TSC Members
 
 TSC members are responsible for top level technical community concerns. The role
-is mostly administrative and is responsible for admitting new Top Level
-Projects, Top Level Working Groups, and advocating for any needs in the
-technical side of the foundation to the Node.js Foundation Board of Directors.
+is mostly administrative and is responsible for chartering new Working Groups
+and advocating for any needs in the technical side of the foundation to the
+Node.js Foundation Board of Directors.
 
 TSC members can nominate new members at any time. Candidates for membership tend
 to be people who have a competancy for community management and a high tolerance
-and patience for process minutiae as the TSC delegates most of its responsibilities
-to other projects and working groups.
-
-Every Top Level Project not currently incubating can appoint someone to the TSC
-whom they elect at their own discretion.
+and patience for process minutiae as the TSC delegates most of its
+responsibilities to other projects and working groups.
 
 ### Current Members
 * [addaleax](https://github.com/addaleax) -
@@ -228,24 +224,19 @@ success.
 For more information look here:
 [Strategic Initiatives](https://github.com/nodejs/TSC/blob/master/Strategic-Initiatives.md)
 
-## Top-Level WGs and TLPs
+## Working Groups
 
 * [Working Groups](WORKING_GROUPS.md)
-* Top-Level Projects
- * Core TLP
-  * Core WGs (for example, streams)
 
 ## Policy Change Proposal Process
 
-The Node.js TSC is chartered to oversee the technical governance of all Top
-Level Projects and Working Groups under the Node.js Foundation. The TSC
-establishes the default governance, conduct, and licensing policies for all Top
-Level Projects. Top Level Projects and Working Groups have broad powers of
+The Node.js TSC is chartered to oversee the technical governance of all Working
+Groups under the Node.js Foundation. Working Groups have broad powers of
 self-governance.
 
 To propose a change or addition to policies or processes that are intended to
-cover all Top Level Projects and Working Groups in the foundation, a PR should
-be opened in the `nodejs/TSC` repository.
+cover all Working Groups in the foundation, a PR should be opened in the
+`nodejs/TSC` repository.
 
 The pull request can be labeled `tsc-agenda` to request that it be put on the
 agenda for the next TSC meeting.
