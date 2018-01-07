@@ -145,64 +145,8 @@ to other projects and working groups.
 Every Top Level Project not currently incubating can appoint someone to the TSC
 whom they elect at their own discretion.
 
-### Current Members
-* [addaleax](https://github.com/addaleax) -
-**Anna Henningsen** &lt;anna@addaleax.net&gt; (she/her)
-* [ChALkeR](https://github.com/ChALkeR) -
-**Сковорода Никита Андреевич** &lt;chalkerx@gmail.com&gt; (he/him)
-* [cjihrig](https://github.com/cjihrig) -
-**Colin Ihrig** &lt;cjihrig@gmail.com&gt;
-* [evanlucas](https://github.com/evanlucas) -
-**Evan Lucas** &lt;evanlucas@me.com&gt; (he/him)
-* [fhinkel](https://github.com/fhinkel) -
-**Franziska Hinkelmann** &lt;franziska.hinkelmann@gmail.com&gt; (she/her)
-* [Fishrock123](https://github.com/Fishrock123) -
-**Jeremiah Senkpiel** &lt;fishrock123@rocketmail.com&gt;
-* [indutny](https://github.com/indutny) -
-**Fedor Indutny** &lt;fedor.indutny@gmail.com&gt;
-* [jasnell](https://github.com/jasnell) -
-**James M Snell** &lt;jasnell@gmail.com&gt; (he/him)
-* [joyeecheung](https://github.com/joyeecheung) -
-**Joyee Cheung** &lt;joyeec9h3@gmail.com&gt; (she/her)
-* [mcollina](https://github.com/mcollina) -
-**Matteo Collina** &lt;matteo.collina@gmail.com&gt; (he/him)
-* [mhdawson](https://github.com/mhdawson) -
-**Michael Dawson** &lt;michael_dawson@ca.ibm.com&gt; (he/him)
-* [mscdex](https://github.com/mscdex) -
-**Brian White** &lt;mscdex@mscdex.net&gt;
-* [MylesBorins](https://github.com/MylesBorins) -
-**Myles Borins** &lt;myles.borins@gmail.com&gt; (he/him)
-* [ofrobots](https://github.com/ofrobots) -
-**Ali Ijaz Sheikh** &lt;ofrobots@google.com&gt;
-* [rvagg](https://github.com/rvagg) -
-**Rod Vagg** &lt;rod@vagg.org&gt;
-* [targos](https://github.com/targos) -
-**Michaël Zasso** &lt;targos@protonmail.com&gt; (he/him)
-* [thefourtheye](https://github.com/thefourtheye) -
-**Sakthipriyan Vairamani** &lt;thechargingvolcano@gmail.com&gt; (he/him)
-* [trevnorris](https://github.com/trevnorris) -
-**Trevor Norris** &lt;trev.norris@gmail.com&gt;
-* [Trott](https://github.com/Trott) -
-**Rich Trott** &lt;rtrott@gmail.com&gt; (he/him)
-
-### TSC Emeriti
-
-* [bnoordhuis](https://github.com/bnoordhuis) -
-**Ben Noordhuis** &lt;info@bnoordhuis.nl&gt;
-* [chrisdickinson](https://github.com/chrisdickinson) -
-**Chris Dickinson** &lt;christopher.s.dickinson@gmail.com&gt;
-* [isaacs](https://github.com/isaacs) -
-**Isaac Z. Schlueter** &lt;i@izs.me&gt;
-* [joshgav](https://github.com/joshgav) -
-**Josh Gavant** &lt;josh.gavant@gmail.com&gt;
-* [nebrius](https://github.com/nebrius) -
-**Bryan Hughes** &lt;bryan@nebri.us&gt;
-* [orangemocha](https://github.com/orangemocha) -
-**Alexis Campailla** &lt;orangemocha@nodejs.org&gt;
-* [piscisaureus](https://github.com/piscisaureus) -
-**Bert Belder** &lt;bertbelder@gmail.com&gt;
-* [shigeki](https://github.com/shigeki) -
-**Shigeki Ohtsu** &lt;ohtsu@ohtsu.org&gt; (he/him)
+A [current list of TSC members](https://github.com/nodejs/node#tsc-technical-steering-committee)
+is maintained in the main Node.js repository.
 
 ## YouTube
 Many teams/groups post meeting videos to the
