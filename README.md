@@ -142,9 +142,6 @@ to be people who have a competancy for community management and a high tolerance
 and patience for process minutiae as the TSC delegates most of its responsibilities
 to other projects and working groups.
 
-Every Top Level Project not currently incubating can appoint someone to the TSC
-whom they elect at their own discretion.
-
 A [current list of TSC members](https://github.com/nodejs/node#tsc-technical-steering-committee)
 is maintained in the main Node.js repository.
 
