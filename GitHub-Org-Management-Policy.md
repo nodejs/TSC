@@ -16,8 +16,25 @@ Committee members have write permissions to the Node.js admin repository.
 
 ### Owners
 
-TSC members and the Chair of the Community Committee are the only individuals granted
-Owner permissions within the Node.js GitHub Organization.
+As with other resources within the community, Org ownership will be granted in order
+to optimize for the conflicting requirements of:
+
+* Limiting access to reduce risk
+* Enabling individuals to move community work forward without undue delay
+
+When possible we should use automation and tools to reduce the breadth of access
+that needs to be provide in order to enable individuals to move community work foward.
+As these tools are developed and put in place we will reduce the groups to which
+org ownership is granted.
+
+At the current time the following groups are granted access in order for them
+to facilitate community work.
+
+* TSC members
+* Chair of the Community Comittee
+* Moderation team members. - It is expected that moderation team members will limit
+their use of the access granted to that requied to carry out moderation across the
+existing repositories.
 
 ### Members
 
