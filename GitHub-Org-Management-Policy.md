@@ -64,7 +64,7 @@ Board of Directors approval may also be required.
 ## Removing or Blocking Individuals
 
 Only Node.js GitHub Organization owners may remove an individual from the
-Node.js Foundation membership or ban individuals. This is due largely to
+Node.js Foundation membership or block individuals. This is due largely to
 limitations in the way GitHub permissions are structured.
 
 To remove any current member from the GitHub organization, an issue must be
