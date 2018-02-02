@@ -61,10 +61,10 @@ Node.js Foundation GitHub Organization without a simple majority of both the
 TSC and CommComm in favor of the action. In certain cases, Node.js Foundation
 Board of Directors approval may also be required.
 
-## Removing or Banning Individuals
+## Removing or Blocking Individuals
 
 Only Node.js GitHub Organization owners may remove an individual from the
-Node.js Foundation membership or ban individuals. This is due largely to
+Node.js Foundation membership or block individuals. This is due largely to
 limitations in the way GitHub permissions are structured.
 
 To remove any current member from the GitHub organization, an issue must be
@@ -73,7 +73,7 @@ objections from any TSC or Community Committee members, removal becomes
 automatic. If there are objections, then simple majority votes of each of the
 Technical Steering and Community Committees in favor of removal are required.
 
-Banning an individual who is not currently a member of the GitHub organization
+Blocking an individual who is not currently a member of the GitHub organization
 may occur at any time subject to the policies outlined in the Moderation
 Guidelines.
 
