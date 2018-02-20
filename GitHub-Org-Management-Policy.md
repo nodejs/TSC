@@ -7,7 +7,7 @@ Community Committee (CommComm).
 
 ## Node.js Admin Repository
 
-The [Node.js admin repository](https://github.com/nodejs/admin) serves as the
+The [Node.js admin repository][nodejs/admin] serves as the
 central location for managing Node.js GitHub Organization administrative
 activities. Only Node.js GitHub Organization owners, TSC members, and Community
 Committee members have write permissions to the Node.js admin repository.
@@ -43,23 +43,27 @@ members to the organization when requested by a Working Group or team.
 
 ## Repositories
 
-Any organization member may request the creation of a new repository within the
-Node.js Foundation GitHub Organization by opening an issue in the Node.js admin
-repository. Provided there are no objections from any TSC or CommComm members,
-such requests are approved automatically after 72 hours. If any objection is
-made, the request may be moved to a vote in each of the Technical Steering and
-Community Committees.  A simple majority of each group *rejecting* the creation
-of the repository is required to block creating the repository. Such requests
-must be posted as issues in the Node.js admin repository.
-
 Any repository created under the Node.js GitHub Organization is considered to be
 a project under the ownership of the Node.js Foundation, and thereby subject
 to the Intellectual Property and Governance policies of the Foundation.
 
-No repository may be deleted, transferred into, or transferred out of the
-Node.js Foundation GitHub Organization without a simple majority of both the
-TSC and CommComm in favor of the action. In certain cases, Node.js Foundation
-Board of Directors approval may also be required.
+Any organization member may request the management of repositories within the
+Node.js Foundation GitHub Organization by opening an issue in the
+[Node.js admin repository][nodejs/admin]. The actions requested could be:
+
+- Creating a new repository
+- Deleting an existing repository
+- Archiving an existing repository
+- Transferring a repository into or out of the organization
+
+Provided there are no objections from any TSC or CommComm members raised in
+the issue, such requests are approved automatically after 72 hours. If any
+objection is made, the request may be moved to a vote in each of the
+Technical Steering and Community Committees.  A simple majority of each group
+*rejecting* the request is required to block the request.
+
+In certain cases, Node.js Foundation Board of Directors approval may also be
+required.
 
 ## Removing or Blocking Individuals
 
@@ -84,3 +88,5 @@ be approved by the TSC and CommComm and are subject to regular security audits.
 Bots that perform actions on behalf of the project (such as moderation or membership
 management actions) are required to maintain a log, accessible to all individuals
 granted Owner permissions, of all actions taken.
+
+[nodejs/admin]: https://github.com/nodejs/admin
