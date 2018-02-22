@@ -63,8 +63,11 @@ As of the time of writing, the strategy for OpenSSL with Node.js 10 is:
  * Bundle a copy of OpenSSL 1.1.0 in the source tree, along with any floating patches still required for improved Windows support and test-runner speed-ups.
  * Remain backward-compatible with OpenSSL 1.0.2 via dynamic linking for the lifetime of Node.js 10 (including beyond the end of official 1.0.2 support lifetime in order to support extended-life Linux distributions that take on the 1.0.2 support burden such as RHEL), verified by the Node.js CI system.
  * Upgrade to OpenSSL 1.1.1 when made generally available and Node.js 10 can retain ABI and API compatibility.
+ * **No support for FIPS** unless a new FIPS module becomes available during the Node.js 10 lifetime and is compatible without requiring breaking changes.
 
 ABI and API compatibility cannot be guaranteed in a switch from 1.1.0 to 1.1.1 although, as previously mentioned, the OpenSSL team have signaled their intention for this to be the case. The Node.js team should work with the OpenSSL team to ensure this is the case and smooth the upgrade path.
+
+The lack of FIPS support is unfortunate, however, unless a new FIPS module takes an inordinate amount of time, Node.js users requiring FIPS support should be able to use Node.js 8 and switch to a future Node.js version that supports the new FIPS module (ideally Node.js 12).
 
 This strategy must be communicated to users of Node.js 10 early and often. There is potential for instability and a change in default OpenSSL version is unprecedented and therefore unexpected. The potential for breaking API and/or ABI may also cause disruption, potentially requiring an increment of `NODE_MODULE_VERISION`, which will also be unprecedented within a single release line. It is important that users be aware of this possibility.
 
