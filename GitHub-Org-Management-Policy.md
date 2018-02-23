@@ -59,8 +59,8 @@ Node.js Foundation GitHub Organization by opening an issue in the
 Provided there are no objections from any TSC or CommComm members raised in
 the issue, such requests are approved automatically after 72 hours. If any
 objection is made, the request may be moved to a vote in each of the
-Technical Steering and Community Committees. Both the TSC and CommComm must
-reject the request for it to be blocked.
+Technical Steering and Community Committees. If either the TSC or CommComm
+rejects the request, then the request is denied.
 
 In certain cases, Node.js Foundation Board of Directors approval may also be
 required.
