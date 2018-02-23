@@ -9,7 +9,7 @@ Identical copies of the latest OpenSSL 1.0.2 version are included in Node.js rel
 * [c66c3d9fa](https://github.com/nodejs/node/commit/c66c3d9fa3f5bab0bdfe363dd947136cf8a3907f): `deps: fix openssl assembly error on ia32 win32`. A minor tweak to deps/openssl/openssl/crypto/perlasm/x86masm.pl to switch the instruction set referenced in ASM from 486 to 686, only affecting Windows on IA32.
 * [42a8de2ac](https://github.com/nodejs/node/commit/42a8de2ac66b6953cbc731fdb0b128b8019643b2): `deps: fix asm build error of openssl in x86_win32`. A fix for deps/openssl/openssl/crypto/perlasm/x86masm.pl for ASM produced for Windows on IA32 as described in https://mta.openssl.org/pipermail/openssl-dev/2015-February/000651.html
 * [2eb170874](https://github.com/nodejs/node/commit/2eb170874aa5e84e71b62caab7ac9792fd59c10f): `openssl: fix keypress requirement in apps on win32`. A fix for the `openssl` client application, used by the Node.js test suite, to properly accept stdin without requiring a physical keyboard. As described in <http://openssl.6102.n7.nabble.com/PATCH-s-client-Fix-keypress-requirement-with-redirected-input-on-Windows-td46787.html>.
-* [664a65969](https://github.com/nodejs/node/commit/664a6596960655e214fef25e74d3285097703e95): `deps: add -no_rand_screen to openssl s_client`. Adds a `-no_rand_screen` command line option to the `openssl` client applicaiton, used by the Node.js test suite which skips invocation of the `RAND_screen()` call on Windows in order to speed up some of the Node.js TLS tests. Use of this can be found in many of the `test/*/test-{tls,https}-*` test files.
+* [664a65969](https://github.com/nodejs/node/commit/664a6596960655e214fef25e74d3285097703e95): `deps: add -no_rand_screen to openssl s_client`. Adds a `-no_rand_screen` command line option to the `openssl` client application, used by the Node.js test suite which skips invocation of the `RAND_screen()` call on Windows in order to speed up some of the Node.js TLS tests. Use of this can be found in many of the `test/*/test-{tls,https}-*` test files.
 
 ## Node.js binaries in practice
 
@@ -41,6 +41,12 @@ Even though OpenSSL 1.1.0 is only supported until August 2018, the API shift is 
 
 As per the OpenSSL Roadmap, the focus of current development on the 1.1.1 release line is TLS 1.3. Unfortunately, the OpenSSL team is not currently prepared to designate 1.1.1 the next TLS line but have made a commitment that it will be both API and ABI compatible with OpenSSL 1.1.0 (see [here](https://www.openssl.org/blog/blog/2017/05/04/tlsv1.3/) and [here](https://github.com/openssl/openssl/issues/5120#issuecomment-359212121)).
 
+OpenSSL 1.1.1 pre-releases are already available as of the time of writing. According to the [OpenSSL release strategy](https://www.openssl.org/policies/releasestrat.html), the 1st of May is the target for "release readiness", with the first possible release date being the 8th of May if the codebase is considered ready for release.
+
+In addition, the TLS 1.3 specification is in "Last Call" state, due to end on the 2nd of March. This means that it is likely that we will receive a finalized TLS 1.3 specification during March, which would make a May OpenSSL 1.1.1 release feasable.
+
+TLS 1.3 specification finalization and code readiness are the two reasons that OpenSSL 1.1.1 release in early May is not a certainty. However, current signs point to that probability.
+
 ## FIPS
 
 The [Federal Information Processing Standard](https://en.wikipedia.org/wiki/FIPS_140-2) is managed by the NIST. Publication 140-2 is a US government standard used to approve cryptographic software.
@@ -51,7 +57,7 @@ Node.js compiled against the OpenSSL FIPS Object Module does not make Node.js it
 
 The OpenSSL FIPS Object Module is compatible with OpenSSL 1.0.2 and Node.js has been able to build with this module since 2015, prior to Node.js 4. It requires some modification of the Node.js internals (see `git grep FIPS -- lib/ src/`) for this to work properly.
 
-Development and validation of a FIPS software component is time consuming and expensive. The OpenSSL team have yet to commit to a timeframe for development of the next generation of its FIPS Object Module, however they have stated that it is their next priority ["after 1.1.1"](https://www.openssl.org/policies/roadmap.html). Therefore, any user requiring FIPS validated 
+Development and validation of a FIPS software component is time consuming and expensive. The OpenSSL team have yet to commit to a timeframe for development of the next generation of its FIPS Object Module, however they have stated that it is their next priority ["after 1.1.1"](https://www.openssl.org/policies/roadmap.html). Therefore, any user requiring FIPS validated OpenSSL must use OpenSSL 1.0.2 until a new module is made available that supports a newer version of OpenSSL.
 
 ## Node.js 10
 
@@ -61,7 +67,7 @@ As of the time of writing, the strategy for OpenSSL with Node.js 10 is:
 
  * OpenSSL 1.1.0 to initially be the assumed default compile target.
  * Bundle a copy of OpenSSL 1.1.0 in the source tree, along with any floating patches still required for improved Windows support and test-runner speed-ups.
- * Remain backward-compatible with OpenSSL 1.0.2 via dynamic linking for the lifetime of Node.js 10 (including beyond the end of official 1.0.2 support lifetime in order to support extended-life Linux distributions that take on the 1.0.2 support burden such as RHEL), verified by the Node.js CI system.
+ * Remain backward-compatible with OpenSSL 1.0.2 via dynamic linking for the lifetime of Node.js 10. This will cease being an _official_ policy at the OpenSSL 1.0.2 EOL date which will occur 4 months prior to Node 10 entering Maintenance LTS. However, this support will be maintained as long as it does not cause security problems and there are contributors available to maintain such support. The lack of a passing test suite with Node.js 10 compiled against OpenSSL 1.0.2 past the EOL date will not hold up further releases of Node 10.
  * Upgrade to OpenSSL 1.1.1 when made generally available and Node.js 10 can retain ABI and API compatibility.
  * **No support for FIPS** unless a new FIPS module becomes available during the Node.js 10 lifetime and is compatible without requiring breaking changes.
 
