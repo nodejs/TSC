@@ -84,7 +84,6 @@ include:
 * https://github.com/nodejs/http
 * https://github.com/nodejs/http2
 * https://github.com/nodejs/installer
-* https://github.com/nodejs/Intl
 * https://github.com/nodejs/llnode — administration delegated to the Post Mortem Working Group
 * https://github.com/nodejs/nan — administration delegated to the Addon API Working Group
 * https://github.com/nodejs/node-addon-examples — administration delegated to the Addon API Working Group)
