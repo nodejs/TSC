@@ -36,10 +36,12 @@ and have the support needed.
 
 # Completed
 
-| Initiative        | Champion                        | Links                                                            |
-|-------------------|---------------------------------|------------------------------------------------------------------|
-| CVE Management    | Michael Dawson                  | https://github.com/nodejs/security-wg/issues/33                  |
-| VM module fix     | Franziska Hinkelmann            | https://github.com/nodejs/node/issues/6283                       |
+| Initiative      | Champion             | Links                                           |
+|-----------------|----------------------|-------------------------------------------------|
+| CVE Management  | Michael Dawson       | https://github.com/nodejs/security-wg/issues/33 |
+| Moderation Team | Rich Trott           | https://github.com/nodejs/TSC/issues/329        |
+| VM module fix   | Franziska Hinkelmann | https://github.com/nodejs/node/issues/6283      |
+
 
 [jasnell]: https://github.com/jasnell
 [MylesBorins]: https://github.com/MylesBorins
