@@ -22,7 +22,6 @@ and have the support needed.
 | Core Promise APIs | [James Snell][jasnell]                                    |                                                                  |
 | TSC Governance    | [Myles Borins][MylesBorins]                               | https://github.com/nodejs/TSC/issues/383                         |
 | New Streams APIs  | [James Snell][jasnell] + [Jeremiah Senkpiel][fishrock123] | https://github.com/nodejs/node/pull/16414                        |
-| Async Hooks       | [Trevor Norris][trevnorris]                               |                                                                  |
 | V8 Currency       | [Michaël Zasso][targos]                                   |                                                                  |
 
 
@@ -32,7 +31,7 @@ and have the support needed.
 |-------------------|---------------------------------|------------------------------------------------------------------|
 | Mentoring         | ?                               |                                                                  |
 | nsp and modules   | ?                               |                                                                  |
-
+| Async Hooks       | ?                               |                                                                  |
 
 # Completed
 
