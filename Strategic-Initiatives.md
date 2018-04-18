@@ -49,5 +49,4 @@ and have the support needed.
 [mhdawson]: https://github.com/mhdawson
 [rvagg]: https://github.com/rvagg
 [trott]: https://github.com/trott
-[trevnorris]: https://github.com/trevnorris
 [targos]: https://github.com/targos
