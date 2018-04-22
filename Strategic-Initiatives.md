@@ -11,19 +11,128 @@ and have the support needed.
 
 # Current Initiatives
 
-| Initiative        | Champion                                                  | Links                                                            |
-|-------------------|-----------------------------------------------------------|------------------------------------------------------------------|
-| http2             | [James Snell][jasnell]                                    |                                                                  |
-| Modules           | [Myles Borins][MylesBorins]                               | https://github.com/nodejs/node-eps/blob/master/002-es-modules.md |
-| N-API             | [Michael Dawson][mhdawson]                                | https://github.com/nodejs/abi-stable-node                        |
-| OpenSSL Evolution | [Rod Vagg][rvagg]                                         | https://github.com/nodejs/TSC/issues/364                         |
-| Workers           | [Anna Henningson][addaleax]                               | https://github.com/nodejs/worker                                 |
-| Error Messages    | [James Snell][jasnell]                                    | https://github.com/nodejs/node/issues/11273                      |
-| Core Promise APIs | [James Snell][jasnell]                                    |                                                                  |
-| TSC Governance    | [Myles Borins][MylesBorins]                               | https://github.com/nodejs/TSC/issues/383                         |
-| New Streams APIs  | [James Snell][jasnell] + [Jeremiah Senkpiel][fishrock123] | https://github.com/nodejs/node/pull/16414                        |
-| Async Hooks       | [Trevor Norris][trevnorris]                               |                                                                  |
-| V8 Currency       | [Michaël Zasso][targos]                                   |                                                                  |
+* [http2](#http2)
+* [Modules](#modules)
+* [N-API](#n-api)
+* [OpenSSL Evolution](#openssl-evolution)
+* [Workers](#workers)
+* [Error Messages](#error-messages)
+* [Core Promise APIs](#core-promise-apis)
+* [TSC Governance](#tsc-governance)
+* [New Streams APIs](#new-streams-apis)
+* [Async Hooks](#async-hooks)
+* [V8 Currency](#v8-currency)
+
+## http2
+
+### Champion
+
+[James Snell][jasnell]
+
+### Stakeholders
+
+[Matteo Collina][mcollina]
+
+## Modules
+
+### Champion
+
+[Myles Borins][MylesBorins]
+
+### Stakeholders
+
+[Bradley Farias][bmeck]
+[Guy Bedford][guybedford]
+[Jan Olaf Krems][jkrems]
+[Michaël Zasso][targos]
+
+### Important links
+
+* [modules team](https://github.com/nodejs/modules)
+* [node-eps for esm](https://github.com/nodejs/node-eps/blob/master/002-es-modules.md)
+* [the current state of implementation and planning for esmodules](https://medium.com/the-node-js-collection/the-current-state-of-implementation-and-planning-for-esmodules-a4ecb2aac07a)
+
+## N-API
+
+### Champion
+
+[Michael Dawson][mhdawson]
+
+### Important Links
+
+* [abi-stable-node repo](https://github.com/nodejs/abi-stable-node)
+
+## OpenSSL Evolution
+
+### Champion
+
+[Rod Vagg][rvagg]
+
+### Important Links
+
+* [tracking issue on TSC repo](https://github.com/nodejs/TSC/issues/364)
+
+## Workers
+
+### Champion
+
+[Anna Henningson][addaleax]
+
+### Important Links
+
+* [Worker Repo](https://github.com/nodejs/worker)
+
+## Error Messages
+
+### Champion
+[James Snell][jasnell]
+
+### Important Links
+
+* [Tracking issue on main repo](https://github.com/nodejs/node/issues/11273)
+
+## Core Promise APIs
+
+### Champion
+
+[James Snell][jasnell]
+
+## TSC Governance
+
+### Champion
+
+[Myles Borins][MylesBorins]
+
+### Tracking Issue
+
+* [Tracking issue on TSC repo](https://github.com/nodejs/TSC/issues/383)
+
+
+## New Streams APIs
+
+### Champions
+
+[James Snell][jasnell] + [Jeremiah Senkpiel][fishrock123]
+
+### Important Links
+
+* [initial pull request](https://github.com/nodejs/node/pull/16414)
+
+## Async Hooks
+
+### Champion
+
+[Trevor Norris][trevnorris]
+
+## V8 Currency
+
+### Champion
+
+[Michaël Zasso][targos]
+
+### Stakeholders
+
+[Myles Borins][MylesBorins]
 
 
 # Need volunteers for
@@ -52,3 +161,7 @@ and have the support needed.
 [trott]: https://github.com/trott
 [trevnorris]: https://github.com/trevnorris
 [targos]: https://github.com/targos
+[bmeck]: https://github.com/bmeck
+[guybedford]: https://github.com/guybedford
+[jkrems]: https:/github.com/jkrems
+[mcollina]: https://github.com/mcollina
