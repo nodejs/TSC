@@ -39,10 +39,10 @@ The meeting link should be `http://www.youtube.com/c/nodejs-foundation/live`.
 
 Send it in a tweet such as:
 ```
-.@nodejs Core Technical Committee meeting live now: http://www.youtube.com/c/nodejs-foundation/live
+.@nodejs Technical Steering Committee meeting live now: http://www.youtube.com/c/nodejs-foundation/live
 ```
 
-Adjust the `Core Technical Committee` part as necessary and remove the `.@nodejs` if tweeting from the official twitter account.
+Adjust the `Technical Steering Committee` part as necessary and remove the `.@nodejs` if tweeting from the official twitter account.
 
 ![](youtube-stream-share.png)
 
