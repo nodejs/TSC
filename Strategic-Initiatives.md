@@ -23,7 +23,7 @@ and have the support needed.
 | TSC Governance    | [Myles Borins][MylesBorins]                               | https://github.com/nodejs/TSC/issues/383                         |
 | New Streams APIs  | [James Snell][jasnell] + [Jeremiah Senkpiel][fishrock123] | https://github.com/nodejs/node/pull/16414                        |
 | V8 Currency       | [Michaël Zasso][targos]                                   |                                                                  |
-
+| Async Hooks       | [Ali Ijaz Sheikh][ofrobots]                               | https://github.com/nodejs/diagnostics/issues/124                 |
 
 # Need volunteers for
 
@@ -31,7 +31,6 @@ and have the support needed.
 |-------------------|---------------------------------|------------------------------------------------------------------|
 | Mentoring         | ?                               |                                                                  |
 | nsp and modules   | ?                               |                                                                  |
-| Async Hooks       | ?                               |                                                                  |
 
 # Completed
 
@@ -53,3 +52,4 @@ and have the support needed.
 [rvagg]: https://github.com/rvagg
 [trott]: https://github.com/trott
 [targos]: https://github.com/targos
+[ofrobots]: https://github.com/ofrobots
