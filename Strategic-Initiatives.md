@@ -24,6 +24,8 @@ and have the support needed.
 | New Streams APIs  | [James Snell][jasnell] + [Jeremiah Senkpiel][fishrock123] | https://github.com/nodejs/node/pull/16414                        |
 | V8 Currency       | [Michaël Zasso][targos]                                   |                                                                  |
 | Async Hooks       | [Ali Ijaz Sheikh][ofrobots]                               | https://github.com/nodejs/diagnostics/issues/124                 |
+| npm Integration   | [Myles Borins][MylesBorins]                               |                                                                  |
+| Open Web Standards| [Myles Borins][MylesBorins]                               |                                                                  |
 
 # Need volunteers for
 
