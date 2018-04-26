@@ -11,19 +11,20 @@ and have the support needed.
 
 # Current Initiatives
 
-| Initiative        | Champion                                                  | Links                                                            |
-|-------------------|-----------------------------------------------------------|------------------------------------------------------------------|
-| http2             | [James Snell][jasnell]                                    |                                                                  |
-| Modules           | [Myles Borins][MylesBorins]                               | https://github.com/nodejs/node-eps/blob/master/002-es-modules.md |
-| N-API             | [Michael Dawson][mhdawson]                                | https://github.com/nodejs/abi-stable-node                        |
-| OpenSSL Evolution | [Rod Vagg][rvagg]                                         | https://github.com/nodejs/TSC/issues/364                         |
-| Workers           | [Anna Henningson][addaleax]                               | https://github.com/nodejs/worker                                 |
-| Error Messages    | [Joyee Cheung][joyeecheung]                               | [node#11273][], [node#18106][]                                   |
-| Core Promise APIs | [James Snell][jasnell]                                    |                                                                  |
-| TSC Governance    | [Myles Borins][MylesBorins]                               | https://github.com/nodejs/TSC/issues/383                         |
-| New Streams APIs  | [James Snell][jasnell] + [Jeremiah Senkpiel][fishrock123] | https://github.com/nodejs/node/pull/16414                        |
-| V8 Currency       | [Michaël Zasso][targos]                                   |                                                                  |
-
+| Initiative         | Champion                                                  | Links                                                            |
+|--------------------|-----------------------------------------------------------|------------------------------------------------------------------|
+| http2              | [James Snell][jasnell]                                    |                                                                  |
+| Modules            | [Myles Borins][MylesBorins]                               | https://github.com/nodejs/node-eps/blob/master/002-es-modules.md |
+| N-API              | [Michael Dawson][mhdawson]                                | https://github.com/nodejs/abi-stable-node                        |
+| OpenSSL Evolution  | [Rod Vagg][rvagg]                                         | https://github.com/nodejs/TSC/issues/364                         |
+| Workers            | [Anna Henningson][addaleax]                               | https://github.com/nodejs/worker                                 |
+| Error Messages     | [Joyee Cheung][joyeecheung]                               | [node#11273][], [node#18106][]                                   |
+| Core Promise APIs  | [James Snell][jasnell]                                    |                                                                  |
+| TSC Governance     | [Myles Borins][MylesBorins]                               | https://github.com/nodejs/TSC/issues/383                         |
+| New Streams APIs   | [James Snell][jasnell] + [Jeremiah Senkpiel][fishrock123] | https://github.com/nodejs/node/pull/16414                        |
+| V8 Currency        | [Michaël Zasso][targos]                                   |                                                                  |
+| npm Integration    | [Myles Borins][MylesBorins]                               |                                                                  |
+| Open Web Standards | [Myles Borins][MylesBorins]                               |                                                                  |
 
 # Need volunteers for
 
