@@ -1,39 +1,30 @@
 # Streaming Meetings to Youtube
 
-This is a guide on how to set up a live broadcast video encoder for the
-purpose of streaming Node.js meetings live to Youtube.
+We publicly live stream our meetings to YouTube using [Zoom](https://zoom.us/).
 
-Ask @Mikeal to add you as a manager for the Node.js Youtube if you need to stream in this way.
+## Prerequisites
+You need the Foundation login credentials for Zoom in order to host the meeting. In addition, your YouTube Account must be a manager of the [Node.js YouTube account](https://www.youtube.com/channel/UCQPYJluYC_sn_Qz_XE-YbTQ). Ask the TSC Chair for access to Zoom and YouTube.
 
-## Encoder Setup
+## Live streaming a meeting
 
-### Switch account to Node.js
+### Start and Stop the stream
 
-![](youtube-switch-login.png)
+Start and stop the live stream from within the Zoom application.
 
-### Open Youtube's Creator Studio
+Every participant can choose whether to participant with or without video.
 
-![](youtube-creator-studio.png)
+YouTube records the live stream. Recordings are made available on the [Node.js channel](https://www.youtube.com/channel/UCQPYJluYC_sn_Qz_XE-YbTQ/videos).
 
-### Navigate to the Live Streaming tab
-
-![](youtube-live-streaming.png)
-
-### Fetch Stream Key
-
-![](youtube-encoder-setup.png)
-
-## Preparing for a meeting
-
-### Edit the stream Title and Description
-
-The title should be set to the same format as the meeting issue title, but with the date moved to the front.
+The stream title is set automatically from the information in Zoom. We usually set it to
+`Node.js Technical Steering Committee meeting`.
 
 The description should be a link to the meeting issue.
 
+You can edit title and description on YouTube at a later time if needed.
+
 ![](youtube-stream-title-description.png)
 
-### Share the meeting once you've gone live.
+### Share the meeting once you've gone live
 
 The meeting link should be `http://www.youtube.com/c/nodejs-foundation/live`.
 
@@ -61,6 +52,8 @@ However, it may turn yellow and issue a warning in a "stream health" section bel
 ## Moderate the chat and solicit questions
 
 Moderation follows the [Moderation Policy](../Moderation-Policy.md). Messages can be moderated right-clicking and selecting the necessary action, such as `remove`.
+
+If you participate in the chat while logged in as Node.js, it's good practice to append your initials to your messages.
 
 During TSC meetings, there is a section of public Q&A at the end.
 It is important to solicit for questions **well in advance** of public Q&A sections so that people have time to think of and type questions.
