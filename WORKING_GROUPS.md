@@ -244,6 +244,7 @@ The [Node.js Code of Conduct][] applies to this WG.
 * [Benchmarking](#benchmarking)
 * [Post-mortem](#post-mortem)
 * [Release](#release)
+* [Security](#security)
 
 ### [Website](https://github.com/nodejs/nodejs.org)
 
@@ -434,6 +435,33 @@ Responsibilities include:
   backporting changes to these branches.
 * Define the policy for what gets backported to release streams.
 
+### [Security](https://github.com/nodejs/security-wg)
+
+The Security Working Group manages all aspects and processes linked to Node.js security.
+
+Responsibilities include:
+* Define and maintain security policies and procedures for:
+  * the core Node.js project
+  * other projects maintained by the Node.js Technical Steering Committee (TSC).
+* Work with the Node Security Platform to bring community vulnerability data into
+  the foundation as a shared asset.
+* Ensure the vulnerability data is updated in an efficient and timely manner. For example, ensuring there
+  are well-documented processes for reporting vulnerabilities in community
+  modules.
+* Review and recommend processes for handling of security reports (but not the
+  actual administration of security reports, which are reviewed by a group of people
+  directly delegated to by the TSC).
+* Define and maintain policies and procedures for the coordination of security
+  concerns within the external Node.js open source ecosystem.
+* Offer help to npm package maintainers to fix high-impact security bugs.
+* Maintain and make available data on disclosed security vulnerabilities in:
+  * the core Node.js project
+  * other projects maintained by the Node.js Foundation technical group
+  * the external Node.js open source ecosystem
+* Promote the improvement of security practices within the Node.js ecosystem.
+* Recommend security improvements for the core Node.js project.
+* Facilitate and promote the expansion of a healthy security service and product
+  provider ecosystem.
 
 [Technical Steering Committee (TSC)]: ./TSC-Charter.md
 [Consensus Seeking]: http://en.wikipedia.org/wiki/Consensus-seeking_decision-making
