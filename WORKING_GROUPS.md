@@ -437,7 +437,7 @@ Responsibilities include:
 
 ### [Security](https://github.com/nodejs/security-wg)
 
-The Security Working Group manages all aspects and process linked to security for Node.js.
+The Security Working Group manages all aspects and processes linked to Node.js security.
 
 Responsibilities include:
 * Define and maintain security policies and procedures for:
@@ -445,13 +445,9 @@ Responsibilities include:
   * other projects maintained by the Node.js Foundation technical group
 * Work with the Node Security Platform to bring community vulnerability data into
   the foundation as a shared asset.
-* Set up processes and procedures and follow these to ensure the vulnerability
-  data is updated in an efficient and timely manner. For example, ensuring there
+* Ensure the vulnerability data is updated in an efficient and timely manner. For example, ensuring there
   are well-documented processes for reporting vulnerabilities in community
   modules.
-* Work to set a high standard for the Node.js project. Possibly efforts could
-  include penetration testing, security reviews, review guidelines, coding
-  standards, etc.
 * Review and recommend processes for handling of security reports (but not the
   actual administration of security reports, which are reviewed by a group of people
   directly delegated to by the TSC).
