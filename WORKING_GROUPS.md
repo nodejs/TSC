@@ -442,7 +442,7 @@ The Security Working Group manages all aspects and processes linked to Node.js s
 Responsibilities include:
 * Define and maintain security policies and procedures for:
   * the core Node.js project
-  * other projects maintained by the Node.js Foundation technical group
+  * other projects maintained by the Node.js Technical Steering Committee (TSC).
 * Work with the Node Security Platform to bring community vulnerability data into
   the foundation as a shared asset.
 * Ensure the vulnerability data is updated in an efficient and timely manner. For example, ensuring there
@@ -461,7 +461,7 @@ Responsibilities include:
 * Promote the improvement of security practices within the Node.js ecosystem.
 * Recommend security improvements for the core Node.js project.
 * Facilitate and promote the expansion of a healthy security service and product
-  provider ecosystem vulnerabilities.
+  provider ecosystem.
 
 [Technical Steering Committee (TSC)]: ./TSC-Charter.md
 [Consensus Seeking]: http://en.wikipedia.org/wiki/Consensus-seeking_decision-making
