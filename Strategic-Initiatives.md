@@ -20,7 +20,7 @@ and have the support needed.
 | Workers           | [Anna Henningson][addaleax]                               | https://github.com/nodejs/worker                                 |
 | Error Messages    | [Joyee Cheung][joyeecheung]                               | [node#11273][], [node#18106][]                                   |
 | Core Promise APIs | [James Snell][jasnell]                                    |                                                                  |
-| TSC Governance    | [Myles Borins][MylesBorins]                               | https://github.com/nodejs/TSC/issues/383                         |
+|      Governance    | [Myles Borins][MylesBorins]                               |                          |
 | New Streams APIs  | [James Snell][jasnell] + [Jeremiah Senkpiel][fishrock123] | https://github.com/nodejs/node/pull/16414                        |
 | V8 Currency       | [Michaël Zasso][targos]                                   |                                                                  |
 | Async Hooks       | [Ali Ijaz Sheikh][ofrobots]                               | https://github.com/nodejs/diagnostics/issues/124                 |
