@@ -1,14 +1,8 @@
-# The Node.js Foundation TSC
+# The Node.js Foundation Technical Steering Committee
 
-The Node.js Foundation Technical Steering Committee is the technical governing
-body of the Node.js Foundation. The TSC elects one representative to the Node.js
-Foundation Board of Directors.
-
-For more details, read the [TSC Charter][] adopted by the Node.js Foundation
-Board of Directors on June 17 2015.
-
-If your project is interested in joining the Node.js Foundation please read
-the [Project Lifecycle.md](./Project-Lifecycle.md) documentation.
+The Node.js Foundation Technical Steering Committee (TSC) is the technical
+governing body of the Node.js Foundation. It is described in the
+[TSC Charter][].
 
 ## TSC Scope
 
