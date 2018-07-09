@@ -1,0 +1,30 @@
+# Onboarding/Offboarding
+
+Please refer to the
+[Establishment of the TSC](https://github.com/nodejs/TSC/blob/master/TSC-Charter.md#section-4-establishment-of-the-tsc)
+in the TSC Charter. In the event that there is a contradiction between that
+document and this document, the contradictory elements in this document are
+invalid and are superseded by the TSC Charter.
+
+## Onboarding
+
+* Add the new member to the `@nodejs/tsc` and `@nodejs/security-tsc` teams.
+* Change the new member's role in the GitHub `nodejs` organization to `Owner`.
+* Add them to the `@nodejs-private` org and with an `Owner` role.
+* Add them to the `@nodejs-private/security-tsc` team.
+* Add them to the `tsc` mailing list.
+* Update the `@nodejs/node` repository README to reflect membership in the TSC.
+* Update https://github.com/mhdawson/create-node-meeting-artifacts/blob/master/templates/invited_tsc to reflect membership in the TSC.
+
+## Offboarding
+
+* Remove the member from the `@nodejs/tsc` and `@nodejs/security-tsc` teams.
+* Change the member's role in the GitHub `nodejs` organization to `Member`
+  unless they have `Owner` role for a reason other than TSC membership.
+* Remove them from the `@nodejs-private/security-tsc` team.
+* Remove them from the `@nodejs-private` org unless they are members for a
+  reason other than TSC membership.
+* Remove them from the `tsc` mailing list.
+* Update the `@nodejs/node` repository README to reflect membership in the TSC.
+  In all likelihood, they should be listed as TSC Emeritus.
+* Update https://github.com/mhdawson/create-node-meeting-artifacts/blob/master/templates/invited_tsc to reflect membership in the TSC.
