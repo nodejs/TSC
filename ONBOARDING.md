@@ -8,6 +8,8 @@ invalid and are superseded by the TSC Charter.
 
 ## Onboarding
 
+* Confirm that the new member has read, understands, and agrees to uphold the
+  [Code of Conduct](https://github.com/nodejs/admin/blob/master/CODE_OF_CONDUCT.md).
 * Add the new member to the `@nodejs/tsc` and `@nodejs/security-tsc` teams.
 * Change the new member's role in the GitHub `nodejs` organization to `Owner`.
 * Add them to the `@nodejs-private` org and with an `Owner` role.
