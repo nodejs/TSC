@@ -81,20 +81,29 @@ Subject to such policies as may be set by the Board, the TSC is
 responsible for all technical development within the Node.js Foundation,
 including:
 
-* Setting release dates.
-* Release quality standards.
-* Technical direction.
-* Project governance and process (including this policy).
-* GitHub repository hosting.
-* Conduct guidelines.
-* Maintaining the list of additional Collaborators.
-* Development process and any coding standards.
+* Setting release dates
+* Release quality standards
+* Technical direction
+* Maintaining the list of additional Collaborators
+* Development process and any coding standards
 * Mediating technical conflicts between Collaborators or Foundation
-projects.
+projects
 
 The TSC will define Node.js Foundation’s release vehicles and serve as
 Node.js Foundation’s primary technical liaison body with external open
 source projects, consortiums and groups.
+
+The TSC shares responsibility with the Node.js Community Committee ("CommComm")
+for:
+
+* GitHub repository management
+* Project governance and process
+* Conduct guidelines
+
+TSC and CommComm will use the `nodejs/admin` GitHub repository to manage shared
+responsibilities. In the event the CommComm and TSC are unable to agree on a
+decision, the result is _status quo_. Such issues may subsequently be escalated
+to the Board for a final decision. 
 
 ## Section 6. Node.js Foundation Operations.
 
