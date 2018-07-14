@@ -88,6 +88,7 @@ including:
 * Development process and any coding standards
 * Mediating technical conflicts between Collaborators or Foundation
 projects
+* Management of the `nodejs-private` GitHub organization
 
 The TSC will define Node.js Foundation’s release vehicles and serve as
 Node.js Foundation’s primary technical liaison body with external open
@@ -96,7 +97,7 @@ source projects, consortiums and groups.
 The TSC shares responsibility with the Node.js Community Committee ("CommComm")
 for:
 
-* GitHub repository management
+* Management of the `nodejs` GitHub organization
 * Project governance and process
 * Conduct guidelines
 
