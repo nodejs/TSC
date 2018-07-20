@@ -24,7 +24,6 @@ and have the support needed.
 | New Streams APIs  | [James Snell][jasnell] + [Jeremiah Senkpiel][fishrock123] | https://github.com/nodejs/node/pull/16414                        |
 | V8 Currency       | [Michaël Zasso][targos]                                   |                                                                  |
 | Async Hooks       | [Ali Ijaz Sheikh][ofrobots]                               | https://github.com/nodejs/diagnostics/issues/124                 |
-| npm Integration   | [Myles Borins][MylesBorins]                               | https://github.com/nodejs/node/pull/21594                        |
 | Open Web Standards| [Myles Borins][MylesBorins]                               |                                                                  |
 
 # Need volunteers for
@@ -41,6 +40,7 @@ and have the support needed.
 | CVE Management  | Michael Dawson       | https://github.com/nodejs/security-wg/issues/33 |
 | Moderation Team | Rich Trott           | https://github.com/nodejs/TSC/issues/329        |
 | VM module fix   | Franziska Hinkelmann | https://github.com/nodejs/node/issues/6283      |
+| npm Integration | Myles Borins         | https://github.com/nodejs/node/pull/21594       |
 
 
 [jasnell]: https://github.com/jasnell
