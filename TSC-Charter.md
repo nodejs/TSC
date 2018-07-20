@@ -103,8 +103,7 @@ for:
 
 TSC and CommComm will use the `nodejs/admin` GitHub repository to manage shared
 responsibilities. In the event the CommComm and TSC are unable to agree on a
-decision, the result is _status quo_. Such issues may subsequently be escalated
-to the Board for a final decision. 
+decision, the result is _status quo_.
 
 ## Section 6. Node.js Foundation Operations.
 
