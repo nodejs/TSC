@@ -105,6 +105,8 @@ TSC and CommComm will use the `nodejs/admin` GitHub repository to manage shared
 responsibilities. In the event the CommComm and TSC are unable to agree on a
 decision, the result is _status quo_.
 
+See also: [Responsibilities of CommComm]
+
 ## Section 6. Node.js Foundation Operations.
 
 The TSC will establish and maintain a development process for Node.js
@@ -217,6 +219,7 @@ rarely be encumbered by the TSC and never by the Board.
 is organized through the project creation process and approved by the
 TSC.
 
-[Consensus Seeking]: http://en.wikipedia.org/wiki/Consensus-seeking_decision-making
 [Condorcet]: http://en.wikipedia.org/wiki/Condorcet_method
+[Consensus Seeking]: http://en.wikipedia.org/wiki/Consensus-seeking_decision-making
+[Responsibilities of CommComm]: https://github.com/nodejs/community-committee/blob/master/Community-Committee-Charter.md#section-5-responsibilities-of-the-commcomm
 [Single Transferable Vote]: http://en.wikipedia.org/wiki/Single_transferable_vote
