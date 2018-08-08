@@ -44,9 +44,6 @@ For the current list of Collaborators, see the project [README.md][].
 ### WG Membership
 
 WG seats are not time-limited.  There is no fixed size of the WG.
-However, the expected target is between 6 and 12, to ensure adequate
-coverage of important areas of expertise, balanced with the ability to
-make decisions efficiently.
 
 There is no specific set of requirements or qualifications for WG
 membership beyond these rules.
