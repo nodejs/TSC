@@ -242,7 +242,6 @@ The [Node.js Code of Conduct][] applies to this WG.
 * [Docker](#docker)
 * [Addon API](#addon-api)
 * [Benchmarking](#benchmarking)
-* [Post-mortem](#post-mortem)
 * [Release](#release)
 * [Security](#security)
 
@@ -303,6 +302,10 @@ Responsibilities include:
 * Exploring opportunities and gaps, discussing feature requests, and addressing
   conflicts in Node.js diagnostics.
 * Fostering an ecosystem of diagnostics tools for Node.js.
+* Defining and adding interfaces/APIs in order to allow dumps to be generated
+  when needed.
+* Defining and adding common structures to the dumps generated in order to
+  support tools that want to introspect those dumps.
 
 ### i18n
 
@@ -407,20 +410,6 @@ Responsibilities include:
 * Working to get community consensus on the list chosen
 * Adding regular execution of chosen benchmarks to Node.js builds
 * Tracking/publicizing performance between builds/releases
-
-### [Post-mortem](https://github.com/nodejs/post-mortem)
-
-The Post-mortem Diagnostics Working Group is dedicated to the support
-and improvement of postmortem debugging for Node.js. It seeks to
-elevate the role of postmortem debugging for Node, to assist in the
-development of techniques and tools, and to make techniques and tools
-known and available to Node.js users.
-
-Responsibilities include:
-* Defining and adding interfaces/APIs in order to allow dumps
-  to be generated when needed.
-* Defining and adding common structures to the dumps generated
-  in order to support tools that want to introspect those dumps.
 
 ### [Release](https://github.com/nodejs/release)
 
