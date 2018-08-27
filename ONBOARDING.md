@@ -16,7 +16,7 @@ invalid and are superseded by the TSC Charter.
 * Add them to the `@nodejs-private/security-tsc` team.
 * Add them to the `tsc` mailing list.
 * Update the `@nodejs/node` repository README to reflect membership in the TSC.
-* Update https://github.com/mhdawson/create-node-meeting-artifacts/blob/master/templates/invited_tsc to reflect membership in the TSC.
+* Update https://github.com/nodejs/create-node-meeting-artifacts/blob/master/templates/invited_tsc to reflect membership in the TSC.
 
 ## Offboarding
 
@@ -29,4 +29,4 @@ invalid and are superseded by the TSC Charter.
 * Remove them from the `tsc` mailing list.
 * Update the `@nodejs/node` repository README to reflect membership in the TSC.
   In all likelihood, they should be listed as TSC Emeritus.
-* Update https://github.com/mhdawson/create-node-meeting-artifacts/blob/master/templates/invited_tsc to reflect membership in the TSC.
+* Update https://github.com/nodejs/create-node-meeting-artifacts/blob/master/templates/invited_tsc to reflect membership in the TSC.
