@@ -81,20 +81,31 @@ Subject to such policies as may be set by the Board, the TSC is
 responsible for all technical development within the Node.js Foundation,
 including:
 
-* Setting release dates.
-* Release quality standards.
-* Technical direction.
-* Project governance and process (including this policy).
-* GitHub repository hosting.
-* Conduct guidelines.
-* Maintaining the list of additional Collaborators.
-* Development process and any coding standards.
+* Setting release dates
+* Release quality standards
+* Technical direction
+* Maintaining the list of additional Collaborators
+* Development process and any coding standards
 * Mediating technical conflicts between Collaborators or Foundation
-projects.
+projects
+* Management of the `nodejs-private` GitHub organization
 
 The TSC will define Node.js Foundation’s release vehicles and serve as
 Node.js Foundation’s primary technical liaison body with external open
 source projects, consortiums and groups.
+
+The TSC shares responsibility with the Node.js Community Committee ("CommComm")
+for:
+
+* Management of the `nodejs` GitHub organization
+* Project governance and process
+* Conduct guidelines
+
+TSC and CommComm will use the `nodejs/admin` GitHub repository to manage shared
+responsibilities. In the event the CommComm and TSC are unable to agree on a
+decision, the result is _status quo_.
+
+See also: [Responsibilities of CommComm]
 
 ## Section 6. Node.js Foundation Operations.
 
@@ -208,6 +219,7 @@ rarely be encumbered by the TSC and never by the Board.
 is organized through the project creation process and approved by the
 TSC.
 
-[Consensus Seeking]: http://en.wikipedia.org/wiki/Consensus-seeking_decision-making
 [Condorcet]: http://en.wikipedia.org/wiki/Condorcet_method
+[Consensus Seeking]: http://en.wikipedia.org/wiki/Consensus-seeking_decision-making
+[Responsibilities of CommComm]: https://github.com/nodejs/community-committee/blob/master/Community-Committee-Charter.md#section-5-responsibilities-of-the-commcomm
 [Single Transferable Vote]: http://en.wikipedia.org/wiki/Single_transferable_vote
