@@ -13,7 +13,6 @@ and have the support needed.
 
 | Initiative        | Champion                                                  | Links                                                            |
 |-------------------|-----------------------------------------------------------|------------------------------------------------------------------|
-| http2             | [James Snell][jasnell]                                    |                                                                  |
 | Modules           | [Myles Borins][MylesBorins]                               | https://github.com/nodejs/node-eps/blob/master/002-es-modules.md |
 | N-API             | [Michael Dawson][mhdawson]                                | https://github.com/nodejs/abi-stable-node                        |
 | OpenSSL Evolution | [Rod Vagg][rvagg]                                         | https://github.com/nodejs/TSC/issues/364                         |
