@@ -23,7 +23,7 @@ and have the support needed.
 | New Streams APIs  | [Jeremiah Senkpiel][fishrock123] | https://github.com/Fishrock123/bob, https://github.com/Fishrock123/socket                        |
 | V8 Currency       | [Michaël Zasso][targos]                                   |                                                                  |
 | Async Hooks       | [Ali Ijaz Sheikh][ofrobots]                               | https://github.com/nodejs/diagnostics/issues/124                 |
-| Open Web Standards| [Myles Borins][MylesBorins]                               |                                                                  |
+| Open Web Standards| [Myles Borins][MylesBorins] + [Joyee Cheung][joyeecheung] | https://github.com/nodejs/open-standards                         |
 
 # Need volunteers for
 
