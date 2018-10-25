@@ -32,16 +32,16 @@ These projects are located in the following repositories:
 
 * https://github.com/nodejs/TSC
 * https://github.com/nodejs/build — administration delegated to the Build Working Group
-* https://github.com/nodejs/citgm — administration delegated to the Core Technical Committee, managed by the Smoke Testing Team
+* https://github.com/nodejs/citgm — administration delegated to the Release Working Group
 * https://github.com/nodejs/docker-node — administration delegated to the Docker Working Group
 * https://github.com/nodejs/http-parser — administration delegated to the Core Technical Committee
-* https://github.com/nodejs/LTS — administration delegated to the Core Technical Committee, managed by the LTS Team
 * https://github.com/nodejs/node-eps — administration delegated to the Core Technical Committee
 * https://github.com/nodejs/nodejs-dist-indexer — administration delegated to the Build Working Group
 * https://github.com/nodejs/nodejs-latest-linker — administration delegated to the Build Working Group
 * https://github.com/nodejs/nodejs-nightly-builder — administration delegated to the Build Working Group
 * https://github.com/nodejs/nodejs.org — administration delegated to the Website Working Group
 * https://github.com/nodejs/secrets — _private_, administration delegated to the Build Working Group
+* https://github.com/nodejs/Release — administration delegated to the Release Working Group
 * https://github.com/libuv/libuv — currently under Incubation
 
 ### Adjacent Projects
