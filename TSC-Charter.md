@@ -184,7 +184,7 @@ additional Collaborators who are added by the TSC on an ongoing basis.
 Individuals making significant and valuable contributions,
 “Contributor(s)”, are made Collaborators and given commit-access to the
 project. These individuals are identified by the TSC and their addition
-as Collaborators is discussed during the TSC meeting. Modifications of the
+as Collaborators is discussed during a TSC meeting. Modifications of the
 contents of the git repository are made on a collaborative basis as defined in
 the development process.
 
