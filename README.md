@@ -80,7 +80,7 @@ include:
 * https://github.com/nodejs/installer
 * https://github.com/nodejs/llnode — administration delegated to the Post Mortem Working Group
 * https://github.com/nodejs/nan — administration delegated to the Addon API Working Group
-* https://github.com/nodejs/node-addon-examples — administration delegated to the Addon API Working Group)
+* https://github.com/nodejs/node-addon-examples — administration delegated to the Addon API Working Group
 * https://github.com/nodejs/node-chakracore
 * https://github.com/nodejs/node-gyp
 * https://github.com/nodejs/node-inspect — administration delegated to the Diagnostics Working Group
