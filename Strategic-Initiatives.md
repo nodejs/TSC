@@ -19,7 +19,7 @@ and have the support needed.
 | Workers           | [Anna Henningson][addaleax]                               | https://github.com/nodejs/worker                                 |
 | Error Messages    | [Joyee Cheung][joyeecheung]                               | [node#11273][], [node#18106][]                                   |
 | Core Promise APIs | [James Snell][jasnell]                                    |                                                                  |
-| Governance        | [Myles Borins][MylesBorins] + [Rod Vagg][rvagg]           |                                                                  |
+| Governance        | [Myles Borins][MylesBorins]                               |                                                                  |
 | New Streams APIs  | [Jeremiah Senkpiel][fishrock123] | https://github.com/Fishrock123/bob, https://github.com/Fishrock123/socket                        |
 | V8 Currency       | [Michaël Zasso][targos]                                   |                                                                  |
 | Async Hooks       | [Ali Ijaz Sheikh][ofrobots]                               | https://github.com/nodejs/diagnostics/issues/124                 |
