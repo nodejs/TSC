@@ -24,6 +24,7 @@ and have the support needed.
 | V8 Currency       | [Michaël Zasso][targos]                                   |                                                                  |
 | Async Hooks       | [Ali Ijaz Sheikh][ofrobots]                               | https://github.com/nodejs/diagnostics/issues/124                 |
 | Open Web Standards| [Myles Borins][MylesBorins] + [Joyee Cheung][joyeecheung] | https://github.com/nodejs/open-standards                         |
+| Python 3 & GYP    | [Sakthipriyan Vairamani][thefourtheye]                    | https://github.com/nodejs/TSC/issues/642                         |
 
 # Need volunteers for
 
@@ -54,3 +55,4 @@ and have the support needed.
 [trott]: https://github.com/trott
 [targos]: https://github.com/targos
 [ofrobots]: https://github.com/ofrobots
+[thefourtheye]: https://github.com/thefourtheye
