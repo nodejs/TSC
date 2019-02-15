@@ -14,7 +14,7 @@ invalid and are superseded by the TSC Charter.
 * Change the new member's role in the GitHub `nodejs` organization to `Owner`.
 * Add them to the `@nodejs-private` org and with an `Owner` role.
 * Add them to the `@nodejs-private/security-tsc` team.
-* Add them to the `tsc` mailing list.
+* Add them to the `tsc` and `crypto-export` mailing lists.
 * Update the `@nodejs/node` repository README to reflect membership in the TSC.
 * Update https://github.com/nodejs/create-node-meeting-artifacts/blob/master/templates/invited_tsc to reflect membership in the TSC.
 
@@ -26,7 +26,7 @@ invalid and are superseded by the TSC Charter.
 * Remove them from the `@nodejs-private/security-tsc` team.
 * Remove them from the `@nodejs-private` org unless they are members for a
   reason other than TSC membership.
-* Remove them from the `tsc` mailing list.
+* Remove them from the `tsc` and `crypto-export` mailing lists.
 * Update the `@nodejs/node` repository README to reflect membership in the TSC.
   In all likelihood, they should be listed as TSC Emeritus.
 * Update https://github.com/nodejs/create-node-meeting-artifacts/blob/master/templates/invited_tsc to reflect membership in the TSC.
