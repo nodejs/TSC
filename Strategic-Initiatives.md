@@ -18,7 +18,7 @@ and have the support needed.
 | OpenSSL Evolution | [Rod Vagg][rvagg]                                         | https://github.com/nodejs/TSC/issues/364                         |
 | Workers           | [Anna Henningson][addaleax]                               | https://github.com/nodejs/worker                                 |
 | Error Messages    | [Joyee Cheung][joyeecheung]                               | [node#11273][], [node#18106][]                                   |
-| Core Promise APIs | [James Snell][jasnell]                                    |                                                                  |
+| Core Promise APIs | [Matteo Collina][mcollina]                                    |                                                                  |
 | Governance        | [Myles Borins][MylesBorins]                               |                                                                  |
 | New Streams APIs  | [Jeremiah Senkpiel][fishrock123] | https://github.com/Fishrock123/bob, https://github.com/Fishrock123/socket                        |
 | V8 Currency       | [Michaël Zasso][targos]                                   |                                                                  |
@@ -43,8 +43,8 @@ and have the support needed.
 | npm Integration | Myles Borins         | https://github.com/nodejs/node/pull/21594       |
 
 
-[jasnell]: https://github.com/jasnell
 [joyeecheung]: https://github.com/joyeecheung
+[mcollina]: https://github.com/mcollina
 [MylesBorins]: https://github.com/MylesBorins
 [node#11273]: https://github.com/nodejs/node/issues/11273
 [node#18106]: https://github.com/nodejs/node/issues/18106
