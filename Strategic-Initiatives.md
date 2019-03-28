@@ -43,7 +43,6 @@ and have the support needed.
 | npm Integration | Myles Borins         | https://github.com/nodejs/node/pull/21594       |
 
 
-[jasnell]: https://github.com/jasnell
 [joyeecheung]: https://github.com/joyeecheung
 [MylesBorins]: https://github.com/MylesBorins
 [node#11273]: https://github.com/nodejs/node/issues/11273
