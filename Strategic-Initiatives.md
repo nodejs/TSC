@@ -25,6 +25,7 @@ and have the support needed.
 | Async Hooks       | [Ali Ijaz Sheikh][ofrobots]                               | https://github.com/nodejs/diagnostics/issues/124                 |
 | Open Web Standards| [Myles Borins][MylesBorins] + [Joyee Cheung][joyeecheung] | https://github.com/nodejs/open-standards                         |
 | Python 3 & GYP    | [Sakthipriyan Vairamani][thefourtheye]                    | https://github.com/nodejs/TSC/issues/642                         |
+| Startup performance  | [Joyee Cheung][joyeecheung]                            | https://github.com/nodejs/node/issues/17058 https://github.com/nodejs/node/issues/21563                        |
 
 # Need volunteers for
 
