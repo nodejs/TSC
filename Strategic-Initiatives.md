@@ -17,7 +17,6 @@ and have the support needed.
 | N-API             | [Michael Dawson][mhdawson]                                | https://github.com/nodejs/abi-stable-node                        |
 | OpenSSL Evolution | [Rod Vagg][rvagg]                                         | https://github.com/nodejs/TSC/issues/364                         |
 | Workers           | [Anna Henningson][addaleax]                               | https://github.com/nodejs/worker                                 |
-| Error Messages    | [Joyee Cheung][joyeecheung]                               | [node#11273][], [node#18106][]                                   |
 | Core Promise APIs | [Matteo Collina][mcollina]                                |                                                                  |
 | Governance        | [Myles Borins][MylesBorins]                               |                                                                  |
 | New Streams APIs  | [Jeremiah Senkpiel][fishrock123] | https://github.com/Fishrock123/bob, https://github.com/Fishrock123/socket                        |
@@ -33,6 +32,7 @@ and have the support needed.
 |-------------------|---------------------------------|------------------------------------------------------------------|
 | Mentoring         | ?                               |                                                                  |
 | nsp and modules   | ?                               |                                                                  |
+| Error Messages    | ?                               | [node#11273][], [node#18106][]                                   |
 
 # Completed
 
