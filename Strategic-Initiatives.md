@@ -25,7 +25,7 @@ and have the support needed.
 | Open Web Standards  | [Myles Borins][MylesBorins] + [Joyee Cheung][joyeecheung] | https://github.com/nodejs/open-standards                                                |
 | Python 3 & GYP      | [Sakthipriyan Vairamani][thefourtheye]                    | https://github.com/nodejs/TSC/issues/642                                                |
 | Startup performance | [Joyee Cheung][joyeecheung]                               | https://github.com/nodejs/node/issues/17058 https://github.com/nodejs/node/issues/21563 |
-| Build resrouces     | [Rich Trott][Trott] + [Rod Vagg][rvagg]                   | https://github.com/nodejs/build/issues/1154#issuecomment-448418977                      |
+| Build resources     | [Rich Trott][Trott] + [Rod Vagg][rvagg]                   | https://github.com/nodejs/build/issues/1154#issuecomment-448418977                      |
 
 # Need volunteers for
 
