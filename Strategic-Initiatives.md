@@ -15,7 +15,7 @@ and have the support needed.
 |---------------------|-----------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | Modules             | [Myles Borins][MylesBorins]                               | https://github.com/nodejs/node-eps/blob/master/002-es-modules.md                        |
 | N-API               | [Michael Dawson][mhdawson]                                | https://github.com/nodejs/abi-stable-node                                               |
-| OpenSSL Evolution   | [Rod Vagg][rvagg]                                         | https://github.com/nodejs/TSC/issues/364                                                |
+| OpenSSL Evolution   | [Rod Vagg][rvagg]                                         | https://github.com/nodejs/TSC/issues/677                                                |
 | Workers             | [Anna Henningson][addaleax]                               | https://github.com/nodejs/worker                                                        |
 | Core Promise APIs   | [Matteo Collina][mcollina]                                |                                                                                         |
 | Governance          | [Myles Borins][MylesBorins]                               |                                                                                         |
