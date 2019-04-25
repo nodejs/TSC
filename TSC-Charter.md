@@ -2,36 +2,29 @@
 
 ## Section 1. Guiding Principle.
 
-The Node.js Foundation will operate transparently, openly,
-collaboratively, and ethically. Project proposals, timelines, and status
-must not merely be open, but also easily visible to outsiders.
+The Node.js project is part of the OpenJS Foundation which
+operates transparently, openly, collaboratively, and ethically.
+Project proposals, timelines, and status must not merely be
+open, but also easily visible to outsiders.
 
-## Section 2. Evolution of Node.js Foundation Governance.
+## Section 2. Evolution of OpenJS Foundation Governance.
 
 Most large, complex open source communities have both a business and a
-technical governance model. Node.js Foundation’s technical leadership
-is the Technical Steering Committee (“TSC”). Node.js Foundation’s business
+technical governance model. Technical leadership for the projects
+within the OpenJS Foundation are delegated to the projects through
+their project charter by the OpenJS Cross Project Council (CPC).
+In the case of the Node.js project it is delegated to the Node.js
+Technical Steering Committee (“TSC”). OpenJS Foundation’s business
 leadership is the Board of Directors (the “Board”).
 
 This Technical Steering Committee Charter reflects a carefully
-constructed balanced role for the TSC and the Board in the governance of
-Node.js Foundation. The charter amendment process is for the TSC to
+constructed balanced role for the TSC and the CPC in the governance of
+the OpenJS Foundation. The charter amendment process is for the TSC to
 propose changes using simple majority of the full TSC, the proposed
-changes being subject to review and approval by the Board. The Board may
+changes being subject to review and approval by the CPC. The CPC may
 additionally make amendments to the TSC charter at any time, though the
-Board will not interfere with day-to-day discussions, votes or meetings
+CPC will not interfere with day-to-day discussions, votes or meetings
 of the TSC.
-
-## Section 3. Board’s Role in Setting Node.js Foundation’s Strategic Direction.  
-
-The Board will set the overall TSC Policy. The policy will describe the
-overarching scope of the Node.js Foundation initiative, Node.js
-Foundation’s technical vision and direction and project release
-expectations in the form of expected cadence and intent. The Board will
-use the TSC as a delegate body for governing technical implementation,
-individual project scope and direction while they remain within the scope
-and direction of the policies as described in the TSC Policy document and
-approved by the Board.
 
 ## Section 4. Establishment of the TSC.
 
@@ -77,8 +70,8 @@ to continue attending TSC meetings as an observer.
 
 ## Section 5. Responsibilities of the TSC.  
 
-Subject to such policies as may be set by the Board, the TSC is
-responsible for all technical development within the Node.js Foundation,
+Subject to such policies as may be set by the CPC, the TSC is
+responsible for all technical development within the Node.js project,
 including:
 
 * Setting release dates.
@@ -92,45 +85,24 @@ including:
 * Mediating technical conflicts between Collaborators or Foundation
 projects.
 
-The TSC will define Node.js Foundation’s release vehicles and serve as
-Node.js Foundation’s primary technical liaison body with external open
-source projects, consortiums and groups.
+The TSC will define Node.js projects’s release vehicles.
 
-## Section 6. Node.js Foundation Operations.
+## Section 6. Node.js Project Operations.
 
-The TSC will establish and maintain a development process for Node.js
-Foundation Projects. The development process will establish guidelines
+The TSC will establish and maintain a development process for the Node.js
+project. The development process will establish guidelines
 for how the developers and community will operate. It will, for example,
 establish appropriate timelines for TSC review (e.g. agenda items must be
 published at least a certain number of hours in advance of a TSC
 meeting).
 
-There will be multiple Projects under the Node.js Foundation organized by
-modules or subsystems. The TSC is responsible for organizing the Project
-structure, including possibly the creation and alignment of sub-Projects.
-Each Project must be within such policies as may be set by the Board,
-have a well-defined scope and must work within that scope. The
-development process will provide for Projects to follow the lifecycle
-process as described in the Project Lifecycle document. The development
-process will include a process for the TSC to oversee and approve changes
-in the lifecycle of a Project, which will include consideration of the
-following criteria:
-
-* Cleanliness of code base
-* Ample and diverse Contributors and Collaborators to assure vitality of
-the project.
-* Stability (e.g. presence of test suites, stable APIs and use of an
-  appropriate source-code control system).
-* Predictability of releases
-* Alignment with Node.js Foundation’s goals and priorities.
-
 The TSC and entire technical community will follow any processes as may
-be specified by the Board relating to the intake and license compliance
-review of contributions, including the Node.js Foundation IP Policy.
+be specified by the OpenJS Board relating to the intake and license compliance
+review of contributions, including the OpenJS Foundation IP Policy.
 
 ## Section 7. Elections
 
-Leadership roles in Node.js Foundation will be peer elected
+Leadership roles in Node.js project will be peer elected
 representatives of the community.
 
 For election of persons (such as the TSC Chairperson), a multiple-candidate
@@ -142,16 +114,17 @@ method should be used, such as:
 Multiple-candidate methods may be reduced to simple election by plurality
 when there are only two candidates for one position to be filled. No
 election is required if there is only one candidate and no objections to
-the candidates election. Elections shall be done within the Projects by
-the Collaborators active in the Project.
+the candidates election. Elections shall be done within the projects by
+the Collaborators active in the project.
 
 The TSC will elect from amongst voting TSC members a TSC Chairperson to
-work on building an agenda for TSC meetings and a TSC Director to represent
-the TSC to the Board for a term of one year according to the Node.js Foundation’s
-By-laws. The Chair and Director may be (but are not required to be)
-the same person. The TSC shall hold annual elections to select a TSC
-Chairperson and Director; there are no limits on the number of terms a
-TSC Chairperson or Director may serve.
+work on building an agenda for TSC meetings and a voting OpenJS
+Cross Project Council (CPC) voting member to represent the TSC in
+the OpenJS Foundation for a term of one year. The Chair and voting CPC
+member may be (but are not required to be) the same person.
+The TSC shall hold annual elections to select a TSC Chairperson and
+voting CPC member; there are no limits on the number
+of terms a TSC Chairperson or voting CPC member may serve.
 
 ## Section 8. Voting
 
@@ -173,12 +146,11 @@ For all votes, a simple majority of all TSC members for, or against, the issue
 wins. A TSC member may choose to participate in any vote through abstention.
 
 Note that, in addition to requiring a simple majority vote of the TSC, all
-changes to this charter are also subject to approval from the Node.js
-Foundation board.
+changes to this charter are also subject to approval from the CPC.
 
 ## Section 9. Project Roles
 
-The Node.js Foundation git repository is maintained by the TSC and
+The Node.js git repository is maintained by the TSC and
 additional Collaborators who are added by the TSC on an ongoing basis.
 
 Individuals making significant and valuable contributions,
@@ -192,7 +164,7 @@ Collaborators may opt to elevate significant or controversial
 modifications, or modifications that have not found consensus to the TSC
 for discussion by assigning the `tsc-agenda` tag to a pull request or
 issue. The TSC should serve as the final arbiter where required. The TSC
-will maintain and publish a list of current Collaborators by Project, as
+will maintain and publish a list of current Collaborators, as
 well as a development process guide for Collaborators and Contributors
 looking to participate in the development effort.
 
@@ -200,9 +172,9 @@ looking to participate in the development effort.
 
 * **Contributors**: contribute code or other artifacts, but do not have
 the right to commit to the code base. Contributors work with the
-Project’s Collaborators to have code committed to the code base. A
+project’s Collaborators to have code committed to the code base. A
 Contributor may be promoted to a Collaborator by the TSC. Contributors should
-rarely be encumbered by the TSC and never by the Board.
+rarely be encumbered by the TSC and never by the CPC or OpenJS Board.
 
 * **Project**: a technical collaboration effort, e.g. a subsystem, that
 is organized through the project creation process and approved by the
