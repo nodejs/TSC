@@ -26,7 +26,7 @@ additionally make amendments to the TSC charter at any time, though the
 CPC will not interfere with day-to-day discussions, votes or meetings
 of the TSC.
 
-## Section 4. Establishment of the TSC.
+## Section 3. Establishment of the TSC.
 
 TSC memberships are not time-limited. There is no maximum size of the TSC.
 The size is expected to vary in order to ensure adequate coverage of important
@@ -68,7 +68,7 @@ participate in TSC discussions, *and* does not participate in TSC votes, the
 member shall be automatically removed from the TSC. The member may be invited
 to continue attending TSC meetings as an observer.
 
-## Section 5. Responsibilities of the TSC.  
+## Section 4. Responsibilities of the TSC.  
 
 Subject to such policies as may be set by the CPC, the TSC is
 responsible for all technical development within the Node.js project,
@@ -87,7 +87,7 @@ projects.
 
 The TSC will define Node.js projects’s release vehicles.
 
-## Section 6. Node.js Project Operations.
+## Section 5. Node.js Project Operations.
 
 The TSC will establish and maintain a development process for the Node.js
 project. The development process will establish guidelines
@@ -100,7 +100,7 @@ The TSC and entire technical community will follow any processes as may
 be specified by the OpenJS Board relating to the intake and license compliance
 review of contributions, including the OpenJS Foundation IP Policy.
 
-## Section 7. Elections
+## Section 6. Elections
 
 Leadership roles in Node.js project will be peer elected
 representatives of the community.
@@ -126,7 +126,7 @@ The TSC shall hold annual elections to select a TSC Chairperson and
 voting CPC member; there are no limits on the number
 of terms a TSC Chairperson or voting CPC member may serve.
 
-## Section 8. Voting
+## Section 7. Voting
 
 For internal project decisions, Collaborators shall operate under Lazy
 Consensus. The TSC shall establish appropriate guidelines for
@@ -148,7 +148,7 @@ wins. A TSC member may choose to participate in any vote through abstention.
 Note that, in addition to requiring a simple majority vote of the TSC, all
 changes to this charter are also subject to approval from the CPC.
 
-## Section 9. Project Roles
+## Section 8. Project Roles
 
 The Node.js git repository is maintained by the TSC and
 additional Collaborators who are added by the TSC on an ongoing basis.
@@ -168,7 +168,7 @@ will maintain and publish a list of current Collaborators, as
 well as a development process guide for Collaborators and Contributors
 looking to participate in the development effort.
 
-## Section 10. Definitions
+## Section 9. Definitions
 
 * **Contributors**: contribute code or other artifacts, but do not have
 the right to commit to the code base. Contributors work with the
