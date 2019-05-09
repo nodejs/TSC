@@ -16,7 +16,7 @@ invalid and are superseded by the TSC Charter.
 * Add them to the `@nodejs-private/security-tsc` team.
 * Add them to the `tsc` and `crypto-export` mailing lists.
 * Update the `@nodejs/node` repository README to reflect membership in the TSC.
-* Update https://github.com/nodejs/create-node-meeting-artifacts/blob/master/templates/invited_tsc to reflect membership in the TSC.
+* Update https://github.com/nodejs/create-node-meeting-artifacts/blob/master/templates/invited_tsc and https://github.com/nodejs/create-node-meeting-artifacts/blob/master/templates/observers_tsc to reflect membership in the TSC.
 
 ## Offboarding
 
