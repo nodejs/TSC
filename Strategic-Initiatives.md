@@ -44,7 +44,7 @@ and have the support needed.
 | Moderation Team | Rich Trott           | https://github.com/nodejs/TSC/issues/329        |
 | VM module fix   | Franziska Hinkelmann | https://github.com/nodejs/node/issues/6283      |
 | npm Integration | Myles Borins         | https://github.com/nodejs/node/pull/21594       |
-| OpenSSL Evolution   | Rod Vagg                                         | https://github.com/nodejs/TSC/issues/364                                                |
+| OpenSSL Evolution   | Rod Vagg                                         | https://github.com/nodejs/TSC/issues/677                                                |
 
 
 [joyeecheung]: https://github.com/joyeecheung
