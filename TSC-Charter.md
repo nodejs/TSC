@@ -13,7 +13,7 @@ Most large, complex open source communities have both a business and a
 technical governance model. Technical leadership for the projects
 within the OpenJS Foundation is delegated to the projects through
 their project charters by the OpenJS Cross Project Council (CPC).
-In the case of the Node.js project it is delegated to the Node.js
+In the case of the Node.js project, it is delegated to the Node.js
 Technical Steering Committee (“TSC”). OpenJS Foundation’s business
 leadership is the Board of Directors (the “Board”).
 
