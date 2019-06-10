@@ -97,12 +97,12 @@ published at least a certain number of hours in advance of a TSC
 meeting).
 
 The TSC and entire technical community will follow any processes as may
-be specified by the OpenJS Board relating to the intake and license compliance
+be specified by the OpenJS Foundation Board relating to the intake and license compliance
 review of contributions, including the OpenJS Foundation IP Policy.
 
 ## Section 6. Elections
 
-Leadership roles in Node.js project will be peer elected
+Leadership roles in the Node.js project will be peer elected
 representatives of the community.
 
 For election of persons (such as the TSC Chairperson), a multiple-candidate
@@ -114,7 +114,7 @@ method should be used, such as:
 Multiple-candidate methods may be reduced to simple election by plurality
 when there are only two candidates for one position to be filled. No
 election is required if there is only one candidate and no objections to
-the candidates election. Elections shall be done within the projects by
+the candidate's election. Elections shall be done within the projects by
 the Collaborators active in the project.
 
 The TSC will elect from amongst voting TSC members a TSC Chairperson to
@@ -174,7 +174,7 @@ looking to participate in the development effort.
 the right to commit to the code base. Contributors work with the
 project’s Collaborators to have code committed to the code base. A
 Contributor may be promoted to a Collaborator by the TSC. Contributors should
-rarely be encumbered by the TSC and never by the CPC or OpenJS Board.
+rarely be encumbered by the TSC and never by the CPC or OpenJS Foundation Board.
 
 * **Project**: a technical collaboration effort, e.g. a subsystem, that
 is organized through the project creation process and approved by the
