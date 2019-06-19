@@ -118,7 +118,7 @@ the candidate's election. Elections shall be done within the projects by
 the Collaborators active in the project.
 
 The TSC will elect from amongst voting TSC members a TSC Chairperson to
-work on building an agenda for TSC meetings and a voting OpenJS
+work on building an agenda for TSC meetings and a OpenJS
 Cross Project Council (CPC) voting member to represent the TSC in
 the OpenJS Foundation for a term of one year. The Chair and voting CPC
 member may be (but are not required to be) the same person.
