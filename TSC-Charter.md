@@ -85,7 +85,7 @@ including:
 * Mediating technical conflicts between Collaborators or Foundation
 projects.
 
-The TSC will define Node.js projects’s release vehicles.
+The TSC will define Node.js project’s release vehicles.
 
 ## Section 5. Node.js Project Operations.
 
