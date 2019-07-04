@@ -3,20 +3,37 @@
 We publicly live stream our meetings to YouTube using [Zoom](https://zoom.us/).
 
 ## Prerequisites
-You need the Foundation login credentials for Zoom in order to host the meeting. In addition, your YouTube Account must be a manager of the [Node.js YouTube account](https://www.youtube.com/channel/UCQPYJluYC_sn_Qz_XE-YbTQ). Ask the TSC Chair for access to Zoom and YouTube.
+
+You need the Foundation login credentials for Zoom in order to host the meeting.
+The Zoom user ID is `nodejs-meetings@linuxfoundation.org`, the password needs
+to be communicated privately, ask the TSC Chair.
+
+Your YouTube Account must be a manager of the
+[Node.js YouTube account](https://www.youtube.com/channel/UCQPYJluYC_sn_Qz_XE-YbTQ). 
+Ask the TSC Chair or foundation managers (Amanda Ennis, Brian Warner, Rachel
+Romoff) to make your account a manager. To add managers or verify an account
+is a manager:
+1. Go to https://youtube.com
+2. Click on the node.js icon on the right top.
+3. Select settings, select "Add or remove managers", select "Manage permissions"
+4. On that page you can use the +people at the top right of the popup to add
+   people. It also lists all current managers.
 
 ## Live streaming a meeting
 
 ### Start and Stop the stream
 
-Start and stop the live stream from within the Zoom application.
+Login to Zoom using the Foundation credentials. You can Start and Stop the live
+stream from within the Zoom application.
 
-Every participant can choose whether to participant with or without video.
+Every participant can choose whether to participate with or without video.
 
-YouTube records the live stream. Recordings are made available on the [Node.js channel](https://www.youtube.com/channel/UCQPYJluYC_sn_Qz_XE-YbTQ/videos).
+YouTube records the live stream. Recordings are made available on the
+[Node.js channel](https://www.youtube.com/channel/UCQPYJluYC_sn_Qz_XE-YbTQ/videos).
 
-The stream title is set automatically from the information in Zoom. We usually set it to
-`Node.js Technical Steering Committee meeting`.
+The stream title is set automatically from the information in Zoom. We usually
+set it to `Node.js Technical Steering Committee meeting` for TSC meetings,
+other WGs use appropriate titles.
 
 The description should be a link to the meeting issue.
 
@@ -33,7 +50,8 @@ Send it in a tweet such as:
 .@nodejs Technical Steering Committee meeting live now: http://www.youtube.com/c/nodejs-foundation/live
 ```
 
-Adjust the `Technical Steering Committee` part as necessary and remove the `.@nodejs` if tweeting from the official twitter account.
+Adjust the `Technical Steering Committee` part as necessary and remove the
+`.@nodejs` if tweeting from the official twitter account.
 
 ![](youtube-stream-share.png)
 
