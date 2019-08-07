@@ -17,7 +17,6 @@ and have the support needed.
 | N-API               | [Michael Dawson][mhdawson]                                | https://github.com/nodejs/abi-stable-node                                               |
 | Workers             | [Anna Henningson][addaleax]                               | https://github.com/nodejs/worker                                                        |
 | Core Promise APIs   | [Matteo Collina][mcollina]                                |                                                                                         |
-| Governance          | [Myles Borins][MylesBorins]                               |                                                                                         |
 | New Streams APIs    | [Jeremiah Senkpiel][fishrock123]                          | https://github.com/Fishrock123/bob, https://github.com/Fishrock123/socket               |
 | V8 Currency         | [Michaël Zasso][targos]                                   |                                                                                         |
 | Open Web Standards  | [Myles Borins][MylesBorins] + [Joyee Cheung][joyeecheung] | https://github.com/nodejs/open-standards                                                |
@@ -45,6 +44,7 @@ and have the support needed.
 | VM module fix   | Franziska Hinkelmann | https://github.com/nodejs/node/issues/6283      |
 | npm Integration | Myles Borins         | https://github.com/nodejs/node/pull/21594       |
 | OpenSSL Evolution   | Rod Vagg                                         | https://github.com/nodejs/TSC/issues/677                                                |
+| Governance          | [Myles Borins][MylesBorins]                      |                                                                                         |
 
 
 [joyeecheung]: https://github.com/joyeecheung
