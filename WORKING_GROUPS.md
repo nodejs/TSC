@@ -424,22 +424,16 @@ Responsibilities include:
   backporting changes to these branches.
 * Define the policy for what gets backported to release streams.
 
-### [Security](https://github.com/nodejs/security-wg)
+### [Ecosystem Security](https://github.com/nodejs/security-wg)
 
-The Security Working Group manages all aspects and processes linked to Node.js security.
+The Ecosystem Security Working Group works to improve the security of the Node.js Ecosystem.
 
 Responsibilities include:
-* Define and maintain security policies and procedures for:
-  * the core Node.js project
-  * other projects maintained by the Node.js Technical Steering Committee (TSC).
 * Work with the Node Security Platform to bring community vulnerability data into
   the foundation as a shared asset.
 * Ensure the vulnerability data is updated in an efficient and timely manner. For example, ensuring there
   are well-documented processes for reporting vulnerabilities in community
   modules.
-* Review and recommend processes for handling of security reports (but not the
-  actual administration of security reports, which are reviewed by a group of people
-  directly delegated to by the TSC).
 * Define and maintain policies and procedures for the coordination of security
   concerns within the external Node.js open source ecosystem.
 * Offer help to npm package maintainers to fix high-impact security bugs.
@@ -448,9 +442,12 @@ Responsibilities include:
   * other projects maintained by the Node.js Foundation technical group
   * the external Node.js open source ecosystem
 * Promote the improvement of security practices within the Node.js ecosystem.
-* Recommend security improvements for the core Node.js project.
 * Facilitate and promote the expansion of a healthy security service and product
   provider ecosystem.
+
+This Working Group is _not_ responsible for managing or responding to
+security reports against Node.js itself. That responsibility remains with
+the [Node.js TSC][].
 
 [Technical Steering Committee (TSC)]: ./TSC-Charter.md
 [Consensus Seeking]: http://en.wikipedia.org/wiki/Consensus-seeking_decision-making
