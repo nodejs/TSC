@@ -234,7 +234,6 @@ The [Node.js Code of Conduct][] applies to this WG.
 
 ## Current Working Groups
 
-* [Website](#website)
 * [Streams](#streams)
 * [Build](#build)
 * [Diagnostics](#diagnostics)
@@ -244,17 +243,6 @@ The [Node.js Code of Conduct][] applies to this WG.
 * [Benchmarking](#benchmarking)
 * [Release](#release)
 * [Security](#security)
-
-### [Website](https://github.com/nodejs/nodejs.org)
-
-The website Working Group's purpose is to build and maintain a public
-website for the Node.js project.
-
-Responsibilities include:
-* Developing and maintaining a build and automation system for nodejs.org.
-* Ensuring the site is regularly updated with changes made to Node.js, like
-  releases and features.
-* Fostering and enabling a community of translators.
 
 ### [Streams](https://github.com/nodejs/readable-stream)
 
