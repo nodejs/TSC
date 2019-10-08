@@ -1,8 +1,7 @@
-# The Node.js Foundation Technical Steering Committee
+# The Node.js Technical Steering Committee
 
-The Node.js Foundation Technical Steering Committee (TSC) is the technical
-governing body of the Node.js Foundation. It is described in the
-[TSC Charter][].
+The Node.js Technical Steering Committee (TSC) is the technical
+governing body of Node.js. It is described in the [TSC Charter][].
 
 ## TSC Scope
 
@@ -11,7 +10,7 @@ depended upon by Node.js Core, and a number of projects adjacent to Node.js
 Core.**
 
 The TSC exercises autonomy in managing its responsibilities and seeks agreement
-from the Node.js Foundation Board on any change to the scope of those
+from the OpenJS Foundation Board on any change to the scope of those
 responsibilities as defined below.
 
 ### Node.js Core
@@ -52,11 +51,11 @@ _adjacent_ are either created from within the technical organization managed by
 the TSC or are adopted into that organization from outside.
 
 In the case of adopting existing projects, once the TSC has decided that
-adoption appropriate, it should seek agreement from the Node.js Foundation Board
+adoption appropriate, it should seek agreement from the OpenJS Foundation Board
 for such adoption as it impacts on the scope of technical activities of the
 Foundation.
 
-If the Node.js Foundation Board wishes to adopt an existing project, it must
+If the OpenJS Foundation Board wishes to adopt an existing project, it must
 seek agreement from the TSC that such adoption is appropriate and that any
 changes to scope that it entails are acceptable.
 
@@ -127,7 +126,7 @@ bodies such as the Working Groups.
 TSC members are responsible for top level technical community concerns. The role
 is mostly administrative and is responsible for admitting new Top Level
 Projects, Top Level Working Groups, and advocating for any needs in the
-technical side of the foundation to the Node.js Foundation Board of Directors.
+technical side of the project to the OpenJS Foundation Board of Directors.
 
 TSC members can nominate new members at any time. Candidates for membership tend
 to be people who have a competancy for community management and a high tolerance
@@ -139,7 +138,7 @@ is maintained in the main Node.js repository.
 
 ## YouTube
 Many teams/groups post meeting videos to the
-[Node.js Foundation YouTube channel][].
+[Node.js YouTube channel][].
 
 Any GitHub team maintainer is allowed `Manager` access to the Google Plus
 account allowing them to add/manage video content and schedule events
@@ -171,7 +170,7 @@ For more information look here:
 ## Policy Change Proposal Process
 
 The Node.js TSC is chartered to oversee the technical governance of all Top
-Level Projects and Working Groups under the Node.js Foundation. The TSC
+Level Projects and Working Groups under Node.js. The TSC
 establishes the default governance, conduct, and licensing policies for all Top
 Level Projects. Top Level Projects and Working Groups have broad powers of
 self-governance.
@@ -183,9 +182,9 @@ be opened in the `nodejs/TSC` repository.
 The pull request can be labeled `tsc-agenda` to request that it be put on the
 agenda for the next TSC meeting.
 
-The Node.js Foundation Board of Directors retains certain rights (especially
+The OpenJS Foundation Board of Directors retains certain rights (especially
 legal considerations). If the TSC endorses a proposal, they will escalate to the
-Node.js Foundation Board of Directors when required to do so.
+OpenJS Foundation Board of Directors when required to do so.
 
 In some cases, existing individual groups have the right to refuse changes to
 their charters. The TSC can not mandate existing working groups alter their
@@ -196,4 +195,4 @@ charter.
 [tools]: https://github.com/nodejs/node/tree/master/tools
 [TSC Charter]: https://github.com/nodejs/TSC/blob/master/TSC-Charter.md
 [Project Lifecycle.md]: ./Project-Lifecycle.md
-[Node.js Foundation YouTube channel]: https://www.youtube.com/c/nodejs+foundation/
+[Node.js YouTube channel]: https://www.youtube.com/c/nodejs+foundation/
