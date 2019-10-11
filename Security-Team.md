@@ -30,14 +30,18 @@ Membership on the security teams can be requested via an issue in the TSC repo.
 Initial triage is done by HackerOne staff. Once enough information is gathered
 to confirm there is a reproducible issue, triage is assigned to this group.
 
-- @bnoordhuis - **Ben Noordhuis**
-- @cjihrig - **Colin Ihrig**
-- @indutny - **Fedor Indutny**
-- @jasnell - **James M Snell**
-- @mcollina - **Matteo Collina**
-- @MylesBorins - **Myles Borins**
-- @rvagg - **Rod Vagg**
-- @vdeturckheim - **Vladimir de Turckheim**
+<!-- ncu-team-sync.team(nodejs/security-triage) -->
+
+- [@bnoordhuis](https://github.com/bnoordhuis) - Ben Noordhuis
+- [@cjihrig](https://github.com/cjihrig) - Colin Ihrig
+- [@indutny](https://github.com/indutny) - Fedor Indutny
+- [@jasnell](https://github.com/jasnell) - James M Snell
+- [@mcollina](https://github.com/mcollina) - Matteo Collina
+- [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
+- [@shigeki](https://github.com/shigeki) - Shigeki Ohtsu
+- [@vdeturckheim](https://github.com/vdeturckheim) - Vladimir de Turckheim
+
+<!-- ncu-team-sync end -->
 
 ## Team with access to private security reports against Node.js
 
@@ -88,6 +92,7 @@ the Node.js program on HackerOne.
 - [@shigeki](https://github.com/shigeki) - Shigeki Ohtsu
 - [@targos](https://github.com/targos) - Michaël Zasso
 - [@thefourtheye](https://github.com/thefourtheye) - Sakthipriyan Vairamani
+- [@tniessen](https://github.com/tniessen) - Tobias Nießen
 - [@Trott](https://github.com/Trott) - Rich Trott
 - [@vdeturckheim](https://github.com/vdeturckheim) - Vladimir de Turckheim
 
