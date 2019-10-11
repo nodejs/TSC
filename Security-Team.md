@@ -30,6 +30,12 @@ Membership on the security teams can be requested via an issue in the TSC repo.
 Initial triage is done by HackerOne staff. Once enough information is gathered
 to confirm there is a reproducible issue, triage is assigned to this group.
 
+The responsibility of Triage is to determine whether Node.js must take any
+action to mitigate the issue, and if so, to ensure that the action is taken.
+
+Mitigation may take many forms, for example, a Node.js security release that
+includes a fix, documentation, an informational CVE or blog post.
+
 <!-- ncu-team-sync.team(nodejs/security-triage) -->
 
 - [@bnoordhuis](https://github.com/bnoordhuis) - Ben Noordhuis
