@@ -20,10 +20,9 @@ and have the support needed.
 | New Streams APIs    | [Jeremiah Senkpiel][fishrock123]                          | https://github.com/Fishrock123/bob, https://github.com/Fishrock123/socket               |
 | V8 Currency         | [Michaël Zasso][targos]                                   |                                                                                         |
 | Open Web Standards  | [Myles Borins][MylesBorins] + [Joyee Cheung][joyeecheung] | https://github.com/nodejs/open-standards                                                |
-| Python 3 & GYP      | [Sakthipriyan Vairamani][thefourtheye]                    | https://github.com/nodejs/TSC/issues/642                                                |
 | QUIC / HTTP3        | [James M Snell][jasnell]                                  | https://github.com/nodejs/quic                                                          |
 | Startup performance | [Joyee Cheung][joyeecheung]                               | https://github.com/nodejs/node/issues/17058 https://github.com/nodejs/node/issues/21563 |
-| Build resources     | [Rich Trott][Trott]                   | https://github.com/nodejs/build/issues/1154#issuecomment-448418977                      |
+| Build resources     | [Rich Trott][Trott]                                       | https://github.com/nodejs/build/issues/1154#issuecomment-448418977                      |
 
 # Need volunteers for
 
@@ -32,19 +31,19 @@ and have the support needed.
 | Mentoring         | ?                               |                                                                  |
 | nsp and modules   | ?                               |                                                                  |
 | Error Messages    | ?                               | [node#11273][], [node#18106][]                                   |
-| Async Hooks         | ?               | https://github.com/nodejs/diagnostics/issues/124                                        |
+| Async Hooks       | ?                               | https://github.com/nodejs/diagnostics/issues/124                 |
 
 
 # Completed
 
-| Initiative      | Champion             | Links                                           |
-|-----------------|----------------------|-------------------------------------------------|
-| CVE Management  | Michael Dawson       | https://github.com/nodejs/security-wg/issues/33 |
-| Moderation Team | Rich Trott           | https://github.com/nodejs/TSC/issues/329        |
-| VM module fix   | Franziska Hinkelmann | https://github.com/nodejs/node/issues/6283      |
-| npm Integration | Myles Borins         | https://github.com/nodejs/node/pull/21594       |
-| OpenSSL Evolution   | Rod Vagg                                         | https://github.com/nodejs/TSC/issues/677                                                |
-| Governance          | [Myles Borins][MylesBorins]                      |                                                                                         |
+| Initiative          | Champion             | Links                                           |
+|---------------------|----------------------|-------------------------------------------------|
+| CVE Management      | Michael Dawson       | https://github.com/nodejs/security-wg/issues/33 |
+| Moderation Team     | Rich Trott           | https://github.com/nodejs/TSC/issues/329        |
+| VM module fix       | Franziska Hinkelmann | https://github.com/nodejs/node/issues/6283      |
+| npm Integration     | Myles Borins         | https://github.com/nodejs/node/pull/21594       |
+| OpenSSL Evolution   | Rod Vagg             | https://github.com/nodejs/TSC/issues/677        |
+| Governance          | Myles Borins         |                                                 |
 
 
 [joyeecheung]: https://github.com/joyeecheung
@@ -53,8 +52,10 @@ and have the support needed.
 [node#18106]: https://github.com/nodejs/node/issues/18106
 [fishrock123]: https://github.com/fishrock123
 [addaleax]: https://github.com/addaleax
+[cclauss]: https://github.com/cclauss
 [mhdawson]: https://github.com/mhdawson
 [rvagg]: https://github.com/rvagg
+[sam-github]: https://github.com/sam-github
 [trott]: https://github.com/trott
 [targos]: https://github.com/targos
 [ofrobots]: https://github.com/ofrobots
