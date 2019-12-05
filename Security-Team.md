@@ -46,6 +46,7 @@ includes a fix, documentation, an informational CVE or blog post.
 - [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
 - [@shigeki](https://github.com/shigeki) - Shigeki Ohtsu
 - [@vdeturckheim](https://github.com/vdeturckheim) - Vladimir de Turckheim
+- [@watson](https://github.com/watson) - Thomas Watson
 
 <!-- ncu-team-sync end -->
 
@@ -59,6 +60,7 @@ These non-TSC and TSC Emeriti also have access:
 * [indutny](https://github.com/indutny) - **Fedor Indutny**
 * [rvagg](https://github.com/rvagg) - **Rod Vagg**
 * [vdeturckheim](https://github.com/vdeturckheim) - **Vladimir de Turckheim**
+- [@watson](https://github.com/watson) - **Thomas Watson**
 
 List is from the [member page](https://hackerone.com/nodejs/team_members) for
 the Node.js program on HackerOne.
@@ -101,5 +103,6 @@ the Node.js program on HackerOne.
 - [@tniessen](https://github.com/tniessen) - Tobias Nießen
 - [@Trott](https://github.com/Trott) - Rich Trott
 - [@vdeturckheim](https://github.com/vdeturckheim) - Vladimir de Turckheim
+- [@watson](https://github.com/watson) - Thomas Watson
 
 <!-- ncu-team-sync end -->
