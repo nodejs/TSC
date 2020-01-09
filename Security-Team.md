@@ -148,11 +148,11 @@ The expected workflow for issues reported to Node.js is:
    - `NOT-APPLICABLE`: We do not agree this a vulnerability. We can request
      that the reporter close it to preserve their H1 "reputation points".  If
      its an issue, but not a vulnerability, we can suggest that it be reported
-     to the Node.js issue tracker. ***Should it be disclosed?***
+     to the Node.js issue tracker.
    - `INFORMATIVE`: This means we agree that the report describes an issue
      with security ramifications, but we don't intend to publish a fix. This
      might be because it isn't possible, or because its in an unsupported API
-     or version. ***Should it be disclosed?***
+     or version.
    - `DUPLICATE`: The report is a duplicate of an already reported issue. It
      should not need disclosure, because the original issue will be disclosed
      after it is resolved.
