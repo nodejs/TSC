@@ -14,6 +14,7 @@ invalid and are superseded by the TSC Charter.
 * Change the new member's role in the GitHub `nodejs` organization to `Owner`.
 * Add them to the `@nodejs-private` org and with an `Owner` role.
 * Add them to the `@nodejs-private/security-tsc` team.
+* Invite them to the HackerOne [Node.js team](https://hackerone.com/nodejs/team_members).
 * Add them to the `tsc` and `crypto-export` mailing lists.
 * Update the `@nodejs/node` repository README to reflect membership in the TSC.
 * Update https://github.com/nodejs/create-node-meeting-artifacts/blob/master/templates/invited_tsc and https://github.com/nodejs/create-node-meeting-artifacts/blob/master/templates/observers_tsc to reflect membership in the TSC.
@@ -21,6 +22,7 @@ invalid and are superseded by the TSC Charter.
 ## Offboarding
 
 * Remove the member from the `@nodejs/tsc` and `@nodejs/security-tsc` teams.
+* Remove them from the HackerOne [Node.js team](https://hackerone.com/nodejs/team_members).
 * Change the member's role in the GitHub `nodejs` organization to `Member`
   unless they have `Owner` role for a reason other than TSC membership.
 * Remove them from the `@nodejs-private/security-tsc` team.
