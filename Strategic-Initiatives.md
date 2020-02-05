@@ -43,6 +43,7 @@ and have the support needed.
 | npm Integration     | Myles Borins         | https://github.com/nodejs/node/pull/21594       |
 | OpenSSL Evolution   | Rod Vagg             | https://github.com/nodejs/TSC/issues/677        |
 | Governance          | Myles Borins         |                                                 |
+| Workers             | Anna Henningsen      | https://github.com/nodejs/worker                |
 
 
 [joyeecheung]: https://github.com/joyeecheung
