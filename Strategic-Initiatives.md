@@ -15,7 +15,6 @@ and have the support needed.
 |---------------------|-----------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | Modules             | [Myles Borins][MylesBorins]                               | https://github.com/nodejs/node-eps/blob/master/002-es-modules.md                        |
 | N-API               | [Michael Dawson][mhdawson]                                | https://github.com/nodejs/abi-stable-node                                               |
-| Workers             | [Anna Henningson][addaleax]                               | https://github.com/nodejs/worker                                                        |
 | Core Promise APIs   | [Matteo Collina][mcollina]                                |                                                                                         |
 | New Streams APIs    | [Jeremiah Senkpiel][fishrock123]                          | https://github.com/Fishrock123/bob, https://github.com/Fishrock123/socket               |
 | V8 Currency         | [Michaël Zasso][targos]                                   |                                                                                         |
