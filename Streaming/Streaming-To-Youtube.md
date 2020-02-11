@@ -23,8 +23,16 @@ is a manager:
 
 ### Start and Stop the stream
 
-Login to Zoom using the Foundation credentials. You can Start and Stop the live
-stream from within the Zoom application.
+1. Login to https://zoom.us using the Foundation credentials.
+2. Go to https://zoom.us/webinar/list, find the meeting.
+3. Press "Start", it should open the meeting in the Zoom application.
+4. Go to "Participants" panel, check Attendees, promote them to panelists.
+5. Go to "... More" in toolbar, choose "Live on YouTube", it will open in
+   browser.
+6. Choose to login to https://youtube.com with Node.js account, accept
+   Zoom usage agreement (on first use)
+7. On the Streaming page, edit the webinar title to include the meeting date,
+   then press the red "Go Live!" button.
 
 Every participant can choose whether to participate with or without video.
 
