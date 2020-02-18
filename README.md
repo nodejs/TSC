@@ -71,9 +71,8 @@ include:
 * https://github.com/nodejs/docs
 * https://github.com/nodejs/education
 * https://github.com/nodejs/email — administration delegated to the Build Working Group
-* https://github.com/nodejs/evangelism — administration delegated to the Evangelism Working Group
 * https://github.com/nodejs/github-bot
-* https://github.com/nodejs/help — administration delegated to the Evangelism Working Group
+* https://github.com/nodejs/help
 * https://github.com/nodejs/http
 * https://github.com/nodejs/http2
 * https://github.com/nodejs/installer
