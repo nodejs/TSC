@@ -35,7 +35,7 @@ is a manager:
    then press the red "Go Live!" button. Troubleshooting note: at least one
    person has found that "Go Live!" errored with a message "Please grant
    necessary privilege for live streaming". Copying the link from the default
-   browser to an different browser may workaround this issue.
+   browser to a different browser may work around this issue.
 
 Every participant can choose whether to participate with or without video.
 
