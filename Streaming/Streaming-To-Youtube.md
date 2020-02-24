@@ -32,7 +32,10 @@ is a manager:
 6. Choose to login to https://youtube.com with Node.js account, accept
    Zoom usage agreement (on first use)
 7. On the Streaming page, edit the webinar title to include the meeting date,
-   then press the red "Go Live!" button.
+   then press the red "Go Live!" button. Troubleshooting note: at least one
+   person has found that "Go Live!" errored with a message "Please grant
+   necessary privilege for live streaming". Copying the link from the default
+   browser to an different browser may workaround this issue.
 
 Every participant can choose whether to participate with or without video.
 
