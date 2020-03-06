@@ -14,23 +14,18 @@ and have the support needed.
 | Initiative          | Champion                                                  | Links                                                                                   |
 |---------------------|-----------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | Modules             | [Myles Borins][MylesBorins]                               | https://github.com/nodejs/node-eps/blob/master/002-es-modules.md                        |
-| N-API               | [Michael Dawson][mhdawson]                                | https://github.com/nodejs/abi-stable-node                                               |
 | Core Promise APIs   | [Matteo Collina][mcollina]                                |                                                                                         |
-| New Streams APIs    | [Jeremiah Senkpiel][fishrock123]                          | https://github.com/Fishrock123/bob, https://github.com/Fishrock123/socket               |
 | V8 Currency         | [Michaël Zasso][targos]                                   |                                                                                         |
-| Open Web Standards  | [Myles Borins][MylesBorins] + [Joyee Cheung][joyeecheung] | https://github.com/nodejs/open-standards                                                |
 | QUIC / HTTP3        | [James M Snell][jasnell]                                  | https://github.com/nodejs/quic                                                          |
 | Startup performance | [Joyee Cheung][joyeecheung]                               | https://github.com/nodejs/node/issues/17058 https://github.com/nodejs/node/issues/21563 |
-| Build resources     | [Rich Trott][Trott]                                       | https://github.com/nodejs/build/issues/1154#issuecomment-448418977                      |
+| Build resources     | [Michael Dawson][mhdawson]                                | https://github.com/nodejs/build/issues/1154#issuecomment-448418977                      |
 
 # Need volunteers for
 
-| Initiative        | Champion                        | Links                                                            |
-|-------------------|---------------------------------|------------------------------------------------------------------|
-| Mentoring         | ?                               |                                                                  |
-| nsp and modules   | ?                               |                                                                  |
-| Error Messages    | ?                               | [node#11273][], [node#18106][]                                   |
-| Async Hooks       | ?                               | https://github.com/nodejs/diagnostics/issues/124                 |
+| Initiative        | Champion                        | Links                                                                     |
+|-------------------|---------------------------------|---------------------------------------------------------------------------|
+| Async Hooks       | ?                               | https://github.com/nodejs/diagnostics/issues/124                          |
+| New Streams APIs  | ?                               | https://github.com/Fishrock123/bob, https://github.com/Fishrock123/socket |
 
 
 # Completed
@@ -44,6 +39,8 @@ and have the support needed.
 | OpenSSL Evolution   | Rod Vagg             | https://github.com/nodejs/TSC/issues/677        |
 | Governance          | Myles Borins         |                                                 |
 | Workers             | Anna Henningsen      | https://github.com/nodejs/worker                |
+| N-API               | Michael Dawson       | https://github.com/nodejs/abi-stable-node       |
+| Open Web Standards  | Myles Borins Joyee Cheung | https://github.com/nodejs/open-standards   |
 
 
 [joyeecheung]: https://github.com/joyeecheung
