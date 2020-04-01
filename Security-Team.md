@@ -142,6 +142,9 @@ The expected workflow for issues reported to Node.js is:
      getting resolved. Comments on the issue when someone is working on it are
      useful, as is assignment of the issue to a person who agrees to be
      responsible for following it through to resolution and disclosure.
+   - Once a fix is ready for release, the issue should be assigned to the group
+     `Ready for release`, and a comment added indicating the relevant PRs that
+     need to be merged during the release process.
 5. `RESOLVED`: State for an issue that has had a fix published. Issues in this
    state should be disclosed.
 6. ...: Final states for issues that we will not fix:
