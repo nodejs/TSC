@@ -42,7 +42,7 @@ Leave empty if you use the default Node.js behavior
 
 ## When a rejected promise doesn't have a catch handler, what is the behavior of your application today? 
 
-  - [ ] Current default Node.js behavior: logs a warning alongside a deprecation notice, continue execution
+  - [ ] Node.js logs a warning alongside a deprecation notice, execution continues
   - [ ] Logs a warning, continue running, no deprecation warning
   - [ ] Logs a warning, continue running, no deprecation warning, exits with an error code when program finishes
   - [ ] Exit as soon as possible
