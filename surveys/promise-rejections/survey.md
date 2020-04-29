@@ -36,7 +36,7 @@ Leave empty if you use the default Node.js behavior
   - [ ] Third-party libraries
   - [ ] Command-line tools
   - [ ] Web servers
-  - [ ] Computational-heave processing
+  - [ ] Computation-heavy processing
   - [ ] Desktop applications
   - [ ] Other (please elaborate)
 
