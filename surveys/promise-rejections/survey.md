@@ -22,7 +22,7 @@ When consuming Promises, async functions or thenables, which of the options belo
 
 Leave empty if you use the default Node.js behavior
 
-  - [ ] Yes, via process.on('unhandledRejection')
+  - [ ] Yes, via `process.on('unhandledRejection')`
   - [ ] Yes, via the `--unhandled-rejections` flag
 
 ## Are you using Promises in customer facing, production applications?
