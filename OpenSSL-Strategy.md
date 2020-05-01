@@ -107,7 +107,7 @@ For Node.js >= 11.9.0:
 * FIPS: not supported
 
 
-### Node.js version master, 12.x (release expected April-2019, EOL April-2022)
+### Node.js version 12.x, 13.x, 14.x
 
 * OpenSSL version: 1.1.1
 * Allowed shared OpenSSL version: 1.1.1
@@ -117,12 +117,55 @@ For Node.js >= 11.9.0:
 * FIPS: not supported
 
 
-### Node.js version 13.x
+Node.js EOL dates:
+- 12.x: April 2022
+- 13.x: June, 2020
+- 14.x: April 2023
 
-It's too early to discuss in detail, but this is the first version that may
-possibly support OpenSSL 3.0.0, and OpenSSL 3.0.0 is the next version of OpenSSL
-that is planned to support FIPS. See [OpenSSL 3.0.0 and FIPS][].
+## Node.js version 15.x (est. Oct 2020) (EOL Jun 2021)
 
+* OpenSSL version: 1.1.1
+* Allowed shared OpenSSL version: 1.1.1
+* Default minimum TLS version is TLSv1.2, default maximum is TLSv1.3. TLSv1
+  and TLSv1.1 are *not* supported by default, only by explicit run-time
+  configuration.
+* FIPS: not supported
+
+Note: OpenSSL 3.0.0 is NOT expected until Q4 2020, so unless they are _early_
+it won't happen in time for 15.x. Its possible that over the support time
+of 15.x (which is only about 8 months), that experimental support for OpenSSL
+3.x will be backported to it.
+
+## Node.js version 16.x (est Apr 2021) (EOL Apr 2024)
+
+* OpenSSL version: 3.x (because of OpenSSL EOL)
+* Allowed shared OpenSSL version: 1.1.1 (proposed...)
+* Default minimum TLS version is TLSv1.2, default maximum is TLSv1.3. TLSv1
+  and TLSv1.1 are *not* supported by default, only by explicit run-time
+  configuration.
+* FIPS: not supported
+
+OpenSSL 1.1.1 goes EOL on 2023-09-11, which is before 16.x will go EOL, so is
+not an appropriate choice for 16.x
+
+For minimal disruption, it would probably be helpful if Node.js supported
+building against OpenSSL 1.1.1 out-of-tree, even if OpenSSL 3.x was in-tree.
+
+Challenges are:
+1. OpenSSL 3.x moved many algorithms into a legacy library, that is only
+   accessible as a dynamically loaded provider, so cannot ship with Node.js
+2. Node.js has a build system wrapped around OpenSSL 1.1.1, it is currently
+   incompatible with the OpenSSL 3.x build system (effort to fix this is
+   unknown).
+3. OpenSSL 3.x has compile-time warning-deprecated a number of OpenSSL 1.1.1
+   APIs, but the alternatives to those deprecated APIs do not exist in OpenSSL
+   1.1.1. So, Node.js 16.x either needs to ship calling deprecated APIs, or
+   break compatibility with OpenSSL 1.1.1 (so it will _only build with 3.x_).
+4. Behavioural differences in OpenSSL 3.x currently fail many tests in the
+   Node.js master test suite (effort to fix this is unknown, impact of fixing
+   in terms of compatibility is unknown).
+
+Tracking issue: https://github.com/nodejs/node/issues/29817
 
 ## Background
 
@@ -184,6 +227,8 @@ Currently, there are three supported versions of OpenSSL as per the
 * Version 1.0.2: supported until 2019-12-31, designated Long-term Support (LTS)
 * Version 1.1.0: supported until 2019-09-11, not a LTS release line
 * Version 1.1.1: supported until 2023-09-11, designated Long-term Support (LTS)
+* Version 3.0.0: first release: Q4 2020 (estimated), designation as LTS:
+  *unknown*
 
 ### OpenSSL 1.0.2 and FIPS
 
