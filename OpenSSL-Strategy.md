@@ -143,10 +143,14 @@ of 15.x (which is only about 8 months), that experimental support for OpenSSL
 * Default minimum TLS version is TLSv1.2, default maximum is TLSv1.3. TLSv1
   and TLSv1.1 are *not* supported by default, only by explicit run-time
   configuration.
-* FIPS: not supported
+* FIPS: unpredictable, see below
 
 OpenSSL 1.1.1 goes EOL on 2023-09-11, which is before 16.x will go EOL, so is
 not an appropriate choice for 16.x
+
+OpenSSL 3.x may have FIPS support by release date of Node.js 16.x, or it may
+not. If it does not, since its a provider, it may be possible to support in
+a `semver-minor` (ABI, API, and behavioural compatible) update to 16.x.
 
 For minimal disruption, it would probably be helpful if Node.js supported
 building against OpenSSL 1.1.1 out-of-tree, even if OpenSSL 3.x was in-tree.
