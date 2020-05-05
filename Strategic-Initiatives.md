@@ -13,7 +13,7 @@ and have the support needed.
 
 | Initiative          | Champion                                                  | Links                                                                                   |
 |---------------------|-----------------------------------------------------------|-----------------------------------------------------------------------------------------|
-| Modules             | [Myles Borins][MylesBorins]                               | https://github.com/nodejs/node-eps/blob/master/002-es-modules.md                        |
+| Modules             | [Myles Borins][MylesBorins]                               | https://github.com/nodejs/modules                        |
 | Core Promise APIs   | [Matteo Collina][mcollina]                                |                                                                                         |
 | V8 Currency         | [Michaël Zasso][targos]                                   |                                                                                         |
 | QUIC / HTTP3        | [James M Snell][jasnell]                                  | https://github.com/nodejs/quic                                                          |
