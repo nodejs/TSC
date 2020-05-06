@@ -19,7 +19,7 @@ When consuming Promises, async functions or thenables, which of the options belo
   - [ ] `.catch()`
   - [ ] `try / catch` wrapping an `await` operation
   - [ ] Ignore the rejection
-  - [ ] Not writing Promise-based code
+  - [ ] Not writing Promise-based code or using Promise-based libraries
 
 ## Do you use `process.on('unhandledRejection')` as a global handler for unhandled rejections?
  
