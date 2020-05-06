@@ -4,26 +4,32 @@
 
 Assume using as creating your own `new Promise` and `async function`
 
- - [ ] Promises
- - [ ] async/await
- - [ ] Both
- - [ ] Neither / not writing Promise-based code
+(Multiple choice)
 
-## Are you currently using `.catch()`, `try await catch`, a mix, or neither to handle rejections?
+  - [ ] Promises
+  - [ ] async/await
+  - [ ] Not writing Promise-based code
+
+## How are you handling rejections today?
 
 When consuming Promises, async functions or thenables, which of the options below do you use to handle rejections?
 
- - [ ] `.catch()`
- - [ ] `try await catch`
- - [ ] Both
- - [ ] Neither / not writing Promise-based code
+(Multiple choice)
 
-## Do you use one or more of the following options as a global handler for Promise rejections?
+  - [ ] `.catch()`
+  - [ ] `try / catch` wrapping an `await` operation
+  - [ ] Ignore the rejection
+  - [ ] Not writing Promise-based code
 
-Leave empty if you use the default Node.js behavior
+## Do you use `process.on('unhandledRejection')` as a global handler for unhandled rejections?
+ 
+  - [ ] Yes
+  - [ ] No
 
-  - [ ] Yes, via `process.on('unhandledRejection')`
-  - [ ] Yes, via the `--unhandled-rejections` flag
+## Do you use the `--unhandled-rejections` command-line flag as a global handler for unhandled rejections?
+
+  - [ ] Yes
+  - [ ] No
 
 ## Are you using Promises in customer facing, production applications?
 
@@ -66,3 +72,9 @@ Which one you think should be the default on Node.js?
   - [ ] `warn-with-error`
   - [ ] `none`
   - [ ] Other (please elaborate)
+
+# Are you aware that not handling rejections may cause memory leaks or denial of service vulnerabilities?
+
+  - [  ] Yes
+  - [  ] No
+  - [  ] Unhandled rejections do not cause memory leaks or denial of service vulnerabilities
