@@ -8,7 +8,7 @@ Assume using as creating your own `new Promise`, `Promise.resolve`, and `async f
 
   - [ ] Promises
   - [ ] async/await
-  - [ ] Not writing Promise-based code
+  - [ ] Not writing Promise-based code or using Promise-based libraries
 
 ## How are you handling rejections today?
 
