@@ -2,7 +2,7 @@
 
 ## Are you currently using Promises, async/await, a mix, or neither?
 
-Assume using as creating your own `new Promise` and `async function`
+Assume using as creating your own `new Promise`, `Promise.resolve`, and `async function`; or using libraries that produce Promises (that you use with `.then`/`.catch`, or with `.await`)
 
 (Multiple choice)
 
