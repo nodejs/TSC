@@ -67,7 +67,7 @@ An unhandled rejection is a rejection which hasn't been handled yet. It might be
 
 ## Are you currently using Promises, async/await, a mix, or neither?
 
-Assume using as creating your own `new Promise`, `Promise.resolve`, and `async function`; or using libraries that produce Promises (that you use with `.then`/`.catch`, or with `.await`)
+Assume using as creating your own `new Promise`, `Promise.resolve`, and `async function`; or using libraries that produce Promises (that you use with `.then`/`.catch`/`.finally`, or with `await`)
 
 (Multiple choice)
 
