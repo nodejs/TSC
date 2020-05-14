@@ -49,8 +49,8 @@ async function foo() {
 foo().catch(() => console.error("an error occured"));  // 1. Handled
 
 try {
-  await foo();  // 2. Handled
-} catch(e) {
+  await foo();
+} catch(e) {  // 2. Handled
   console.error("an error occured")
 }
 
