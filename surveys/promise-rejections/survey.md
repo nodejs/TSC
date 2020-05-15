@@ -1,28 +1,35 @@
 # Node.js Promise reject use case survey
 
-Today, Node.js handles unhandled rejections by emitting a deprecation warning to stderr. The warning shows the stack where the rejection happened, and states that in future Node.js versions unhandled rejections will result on Node.js exitting with non-zero status code. We intend to remove the deprecation warning, replacing it with a stable behavior which might be different from the one described on the deprecation warning. We're running this survey to better understand how Node.js users are using Promises and how they are dealing with unhandled rejections today, so we can make an informed decision on how to move forward.
+Today, Node.js handles unhandled rejections by emitting a deprecation warning to stderr. The warning shows the stack where the rejection happened, and states that in future Node.js versions unhandled rejections will result in Node.js exiting with non-zero status code. We intend to remove the deprecation warning, replacing it with a stable behavior which might be different from the one described on the deprecation warning. We're running this survey to better understand how Node.js users are using Promises and how they are dealing with unhandled rejections today, so we can make an informed decision on how to move forward.
 
 ## What is a Promise rejection?
 
-A Promise rejection indicates that something went wrong while executing a Promise or an async function. Rejections can occur on several situations: thorwing inside an async function or a `Promise` executor/then/catch/finally callback, when calling the `reject` callback of an `executor`, or when calling `Promise.reject`.
+A Promise rejection indicates that something went wrong while executing a Promise or an async function. Rejections can occur in several situations: throwing inside an async function or a `Promise` executor/then/catch/finally callback, when calling the `reject` callback of an `executor`, or when calling `Promise.reject`.
 
 ```js
-
-Promise.reject()  // This will result in a rejection
+Promise.reject(new Error())  // This will result in a rejection
 
 new Promise((fulfill, reject) => {
-  reject();  // This will result in a rejection
+  reject(new Error());  // This will result in a rejection
 });
 
 new Promise(() => {
   throw new Error();  // This will result in a rejection
-}).then(() => {
+})
+
+Promise.resolve().then(() => {
   throw new Error();  // This will result in a rejection
-}, () => {
+})
+
+Promise.reject().then(() = {}, () => {
   throw new Error();  // This will result in a rejection
-}).catch(() => {
+}
+
+Promise.reject().catch(() => {
   throw new Error();  // This will result in a rejection
-}).finally(() => {
+})
+
+Promise.resolve().finally(() => {
   throw new Error();  // This will result in a rejection
 });
 
@@ -36,43 +43,58 @@ async function () {
 }
 ```
 
+Adding the `async` keyword to a function will turn any exceptions thrown inside that function (or any throw propagated from other functions called within it) into a rejection. The same happens when refactoring callback based code that throws into async functions / Promises. Below is an example of a callback based code refactored to Promises where exceptions become rejections:
+
 ## What is an unhandled rejection?
 
-Rejections are designed to be handled asynchronously. In JavaScript, Promises can be handled when awaiting for a promise inside a try/catch block, or via .catch calls:
+There are two ways to handle rejections: by attaching a `.catch` handler to it,
+or by awaiting on the promise within a try/catch block. In both cases, the
+handling of the rejection (the execution of the callback passed to `.catch`, or
+the execution of the `catch {}` block) will happen in a future turn of the
+event loop.
 
+Promises are designed so that attaching handlers or awaiting can be done at any
+point in time, from when the Promise was created (possibly while it's still
+pending), to right before the program finishes execution.
+
+A rejection is considered unhandled from the point it happens until the point
+where a handler is attached to the Promise or the Promise is awaited within a
+`catch {}` block. Below are a few examples of handled and unhandled rejections.
 
 ```js
 async function foo() {
   throw new Error();
 }
 
-foo().catch(() => console.error("an error occured"));  // 1. Handled
+foo()  // 1. Unhandled at this point
+  .catch(() => console.error("an error occured"));  // 2. Now it's handled
 
 try {
   await foo();
-} catch(e) {  // 2. Handled
+} catch(e) {  // 3. Handled
   console.error("an error occured")
 }
 
-foo(); // 3. Unhandled, but execution continues
+foo(); // 4. Unhandled, but execution continues
 
-const rejected = foo(); // 4. Unhandled on current event loop tick
+const rejected = foo(); // 5. Unhandled on current event loop turn
 
-// 4. ... but handled asynchronously when the setTimeout callback is popped from
-// the event loop
+// 4. ... but handled in a future turn of the event loop when the setTimeout
+// callback is executed.
 setTimeout(() => rejected.catch(() => console.error("an error occured")), 100);
 ```
 
-An unhandled rejection is a rejection which hasn't been handled yet. It might be handled in the future, like example 4, but it might also stay unhandled forever (like example 3).
+As we can see in the examples, an unhandled rejection might be handled in the future, like example 4, but it might also stay unhandled forever (like example 5).
 
-## Are you currently using Promises, async/await, a mix, or neither?
+Certain unhandled rejections may in rare cases leave your application in a non-deterministic and unsafe state, whether it's internal application state (including memory leaks), external resources used by your application (say, file handles or database connections), or external state (say, consistency of data in a database).
 
-Assume using as creating your own `new Promise`, `Promise.resolve`, and `async function`; or using libraries that produce Promises (that you use with `.then`/`.catch`/`.finally`, or with `await`)
+## Are you currently using Promises, async functions, a mix, or neither?
 
 (Multiple choice)
 
-  - [ ] Promises
-  - [ ] async/await
+  - [ ] Native Promises (`new Promise`, `Promise.resolve`, `Promise.reject`)
+  - [ ] Third-party Promises (for example: Bluebird)
+  - [ ] async functions
   - [ ] Not writing Promise-based code or using Promise-based libraries
 
 ## How are you handling rejections today?
@@ -83,10 +105,10 @@ When consuming Promises, async functions or thenables, which of the options belo
 
   - [ ] `.catch()`
   - [ ] `try / catch` wrapping an `await` operation
-  - [ ] Ignore the rejection
+  - [ ] Leave the handling to my caller
   - [ ] Not writing Promise-based code or using Promise-based libraries
 
-## Do you know that Node.js has a global handled for unhandled rejections (`process.on('unhandledRejection')`)? If so, do you use it?
+## Do you know that Node.js has a global handler for unhandled rejections (`process.on('unhandledRejection')`)? If so, do you use it?
  
   - [ ] I use `process.on('unhandledRejection')`
   - [ ] I don't use `process.on('unhandledRejection')`
@@ -98,15 +120,26 @@ When consuming Promises, async functions or thenables, which of the options belo
   - [ ] I use `--unhandled-rejections` set to `'warn'`
   - [ ] I use `--unhandled-rejections` set to `'none'`
   - [ ] I don't use `--unhandled-rejections`
+  - [ ] I use a third-party library (like make-promises-safe) to deal with unhandled rejections
   - [ ] I didn't know `--unhandled-rejections` existed
 
-## Are you using Promises in customer facing, production applications?
 
-  - [ ] Yes
-  - [ ] No
-  - [ ] I don't know
+## Do you know that Node.js has a global handler for uncaught exception (`process.on('uncaughtException')`)? If so, do you use it?
+ 
+  - [ ] I use `process.on('unhandledRejection')`
+  - [ ] I don't use `process.on('unhandledRejection')`
+  - [ ] I didn't know `process.on('unhandledRejection')` existed
 
-## Which of the use cases described below do you spend most of your time on?
+Are you using Promises in any of the following kinds of applications? (check all that apply)
+
+  - [ ] Production-level code
+  - [ ] Tests
+  - [ ] Benchmarks
+  - [ ] Build pipeline / infrastructure
+  - [ ] Examples and Demos
+  - [ ] Other (please describe)
+
+## Which of the use cases described below have you spent most of your time on?
 
   - [ ] Third-party libraries
   - [ ] Command-line tools
@@ -126,21 +159,47 @@ async function error() {
 error();
 ```
 
-  - [ ] Node.js logs a warning alongside a deprecation notice, execution continues
+If working on multiple applications or projects, choose the answer that describes the behavior on your biggest project, or on the project you worked the most.
+
+  - [ ] Node.js logs a warning alongside a deprecation notice, execution continues (this is the default Node.js behavior today)
   - [ ] Logs a warning, continue running, no deprecation warning
   - [ ] Logs a warning, continue running, no deprecation warning, exits with an error code when program finishes
-  - [ ] Exit as soon as possible
+  - [ ] Exit as soon as possible (this is the default Node.js behavior for uncaught exceptions today)
   - [ ] Other (please elaborate)
+
+## How do you deal with managing resources wrapped with promises when an unhandled rejection occurs?
+
+Node.js code may wrap resource managing code in async/await:
+
+```js
+// if this method wasn't async, node would crash by default
+myEmitter.on('event', async () =>{
+   // react to event
+  databaseConnection.release(); // throws an error
+});
+```
+
+If the above code throws, a database handle might leak which can in some cases eventually lead to a cascading failure and a denial of service.
+
+How do tools or servers you author deal with this case?
+
+ - [ ] I don't author code where this might be an issue (for example, code I author does not connect to third party resources).
+ - [ ] I take extra care to deal with these cases individually and perform monitoring on database handles with alerts.
+ - [ ] I make sure to restart my server if code like `databaseConnection.release` a throws, like with `uncaughtException`s.
+ - [ ] In theory this can be an issue with code I author but in practice things have been working out fine for me and I ignore these errors.
+ - [ ] The server keeps running, I log uncaught exceptions and unhandled rejections to monitoring and use a tool to notify engineers if such a bug occurs.
 
 ## What should be the default Node.js behavior for unhandled rejections?
 
 Consider the following modes:
 
-  - `strict`: throw and crash as soon as possible (on nextTick). Can't be overriden by unhandledRejection listener
-  - `throw`: throw and crash as soon as possible (on nextTick). Can be overriden by unhandledRejection listener
-  - `warn`: outputs a warning as soon as possible (on nextTick). Continues running after the warning is emitted. If the process exits and no status code was set, the process exits with a success code
-  - `warn-with-error`: outputs a warning as soon as possible (on nextTick). Continues running after the warning is emitted. If the process exits and no status code was set, the process exits with an error code
+  - `strict`: raise an uncaught exception similar to `throw new Error()` that is not caught. `unhandledRejection` listeners do not prevent raising the exception
+  - `throw`: raise an uncaught exception similar to `throw new Error()` that is not caught. `unhandledRejection` listeners take precedence and prevent raising the exception
+  - `warn`: outputs a warning as soon as possible. Continues running after the warning is emitted. If the process exits and no status code was set, the process exits with a success code. This is similar to what browser consoles do
+  - `warn-with-error`: outputs a warning as soon as possible. Continues running after the warning is emitted. If the process exits and no status code was set, the process exits with an error code
   - `none`: do nothing
+
+For all the modes, the action (raise an exceptiom output a warninig) will happen on `nextTick`.
 
 Which one you think should be the default on Node.js?
 
