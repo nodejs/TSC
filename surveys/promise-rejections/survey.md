@@ -88,6 +88,30 @@ As we can see in the examples, an unhandled rejection might be handled in the fu
 
 Certain unhandled rejections may in rare cases leave your application in a non-deterministic and unsafe state, whether it's internal application state (including memory leaks), external resources used by your application (say, file handles or database connections), or external state (say, consistency of data in a database).
 
+As an example, the following server is not sending a response back to the client, causing a socket leak and a possible Denial of Service attack:
+
+```js
+const http = require('http')
+const server = http.createServer(handle)
+
+server.listen(3000)
+
+function handle (req, res) {
+  doStuff()
+    .then((body) => {
+      res.end(body)
+    })
+}
+
+function doStuff () {
+  if (Math.random() < 0.5) {
+    return Promise.reject(new Error('kaboom'))
+  }
+
+  return Promise.resolve('hello world')
+}
+```
+
 ## Are you currently using Promises, async functions, a mix, or neither?
 
 (Multiple choice)
@@ -173,7 +197,7 @@ Node.js code may wrap resource managing code in async/await:
 
 ```js
 // if this method wasn't async, node would crash by default
-myEmitter.on('event', async () =>{
+myEmitter.on('event', async () => {
    // react to event
   databaseConnection.release(); // throws an error
 });
