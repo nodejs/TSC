@@ -45,6 +45,31 @@ async function () {
 
 Adding the `async` keyword to a function will turn any exceptions thrown inside that function (or any throw propagated from other functions called within it) into a rejection. The same happens when refactoring callback based code that throws into async functions / Promises. Below is an example of a callback based code refactored to Promises where exceptions become rejections:
 
+```js
+// Callback version
+const { readFile } = require('fs');
+
+function readJsonFile(file, cb) {
+  readFile(file, (err, data) => {
+    if (err) {
+      // If error while reading file, propagate the error via callback
+      return cb(err, null);
+    }
+    // Unexpected invalid JSON input, code will throw
+    cb(err, JSON.parse(data));
+  });
+}
+```
+
+```js
+const { readFile } = require('fs').promises;
+
+async function readJsonFile(file) {
+  // Promise is rejected if fails to read or if unexpected JSON input.
+  return JSON.parse(await readFile(file));
+}
+```
+
 ## What is an unhandled rejection?
 
 There are two ways to handle rejections: by attaching a `.catch` handler to it,
@@ -77,14 +102,13 @@ try {
 
 foo(); // 4. Unhandled, but execution continues
 
-const rejected = foo(); // 5. Unhandled on current event loop turn
-
-// 4. ... but handled in a future turn of the event loop when the setTimeout
-// callback is executed.
+const rejected = foo(); // 5. Unhandled on current event loop turn, but handled
+                        // in a future turn of the event loop when the
+                        // setTimeout callback below is executed.
 setTimeout(() => rejected.catch(() => console.error("an error occured")), 100);
 ```
 
-As we can see in the examples, an unhandled rejection might be handled in the future, like example 4, but it might also stay unhandled forever (like example 5).
+As we can see in the examples, an unhandled rejection might be handled in the future, like example 5, but it might also stay unhandled forever (like example 4).
 
 Certain unhandled rejections may in rare cases leave your application in a non-deterministic and unsafe state, whether it's internal application state (including memory leaks), external resources used by your application (say, file handles or database connections), or external state (say, consistency of data in a database).
 
@@ -129,7 +153,7 @@ When consuming Promises, async functions or thenables, which of the options belo
 
   - [ ] `.catch()`
   - [ ] `try / catch` wrapping an `await` operation
-  - [ ] Leave the handling to my caller
+  - [ ] Leave the handling to someone else (my caller, global handler, etc.)
   - [ ] Not writing Promise-based code or using Promise-based libraries
 
 ## Do you know that Node.js has a global handler for unhandled rejections (`process.on('unhandledRejection')`)? If so, do you use it?
@@ -150,9 +174,9 @@ When consuming Promises, async functions or thenables, which of the options belo
 
 ## Do you know that Node.js has a global handler for uncaught exception (`process.on('uncaughtException')`)? If so, do you use it?
  
-  - [ ] I use `process.on('unhandledRejection')`
-  - [ ] I don't use `process.on('unhandledRejection')`
-  - [ ] I didn't know `process.on('unhandledRejection')` existed
+  - [ ] I use `process.on('uncaughtException')`
+  - [ ] I don't use `process.on('uncaughtException')`
+  - [ ] I didn't know `process.on('uncaughtException')` existed
 
 Are you using Promises in any of the following kinds of applications? (check all that apply)
 
@@ -198,8 +222,8 @@ Node.js code may wrap resource managing code in async/await:
 ```js
 // if this method wasn't async, node would crash by default
 myEmitter.on('event', async () => {
-   // react to event
-  databaseConnection.release(); // throws an error
+  await databaseConnection.getValue() // throws an error
+  databaseConnection.release(); // oops, release is never called
 });
 ```
 
@@ -223,7 +247,7 @@ Consider the following modes:
   - `warn-with-error`: outputs a warning as soon as possible. Continues running after the warning is emitted. If the process exits and no status code was set, the process exits with an error code
   - `none`: do nothing
 
-For all the modes, the action (raise an exceptiom output a warninig) will happen on `nextTick`.
+For all the modes, the action (raise an exception output a warning) will happen on `nextTick`.
 
 Which one you think should be the default on Node.js?
 
