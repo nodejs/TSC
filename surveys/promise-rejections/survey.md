@@ -7,7 +7,7 @@ Today, Node.js handles unhandled rejections by emitting a deprecation warning to
 A Promise rejection indicates that something went wrong while executing a Promise or an async function. Rejections can occur in several situations: throwing inside an async function or a `Promise` executor/then/catch/finally callback, when calling the `reject` callback of an `executor`, or when calling `Promise.reject`.
 
 ```js
-Promise.reject(new Error())  // This will result in a rejection
+Promise.reject(new Error());  // This will result in a rejection
 
 new Promise((fulfill, reject) => {
   reject(new Error());  // This will result in a rejection
@@ -15,29 +15,29 @@ new Promise((fulfill, reject) => {
 
 new Promise(() => {
   throw new Error();  // This will result in a rejection
-})
+});
 
 Promise.resolve().then(() => {
   throw new Error();  // This will result in a rejection
-})
+});
 
-Promise.reject().then(() = {}, () => {
+Promise.reject().then(() => {}, () => {
   throw new Error();  // This will result in a rejection
-}
+});
 
 Promise.reject().catch(() => {
   throw new Error();  // This will result in a rejection
-})
+});
 
 Promise.resolve().finally(() => {
   throw new Error();  // This will result in a rejection
 });
 
-async function () {
+async function foo() {
   throw new Error();  // This will result in a rejection
 }
 
-async function () {
+async function bar(a) {
   if (a === undefined)
     a();  // This will result in a rejection
 }
@@ -97,7 +97,7 @@ foo()  // 1. Unhandled at this point
 try {
   await foo();
 } catch(e) {  // 3. Handled
-  console.error("an error occured")
+  console.error("an error occured");
 }
 
 foo(); // 4. Unhandled, but execution continues
@@ -115,24 +115,24 @@ Certain unhandled rejections may in rare cases leave your application in a non-d
 As an example, the following server is not sending a response back to the client, causing a socket leak and a possible Denial of Service attack:
 
 ```js
-const http = require('http')
-const server = http.createServer(handle)
+const http = require('http');
+const server = http.createServer(handle);
 
-server.listen(3000)
+server.listen(3000);
 
 function handle (req, res) {
   doStuff()
     .then((body) => {
-      res.end(body)
-    })
+      res.end(body);
+    });
 }
 
 function doStuff () {
   if (Math.random() < 0.5) {
-    return Promise.reject(new Error('kaboom'))
+    return Promise.reject(new Error('kaboom'));
   }
 
-  return Promise.resolve('hello world')
+  return Promise.resolve('hello world');
 }
 ```
 
@@ -222,7 +222,7 @@ Node.js code may wrap resource managing code in async/await:
 ```js
 // if this method wasn't async, node would crash by default
 myEmitter.on('event', async () => {
-  await databaseConnection.getValue() // throws an error
+  await databaseConnection.getValue(); // throws an error
   databaseConnection.release(); // oops, release is never called
 });
 ```
