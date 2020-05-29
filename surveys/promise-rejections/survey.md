@@ -244,7 +244,7 @@ Consider the following modes:
   - `strict`: raise an uncaught exception similar to `throw new Error()` that is not caught. `unhandledRejection` listeners do not prevent raising the exception
   - `throw`: raise an uncaught exception similar to `throw new Error()` that is not caught. `unhandledRejection` listeners take precedence and prevent raising the exception
   - `warn`: outputs a warning as soon as possible. Continues running after the warning is emitted. If the process exits and no status code was set, the process exits with a success code. This is similar to what browser consoles do
-  - `warn-with-error`: outputs a warning as soon as possible. Continues running after the warning is emitted. If the process exits and no status code was set, the process exits with an error code
+  - `warn-with-error-code`: outputs a warning as soon as possible. Continues running after the warning is emitted. If the process exits and no status code was set, the process exits with an error code
   - `none`: do nothing
 
 For all the modes, the action (raise an exception output a warning) will happen on `nextTick`.
@@ -254,6 +254,6 @@ Which one you think should be the default on Node.js?
   - [ ] `strict`
   - [ ] `throw`
   - [ ] `warn`
-  - [ ] `warn-with-error`
+  - [ ] `warn-with-error-code`
   - [ ] `none`
   - [ ] Other (please elaborate)
