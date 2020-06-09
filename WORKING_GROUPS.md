@@ -458,7 +458,6 @@ Responsibilities include:
   * nodejs/ci-config-travis
   * nodejs/ci-config-github-actions
   * nodejs/package-maintenance repository.
-* Ongoing work to improve the state of 
 
 
 [Technical Steering Committee (TSC)]: ./TSC-Charter.md
