@@ -16,7 +16,7 @@ The policy for inclusion is as follows:
 
 1. All members of @nodejs/TSC have access to private security reports and
    private patches.
-2. Members of the [release team](https://github.com/nodejs/node#release-team)
+2. Members of the @nodejs/releasers team
    have access to private security patches in order to produce releases.
 3. On a case-by-case basis, individuals outside the Technical Steering
    Committee are invited by the TSC to have access to private security reports
