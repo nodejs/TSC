@@ -92,6 +92,7 @@ the Node.js program on HackerOne.
 - [@mcollina](https://github.com/mcollina) - Matteo Collina
 - [@mhdawson](https://github.com/mhdawson) - Michael Dawson
 - [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
+* [@ronag](https://github.com/ronag) - Robert Nagy
 - [@rvagg](https://github.com/rvagg) - Rod Vagg
 - [@saghul](https://github.com/saghul) - Saúl Ibarra Corretgé
 - [@sam-github](https://github.com/sam-github) - Sam Roberts
