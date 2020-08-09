@@ -136,7 +136,7 @@ function doStuff () {
 }
 ```
 
-## Are you currently using Promises, async functions, a mix, or neither?
+## 1. Are you currently using Promises, async functions, a mix, or neither?
 
 (Multiple choice)
 
@@ -145,7 +145,7 @@ function doStuff () {
   - [ ] async functions
   - [ ] Not writing Promise-based code or using Promise-based libraries
 
-## How are you handling rejections today?
+## 2. How are you handling rejections today?
 
 When consuming Promises, async functions or thenables, which of the options below do you use to handle rejections?
 
@@ -156,13 +156,13 @@ When consuming Promises, async functions or thenables, which of the options belo
   - [ ] Leave the handling to someone else (my caller, global handler, etc.)
   - [ ] Not writing Promise-based code or using Promise-based libraries
 
-## Do you know that Node.js has a global handler for unhandled rejections (`process.on('unhandledRejection')`)? If so, do you use it?
+## 3. Do you know that Node.js has a global handler for unhandled rejections (`process.on('unhandledRejection')`)? If so, do you use it?
 
   - [ ] I use `process.on('unhandledRejection')`
   - [ ] I don't use `process.on('unhandledRejection')`
   - [ ] I didn't know `process.on('unhandledRejection')` existed
 
-## Do you know that Node.js has a flag to change the behavior of unhandled rejections `--unhandled-rejections`? If so, do you use it?
+## 4. Do you know that Node.js has a flag to change the behavior of unhandled rejections `--unhandled-rejections`? If so, do you use it?
 
   - [ ] I use `--unhandled-rejections` set to `'strict'`
   - [ ] I use `--unhandled-rejections` set to `'warn'`
@@ -172,13 +172,13 @@ When consuming Promises, async functions or thenables, which of the options belo
   - [ ] I didn't know `--unhandled-rejections` existed
 
 
-## Do you know that Node.js has a global handler for uncaught exception (`process.on('uncaughtException')`)? If so, do you use it?
+## 5. Do you know that Node.js has a global handler for uncaught exception (`process.on('uncaughtException')`)? If so, do you use it?
 
   - [ ] I use `process.on('uncaughtException')`
   - [ ] I don't use `process.on('uncaughtException')`
   - [ ] I didn't know `process.on('uncaughtException')` existed
 
-Are you using Promises in any of the following kinds of applications? (check all that apply)
+## 6. Are you using Promises in any of the following kinds of applications? (check all that apply)
 
   - [ ] Production-level code
   - [ ] Tests
@@ -187,7 +187,7 @@ Are you using Promises in any of the following kinds of applications? (check all
   - [ ] Examples and Demos
   - [ ] Other (please describe)
 
-## Which of the use cases described below have you spent most of your time on?
+## 7. Which of the use cases described below have you spent most of your time on?
 
   - [ ] Third-party libraries
   - [ ] Command-line tools
@@ -196,7 +196,7 @@ Are you using Promises in any of the following kinds of applications? (check all
   - [ ] Desktop applications
   - [ ] Other (please elaborate)
 
-## When a rejected promise doesn't have a catch handler, what is the behavior of your application today?
+## 8. When a rejected promise doesn't have a catch handler, what is the behavior of your application today?
 
 For example:
 
@@ -215,7 +215,7 @@ If working on multiple applications or projects, choose the answer that describe
   - [ ] Exit as soon as possible (this is the default Node.js behavior for uncaught exceptions today)
   - [ ] Other (please elaborate)
 
-## How do you deal with managing resources wrapped with promises when an unhandled rejection occurs?
+## 9. How do you deal with managing resources wrapped with promises when an unhandled rejection occurs?
 
 Node.js code may wrap resource managing code in async/await:
 
@@ -233,11 +233,11 @@ How do tools or servers you author deal with this case?
 
  - [ ] I don't author code where this might be an issue (for example, code I author does not connect to third party resources).
  - [ ] I take extra care to deal with these cases individually and perform monitoring on database handles with alerts.
- - [ ] I make sure to restart my server if code like `databaseConnection.release` a throws, like with `uncaughtException`s.
+ - [ ] I make sure to restart my server if code like `databaseConnection.release` throws, like with `uncaughtException`s.
  - [ ] In theory this can be an issue with code I author but in practice things have been working out fine for me and I ignore these errors.
  - [ ] The server keeps running, I log uncaught exceptions and unhandled rejections to monitoring and use a tool to notify engineers if such a bug occurs.
 
-## What should be the default Node.js behavior for unhandled rejections?
+## 10. What should be the default Node.js behavior for unhandled rejections?
 
 Consider the following modes:
 
