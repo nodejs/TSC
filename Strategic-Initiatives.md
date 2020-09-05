@@ -19,7 +19,7 @@ and have the support needed.
 | QUIC / HTTP3              | [James M Snell][jasnell]                                  | https://github.com/nodejs/quic                                                          |
 | Startup performance       | [Joyee Cheung][joyeecheung]                               | https://github.com/nodejs/node/issues/17058 https://github.com/nodejs/node/issues/21563 |
 | Build resources           | [Michael Dawson][mhdawson]                                | https://github.com/nodejs/build/issues/1154#issuecomment-448418977                      |
-| Future of Build Toolchain | [Mary Marchini][mmarchini]                                | https://github.com/nodejs/TSC/issues/901                                                |
+| Future of Build Toolchain | [Mary Marchini][mmarchini]                                | https://github.com/nodejs/TSC/issues/901, https://github.com/nodejs/build-toolchain-next                                          |
 
 # Need volunteers for
 
@@ -60,4 +60,5 @@ and have the support needed.
 [thefourtheye]: https://github.com/thefourtheye
 [mcollina]: https://github.com/mcollina
 [jasnell]: https://github.com/jasnell
+[mmarchini]: https://github.com/mmarchini
 
