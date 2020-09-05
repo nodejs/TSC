@@ -68,7 +68,7 @@ participate in TSC discussions, *and* does not participate in TSC votes, the
 member shall be automatically removed from the TSC. The member may be invited
 to continue attending TSC meetings as an observer.
 
-## Section 4. Responsibilities of the TSC.  
+## Section 4. Responsibilities of the TSC.
 
 Subject to such policies as may be set by the CPC, the TSC is
 responsible for all technical development within the Node.js project,
@@ -138,15 +138,28 @@ item has appeared to reach a consensus the moderator will ask "Does anyone
 object?" as a final call for dissent from the consensus.
 
 If an agenda item cannot reach a consensus a TSC member can call for
-either a closing vote or a vote to table the issue to the next meeting.
-The call for a vote must be seconded by a majority of the TSC or else the
-discussion will continue.
+either a closing vote or a vote to table the issue to the next meeting or to
+be conducted asynchronously through a system to be chosen and seconded by the
+majority of TSC members. The call for a vote must be seconded by a majority
+of the TSC or else the discussion will continue.
 
 For all votes, a simple majority of all TSC members for, or against, the issue
 wins. A TSC member may choose to participate in any vote through abstention.
 
 Note that, in addition to requiring a simple majority vote of the TSC, all
 changes to this charter are also subject to approval from the CPC.
+
+### Section 7.1. Emergency Votes
+
+For time-sensitive issues where reaching consensus asynchronously fails, TSC
+members may call for a vote through the TSC mailing list. A compelling reason
+must be provided on why calling for a vote can't wait until the next meeting.
+Emergency Votes must be seconded by a majority of the TSC, otherwise the
+issue will be discussed in the next meeting (where a regolar vote can be
+called).
+
+Except for how they are called, emergency votes follow the same rules as
+regular votes.
 
 ## Section 8. Project Roles
 
