@@ -41,6 +41,7 @@ includes a fix, documentation, an informational CVE or blog post.
 - [@jasnell](https://github.com/jasnell) - James M Snell
 - [@mcollina](https://github.com/mcollina) - Matteo Collina
 - [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
+- [@ronag](https://github.com/ronag) - Robert Nagy
 - [@shigeki](https://github.com/shigeki) - Shigeki Ohtsu
 - [@vdeturckheim](https://github.com/vdeturckheim) - Vladimir de Turckheim
 - [@watson](https://github.com/watson) - Thomas Watson
@@ -67,7 +68,6 @@ the Node.js program on HackerOne.
 
 <!-- ncu-team-sync.team(nodejs-private/security) -->
 
-- [@addaleax](https://github.com/addaleax) - Anna Henningsen
 - [@apapirovski](https://github.com/apapirovski) - Anatoli Papirovski
 - [@BethGriggs](https://github.com/BethGriggs) - Bethany Nicolle Griggs
 - [@bnoordhuis](https://github.com/bnoordhuis) - Ben Noordhuis
@@ -77,12 +77,9 @@ the Node.js program on HackerOne.
 - [@codebytere](https://github.com/codebytere) - Shelley Vohr
 - [@danbev](https://github.com/danbev) - Daniel Bevenius
 - [@dougwilson](https://github.com/dougwilson) - Douglas Wilson
-- [@evanlucas](https://github.com/evanlucas) - Evan Lucas
 - [@evilpacket](https://github.com/evilpacket) - Adam Baldwin
 - [@fhinkel](https://github.com/fhinkel) - F. Hinkelmann
-- [@Fishrock123](https://github.com/Fishrock123) - Jeremiah Senkpiel
 - [@gabrielschulhof](https://github.com/gabrielschulhof) - Gabriel Schulhof
-- [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
 - [@gireeshpunathil](https://github.com/gireeshpunathil) - Gireesh Punathil
 - [@indutny](https://github.com/indutny) - Fedor Indutny
 - [@jasnell](https://github.com/jasnell) - James M Snell
@@ -91,14 +88,15 @@ the Node.js program on HackerOne.
 - [@joyeecheung](https://github.com/joyeecheung) - Joyee Cheung
 - [@mcollina](https://github.com/mcollina) - Matteo Collina
 - [@mhdawson](https://github.com/mhdawson) - Michael Dawson
+- [@mmarchini](https://github.com/mmarchini) - mary marchini
 - [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
+- [@richardlau](https://github.com/richardlau) - Richard Lau
 - [@ronag](https://github.com/ronag) - Robert Nagy
+- [@ruyadorno](https://github.com/ruyadorno) - Ruy Adorno
 - [@rvagg](https://github.com/rvagg) - Rod Vagg
 - [@saghul](https://github.com/saghul) - Saúl Ibarra Corretgé
-- [@sam-github](https://github.com/sam-github) - Sam Roberts
 - [@shigeki](https://github.com/shigeki) - Shigeki Ohtsu
 - [@targos](https://github.com/targos) - Michaël Zasso
-- [@thefourtheye](https://github.com/thefourtheye) - Sakthipriyan Vairamani
 - [@tniessen](https://github.com/tniessen) - Tobias Nießen
 - [@Trott](https://github.com/Trott) - Rich Trott
 - [@vdeturckheim](https://github.com/vdeturckheim) - Vladimir de Turckheim
