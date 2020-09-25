@@ -15,6 +15,7 @@ invalid and are superseded by the TSC Charter.
 * Add them to the `@nodejs-private` org and with an `Owner` role.
 * Add them to the `@nodejs-private/security-tsc` team.
 * Add them to the `@pkgjs` org and with an `Owner` role.
+* Add them to the `@pkgjs/node-tsc` team.
 * Invite them to the HackerOne [Node.js team](https://hackerone.com/nodejs/team_members).
 * Add them to the `tsc` and `crypto-export` mailing lists.
 * Update the `@nodejs/node` repository README to reflect membership in the TSC.
