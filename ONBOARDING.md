@@ -30,6 +30,7 @@ invalid and are superseded by the TSC Charter.
 * Remove them from the `@nodejs-private/security-tsc` team.
 * Remove them from the `@nodejs-private` org unless they are members for a
   reason other than TSC membership.
+* Remove them from the `@pkgjs/node-tsc` team
 * Remove them from the `@pkgjs` org unless they are members for a
   reason other than TSC membership.
 * Remove them from the `tsc` and `crypto-export` mailing lists.
