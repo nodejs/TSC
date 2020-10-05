@@ -138,10 +138,10 @@ item has appeared to reach a consensus the moderator will ask "Does anyone
 object?" as a final call for dissent from the consensus.
 
 If an agenda item cannot reach a consensus a TSC member can call for
-either a closing vote or a vote to table the issue to the next meeting or to
-be conducted asynchronously through a system to be chosen by the TSC. The
-call for a vote is approved if none of the TSC members in the meeting object
-to it.
+a closing vote (assumes enough TSC members in the meeting), a vote to table the
+issue to the next meeting, or a vote to be conducted asynchronously through a
+system to be chosen by the TSC. The call for a vote is approved if none of the
+TSC members in the meeting object to it.
 
 For all votes, a simple majority of all TSC members for, or against, the issue
 wins. A TSC member may choose to participate in any vote through abstention.
