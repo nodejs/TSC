@@ -242,7 +242,7 @@ The [Node.js Code of Conduct][] applies to this WG.
 * [Addon API](#addon-api)
 * [Benchmarking](#benchmarking)
 * [Release](#release)
-* [Security](#security)
+* [Ecosystem Security](#ecosystem-security)
 * [Package Maintenance](#package-maintenance)
 
 ### [Streams](https://github.com/nodejs/readable-stream)
@@ -413,7 +413,7 @@ Responsibilities include:
   backporting changes to these branches.
 * Define the policy for what gets backported to release streams.
 
-### [Security](https://github.com/nodejs/security-wg)
+### [Ecosystem Security](https://github.com/nodejs/security-wg)
 
 The Ecosystem Security Working Group works to improve the security of the Node.js Ecosystem.
 
