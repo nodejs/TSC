@@ -242,7 +242,8 @@ The [Node.js Code of Conduct][] applies to this WG.
 * [Addon API](#addon-api)
 * [Benchmarking](#benchmarking)
 * [Release](#release)
-* [Security](#security)
+* [Ecosystem Security](#ecosystem-security)
+* [Package Maintenance](#package-maintenance)
 
 ### [Streams](https://github.com/nodejs/readable-stream)
 
