@@ -153,5 +153,5 @@ By making a contribution to this project, I certify that:
   maintained indefinitely and may be redistributed consistent with
   this project or the open source license(s) involved.
 
-[Consensus Seeking]: http://en.wikipedia.org/wiki/Consensus-seeking_decision-making
+[Consensus Seeking]: https://en.wikipedia.org/wiki/Consensus-seeking_decision-making
 [README.md]: ./README.md#current-project-team-members
