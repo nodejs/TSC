@@ -277,7 +277,7 @@ line, does not and *will not* support FIPS.
 Aside from some manual configuration that is
 required in order to support GYP builds (instead of the Perl-based Configure
 script that OpenSSL ships) as described in
-[deps/openssl/doc/UPGRADING.md](https://github.com/nodejs/node/blob/master/deps/openssl/doc/UPGRADING.md),
+[deps/openssl/doc/UPGRADING.md](https://github.com/nodejs/node/blob/66cb29e64621fdd1aa5e377a395ff107d21a613b/deps/openssl/doc/UPGRADING.md),
 there are 4 floating patches that are applied on top of the plain OpenSSL 1.0.2
 source:
 
