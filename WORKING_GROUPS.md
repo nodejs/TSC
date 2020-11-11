@@ -296,7 +296,7 @@ Responsibilities include:
 * Defining and adding common structures to the dumps generated in order to
   support tools that want to introspect those dumps.
 
-### i18n
+### [i18n](https://github.com/nodejs/i18n)
 
 The i18n Working Groups handle more than just translations. They
 are endpoints for community members to collaborate with each
