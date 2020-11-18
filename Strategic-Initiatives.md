@@ -41,7 +41,7 @@ and have the support needed.
 | Workers             | Anna Henningsen      | https://github.com/nodejs/worker                |
 | N-API               | Michael Dawson       | https://github.com/nodejs/abi-stable-node       |
 | Open Web Standards  | Myles Borins Joyee Cheung | https://github.com/nodejs/open-standards   |
-| Modules             | Myles Borins.        | https://github.com/nodejs/modules               |
+| Modules             | Myles Borins         | https://github.com/nodejs/modules               |
 
 
 [joyeecheung]: https://github.com/joyeecheung
@@ -61,4 +61,3 @@ and have the support needed.
 [mcollina]: https://github.com/mcollina
 [jasnell]: https://github.com/jasnell
 [mmarchini]: https://github.com/mmarchini
-
