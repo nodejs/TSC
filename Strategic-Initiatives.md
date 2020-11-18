@@ -13,7 +13,6 @@ and have the support needed.
 
 | Initiative                | Champion                                                  | Links                                                                                   |
 |---------------------------|-----------------------------------------------------------|-----------------------------------------------------------------------------------------|
-| Modules                   | [Myles Borins][MylesBorins]                               | https://github.com/nodejs/modules                        |
 | Core Promise APIs         | [Matteo Collina][mcollina]                                |                                                                                         |
 | V8 Currency               | [Michaël Zasso][targos]                                   |                                                                                         |
 | QUIC / HTTP3              | [James M Snell][jasnell]                                  | https://github.com/nodejs/quic                                                          |
@@ -42,6 +41,7 @@ and have the support needed.
 | Workers             | Anna Henningsen      | https://github.com/nodejs/worker                |
 | N-API               | Michael Dawson       | https://github.com/nodejs/abi-stable-node       |
 | Open Web Standards  | Myles Borins Joyee Cheung | https://github.com/nodejs/open-standards   |
+| Modules             | Myles Borins.        | https://github.com/nodejs/modules               |
 
 
 [joyeecheung]: https://github.com/joyeecheung
