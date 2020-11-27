@@ -65,7 +65,6 @@ include:
 * https://github.com/nodejs/abi-stable-node — administration delegated to the API Working Group
 * https://github.com/nodejs/abi-stable-node-addon-examples — administration delegated to the API Working Group
 * https://github.com/nodejs/api — administration delegated to the API Working Group
-* https://github.com/nodejs/benchmarking — administration delegated to the Benchmarking Working Group
 * https://github.com/nodejs/code-and-learn
 * https://github.com/nodejs/diagnostics — administration delegated to the Diagnostics Working Group
 * https://github.com/nodejs/docs
