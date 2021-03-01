@@ -446,7 +446,7 @@ Responsibilities include:
 
 ### [Undici](https://github.com/nodejs/undici)
 
-The Undici Working Group is responsible for maintaing and developing the undici http client library.
+The Undici Working Group is responsible for maintaining and developing the undici http client library.
 
 Responsibilities include:
 
