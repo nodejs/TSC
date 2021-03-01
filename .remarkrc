@@ -1,0 +1,27 @@
+{
+  "plugins": [
+    "remark-gfm",
+    "remark-preset-lint-node",
+    ["remark-lint-fenced-code-flag", false],
+    ["remark-lint-final-definition", false],
+    ["remark-lint-final-newline", false],
+    ["remark-lint-first-heading-level", false],
+    ["remark-lint-hard-break-spaces", false],
+    ["remark-lint-heading-style", false],
+    ["remark-lint-list-item-bullet-indent", false],
+    ["remark-lint-list-item-indent", false],
+    ["remark-lint-maximum-line-length", false],
+    ["remark-lint-no-consecutive-blank-lines", false],
+    ["remark-lint-no-heading-content-indent", false],
+    ["remark-lint-no-literal-urls", false],
+    ["remark-lint-no-multiple-toplevel-headings", false],
+    ["remark-lint-no-shortcut-reference-link", false],
+    ["remark-lint-no-trailing-spaces", false],
+    ["remark-lint-no-undefined-references", false],
+    ["remark-lint-no-unused-definitions", false],
+    ["remark-lint-prohibited-strings", false],
+    ["remark-lint-strong-marker", false],
+    ["remark-lint-table-cell-padding", false],
+    ["remark-lint-unordered-list-marker-style", false]
+  ]
+}

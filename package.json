@@ -4,7 +4,7 @@
   "private": true,
   "description": "The Node.js Technical Steering Committee (TSC) is the technical governing body of Node.js.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "remark -qf ."
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/nodejs/TSC/issues"
   },
-  "homepage": "https://github.com/nodejs/TSC#readme"
+  "homepage": "https://github.com/nodejs/TSC#readme",
+  "devDependencies": {
+    "remark-cli": "^9.0.0",
+    "remark-gfm": "^1.0.0",
+    "remark-preset-lint-node": "^2.1.0"
+  }
 }
