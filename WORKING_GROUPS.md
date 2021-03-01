@@ -450,9 +450,10 @@ The Undici Working Group is responsible for maintaining and developing the undic
 
 Responsibilities include:
 
-* Technical direction of the undici project
-* Management of the core undici repository
+* Technical direction of the undici project.
+* Management of the core undici repository.
 * Documenting the undici API, examples, and best practices.
+* Development of Node.js HTTP Client APIs such as a WHATWG Fetch implementation.
 
 [Technical Steering Committee (TSC)]: ./TSC-Charter.md
 [Consensus Seeking]: http://en.wikipedia.org/wiki/Consensus-seeking_decision-making
