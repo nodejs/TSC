@@ -243,6 +243,7 @@ The [Node.js Code of Conduct][] applies to this WG.
 * [Release](#release)
 * [Ecosystem Security](#ecosystem-security)
 * [Package Maintenance](#package-maintenance)
+* [Undici](#undici)
 
 ### [Streams](https://github.com/nodejs/readable-stream)
 
@@ -443,6 +444,15 @@ Responsibilities include:
   * nodejs/ci-config-github-actions
   * nodejs/package-maintenance repository.
 
+### [Undici](https://github.com/nodejs/undici)
+
+The Undici Working Group is responsible for maintaing and developing the undici http client library.
+
+Responsibilities include:
+
+* Technical direction of the undici project
+* Management of the core undici repository
+* Documenting the undici API, examples, and best practices.
 
 [Technical Steering Committee (TSC)]: ./TSC-Charter.md
 [Consensus Seeking]: http://en.wikipedia.org/wiki/Consensus-seeking_decision-making
