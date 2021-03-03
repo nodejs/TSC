@@ -157,17 +157,17 @@ building against OpenSSL 1.1.1 out-of-tree, even if OpenSSL 3.x was in-tree.
 
 Challenges are:
 1. OpenSSL 3.x moved many algorithms into a legacy library, that is only
-   accessible as a dynamically loaded provider, so cannot ship with Node.js
+  accessible as a dynamically loaded provider, so cannot ship with Node.js
 2. Node.js has a build system wrapped around OpenSSL 1.1.1, it is currently
-   incompatible with the OpenSSL 3.x build system (effort to fix this is
-   unknown).
+  incompatible with the OpenSSL 3.x build system (effort to fix this is
+  unknown).
 3. OpenSSL 3.x has compile-time warning-deprecated a number of OpenSSL 1.1.1
-   APIs, but the alternatives to those deprecated APIs do not exist in OpenSSL
-   1.1.1. So, Node.js 16.x either needs to ship calling deprecated APIs, or
-   break compatibility with OpenSSL 1.1.1 (so it will _only build with 3.x_).
+  APIs, but the alternatives to those deprecated APIs do not exist in OpenSSL
+  1.1.1. So, Node.js 16.x either needs to ship calling deprecated APIs, or
+  break compatibility with OpenSSL 1.1.1 (so it will _only build with 3.x_).
 4. Behavioural differences in OpenSSL 3.x currently fail many tests in the
-   Node.js master test suite (effort to fix this is unknown, impact of fixing
-   in terms of compatibility is unknown).
+  Node.js master test suite (effort to fix this is unknown, impact of fixing
+  in terms of compatibility is unknown).
 
 Tracking issue: https://github.com/nodejs/node/issues/29817
 
@@ -402,4 +402,3 @@ support.
 [OpenSSL Release Strategy]: https://www.openssl.org/policies/releasestrat.html
 [OpenSSL 3.0 and FIPS Update]: https://www.openssl.org/blog/blog/2019/02/13/FIPS-update/
 [OpenSSL 3.0.0 Design]: https://www.openssl.org/docs/OpenSSL300Design.html
-

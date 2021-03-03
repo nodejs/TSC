@@ -17,10 +17,10 @@ Node.js ecosystem and that by incubating Express, neither the Node.js
 Foundation or Node.js core would be "picking a winner" or endorsing Express
 over any other overlapping or similar project.
 
-### Scope 
+### Scope
 
-The express project is composed of a collection of separate modules and 
-documentation currently spread out over multiple GitHub organizations. This top 
+The express project is composed of a collection of separate modules and
+documentation currently spread out over multiple GitHub organizations. This top
 level project would consist initially of the following GitHub Organizations and
 repositories within:
 
@@ -28,10 +28,10 @@ repositories within:
 * expressjs
 * pillarjs
 
-The existing strongloop/express repository will move into one of these three 
+The existing strongloop/express repository will move into one of these three
 organizations.
 
-In addition, StrongLoop will contribute the basic express API documentation 
+In addition, StrongLoop will contribute the basic express API documentation
 included in the strongloop/expressjs.com to the strongloop/express repository.
 
 Many repositories in these organizations may be moved out or removed entirely
@@ -44,28 +44,28 @@ managed.
 
 ### Formation of an Express TC
 
-The current GitHub organization owners for each of the pillarjs, expressjs, 
-and jshttp GitHub organizations will be invited to form the TC of the Express 
-Top Level project. It is not expected that every existing owner will wish to 
-participate. Two months after the initial invitation, any owner that is not 
+The current GitHub organization owners for each of the pillarjs, expressjs,
+and jshttp GitHub organizations will be invited to form the TC of the Express
+Top Level project. It is not expected that every existing owner will wish to
+participate. Two months after the initial invitation, any owner that is not
 actively participating would be automatically removed from the TC.
 
-Ownership permissions in the pillarjs, expressjs, and jshttp GitHub 
-organizations shall include all members of the Express TC as well as the 
+Ownership permissions in the pillarjs, expressjs, and jshttp GitHub
+organizations shall include all members of the Express TC as well as the
 mentors nominated by the Node.js TSC.
 
-Collaborators currently having permissions to any of the repositories in the 
-pillarjs, expressjs and jshttp GitHub organizations will continue to have those 
-permissions. From the StrongLoop GitHub organization, users Rand McKinney 
-(@crandmck), Hage Yaapa (@hacksparrow), Mike Tunnicliffe (@tunniclm), and Sian 
-January (@sjanuary) will continue to have Collaborator permissions to 
+Collaborators currently having permissions to any of the repositories in the
+pillarjs, expressjs and jshttp GitHub organizations will continue to have those
+permissions. From the StrongLoop GitHub organization, users Rand McKinney
+(@crandmck), Hage Yaapa (@hacksparrow), Mike Tunnicliffe (@tunniclm), and Sian
+January (@sjanuary) will continue to have Collaborator permissions to
 strongloop/express (in whichever GitHub organization it ends up).
 
-Onboarding of new Collaborators would follow a process decided by the Express 
-TC but it is expected to be similar, if not identical, to the process used by 
+Onboarding of new Collaborators would follow a process decided by the Express
+TC but it is expected to be similar, if not identical, to the process used by
 Node.js core.
 
-The Express TC's purpose is the support, maintenance and further development of 
+The Express TC's purpose is the support, maintenance and further development of
 the Express top level project under the Node.js Foundation.
 
 The TC's responsibilities include:
@@ -81,15 +81,15 @@ The TC's responsibilities include:
 
 ### Contribution and Governance Process
 
-The contribution and governance policies would be bootstrapped using the basic 
-document templates provided by the Node.js TSC, and fine tuned / customized by 
-the Express TC once formed. It is expected that the contribution policy would 
-be very similar to that used by Node.js core. 
+The contribution and governance policies would be bootstrapped using the basic
+document templates provided by the Node.js TSC, and fine tuned / customized by
+the Express TC once formed. It is expected that the contribution policy would
+be very similar to that used by Node.js core.
 
-The Node.js Code of Conduct, Moderation Policy and TSC Escalation policies 
-would apply. 
+The Node.js Code of Conduct, Moderation Policy and TSC Escalation policies
+would apply.
 
-The Node.js TSC will select one or more mentors to assist the Express TC in 
+The Node.js TSC will select one or more mentors to assist the Express TC in
 it's formation and throughout the Top Level Project incubation process.
 
 ### Intellectual Property and Other Assets
