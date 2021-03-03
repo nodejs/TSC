@@ -12,13 +12,11 @@ This policy document describes for each release line:
 It also gives background on OpenSSL release lifetimes, TLS1.3, and FIPS support,
 as they affect Node.js.
 
-
 ## Node.js version-specific strategy
 
 ### Node.js version 4.x (EOL 2018-04-30)
 
 No longer maintained.  Not discussed further.
-
 
 ### Node.js versions 6.x (EOL 2019-04-30) and 8.x (EOL 2019-12-31)
 
@@ -34,7 +32,6 @@ but it was moved earlier to conincide with the end-of-life of OpenSSL 1.0.2.
 * FIPS: supports being configured to build against OpenSSL FIPS 2.0. FIPS
   configuration is not default, and OpenSSL FIPS 2.0 is not included in
   Node.js.
-
 
 ### Node.js version 10.x (EOL April-2021)
 
@@ -85,7 +82,6 @@ line. There is no indication yet that this will happen when OpenSSL 1.1.1 is
 included in Node.js 10.x, but it is important that users be aware of this
 possibility.
 
-
 ### Node.js version 11.x (EOL June-2019)
 
 This release will not be designated LTS. It was updated to include OpenSSL 1.1.1
@@ -106,7 +102,6 @@ For Node.js >= 11.9.0:
   supported by default, only by explicit run-time configuration.
 * FIPS: not supported
 
-
 ### Node.js version 12.x, 13.x, 14.x
 
 * OpenSSL version: 1.1.1
@@ -115,7 +110,6 @@ For Node.js >= 11.9.0:
   and TLSv1.1 are *not* supported by default, only by explicit run-time
   configuration.
 * FIPS: not supported
-
 
 Node.js EOL dates:
 - 12.x: April 2022
@@ -221,8 +215,6 @@ OpenSSL. The most notable distributors and the configurations used are:
   version of OpenSSL that was most recently installed with `brew` but this is
   not believed to be in common use.
 
-
-
 ## OpenSSL release lines
 
 Currently, there are three supported versions of OpenSSL as per the
@@ -302,7 +294,6 @@ source:
   order to speed up some of the Node.js TLS tests. Use of this can be found in
   many of the `test/*/test-{tls,https}-*` test files.
 
-
 ### OpenSSL 1.1.0
 
 OpenSSL 1.1.0 represents a fairly major rework of the codebase, at least in
@@ -318,7 +309,6 @@ an important stage in Node.js' adaptation.
 Openssl 1.1.0 is currently included in Node.js 10.x, but Node.js is expected to
 be updated to include OpenSSL 1.1.1 in the upcoming 10.16.0 release.
 
-
 ### OpenSSL 1.1.1
 
 The OpenSSL team has designated 1.1.1 the next LTS line and have made a
@@ -326,7 +316,6 @@ commitment that it will remain both API and ABI compatible with OpenSSL 1.1.0,
 and will be supported until 2023-09-11.  It is the first OpenSSL version to
 support TLS 1.3, however Node.js' TLS1.3 support requires at least OpenSSL
 1.1.1b.
-
 
 ### OpenSSL 3.0.0 and FIPS
 
@@ -357,7 +346,6 @@ between Node.js 8.x going end-of-life in December, 2019, and the next LTS
 release of Node.js that supports FIPS coming in April, 2020.
 
 At this point, the gap looks unavoidable.
-
 
 ## OpenSSL forks: LibreSSL and BoringSSL
 
