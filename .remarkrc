@@ -11,7 +11,6 @@
     ["remark-lint-no-heading-content-indent", false],
     ["remark-lint-no-literal-urls", false],
     ["remark-lint-no-multiple-toplevel-headings", false],
-    ["remark-lint-no-shortcut-reference-link", false],
     ["remark-lint-prohibited-strings", false],
     ["remark-lint-strong-marker", false],
     ["remark-lint-table-cell-padding", false],
