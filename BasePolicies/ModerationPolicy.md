@@ -22,6 +22,6 @@ adopt the recommended changes, the TSC may choose to revoke the WGs charter.
 
 ### Template: *[insert WG name]* Moderation Policy
 
-The [Node.js Moderation Policy] applies to this WG.
+The [Node.js Moderation Policy][] applies to this WG.
 
 [Node.js Moderation Policy]: https://github.com/nodejs/admin/blob/master/Moderation-Policy.md
