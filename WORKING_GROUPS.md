@@ -230,8 +230,6 @@ The [Node.js Code of Conduct][] applies to this WG.
 [Node.js Moderation Policy]: https://github.com/nodejs/TSC/blob/master/Moderation-Policy.md
 ```
 
-[Community Committee]: https://github.com/nodejs/community-committee
-
 ## Current Working Groups
 
 * [Streams](#streams)
@@ -446,3 +444,4 @@ Responsibilities include:
 [Technical Steering Committee (TSC)]: ./TSC-Charter.md
 [Node.js TSC]: https://github.com/nodejs/tsc
 [Consensus Seeking]: http://en.wikipedia.org/wiki/Consensus-seeking_decision-making
+[Community Committee]: https://github.com/nodejs/community-committee
