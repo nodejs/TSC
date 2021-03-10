@@ -17,7 +17,6 @@
     ["remark-lint-no-unused-definitions", false],
     ["remark-lint-prohibited-strings", false],
     ["remark-lint-strong-marker", false],
-    ["remark-lint-table-cell-padding", false],
     ["remark-lint-unordered-list-marker-style", false]
   ]
 }
