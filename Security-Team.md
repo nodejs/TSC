@@ -15,13 +15,13 @@ that aren't appropriate for public availability.
 The policy for inclusion is as follows:
 
 1. All members of @nodejs/TSC have access to private security reports and
-   private patches.
+  private patches.
 2. Members of the @nodejs/releasers team
-   have access to private security patches in order to produce releases.
+  have access to private security patches in order to produce releases.
 3. On a case-by-case basis, individuals outside the Technical Steering
-   Committee are invited by the TSC to have access to private security reports
-   or private patches so that their expertise can be applied to an issue or
-   patch. This access may be temporary or permanent, as decided by the TSC.
+  Committee are invited by the TSC to have access to private security reports
+  or private patches so that their expertise can be applied to an issue or
+  patch. This access may be temporary or permanent, as decided by the TSC.
 
 Membership on the security teams can be requested via an issue in the TSC repo.
 
@@ -113,52 +113,52 @@ Report states are described in HackerOne [docs](https://docs.hackerone.com/progr
 The expected workflow for issues reported to Node.js is:
 
 1. `NEW`: issue reported (initial state).  Issues in this state are in the
-   process of being analyzed with the intention to move them into either
-   `TRIAGED`, `NEEDS-MORE-INFO`, or one of the "Closed" states
-   (`NOT-APPLICABLE`, `INFORMATIVE`, etc.). Has several sub-states:
-   1. `H1 Triage`: Issues start off assigned to the `H1 Triage` team. That team
+  process of being analyzed with the intention to move them into either
+  `TRIAGED`, `NEEDS-MORE-INFO`, or one of the "Closed" states
+  (`NOT-APPLICABLE`, `INFORMATIVE`, etc.). Has several sub-states:
+  1. `H1 Triage`: Issues start off assigned to the `H1 Triage` team. That team
       does initial triage. They ask for a runnable reproduction, they run it,
       and they verify whether it does in fact appear to demonstrate a
       vulnerability that has not already been reported. Once this is done, they
       assign the issue to the `Node.js Team`.
-   2. `Node.js Team`: Issues assigned by `H1 Triage`, or issues that Node.js
+  2. `Node.js Team`: Issues assigned by `H1 Triage`, or issues that Node.js
       assigns to itself for triage preemptively (perhaps because of priority, or
       because its disposition is obvious, or any other reason we decide to
       skip the `H1 Team`'s reproduction).
-   3. `NEEDS-MORE-INFO`: In the state of back-and-forth with reporter.
+  3. `NEEDS-MORE-INFO`: In the state of back-and-forth with reporter.
       When further progress on the issue is blocked on response from the reporter,
       this is the state.
 2. `TRIAGED`: State for an issue when it is a non-duplicate and resolvable.
-   Issues in this state are waiting for the Node.js team to take some action to
-   resolve them. Typically, this would be publishing a Node.js release that
-   resolves the issue, but it could also be publishing documentation, or making
-   a configuration change to our infrastructure for a https://nodejs.org
-   problem. The expected resolution should be described in a comment on the
-   issue when it is moved to `TRIAGED`.
-   - ...: There are no explicit states for an issue as it is in process of
-     getting resolved. Comments on the issue when someone is working on it are
-     useful, as is assignment of the issue to a person who agrees to be
-     responsible for following it through to resolution and disclosure.
-   - Once a fix is ready for release, the issue should be assigned to the
-     `Ready for release` team, and a comment added indicating the relevant PRs that
-     need to be merged during the release process.
+  Issues in this state are waiting for the Node.js team to take some action to
+  resolve them. Typically, this would be publishing a Node.js release that
+  resolves the issue, but it could also be publishing documentation, or making
+  a configuration change to our infrastructure for a https://nodejs.org
+  problem. The expected resolution should be described in a comment on the
+  issue when it is moved to `TRIAGED`.
+  - ...: There are no explicit states for an issue as it is in process of
+    getting resolved. Comments on the issue when someone is working on it are
+    useful, as is assignment of the issue to a person who agrees to be
+    responsible for following it through to resolution and disclosure.
+  - Once a fix is ready for release, the issue should be assigned to the
+    `Ready for release` team, and a comment added indicating the relevant PRs that
+    need to be merged during the release process.
 5. `RESOLVED`: State for an issue that has had a fix published. Issues in this
-   state should be disclosed.
+  state should be disclosed.
 6. ...: Final states for issues that we will not fix:
-   - `NOT-APPLICABLE`: We do not agree this a vulnerability. We can request
-     that the reporter close it to preserve their H1 "reputation points".  If
-     it is an issue, though not a vulnerability, we can suggest that it be
-     reported to the Node.js issue tracker.
-   - `INFORMATIVE`: This means we agree that the report contains useful
-     information, but we don't intend to publish a fix. This might be because
-     it isn't possible, or because its in an unsupported API or version. We
-     can consider disclosing it if we  think the information should be
-     publicized.
-   - `DUPLICATE`: The report is a duplicate of an already reported issue. It
-     should not need disclosure, because the original issue will be disclosed
-     after it is resolved.
-   - `SPAM`: Self-explanatory (and rare).
+  - `NOT-APPLICABLE`: We do not agree this a vulnerability. We can request
+    that the reporter close it to preserve their H1 "reputation points".  If
+    it is an issue, though not a vulnerability, we can suggest that it be
+    reported to the Node.js issue tracker.
+  - `INFORMATIVE`: This means we agree that the report contains useful
+    information, but we don't intend to publish a fix. This might be because
+    it isn't possible, or because its in an unsupported API or version. We
+    can consider disclosing it if we  think the information should be
+    publicized.
+  - `DUPLICATE`: The report is a duplicate of an already reported issue. It
+    should not need disclosure, because the original issue will be disclosed
+    after it is resolved.
+  - `SPAM`: Self-explanatory (and rare).
 7. Disclosure: This not a HackerOne report state, but it is the final state
-   from our perspective. Disclosure should be considered once an issue is
-   closed. See the
-   [disclosure docs](https://docs.hackerone.com/programs/disclosure.html).
+  from our perspective. Disclosure should be considered once an issue is
+  closed. See the
+  [disclosure docs](https://docs.hackerone.com/programs/disclosure.html).

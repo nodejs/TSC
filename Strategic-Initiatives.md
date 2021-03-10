@@ -27,7 +27,6 @@ and have the support needed.
 | Async Hooks       | ?                               | https://github.com/nodejs/diagnostics/issues/124                          |
 | New Streams APIs  | ?                               | https://github.com/Fishrock123/bob, https://github.com/Fishrock123/socket |
 
-
 # Completed
 
 | Initiative          | Champion             | Links                                           |
@@ -42,7 +41,6 @@ and have the support needed.
 | N-API               | Michael Dawson       | https://github.com/nodejs/abi-stable-node       |
 | Open Web Standards  | Myles Borins Joyee Cheung | https://github.com/nodejs/open-standards   |
 | Modules             | Myles Borins         | https://github.com/nodejs/modules               |
-
 
 [joyeecheung]: https://github.com/joyeecheung
 [MylesBorins]: https://github.com/MylesBorins

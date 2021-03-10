@@ -171,7 +171,6 @@ When consuming Promises, async functions or thenables, which of the options belo
   - [ ] I use a third-party library (like make-promises-safe) to deal with unhandled rejections
   - [ ] I didn't know `--unhandled-rejections` existed
 
-
 ## 5. Do you know that Node.js has a global handler for uncaught exception (`process.on('uncaughtException')`)? If so, do you use it?
 
   - [ ] I use `process.on('uncaughtException')`

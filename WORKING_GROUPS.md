@@ -443,7 +443,6 @@ Responsibilities include:
   * nodejs/ci-config-github-actions
   * nodejs/package-maintenance repository.
 
-
 [Technical Steering Committee (TSC)]: ./TSC-Charter.md
-[Node.js TSC]: https://github.com/nodejs/tsc 
+[Node.js TSC]: https://github.com/nodejs/tsc
 [Consensus Seeking]: http://en.wikipedia.org/wiki/Consensus-seeking_decision-making
