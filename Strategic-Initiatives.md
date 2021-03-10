@@ -43,19 +43,8 @@ and have the support needed.
 | Modules             | Myles Borins         | https://github.com/nodejs/modules               |
 
 [joyeecheung]: https://github.com/joyeecheung
-[MylesBorins]: https://github.com/MylesBorins
-[node#11273]: https://github.com/nodejs/node/issues/11273
-[node#18106]: https://github.com/nodejs/node/issues/18106
-[fishrock123]: https://github.com/fishrock123
-[addaleax]: https://github.com/addaleax
-[cclauss]: https://github.com/cclauss
 [mhdawson]: https://github.com/mhdawson
-[rvagg]: https://github.com/rvagg
-[sam-github]: https://github.com/sam-github
-[trott]: https://github.com/trott
 [targos]: https://github.com/targos
-[ofrobots]: https://github.com/ofrobots
-[thefourtheye]: https://github.com/thefourtheye
 [mcollina]: https://github.com/mcollina
 [jasnell]: https://github.com/jasnell
 [mmarchini]: https://github.com/mmarchini
