@@ -175,7 +175,7 @@ patch release of the OpenSSL version they include.
 
 By default, Node.js compiles and statically links its own copy of OpenSSL. It
 can be configured to an external "shared" OpenSSL library, or a non-OpenSSL
-library that has a sufficiently OpenSSL-compatible API. See [OpenSSL Forks][]
+library that has a sufficiently OpenSSL-compatible API. See [OpenSSL Forks](#openssl-forks-libressl-and-boringssl)
 for more information about OpenSSL-compatible libraries.
 
 Shared OpenSSL libraries will lack our floating patches, and may also not be the

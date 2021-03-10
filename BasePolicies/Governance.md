@@ -4,11 +4,11 @@ Every Working Group must have a documented governance model that describes the
 basic operation of the Working Group. This must be documented in the repository
 and referenced by the `README.md`.
 
-## Template: *[insert WG name]* Working Group Governance
+## Template: *\[insert WG name\]* Working Group Governance
 
 ### Collaborators
 
-The *[insert WG name]* GitHub repository is
+The *\[insert WG name\]* GitHub repository is
 maintained by the WG and additional Collaborators who are added by the
 WG on an ongoing basis.
 
@@ -22,7 +22,7 @@ considered for commit-access may create an issue or contact a WG member
 directly. It is not necessary to wait for a WG member to nominate the
 individual.
 
-Modifications of the contents of the *[insert WG repo]* repository are made on
+Modifications of the contents of the *\[insert WG repo\]* repository are made on
 a collaborative basis. Anybody with a GitHub account may propose a
 modification via pull request and it will be considered by the project
 Collaborators. All pull requests must be reviewed and accepted by a

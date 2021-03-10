@@ -6,9 +6,9 @@ the charter to the [TSC][] WORKING_GROUPS.md document must be opened. The WG
 is considered to be officially chartered once the PR adding the proposed
 charter is landed and merged into the relevant WORKING_GROUPS.md document
 
-### Template: *[insert WG name]* Working Group
+### Template: *\[insert WG name\]* Working Group
 
-The Node.js *[insert WG name]* Working Group is jointly governed by the members
+The Node.js *\[insert WG name\]* Working Group is jointly governed by the members
 of that Working Group (WG).
 
 The WG responsibilities include:

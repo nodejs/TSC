@@ -20,7 +20,7 @@ TSC (or any Collaborator) may request that further corrections be made by
 opening an issue or a PR in the WG's repository. Should the WG choose not to
 adopt the recommended changes, the TSC may choose to revoke the WGs charter.
 
-### Template: *[insert WG name]* Moderation Policy
+### Template: *\[insert WG name\]* Moderation Policy
 
 The [Node.js Moderation Policy] applies to this WG.
 
