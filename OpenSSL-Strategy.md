@@ -68,7 +68,7 @@ The plan described above is to:
   retain ABI and API compatibility. OpenSSL 1.1.1 is claimed by the OpenSSL
   project to be API and ABI compatible with 1.1.0, and Node.js experiments
   indicates that it is, see
-  https://github.com/nodejs/node/issues/18770#issuecomment-446785733.
+  <https://github.com/nodejs/node/issues/18770#issuecomment-446785733>.
 * **No support for FIPS** The latest [OpenSSL 3.0 and FIPS Update][] does not
   predict that an OpenSSL 1.1.1 ABI compatible library with FIPS support will
   ever exist. Without such a library, Node.js 10.x cannot support FIPS.
@@ -163,7 +163,7 @@ Challenges are:
   Node.js master test suite (effort to fix this is unknown, impact of fixing
   in terms of compatibility is unknown).
 
-Tracking issue: https://github.com/nodejs/node/issues/29817
+Tracking issue: <https://github.com/nodejs/node/issues/29817>
 
 ## Background
 
@@ -281,7 +281,7 @@ source:
   `deps: fix asm build error of openssl in x86_win32`. A fix for
   deps/openssl/openssl/crypto/perlasm/x86masm.pl for ASM produced for Windows on
   IA32 as described in
-  https://mta.openssl.org/pipermail/openssl-dev/2015-February/000651.html
+  <https://mta.openssl.org/pipermail/openssl-dev/2015-February/000651.html>
 * [2eb170874](https://github.com/nodejs/node/commit/2eb170874aa5e84e71b62caab7ac9792fd59c10f):
   `openssl: fix keypress requirement in apps on win32`. A fix for the `openssl`
   client application, used by the Node.js test suite, to properly accept stdin

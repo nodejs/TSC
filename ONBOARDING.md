@@ -19,7 +19,7 @@ invalid and are superseded by the TSC Charter.
 * Invite them to the HackerOne [Node.js team](https://hackerone.com/nodejs/team_members).
 * Add them to the `tsc` and `crypto-export` mailing lists.
 * Update the `@nodejs/node` repository README to reflect membership in the TSC.
-* Update https://github.com/nodejs/create-node-meeting-artifacts/blob/master/templates/invited_tsc and https://github.com/nodejs/create-node-meeting-artifacts/blob/master/templates/observers_tsc to reflect membership in the TSC.
+* Update <https://github.com/nodejs/create-node-meeting-artifacts/blob/master/templates/invited_tsc> and <https://github.com/nodejs/create-node-meeting-artifacts/blob/master/templates/observers_tsc> to reflect membership in the TSC.
 
 ## Offboarding
 
@@ -36,4 +36,4 @@ invalid and are superseded by the TSC Charter.
 * Remove them from the `tsc` and `crypto-export` mailing lists.
 * Update the `@nodejs/node` repository README to reflect membership in the TSC.
   In all likelihood, they should be listed as TSC Emeritus.
-* Update https://github.com/nodejs/create-node-meeting-artifacts/blob/master/templates/invited_tsc to reflect membership in the TSC.
+* Update <https://github.com/nodejs/create-node-meeting-artifacts/blob/master/templates/invited_tsc> to reflect membership in the TSC.

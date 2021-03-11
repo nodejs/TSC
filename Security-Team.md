@@ -132,7 +132,7 @@ The expected workflow for issues reported to Node.js is:
   Issues in this state are waiting for the Node.js team to take some action to
   resolve them. Typically, this would be publishing a Node.js release that
   resolves the issue, but it could also be publishing documentation, or making
-  a configuration change to our infrastructure for a https://nodejs.org
+  a configuration change to our infrastructure for a <https://nodejs.org>
   problem. The expected resolution should be described in a comment on the
   issue when it is moved to `TRIAGED`.
     - ...: There are no explicit states for an issue as it is in process of

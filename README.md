@@ -29,18 +29,18 @@ document and ship Node.js releases.
 
 These projects are located in the following repositories:
 
-* https://github.com/nodejs/TSC
-* https://github.com/nodejs/build — administration delegated to the Build Working Group
-* https://github.com/nodejs/citgm — administration delegated to the Release Working Group
-* https://github.com/nodejs/docker-node — administration delegated to the Docker Working Group
-* https://github.com/nodejs/http-parser — administration delegated to the Core Technical Committee
-* https://github.com/nodejs/node-eps — administration delegated to the Core Technical Committee
-* https://github.com/nodejs/nodejs-dist-indexer — administration delegated to the Build Working Group
-* https://github.com/nodejs/nodejs-latest-linker — administration delegated to the Build Working Group
-* https://github.com/nodejs/nodejs-nightly-builder — administration delegated to the Build Working Group
-* https://github.com/nodejs/nodejs.org — administration delegated to the Website Working Group
-* https://github.com/nodejs/secrets — _private_, administration delegated to the Build Working Group
-* https://github.com/nodejs/Release — administration delegated to the Release Working Group
+* <https://github.com/nodejs/TSC>
+* <https://github.com/nodejs/build> — administration delegated to the Build Working Group
+* <https://github.com/nodejs/citgm> — administration delegated to the Release Working Group
+* <https://github.com/nodejs/docker-node> — administration delegated to the Docker Working Group
+* <https://github.com/nodejs/http-parser> — administration delegated to the Core Technical Committee
+* <https://github.com/nodejs/node-eps> — administration delegated to the Core Technical Committee
+* <https://github.com/nodejs/nodejs-dist-indexer> — administration delegated to the Build Working Group
+* <https://github.com/nodejs/nodejs-latest-linker> — administration delegated to the Build Working Group
+* <https://github.com/nodejs/nodejs-nightly-builder> — administration delegated to the Build Working Group
+* <https://github.com/nodejs/nodejs.org> — administration delegated to the Website Working Group
+* <https://github.com/nodejs/secrets> — _private_, administration delegated to the Build Working Group
+* <https://github.com/nodejs/Release> — administration delegated to the Release Working Group
 
 ### Adjacent Projects
 
@@ -61,33 +61,33 @@ changes to scope that it entails are acceptable.
 Current adjacent projects that are within the TSC's scope of responsibility
 include:
 
-* https://github.com/nodejs/abi-stable-node — administration delegated to the API Working Group
-* https://github.com/nodejs/abi-stable-node-addon-examples — administration delegated to the API Working Group
-* https://github.com/nodejs/api — administration delegated to the API Working Group
-* https://github.com/nodejs/code-and-learn
-* https://github.com/nodejs/diagnostics — administration delegated to the Diagnostics Working Group
-* https://github.com/nodejs/docs
-* https://github.com/nodejs/education
-* https://github.com/nodejs/email — administration delegated to the Build Working Group
-* https://github.com/nodejs/github-bot
-* https://github.com/nodejs/help
-* https://github.com/nodejs/http
-* https://github.com/nodejs/http2
-* https://github.com/nodejs/installer
-* https://github.com/nodejs/llnode — administration delegated to the Post Mortem Working Group
-* https://github.com/nodejs/nan — administration delegated to the Addon API Working Group
-* https://github.com/nodejs/node-addon-examples — administration delegated to the Addon API Working Group
-* https://github.com/nodejs/node-chakracore
-* https://github.com/nodejs/node-gyp
-* https://github.com/nodejs/node-inspect — administration delegated to the Diagnostics Working Group
-* https://github.com/nodejs/node-report — administration delegated to the Post Mortem Working Group
-* https://github.com/nodejs/nodejs.org — administration delegated to the Website Working Group
-* https://github.com/nodejs/post-mortem — administration delegated to the Post Mortem Working Group
-* https://github.com/nodejs/promises
-* https://github.com/nodejs/readable-stream — administration delegated to the Streams Working Group
-* https://github.com/nodejs/summit
-* https://github.com/nodejs/testing
-* _And_ various language and resource translation groups under https://github.com/nodejs/
+* <https://github.com/nodejs/abi-stable-node> — administration delegated to the API Working Group
+* <https://github.com/nodejs/abi-stable-node-addon-examples> — administration delegated to the API Working Group
+* <https://github.com/nodejs/api> — administration delegated to the API Working Group
+* <https://github.com/nodejs/code-and-learn>
+* <https://github.com/nodejs/diagnostics> — administration delegated to the Diagnostics Working Group
+* <https://github.com/nodejs/docs>
+* <https://github.com/nodejs/education>
+* <https://github.com/nodejs/email> — administration delegated to the Build Working Group
+* <https://github.com/nodejs/github-bot>
+* <https://github.com/nodejs/help>
+* <https://github.com/nodejs/http>
+* <https://github.com/nodejs/http2>
+* <https://github.com/nodejs/installer>
+* <https://github.com/nodejs/llnode> — administration delegated to the Post Mortem Working Group
+* <https://github.com/nodejs/nan> — administration delegated to the Addon API Working Group
+* <https://github.com/nodejs/node-addon-examples> — administration delegated to the Addon API Working Group
+* <https://github.com/nodejs/node-chakracore>
+* <https://github.com/nodejs/node-gyp>
+* <https://github.com/nodejs/node-inspect> — administration delegated to the Diagnostics Working Group
+* <https://github.com/nodejs/node-report> — administration delegated to the Post Mortem Working Group
+* <https://github.com/nodejs/nodejs.org> — administration delegated to the Website Working Group
+* <https://github.com/nodejs/post-mortem> — administration delegated to the Post Mortem Working Group
+* <https://github.com/nodejs/promises>
+* <https://github.com/nodejs/readable-stream> — administration delegated to the Streams Working Group
+* <https://github.com/nodejs/summit>
+* <https://github.com/nodejs/testing>
+* _And_ various language and resource translation groups under <https://github.com/nodejs/>
 
 ### List of TSC Responsibilities
 
@@ -134,6 +134,7 @@ A [current list of TSC members](https://github.com/nodejs/node#tsc-technical-ste
 is maintained in the main Node.js repository.
 
 ## YouTube
+
 Many teams/groups post meeting videos to the
 [Node.js YouTube channel][].
 
