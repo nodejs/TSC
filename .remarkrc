@@ -8,7 +8,6 @@
     ["remark-lint-list-item-indent", false],
     ["remark-lint-maximum-line-length", false],
     ["remark-lint-no-literal-urls", false],
-    ["remark-lint-no-multiple-toplevel-headings", false],
     ["remark-lint-prohibited-strings", false],
     ["remark-lint-unordered-list-marker-style", false]
   ]

@@ -22,7 +22,7 @@ and the Node.js project.
 * A **TC (Technical Committee)** is a group of committers representing the required technical
 expertise to resolve rare disputes.
 
-# Logging Issues
+## Logging Issues
 
 Log an issue for any question or problem you might have. When in doubt, log an issue,
 any additional policies about what to include will be provided in the responses. The only
@@ -34,7 +34,7 @@ add appropriate metadata before the issue is addressed.
 Please be courteous, respectful, and every participant is expected to follow the
 project's Code of Conduct.
 
-# Contributions
+## Contributions
 
 Any change to resources in this repository must be through pull requests. This applies to all changes
 to documentation, code, binary files, etc. Even long term committers and TC members must use
@@ -63,7 +63,7 @@ discuss pending contributions in order to find a resolution. It is expected that
 small minority of issues be brought to the TC for resolution and that discussion and
 compromise among committers be the default resolution mechanism.
 
-# Becoming a Committer
+## Becoming a Committer
 
 All contributors who land a non-trivial contribution should be on-boarded in a timely manner,
 and added as a committer, and be given write access to the repository.
@@ -71,7 +71,7 @@ and added as a committer, and be given write access to the repository.
 Committers are expected to follow this policy and continue to send pull requests, go through
 proper review, and have other committers merge their pull requests.
 
-# TC Process
+## TC Process
 
 The TC uses a "consensus seeking" process for issues that are escalated to the TC.
 The group tries to find a resolution that has no open objections among TC members.
