@@ -9,7 +9,7 @@ A review of the initiatives will be a standing item on the TSC agenda (even
 if the update is 'nothing new') as a way to ensure they are active
 and have the support needed.
 
-# Current Initiatives
+## Current Initiatives
 
 | Initiative                | Champion                    | Links                                                                                    |
 |---------------------------|-----------------------------|------------------------------------------------------------------------------------------|
@@ -20,14 +20,14 @@ and have the support needed.
 | Build resources           | [Michael Dawson][mhdawson]  | https://github.com/nodejs/build/issues/1154#issuecomment-448418977                       |
 | Future of Build Toolchain | [Mary Marchini][mmarchini]  | https://github.com/nodejs/TSC/issues/901, https://github.com/nodejs/build-toolchain-next |
 
-# Need volunteers for
+## Need volunteers for
 
 | Initiative       | Champion | Links                                                                     |
 |------------------|----------|---------------------------------------------------------------------------|
 | Async Hooks      | ?        | https://github.com/nodejs/diagnostics/issues/124                          |
 | New Streams APIs | ?        | https://github.com/Fishrock123/bob, https://github.com/Fishrock123/socket |
 
-# Completed
+## Completed
 
 | Initiative         | Champion                  | Links                                           |
 |--------------------|---------------------------|-------------------------------------------------|
