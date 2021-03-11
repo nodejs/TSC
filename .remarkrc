@@ -4,7 +4,6 @@
     "remark-preset-lint-node",
     ["remark-lint-fenced-code-flag", false],
     ["remark-lint-first-heading-level", false],
-    ["remark-lint-heading-style", false],
     ["remark-lint-list-item-bullet-indent", false],
     ["remark-lint-list-item-indent", false],
     ["remark-lint-maximum-line-length", false],
