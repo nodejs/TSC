@@ -429,7 +429,7 @@ Responsibilities include:
   GitHub organization including but not limited to:
   * Managing the list of organization owners which supplement the standard
     Node.js organization owners as outlined in:
-[https://github.com/nodejs/admin/blob/master/GITHUB_ORG_MANAGEMENT_POLICY.md#owners](https://github.com/nodejs/admin/blob/master/GITHUB_ORG_MANAGEMENT_POLICY.md#owners)
+    [https://github.com/nodejs/admin/blob/master/GITHUB_ORG_MANAGEMENT_POLICY.md#owners](https://github.com/nodejs/admin/blob/master/GITHUB_ORG_MANAGEMENT_POLICY.md#owners)
   * Overseeing new repositories (creating, moving, removing)
   * Managing the maintainer teams for all of the repositories.
   * Contribution policy for repositories

@@ -115,12 +115,12 @@ and community.
 * List of initial TC members.
 * List of initial Working Groups.
 * Prior to being admitted the project:
- * Must include
- [DCO](https://github.com/nodejs/node/blob/master/CONTRIBUTING.md#developers-certificate-of-origin).
- * Must include approved license. If it is not currently under an
- approved license it will need to be cleared by the TSC and the Node.js
- Foundation Legal Committee prior to acceptance in to the incubator.
- * Must include a [Code of Conduct](https://github.com/nodejs/node/blob/master/CONTRIBUTING.md#code-of-conduct).
+  * Must include
+  [DCO](https://github.com/nodejs/node/blob/master/CONTRIBUTING.md#developers-certificate-of-origin).
+  * Must include approved license. If it is not currently under an
+  approved license it will need to be cleared by the TSC and the Node.js
+  Foundation Legal Committee prior to acceptance in to the incubator.
+  * Must include a [Code of Conduct](https://github.com/nodejs/node/blob/master/CONTRIBUTING.md#code-of-conduct).
 
 Each proposal should be sent as a pull request to this repository in the
 Applications directory. Proposals do not have to be complete to be
