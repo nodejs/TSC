@@ -140,10 +140,10 @@ function doStuff () {
 
 (Multiple choice)
 
-  - [ ] Native Promises (`new Promise`, `Promise.resolve`, `Promise.reject`)
-  - [ ] Third-party Promises (for example: Bluebird)
-  - [ ] async functions
-  - [ ] Not writing Promise-based code or using Promise-based libraries
+- [ ] Native Promises (`new Promise`, `Promise.resolve`, `Promise.reject`)
+- [ ] Third-party Promises (for example: Bluebird)
+- [ ] async functions
+- [ ] Not writing Promise-based code or using Promise-based libraries
 
 ## 2. How are you handling rejections today?
 
@@ -151,49 +151,49 @@ When consuming Promises, async functions or thenables, which of the options belo
 
 (Multiple choice)
 
-  - [ ] `.catch()`
-  - [ ] `try / catch` wrapping an `await` operation
-  - [ ] Leave the handling to someone else (my caller, global handler, etc.)
-  - [ ] Not writing Promise-based code or using Promise-based libraries
+- [ ] `.catch()`
+- [ ] `try / catch` wrapping an `await` operation
+- [ ] Leave the handling to someone else (my caller, global handler, etc.)
+- [ ] Not writing Promise-based code or using Promise-based libraries
 
 ## 3. Do you know that Node.js has a global handler for unhandled rejections (`process.on('unhandledRejection')`)? If so, do you use it?
 
-  - [ ] I use `process.on('unhandledRejection')`
-  - [ ] I don't use `process.on('unhandledRejection')`
-  - [ ] I didn't know `process.on('unhandledRejection')` existed
+- [ ] I use `process.on('unhandledRejection')`
+- [ ] I don't use `process.on('unhandledRejection')`
+- [ ] I didn't know `process.on('unhandledRejection')` existed
 
 ## 4. Do you know that Node.js has a flag to change the behavior of unhandled rejections `--unhandled-rejections`? If so, do you use it?
 
-  - [ ] I use `--unhandled-rejections` set to `'strict'`
-  - [ ] I use `--unhandled-rejections` set to `'warn'`
-  - [ ] I use `--unhandled-rejections` set to `'none'`
-  - [ ] I don't use `--unhandled-rejections`
-  - [ ] I use a third-party library (like make-promises-safe) to deal with unhandled rejections
-  - [ ] I didn't know `--unhandled-rejections` existed
+- [ ] I use `--unhandled-rejections` set to `'strict'`
+- [ ] I use `--unhandled-rejections` set to `'warn'`
+- [ ] I use `--unhandled-rejections` set to `'none'`
+- [ ] I don't use `--unhandled-rejections`
+- [ ] I use a third-party library (like make-promises-safe) to deal with unhandled rejections
+- [ ] I didn't know `--unhandled-rejections` existed
 
 ## 5. Do you know that Node.js has a global handler for uncaught exception (`process.on('uncaughtException')`)? If so, do you use it?
 
-  - [ ] I use `process.on('uncaughtException')`
-  - [ ] I don't use `process.on('uncaughtException')`
-  - [ ] I didn't know `process.on('uncaughtException')` existed
+- [ ] I use `process.on('uncaughtException')`
+- [ ] I don't use `process.on('uncaughtException')`
+- [ ] I didn't know `process.on('uncaughtException')` existed
 
 ## 6. Are you using Promises in any of the following kinds of applications? (check all that apply)
 
-  - [ ] Production-level code
-  - [ ] Tests
-  - [ ] Benchmarks
-  - [ ] Build pipeline / infrastructure
-  - [ ] Examples and Demos
-  - [ ] Other (please describe)
+- [ ] Production-level code
+- [ ] Tests
+- [ ] Benchmarks
+- [ ] Build pipeline / infrastructure
+- [ ] Examples and Demos
+- [ ] Other (please describe)
 
 ## 7. Which of the use cases described below have you spent most of your time on?
 
-  - [ ] Third-party libraries
-  - [ ] Command-line tools
-  - [ ] Web servers
-  - [ ] Computation-heavy processing
-  - [ ] Desktop applications
-  - [ ] Other (please elaborate)
+- [ ] Third-party libraries
+- [ ] Command-line tools
+- [ ] Web servers
+- [ ] Computation-heavy processing
+- [ ] Desktop applications
+- [ ] Other (please elaborate)
 
 ## 8. When a rejected promise doesn't have a catch handler, what is the behavior of your application today?
 
@@ -208,11 +208,11 @@ error();
 
 If working on multiple applications or projects, choose the answer that describes the behavior on your biggest project, or on the project you worked the most.
 
-  - [ ] Node.js logs a warning alongside a deprecation notice, execution continues (this is the default Node.js behavior today)
-  - [ ] Logs a warning, continue running, no deprecation warning
-  - [ ] Logs a warning, continue running, no deprecation warning, exits with an error code when program finishes
-  - [ ] Exit as soon as possible (this is the default Node.js behavior for uncaught exceptions today)
-  - [ ] Other (please elaborate)
+- [ ] Node.js logs a warning alongside a deprecation notice, execution continues (this is the default Node.js behavior today)
+- [ ] Logs a warning, continue running, no deprecation warning
+- [ ] Logs a warning, continue running, no deprecation warning, exits with an error code when program finishes
+- [ ] Exit as soon as possible (this is the default Node.js behavior for uncaught exceptions today)
+- [ ] Other (please elaborate)
 
 ## 9. How do you deal with managing resources wrapped with promises when an unhandled rejection occurs?
 
@@ -230,29 +230,29 @@ If the above code throws, a database handle might leak which can in some cases e
 
 How do tools or servers you author deal with this case?
 
- - [ ] I don't author code where this might be an issue (for example, code I author does not connect to third party resources).
- - [ ] I take extra care to deal with these cases individually and perform monitoring on database handles with alerts.
- - [ ] I make sure to restart my server if code like `databaseConnection.release` throws, like with `uncaughtException`s.
- - [ ] In theory this can be an issue with code I author but in practice things have been working out fine for me and I ignore these errors.
- - [ ] The server keeps running, I log uncaught exceptions and unhandled rejections to monitoring and use a tool to notify engineers if such a bug occurs.
+- [ ] I don't author code where this might be an issue (for example, code I author does not connect to third party resources).
+- [ ] I take extra care to deal with these cases individually and perform monitoring on database handles with alerts.
+- [ ] I make sure to restart my server if code like `databaseConnection.release` throws, like with `uncaughtException`s.
+- [ ] In theory this can be an issue with code I author but in practice things have been working out fine for me and I ignore these errors.
+- [ ] The server keeps running, I log uncaught exceptions and unhandled rejections to monitoring and use a tool to notify engineers if such a bug occurs.
 
 ## 10. What should be the default Node.js behavior for unhandled rejections?
 
 Consider the following modes:
 
-  - `strict`: raise an uncaught exception similar to `throw new Error()` that is not caught. `unhandledRejection` listeners do not prevent raising the exception
-  - `throw`: raise an uncaught exception similar to `throw new Error()` that is not caught. `unhandledRejection` listeners take precedence and prevent raising the exception
-  - `warn`: outputs a warning as soon as possible. Continues running after the warning is emitted. If the process exits and no status code was set, the process exits with a success code. This is similar to what browser consoles do
-  - `warn-with-error-code`: outputs a warning as soon as possible. Continues running after the warning is emitted. If the process exits and no status code was set, the process exits with an error code
-  - `none`: do nothing
+- `strict`: raise an uncaught exception similar to `throw new Error()` that is not caught. `unhandledRejection` listeners do not prevent raising the exception
+- `throw`: raise an uncaught exception similar to `throw new Error()` that is not caught. `unhandledRejection` listeners take precedence and prevent raising the exception
+- `warn`: outputs a warning as soon as possible. Continues running after the warning is emitted. If the process exits and no status code was set, the process exits with a success code. This is similar to what browser consoles do
+- `warn-with-error-code`: outputs a warning as soon as possible. Continues running after the warning is emitted. If the process exits and no status code was set, the process exits with an error code
+- `none`: do nothing
 
 For all the modes, the action (raise an exception output a warning) will happen on `nextTick`.
 
 Which one you think should be the default on Node.js?
 
-  - [ ] `strict`
-  - [ ] `throw`
-  - [ ] `warn`
-  - [ ] `warn-with-error-code`
-  - [ ] `none`
-  - [ ] Other (please elaborate)
+- [ ] `strict`
+- [ ] `throw`
+- [ ] `warn`
+- [ ] `warn-with-error-code`
+- [ ] `none`
+- [ ] Other (please elaborate)
