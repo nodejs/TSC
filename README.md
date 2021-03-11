@@ -192,5 +192,4 @@ charter.
 [deps]: https://github.com/nodejs/node/tree/master/deps
 [tools]: https://github.com/nodejs/node/tree/master/tools
 [TSC Charter]: https://github.com/nodejs/TSC/blob/master/TSC-Charter.md
-[Project Lifecycle.md]: ./Project-Lifecycle.md
 [Node.js YouTube channel]: https://www.youtube.com/c/nodejs+foundation/
