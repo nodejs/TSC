@@ -11,7 +11,6 @@
     ["remark-lint-no-literal-urls", false],
     ["remark-lint-no-multiple-toplevel-headings", false],
     ["remark-lint-prohibited-strings", false],
-    ["remark-lint-strong-marker", false],
     ["remark-lint-unordered-list-marker-style", false]
   ]
 }
