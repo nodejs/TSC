@@ -68,7 +68,7 @@ participate in TSC discussions, *and* does not participate in TSC votes, the
 member shall be automatically removed from the TSC. The member may be invited
 to continue attending TSC meetings as an observer.
 
-## Section 4. Responsibilities of the TSC.  
+## Section 4. Responsibilities of the TSC.
 
 Subject to such policies as may be set by the CPC, the TSC is
 responsible for all technical development within the Node.js project,

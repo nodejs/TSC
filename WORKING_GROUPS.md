@@ -228,9 +228,8 @@ The [Node.js Code of Conduct][] applies to this WG.
 
 [Node.js Code of Conduct]: https://github.com/nodejs/TSC/blob/master/CODE_OF_CONDUCT.md
 [Node.js Moderation Policy]: https://github.com/nodejs/TSC/blob/master/Moderation-Policy.md
+[Consensus Seeking]: https://en.wikipedia.org/wiki/Consensus-seeking_decision-making
 ```
-
-[Community Committee]: https://github.com/nodejs/community-committee
 
 ## Current Working Groups
 
@@ -431,7 +430,7 @@ Responsibilities include:
   GitHub organization including but not limited to:
   * Managing the list of organization owners which supplement the standard
     Node.js organization owners as outlined in:
-[https://github.com/nodejs/admin/blob/master/GITHUB_ORG_MANAGEMENT_POLICY.md#owners](https://github.com/nodejs/admin/blob/master/GITHUB_ORG_MANAGEMENT_POLICY.md#owners)
+    [https://github.com/nodejs/admin/blob/master/GITHUB_ORG_MANAGEMENT_POLICY.md#owners](https://github.com/nodejs/admin/blob/master/GITHUB_ORG_MANAGEMENT_POLICY.md#owners)
   * Overseeing new repositories (creating, moving, removing)
   * Managing the maintainer teams for all of the repositories.
   * Contribution policy for repositories
@@ -456,4 +455,4 @@ Responsibilities include:
 * Development of Node.js HTTP Client APIs such as a WHATWG Fetch implementation.
 
 [Technical Steering Committee (TSC)]: ./TSC-Charter.md
-[Consensus Seeking]: http://en.wikipedia.org/wiki/Consensus-seeking_decision-making
+[Node.js TSC]: https://github.com/nodejs/tsc

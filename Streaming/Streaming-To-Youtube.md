@@ -9,7 +9,7 @@ The Zoom user ID is `nodejs-meetings@linuxfoundation.org`, the password needs
 to be communicated privately, ask the TSC Chair.
 
 Your YouTube Account must be a manager of the
-[Node.js YouTube account](https://www.youtube.com/channel/UCQPYJluYC_sn_Qz_XE-YbTQ). 
+[Node.js YouTube account](https://www.youtube.com/channel/UCQPYJluYC_sn_Qz_XE-YbTQ).
 Ask the TSC Chair or foundation managers (Amanda Ennis, Brian Warner, Rachel
 Romoff) to make your account a manager. To add managers or verify an account
 is a manager:
@@ -17,7 +17,7 @@ is a manager:
 2. Click on the node.js icon on the right top.
 3. Select settings, select "Add or remove managers", select "Manage permissions"
 4. On that page you can use the +people at the top right of the popup to add
-   people. It also lists all current managers.
+  people. It also lists all current managers.
 
 ## Live streaming a meeting
 
@@ -28,14 +28,14 @@ is a manager:
 3. Press "Start", it should open the meeting in the Zoom application.
 4. Go to "Participants" panel, check Attendees, promote them to panelists.
 5. Go to "... More" in toolbar, choose "Live on YouTube", it will open in
-   browser.
+  browser.
 6. Choose to login to https://youtube.com with Node.js account, accept
-   Zoom usage agreement (on first use)
+  Zoom usage agreement (on first use)
 7. On the Streaming page, edit the webinar title to include the meeting date,
-   then press the red "Go Live!" button. Troubleshooting note: at least one
-   person has found that "Go Live!" errored with a message "Please grant
-   necessary privilege for live streaming". Copying the link from the default
-   browser to a different browser may work around this issue.
+  then press the red "Go Live!" button. Troubleshooting note: at least one
+  person has found that "Go Live!" errored with a message "Please grant
+  necessary privilege for live streaming". Copying the link from the default
+  browser to a different browser may work around this issue.
 
 Every participant can choose whether to participate with or without video.
 
