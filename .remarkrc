@@ -2,10 +2,7 @@
   "plugins": [
     "remark-gfm",
     "remark-preset-lint-node",
-    ["remark-lint-fenced-code-flag", false],
-    ["remark-lint-first-heading-level", false],
     ["remark-lint-maximum-line-length", false],
-    ["remark-lint-prohibited-strings", false],
-    ["remark-lint-unordered-list-marker-style", false]
+    ["remark-lint-prohibited-strings", false]
   ]
 }

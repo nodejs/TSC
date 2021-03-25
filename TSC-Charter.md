@@ -1,13 +1,13 @@
 # Technical Steering Committee (TSC) Charter
 
-## Section 1. Guiding Principle.
+## Section 1. Guiding Principle
 
 The Node.js project is part of the OpenJS Foundation which
 operates transparently, openly, collaboratively, and ethically.
 Project proposals, timelines, and status must not merely be
 open, but also easily visible to outsiders.
 
-## Section 2. Evolution of OpenJS Foundation Governance.
+## Section 2. Evolution of OpenJS Foundation Governance
 
 Most large, complex open source communities have both a business and a
 technical governance model. Technical leadership for the projects
@@ -26,7 +26,7 @@ additionally make amendments to the TSC charter at any time, though the
 CPC will not interfere with day-to-day discussions, votes or meetings
 of the TSC.
 
-## Section 3. Establishment of the TSC.
+## Section 3. Establishment of the TSC
 
 TSC memberships are not time-limited. There is no maximum size of the TSC.
 The size is expected to vary in order to ensure adequate coverage of important
@@ -68,7 +68,7 @@ participate in TSC discussions, *and* does not participate in TSC votes, the
 member shall be automatically removed from the TSC. The member may be invited
 to continue attending TSC meetings as an observer.
 
-## Section 4. Responsibilities of the TSC.
+## Section 4. Responsibilities of the TSC
 
 Subject to such policies as may be set by the CPC, the TSC is
 responsible for all technical development within the Node.js project,
@@ -87,7 +87,7 @@ projects.
 
 The TSC will define Node.js project’s release vehicles.
 
-## Section 5. Node.js Project Operations.
+## Section 5. Node.js Project Operations
 
 The TSC will establish and maintain a development process for the Node.js
 project. The development process will establish guidelines
