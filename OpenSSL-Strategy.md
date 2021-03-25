@@ -210,8 +210,8 @@ OpenSSL. The most notable distributors and the configurations used are:
   the version that was shipped in the source tree.
 * **NodeSource Builds**: Binaries
   [distributed](https://github.com/nodesource/distributions) by NodeSource are
-  heavily used, and do not follow the Linux distribution policyof dependency
-  seperation. NodeSource uses the Node.js defaults for `configure` and compile
+  heavily used, and do not follow the Linux distribution policy of dependency
+  separation. NodeSource uses the Node.js defaults for `configure` and compile
   and statically link in the OpenSSL source shipped bundled with Node.js.
 * **Homebrew**: The
   [formula](https://github.com/Homebrew/homebrew-core/blob/master/Formula/node.rb)
