@@ -5,8 +5,8 @@ This policy document describes for each release line:
 * Which versions of OpenSSL Node.js will include.
 * Which versions of a "shared" OpenSSL Node.js will support.
 * What version of TLS will be supported
-  - by default,
-  - with run-time configuration.
+  * by default,
+  * with run-time configuration.
 * Whether FIPS will be supported.
 
 It also gives background on OpenSSL release lifetimes, TLS1.3, and FIPS support,
@@ -39,6 +39,7 @@ OpenSSL LTS support timing, the lack of OpenSSL LTS planning and the lack of a
 clear timeframe for a new FIPS module complicates Node.js 10.
 
 For Node.js < 10.16.0:
+
 * OpenSSL version: 1.1.0
 * Allowed shared OpenSSL version: 1.1.0
 * Default minimum TLS version is TLSv1, default maximum is TLSv1.2. No other
@@ -46,6 +47,7 @@ For Node.js < 10.16.0:
 * FIPS: not supported
 
 For Node.js >= 10.16.0:
+
 * OpenSSL version: 1.1.1
 * Allowed shared OpenSSL version: 1.1.0 or 1.1.1
 * Default minimum TLS version is TLSv1, default maximum is TLSv1.2. It is
@@ -88,6 +90,7 @@ This release will not be designated LTS. It was updated to include OpenSSL 1.1.1
 in [11.9.0](https://nodejs.org/en/blog/release/v11.9.0/).
 
 For Node.js < 11.9.0:
+
 * OpenSSL version: 1.1.0
 * Allowed shared OpenSSL version: 1.1.0
 * Default minimum TLS version is TLSv1, default maximum is TLSv1.2. No other
@@ -95,6 +98,7 @@ For Node.js < 11.9.0:
 * FIPS: not supported
 
 For Node.js >= 11.9.0:
+
 * OpenSSL version: 1.1.0
 * Allowed shared OpenSSL version: 1.1.0 or 1.1.1
 * Default minimum TLS version is TLSv1, default maximum is TLSv1.2. It is
@@ -112,9 +116,10 @@ For Node.js >= 11.9.0:
 * FIPS: not supported
 
 Node.js EOL dates:
-- 12.x: April 2022
-- 13.x: June, 2020
-- 14.x: April 2023
+
+* 12.x: April 2022
+* 13.x: June, 2020
+* 14.x: April 2023
 
 ## Node.js version 15.x (est. Oct 2020) (EOL Jun 2021)
 
@@ -150,6 +155,7 @@ For minimal disruption, it would probably be helpful if Node.js supported
 building against OpenSSL 1.1.1 out-of-tree, even if OpenSSL 3.x was in-tree.
 
 Challenges are:
+
 1. OpenSSL 3.x moved many algorithms into a legacy library, that is only
   accessible as a dynamically loaded provider, so cannot ship with Node.js
 2. Node.js has a build system wrapped around OpenSSL 1.1.1, it is currently

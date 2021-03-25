@@ -254,6 +254,7 @@ backwards compatibility with other solutions and prior versions are paramount
 in importance.
 
 Responsibilities include:
+
 * Addressing stream issues on the Node.js issue tracker.
 * Authoring and editing stream documentation within the Node.js project.
 * Reviewing changes to stream subclasses within the Node.js project.
@@ -269,6 +270,7 @@ The Build Working Group's purpose is to create and maintain a distributed
 automation infrastructure.
 
 Responsibilities include:
+
 * Producing packages for all target platforms.
 * Running tests.
 * Running performance testing and comparisons.
@@ -281,6 +283,7 @@ documented, and extensible diagnostic interfaces for use by Node.js tools and
 JavaScript VMs.
 
 Responsibilities include:
+
 * Collaborating with V8 to integrate `v8_inspector` into Node.js.
 * Collaborating with V8 to integrate `trace_event` into Node.js.
 * Collaborating with Core to refine `async_wrap` and `async_hooks`.
@@ -305,6 +308,7 @@ language community might then produce multiple localizations for
 various project resources.
 
 Responsibilities include:
+
 * Translating any Node.js materials they believe are relevant to their
   community.
 * Reviewing processes for keeping translations up to date and of high quality.
@@ -354,6 +358,7 @@ The Docker Working Group's purpose is to build, maintain, and improve official
 Docker images for the Node.js project.
 
 Responsibilities include:
+
 * Keeping the official Docker images updated in line with new Node.js releases.
 * Decide and implement image improvements and/or fixes.
 * Maintain and improve the images' documentation.
@@ -367,6 +372,7 @@ assisting in the writing of code that is compatible with many actively used
 versions of Node.js, V8 and libuv.
 
 Responsibilities include:
+
 * Maintaining the [NAN](https://github.com/nodejs/nan) GitHub repository,
   including code, issues and documentation.
 * Maintaining the [addon-examples](https://github.com/nodejs/node-addon-examples)
@@ -387,6 +393,7 @@ The current members can be found in their
 The Release Working Group manages the release process for Node.js.
 
 Responsibilities include:
+
 * Define the release process.
 * Define the content of releases.
 * Generate and create releases.
@@ -400,6 +407,7 @@ Responsibilities include:
 The Ecosystem Security Working Group works to improve the security of the Node.js Ecosystem.
 
 Responsibilities include:
+
 * Work with the Node Security Platform to bring community vulnerability data into
   the foundation as a shared asset.
 * Ensure the vulnerability data is updated in an efficient and timely manner. For example, ensuring there
@@ -423,6 +431,7 @@ the [Node.js TSC][].
 ### [Package Maintenance](https://github.com/nodejs/package-maintenance)
 
 Responsibilities include:
+
 * Building, documenting and evangelizing guidance, tools and processes that make it easier for maintainers to
   maintain packages and accept help from those who depend on their packages.
 * Management of repositories within the [pkgjs](https://github.com/pkgjs)
