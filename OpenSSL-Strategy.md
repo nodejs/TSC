@@ -312,7 +312,7 @@ late 2017.
 Even though OpenSSL 1.1.0 is only supported until 2019-09-11, the API shift was
 an important stage in Node.js' adaptation.
 
-Openssl 1.1.0 was included in Node.js 10.x in the past; Node.js was
+Openssl 1.1.0 was included in Node.js 10.x in the past. Node.js was
 updated to include OpenSSL 1.1.1 in the 10.16.0 release (see above).
 
 ### OpenSSL 1.1.1
