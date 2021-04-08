@@ -123,7 +123,12 @@ Node.js EOL dates:
 
 ## Node.js version 15.x (est. Oct 2020) (EOL Jun 2021)
 
-* OpenSSL version: 1.1.1
+* [quictls/OpenSSL](https://github.com/quictls/openssl/tree/OpenSSL_1_1_1j+quic)
+version: 1.1.1j+quic
+Node.js currently uses a temporary OpenSSL fork, which closely tracks the main
+openssl/openssl releases with the addition of APIs to support the QUIC protocol.
+Details on the fork, as well as the latest sources, can be found at
+<https://github.com/quictls/openssl>.
 * Allowed shared OpenSSL version: 1.1.1
 * Default minimum TLS version is TLSv1.2, default maximum is TLSv1.3. TLSv1
   and TLSv1.1 are *not* supported by default, only by explicit run-time
@@ -137,8 +142,14 @@ of 15.x (which is only about 8 months), that experimental support for OpenSSL
 
 ## Node.js version 16.x (est Apr 2021) (EOL Apr 2024)
 
-* OpenSSL version: 3.x (because of OpenSSL EOL)
-* Allowed shared OpenSSL version: 1.1.1 (proposed...)
+* [quictls/OpenSSL](https://github.com/quictls/openssl/tree/openssl-3.0.0-alpha13+quic)
+version: openssl-3.0.0-alpha13+quic
+Node.js currently uses a temporary OpenSSL fork, which closely tracks the main
+openssl/openssl releases with the addition of APIs to support the QUIC protocol.
+This will be used until OpenSSL releases support for the QUIC protocol. Details
+on the fork, as well as the latest sources, can be found at
+<https://github.com/quictls/openssl>.
+* Allowed shared OpenSSL version: 3.0.0, 3.0.0+quic, 1.1.1, 1.1.1+quic
 * Default minimum TLS version is TLSv1.2, default maximum is TLSv1.3. TLSv1
   and TLSv1.1 are *not* supported by default, only by explicit run-time
   configuration.
@@ -154,6 +165,11 @@ a `semver-minor` (ABI, API, and behavioural compatible) update to 16.x.
 For minimal disruption, it would probably be helpful if Node.js supported
 building against OpenSSL 1.1.1 out-of-tree, even if OpenSSL 3.x was in-tree.
 
+The plan described above is to:
+
+* Once OpenSSL has been updated with support for the QUIC protocol replace the
+temporary quictls/openssl depencency with it.
+
 Challenges are:
 
 1. OpenSSL 3.x moved many algorithms into a legacy library, that is only
@@ -165,9 +181,6 @@ Challenges are:
   APIs, but the alternatives to those deprecated APIs do not exist in OpenSSL
   1.1.1. So, Node.js 16.x either needs to ship calling deprecated APIs, or
   break compatibility with OpenSSL 1.1.1 (so it will _only build with 3.x_).
-4. Behavioural differences in OpenSSL 3.x currently fail many tests in the
-  Node.js master test suite (effort to fix this is unknown, impact of fixing
-  in terms of compatibility is unknown).
 
 Tracking issue: <https://github.com/nodejs/node/issues/29817>
 
