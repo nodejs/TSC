@@ -123,8 +123,7 @@ Node.js EOL dates:
 
 ## Node.js version 15.x (est. Oct 2020) (EOL Jun 2021)
 
-* [quictls/OpenSSL](https://github.com/quictls/openssl/tree/OpenSSL_1_1_1j+quic)
-version: 1.1.1j+quic
+* quictls/OpenSSL version: 1.1.1+quic
 Node.js currently uses a temporary OpenSSL fork, which closely tracks the main
 openssl/openssl releases with the addition of APIs to support the QUIC protocol.
 Details on the fork, as well as the latest sources, can be found at
@@ -142,8 +141,7 @@ of 15.x (which is only about 8 months), that experimental support for OpenSSL
 
 ## Node.js version 16.x (est Apr 2021) (EOL Apr 2024)
 
-* [quictls/OpenSSL](https://github.com/quictls/openssl/tree/openssl-3.0.0-alpha13+quic)
-version: openssl-3.0.0-alpha13+quic
+* quictls/OpenSSL version: openssl-3.0.0+quic
 Node.js currently uses a temporary OpenSSL fork, which closely tracks the main
 openssl/openssl releases with the addition of APIs to support the QUIC protocol.
 This will be used until OpenSSL releases support for the QUIC protocol. Details
