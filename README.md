@@ -1,13 +1,13 @@
-# The Node.js Technical Steering Committee
+# Node.js Technical Steering Committee
 
 The Node.js Technical Steering Committee (TSC) is the technical
 governing body of Node.js. It is described in the [TSC Charter][].
 
-## TSC Scope
+## TSC scope
 
-**The TSC is responsible for the Node.js Core project, a number of projects
-depended upon by Node.js Core, and a number of projects adjacent to Node.js
-Core.**
+The TSC is responsible for the Node.js Core project, some projects
+depended upon by Node.js Core, and several projects adjacent to Node.js
+Core.
 
 The TSC exercises autonomy in managing its responsibilities and seeks agreement
 from the OpenJS Foundation Board on any change to the scope of those
@@ -21,11 +21,11 @@ packages are built, excluding the vendored projects included in the codebase
 located in the [deps][] and [tools][] directories that are copied in from
 externally maintained repositories.
 
-### Dependent Projects
+### Dependent projects
 
 Additional projects fall within the TSC's scope of responsibility which are
 dependencies of Node.js Core in that they are **required** to plan, test, build,
-document and ship Node.js releases.
+document, and ship Node.js releases.
 
 These projects are located in the following repositories:
 
@@ -42,21 +42,16 @@ These projects are located in the following repositories:
 * <https://github.com/nodejs/secrets> — _private_, administration delegated to the Build Working Group
 * <https://github.com/nodejs/Release> — administration delegated to the Release Working Group
 
-### Adjacent Projects
+### Adjacent projects
 
-The TSC is responsible for a number of projects that are not strictly required
-to plan, test, build, document and ship Node.js releases. Projects that are
-_adjacent_ are either created from within the technical organization managed by
+The TSC is responsible for several projects that are not strictly required
+to plan, test, build, document, and ship Node.js releases. Adjacent projects are either created from within the technical organization managed by
 the TSC or are adopted into that organization from outside.
 
 In the case of adopting existing projects, once the TSC has decided that
-adoption appropriate, it should seek agreement from the OpenJS Foundation Board
-for such adoption as it impacts on the scope of technical activities of the
+adoption is appropriate, it should seek agreement from the OpenJS Foundation Board
+for such adoption as it impacts the scope of technical activities of the
 Foundation.
-
-If the OpenJS Foundation Board wishes to adopt an existing project, it must
-seek agreement from the TSC that such adoption is appropriate and that any
-changes to scope that it entails are acceptable.
 
 Current adjacent projects that are within the TSC's scope of responsibility
 include:
@@ -89,7 +84,7 @@ include:
 * <https://github.com/nodejs/testing>
 * _And_ various language and resource translation groups under <https://github.com/nodejs/>
 
-### List of TSC Responsibilities
+### List of TSC responsibilities
 
 The TSC exercises autonomy in setting up and maintaining procedures, policies,
 and management and administrative structures as it deems appropriate for the
@@ -100,7 +95,7 @@ Included in the responsibilities of the TSC are:
 * Managing code and documentation creation and changes for the listed projects
   and resources
 * Setting and maintaining standards covering contributions of code,
-  documentation and other materials
+  documentation, and other materials
 * Managing code and binary releases: types, schedules, frequency, delivery
   mechanisms
 * Making decisions regarding dependencies of the Node.js Core project,
@@ -118,10 +113,10 @@ Included in the responsibilities of the TSC are:
 Many of these responsibilities will be delegated by the TSC to appropriate
 bodies such as the Working Groups.
 
-## TSC Members
+## TSC members
 
-TSC members are responsible for top level technical community concerns. The role
-is mostly administrative and is responsible for admitting new Working Groups,
+TSC members are responsible for top-level technical community concerns. The role
+is mostly administrative and is responsible for admitting new Working Groups
 and advocating for any needs in the
 technical side of the project to the OpenJS Foundation Board of Directors.
 
@@ -148,11 +143,11 @@ Google Plus account.
 
 To request access, [open an issue](https://github.com/nodejs/TSC/issues/new).
 
-## Strategic Initiatives
+## Strategic initiatives
 
-At any one time the Node.js project has a number of strategic initiatives
+At any one time, the Node.js project has many strategic initiatives
 underway.  The goal of the TSC is to have a champion for each of these
-initiatives and to support the initiatives in order to enable their
+initiatives and to support the initiatives to enable their
 success.
 
 For more information look here:
@@ -162,7 +157,7 @@ For more information look here:
 
 * [Working Groups](WORKING_GROUPS.md)
 
-## Policy Change Proposal Process
+## Policy change proposal process
 
 The Node.js TSC is chartered to oversee the technical governance of all Working Groups under Node.js. Working Groups have broad powers of
 self-governance.
