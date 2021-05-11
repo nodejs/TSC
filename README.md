@@ -45,7 +45,8 @@ These projects are located in the following repositories:
 ### Adjacent projects
 
 The TSC is responsible for several projects that are not strictly required
-to plan, test, build, document, and ship Node.js releases. Adjacent projects are either created from within the technical organization managed by
+to plan, test, build, document, and ship Node.js releases. Adjacent projects are
+either created from within the technical organization managed by
 the TSC or are adopted into that organization from outside.
 
 In the case of adopting existing projects, once the TSC has decided that
