@@ -31,7 +31,7 @@ of the TSC.
 TSC memberships are not time-limited. There is no maximum size of the TSC.
 The size is expected to vary in order to ensure adequate coverage of important
 areas of expertise, balanced with the ability to make decisions efficiently.
-The TSC must have at least three members.
+The TSC must have at least four members.
 
 There is no specific set of requirements or qualifications for TSC
 membership beyond these rules. The TSC may add additional members to the
@@ -77,7 +77,7 @@ including:
 * Setting release dates.
 * Release quality standards.
 * Technical direction.
-* Project governance and process (including this policy).
+* Project governance and process.
 * GitHub repository hosting.
 * Conduct guidelines.
 * Maintaining the list of additional Collaborators.
