@@ -146,13 +146,7 @@ To request access, [open an issue](https://github.com/nodejs/TSC/issues/new).
 
 ## Strategic initiatives
 
-At any one time, the Node.js project has many strategic initiatives
-underway.  The goal of the TSC is to have a champion for each of these
-initiatives and to support the initiatives to enable their
-success.
-
-For more information look here:
-[Strategic Initiatives](https://github.com/nodejs/TSC/blob/master/Strategic-Initiatives.md)
+* [Strategic initiatives](https://github.com/nodejs/node/blob/HEAD/doc/guides/strategic-initiatives.md)
 
 ## Working Groups
 
