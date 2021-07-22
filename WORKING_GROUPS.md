@@ -192,7 +192,7 @@ Note that changes to WG membership require unanimous consensus.  See
 <a id="developers-certificate-of-origin"></a>
 ## Developer's Certificate of Origin 1.1
 
-*Note*: The DCO is mandatory for all Node.js Foundation projects.
+*Note*: The DCO is mandatory for all OpenJS Foundation projects.
 
 By making a contribution to this project, I certify that:
 
@@ -419,7 +419,7 @@ Responsibilities include:
 * Offer help to npm package maintainers to fix high-impact security bugs.
 * Maintain and make available data on disclosed security vulnerabilities in:
   * the core Node.js project
-  * other projects maintained by the Node.js Foundation technical group
+  * other projects maintained by the OpenJS Foundation technical group
   * the external Node.js open source ecosystem
 * Promote the improvement of security practices within the Node.js ecosystem.
 * Facilitate and promote the expansion of a healthy security service and product
