@@ -20,6 +20,6 @@
   "devDependencies": {
     "remark-cli": "^10.0.0",
     "remark-gfm": "^2.0.0",
-    "remark-preset-lint-node": "^2.3.0"
+    "remark-preset-lint-node": "^2.4.1"
   }
 }
