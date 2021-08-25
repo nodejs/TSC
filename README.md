@@ -173,7 +173,7 @@ their charters. The TSC can not mandate existing working groups alter their
 charters. If such a situation arises, the TSC may decide to revoke the group's
 charter.
 
+[Node.js YouTube channel]: https://www.youtube.com/c/nodejs+foundation/
+[TSC Charter]: https://github.com/nodejs/TSC/blob/master/TSC-Charter.md
 [deps]: https://github.com/nodejs/node/tree/master/deps
 [tools]: https://github.com/nodejs/node/tree/master/tools
-[TSC Charter]: https://github.com/nodejs/TSC/blob/master/TSC-Charter.md
-[Node.js YouTube channel]: https://www.youtube.com/c/nodejs+foundation/

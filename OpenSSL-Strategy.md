@@ -403,6 +403,6 @@ support for BoringSSL will send the wrong message to users regarding its
 suitability as an OpenSSL replacement and Node.js' willingness to maintain
 support.
 
-[OpenSSL Release Strategy]: https://www.openssl.org/policies/releasestrat.html
 [OpenSSL 3.0 and FIPS Update]: https://www.openssl.org/blog/blog/2019/02/13/FIPS-update/
 [OpenSSL 3.0.0 Design]: https://www.openssl.org/docs/OpenSSL300Design.html
+[OpenSSL Release Strategy]: https://www.openssl.org/policies/releasestrat.html

@@ -180,6 +180,6 @@ rarely be encumbered by the TSC and never by the CPC or OpenJS Foundation Board.
 is organized through the project creation process and approved by the
 TSC.
 
-[Consensus Seeking]: https://en.wikipedia.org/wiki/Consensus-seeking_decision-making
 [Condorcet]: https://en.wikipedia.org/wiki/Condorcet_method
+[Consensus Seeking]: https://en.wikipedia.org/wiki/Consensus-seeking_decision-making
 [Single Transferable Vote]: https://en.wikipedia.org/wiki/Single_transferable_vote
