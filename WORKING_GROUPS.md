@@ -192,7 +192,7 @@ Note that changes to WG membership require unanimous consensus.  See
 <a id="developers-certificate-of-origin"></a>
 ## Developer's Certificate of Origin 1.1
 
-*Note*: The DCO is mandatory for all OpenJS Foundation projects.
+Use of a CLA or DCO is mandatory for all all OpenJS Foundation projects. The Node.js project has chosen to use the DCO 1.1
 
 By making a contribution to this project, I certify that:
 
