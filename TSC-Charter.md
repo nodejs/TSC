@@ -62,11 +62,10 @@ through accessible public postings.
 
 TSC members are expected to regularly participate in TSC activities.
 
-In the case where an individual TSC member -- within any three month period --
-attends fewer than 25% of the regularly scheduled meetings, does not
-participate in TSC discussions, *and* does not participate in TSC votes, the
-member shall be automatically removed from the TSC. The member may be invited
-to continue attending TSC meetings as an observer.
+A TSC member is automatically removed from the TSC if, during a 3-month period, they:
+
+* Attend fewer than 25% of the regularly scheduled meetings.
+* Do not participate in any TSC votes.
 
 ## Section 4. Responsibilities of the TSC
 
