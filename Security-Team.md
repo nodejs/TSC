@@ -35,16 +35,8 @@ includes a fix, documentation, an informational CVE or blog post.
 
 <!-- ncu-team-sync.team(nodejs/security-triage) -->
 
-* [@bnoordhuis](https://github.com/bnoordhuis) - Ben Noordhuis
-* [@cjihrig](https://github.com/cjihrig) - Colin Ihrig
-* [@indutny](https://github.com/indutny) - Fedor Indutny
-* [@jasnell](https://github.com/jasnell) - James M Snell
 * [@mcollina](https://github.com/mcollina) - Matteo Collina
-* [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
-* [@ronag](https://github.com/ronag) - Robert Nagy
-* [@shigeki](https://github.com/shigeki) - Shigeki Ohtsu
 * [@vdeturckheim](https://github.com/vdeturckheim) - Vladimir de Turckheim
-* [@watson](https://github.com/watson) - Thomas Watson
 
 <!-- ncu-team-sync end -->
 
