@@ -15,7 +15,7 @@ responsibilities as defined below.
 
 ### Node.js Core
 
-*Node.js Core* is defined as the contents of the repository located at
+_Node.js Core_ is defined as the contents of the repository located at
 <https://github.com/nodejs/node> from which the `node` executable and associated
 packages are built, excluding the vendored projects included in the codebase
 located in the [deps][] and [tools][] directories that are copied in from
