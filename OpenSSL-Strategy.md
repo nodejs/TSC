@@ -51,7 +51,7 @@ For Node.js >= 10.16.0:
 * OpenSSL version: 1.1.1
 * Allowed shared OpenSSL version: 1.1.0 or 1.1.1
 * Default minimum TLS version is TLSv1, default maximum is TLSv1.2. It is
-  expected that TLS1.3 support will be backported to 10.x, but it will *not* be
+  expected that TLS1.3 support will be backported to 10.x, but it will _not_ be
   supported by default, only by explicit run-time configuration.
 * FIPS: not supported
 
@@ -102,7 +102,7 @@ For Node.js >= 11.9.0:
 * OpenSSL version: 1.1.0
 * Allowed shared OpenSSL version: 1.1.0 or 1.1.1
 * Default minimum TLS version is TLSv1, default maximum is TLSv1.2. It is
-  expected that TLS1.3 support will be backported to 11.x, but it will *not* be
+  expected that TLS1.3 support will be backported to 11.x, but it will _not_ be
   supported by default, only by explicit run-time configuration.
 * FIPS: not supported
 
@@ -111,7 +111,7 @@ For Node.js >= 11.9.0:
 * OpenSSL version: 1.1.1
 * Allowed shared OpenSSL version: 1.1.1
 * Default minimum TLS version is TLSv1.2, default maximum is TLSv1.3. TLSv1
-  and TLSv1.1 are *not* supported by default, only by explicit run-time
+  and TLSv1.1 are _not_ supported by default, only by explicit run-time
   configuration.
 * FIPS: not supported
 
@@ -124,13 +124,13 @@ Node.js EOL dates:
 ## Node.js version 15.x (est. Oct 2020) (EOL Jun 2021)
 
 * quictls/OpenSSL version: 1.1.1+quic
-Node.js currently uses a temporary OpenSSL fork, which closely tracks the main
-openssl/openssl releases with the addition of APIs to support the QUIC protocol.
-Details on the fork, as well as the latest sources, can be found at
-<https://github.com/quictls/openssl>.
+  Node.js currently uses a temporary OpenSSL fork, which closely tracks the main
+  openssl/openssl releases with the addition of APIs to support the QUIC protocol.
+  Details on the fork, as well as the latest sources, can be found at
+  <https://github.com/quictls/openssl>.
 * Allowed shared OpenSSL version: 1.1.1
 * Default minimum TLS version is TLSv1.2, default maximum is TLSv1.3. TLSv1
-  and TLSv1.1 are *not* supported by default, only by explicit run-time
+  and TLSv1.1 are _not_ supported by default, only by explicit run-time
   configuration.
 * FIPS: not supported
 
@@ -142,14 +142,14 @@ of 15.x (which is only about 8 months), that experimental support for OpenSSL
 ## Node.js version 16.x (est Apr 2021) (EOL Apr 2024)
 
 * quictls/OpenSSL version: openssl-3.0.0+quic
-Node.js currently uses a temporary OpenSSL fork, which closely tracks the main
-openssl/openssl releases with the addition of APIs to support the QUIC protocol.
-This will be used until OpenSSL releases support for the QUIC protocol. Details
-on the fork, as well as the latest sources, can be found at
-<https://github.com/quictls/openssl>.
+  Node.js currently uses a temporary OpenSSL fork, which closely tracks the main
+  openssl/openssl releases with the addition of APIs to support the QUIC protocol.
+  This will be used until OpenSSL releases support for the QUIC protocol. Details
+  on the fork, as well as the latest sources, can be found at
+  <https://github.com/quictls/openssl>.
 * Allowed shared OpenSSL version: 3.0.0, 3.0.0+quic, 1.1.1, 1.1.1+quic
 * Default minimum TLS version is TLSv1.2, default maximum is TLSv1.3. TLSv1
-  and TLSv1.1 are *not* supported by default, only by explicit run-time
+  and TLSv1.1 are _not_ supported by default, only by explicit run-time
   configuration.
 * FIPS: unpredictable, see below
 
@@ -166,19 +166,19 @@ building against OpenSSL 1.1.1 out-of-tree, even if OpenSSL 3.x was in-tree.
 The plan described above is to:
 
 * Once OpenSSL has been updated with support for the QUIC protocol replace the
-temporary quictls/openssl depencency with it.
+  temporary quictls/openssl depencency with it.
 
 Challenges are:
 
 1. OpenSSL 3.x moved many algorithms into a legacy library, that is only
-  accessible as a dynamically loaded provider, so cannot ship with Node.js
+   accessible as a dynamically loaded provider, so cannot ship with Node.js
 2. Node.js has a build system wrapped around OpenSSL 1.1.1, it is currently
-  incompatible with the OpenSSL 3.x build system (effort to fix this is
-  unknown).
+   incompatible with the OpenSSL 3.x build system (effort to fix this is
+   unknown).
 3. OpenSSL 3.x has compile-time warning-deprecated a number of OpenSSL 1.1.1
-  APIs, but the alternatives to those deprecated APIs do not exist in OpenSSL
-  1.1.1. So, Node.js 16.x either needs to ship calling deprecated APIs, or
-  break compatibility with OpenSSL 1.1.1 (so it will _only build with 3.x_).
+   APIs, but the alternatives to those deprecated APIs do not exist in OpenSSL
+   1.1.1. So, Node.js 16.x either needs to ship calling deprecated APIs, or
+   break compatibility with OpenSSL 1.1.1 (so it will _only build with 3.x_).
 
 Tracking issue: <https://github.com/nodejs/node/issues/29817>
 
@@ -197,7 +197,7 @@ for more information about OpenSSL-compatible libraries.
 
 Shared OpenSSL libraries will lack our floating patches, and may also not be the
 latest OpenSSL patch release. Node.js supports being configured to build against
-a shared OpenSSL library. Node.js does *not* support the resulting Node.js
+a shared OpenSSL library. Node.js does _not_ support the resulting Node.js
 binaries built with this non-default configuration, doing so is the
 responsibility of the distributor.
 
@@ -241,7 +241,7 @@ Currently, there are three supported versions of OpenSSL as per the
 * Version 1.1.0: supported until 2019-09-11, not a LTS release line
 * Version 1.1.1: supported until 2023-09-11, designated Long-term Support (LTS)
 * Version 3.0.0: first release: Q4 2020 (estimated), designation as LTS:
-  *unknown*
+  _unknown_
 
 ### OpenSSL 1.0.2 and FIPS
 
@@ -281,7 +281,7 @@ means that Node.js 6.x and 8.x are the only versions of Node.js that currently
 support FIPS.
 
 In particular, note  that Node.js 10.x, the most recent Node.js LTS release
-line, does not and *will not* support FIPS.
+line, does not and _will not_ support FIPS.
 
 Aside from some manual configuration that is
 required in order to support GYP builds (instead of the Perl-based Configure
@@ -338,7 +338,7 @@ support TLS 1.3, however Node.js' TLS1.3 support requires at least OpenSSL
 
 The next release of OpenSSL will be 3.0.0. It is skipping 2.0 because that
 version has been used for OpenSSL FIPS. It is a major re-architecting, and while
-it is expected to be API compatible with OpenSSL 1.1.1, it is *not* expected to
+it is expected to be API compatible with OpenSSL 1.1.1, it is _not_ expected to
 be ABI compatible, re-compilation will be necessary to upgrade from OpenSSL
 1.1.1 to 3.0.0.
 

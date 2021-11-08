@@ -8,7 +8,7 @@ Once formed the work defined in the Working Group charter is the
 responsibility of the WG rather than the TSC.
 
 It is important that Working Groups are not formed pre-maturely. Working
-Groups are not formed to *begin* a set of tasks but instead are formed
+Groups are not formed to _begin_ a set of tasks but instead are formed
 once that work is already underway and the contributors
 think it would benefit from being done as an autonomous project.
 
@@ -27,8 +27,8 @@ the working group's repository.
 ## Starting A Core Working Group
 
 A Working Group is established by first defining a charter  that can be
-ratified by the TSC. A charter is a *statement of purpose*, a
-*list of responsibilities* and a *list of initial membership*.
+ratified by the TSC. A charter is a _statement of purpose_, a
+_list of responsibilities_ and a _list of initial membership_.
 
 A working group needs 3 initial members. These should be individuals
 already undertaking the work described in the charter.
@@ -439,7 +439,7 @@ Responsibilities include:
   GitHub organization including but not limited to:
   * Managing the list of organization owners which supplement the standard
     Node.js organization owners as outlined in:
-    [https://github.com/nodejs/admin/blob/master/GITHUB_ORG_MANAGEMENT_POLICY.md#owners](https://github.com/nodejs/admin/blob/master/GITHUB_ORG_MANAGEMENT_POLICY.md#owners)
+    <https://github.com/nodejs/admin/blob/master/GITHUB_ORG_MANAGEMENT_POLICY.md#owners>
   * Overseeing new repositories (creating, moving, removing)
   * Managing the maintainer teams for all of the repositories.
   * Contribution policy for repositories

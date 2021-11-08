@@ -60,7 +60,7 @@ These non-TSC and TSC Emeriti also have access:
 * [vdeturckheim](https://github.com/vdeturckheim) - **Vladimir de Turckheim**
 * [@watson](https://github.com/watson) - **Thomas Watson**
 
-List is from the [member page](https://hackerone.com/nodejs/team\_members) for
+List is from the [member page](https://hackerone.com/nodejs/team_members) for
 the Node.js program on HackerOne.
 
 ## Team with access to private security patches to Node.js
