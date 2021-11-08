@@ -35,13 +35,7 @@ includes a fix, documentation, an informational CVE or blog post.
 
 <!-- ncu-team-sync.team(nodejs/security-triage) -->
 
-* [@bnoordhuis](https://github.com/bnoordhuis) - Ben Noordhuis
-* [@cjihrig](https://github.com/cjihrig) - Colin Ihrig
-* [@indutny](https://github.com/indutny) - Fedor Indutny
-* [@jasnell](https://github.com/jasnell) - James M Snell
 * [@mcollina](https://github.com/mcollina) - Matteo Collina
-* [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
-* [@ronag](https://github.com/ronag) - Robert Nagy
 * [@vdeturckheim](https://github.com/vdeturckheim) - Vladimir de Turckheim
 
 <!-- ncu-team-sync end -->
@@ -60,7 +54,7 @@ In addition, these individuals have access:
 * [woodruffw-tob](https://github.com/woodruffw) - **William Woodruff**
 * [xlauko](https://github.com/xlauko) - **Heinrich Lauko**
 
-The list is from the [member page](https://hackerone.com/nodejs/team\_members) for
+The list is from the [member page](https://hackerone.com/nodejs/team_members) for
 the Node.js program on HackerOne.
 
 ## Team with access to private security patches to Node.js
