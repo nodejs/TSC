@@ -62,11 +62,11 @@ through accessible public postings.
 
 TSC members are expected to regularly participate in TSC activities.
 
-In the case where an individual TSC member -- within any three month period --
-attends fewer than 25% of the regularly scheduled meetings, does not
-participate in TSC discussions, *and* does not participate in TSC votes, the
-member shall be automatically removed from the TSC. The member may be invited
-to continue attending TSC meetings as an observer.
+A TSC member is automatically removed from the TSC if, during a 3-month period,
+all of the following are true:
+
+* They attend fewer than 25% of the regularly scheduled meetings.
+* They do not participate in any TSC votes.
 
 ## Section 4. Responsibilities of the TSC
 
@@ -83,7 +83,7 @@ including:
 * Maintaining the list of additional Collaborators.
 * Development process and any coding standards.
 * Mediating technical conflicts between Collaborators or Foundation
-projects.
+  projects.
 
 The TSC will define Node.js project’s release vehicles.
 
@@ -171,14 +171,14 @@ looking to participate in the development effort.
 ## Section 9. Definitions
 
 * **Contributors**: contribute code or other artifacts, but do not have
-the right to commit to the code base. Contributors work with the
-project’s Collaborators to have code committed to the code base. A
-Contributor may be promoted to a Collaborator by the TSC. Contributors should
-rarely be encumbered by the TSC and never by the CPC or OpenJS Foundation Board.
+  the right to commit to the code base. Contributors work with the
+  project’s Collaborators to have code committed to the code base. A
+  Contributor may be promoted to a Collaborator by the TSC. Contributors should
+  rarely be encumbered by the TSC and never by the CPC or OpenJS Foundation Board.
 
 * **Project**: a technical collaboration effort, e.g. a subsystem, that
-is organized through the project creation process and approved by the
-TSC.
+  is organized through the project creation process and approved by the
+  TSC.
 
 [Condorcet]: https://en.wikipedia.org/wiki/Condorcet_method
 [Consensus Seeking]: https://en.wikipedia.org/wiki/Consensus-seeking_decision-making
