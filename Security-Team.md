@@ -45,16 +45,16 @@ includes a fix, documentation, an informational CVE or blog post.
 The [TSC](https://github.com/nodejs/node#tsc-technical-steering-committee)
 have access.
 
-These non-TSC and TSC Emeriti also have access:
+In addition, these individuals have access:
 
-* [bnoordhuis](https://github.com/bnoordhuis) - **Ben Noordhuis**
-* [indutny](https://github.com/indutny) - **Fedor Indutny**
-* [ronag](https://github.com/ronag) - **Robert Nagy**
-* [rvagg](https://github.com/rvagg) - **Rod Vagg**
+* [kumarak](https://github.com/kumarak) - **Akshay K**
+* [mike-myers-tob](https://github.com/mike-myers-tob) - **Mike Myers**
+* [tn3rt](https://github.com/tn3rt) - **Trent Brunson**
 * [vdeturckheim](https://github.com/vdeturckheim) - **Vladimir de Turckheim**
-* [@watson](https://github.com/watson) - **Thomas Watson**
+* [woodruffw-tob](https://github.com/woodruffw) - **William Woodruff**
+* [xlauko](https://github.com/xlauko) - **Heinrich Lauko**
 
-List is from the [member page](https://hackerone.com/nodejs/team_members) for
+The list is from the [member page](https://hackerone.com/nodejs/team_members) for
 the Node.js program on HackerOne.
 
 ## Team with access to private security patches to Node.js
