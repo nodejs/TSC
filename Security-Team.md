@@ -61,39 +61,35 @@ the Node.js program on HackerOne.
 
 <!-- ncu-team-sync.team(nodejs-private/security) -->
 
+* [@aduh95](https://github.com/aduh95) - Antoine du Hamel
+* [@alessandrogario](https://github.com/alessandrogario) - Alessandro Gario
 * [@apapirovski](https://github.com/apapirovski) - Anatoli Papirovski
 * [@BethGriggs](https://github.com/BethGriggs) - Bethany Nicolle Griggs
-* [@bnoordhuis](https://github.com/bnoordhuis) - Ben Noordhuis
 * [@BridgeAR](https://github.com/BridgeAR) - Ruben Bridgewater
 * [@ChALkeR](https://github.com/ChALkeR) - Сковорода Никита Андреевич
 * [@cjihrig](https://github.com/cjihrig) - Colin Ihrig
 * [@codebytere](https://github.com/codebytere) - Shelley Vohr
-* [@danbev](https://github.com/danbev) - Daniel Bevenius
-* [@dougwilson](https://github.com/dougwilson) - Douglas Wilson
-* [@evilpacket](https://github.com/evilpacket) - Adam Baldwin
+* [@danielleadams](https://github.com/danielleadams) - Danielle Adams
 * [@fhinkel](https://github.com/fhinkel) - F. Hinkelmann
 * [@gabrielschulhof](https://github.com/gabrielschulhof) - Gabriel Schulhof
 * [@gireeshpunathil](https://github.com/gireeshpunathil) - Gireesh Punathil
-* [@indutny](https://github.com/indutny) - Fedor Indutny
 * [@jasnell](https://github.com/jasnell) - James M Snell
-* [@jbergstroem](https://github.com/jbergstroem) - Johan Bergström
-* [@joaocgreis](https://github.com/joaocgreis) - João Reis
 * [@joyeecheung](https://github.com/joyeecheung) - Joyee Cheung
+* [@kumarak](https://github.com/kumarak) - Akshay K
 * [@mcollina](https://github.com/mcollina) - Matteo Collina
 * [@mhdawson](https://github.com/mhdawson) - Michael Dawson
+* [@mike-myers-tob](https://github.com/mike-myers-tob) - Mike Myers
 * [@mmarchini](https://github.com/mmarchini) - mary marchini
 * [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
 * [@richardlau](https://github.com/richardlau) - Richard Lau
 * [@ronag](https://github.com/ronag) - Robert Nagy
 * [@ruyadorno](https://github.com/ruyadorno) - Ruy Adorno
-* [@rvagg](https://github.com/rvagg) - Rod Vagg
-* [@saghul](https://github.com/saghul) - Saúl Ibarra Corretgé
-* [@shigeki](https://github.com/shigeki) - Shigeki Ohtsu
 * [@targos](https://github.com/targos) - Michaël Zasso
 * [@tniessen](https://github.com/tniessen) - Tobias Nießen
 * [@Trott](https://github.com/Trott) - Rich Trott
 * [@vdeturckheim](https://github.com/vdeturckheim) - Vladimir de Turckheim
-* [@watson](https://github.com/watson) - Thomas Watson
+* [@woodruffw-tob](https://github.com/woodruffw) - William Woodruff
+* [@xlauko](https://github.com/xlauko) - Heinrich Lauko
 
 <!-- ncu-team-sync end -->
 
