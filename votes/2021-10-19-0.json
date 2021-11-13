@@ -1,0 +1,22 @@
+{
+  "description": "Nominating Richard Lau",
+  "refs": ["https://github.com/nodejs/TSC/issues/1096"],
+  "votes": {
+    "Trott": 1,
+    "ChALkeR": 1,
+    "tniessen": 1,
+    "MylesBorins": 1,
+    "mhdawson": 1,
+    "cjihrig": 1,
+    "BethGriggs": 1,
+    "aduh95": 1,
+    "ronag": 1,
+    "mcollina": 1,
+    "targos": 1,
+    "gireeshpunathil": 1,
+    "apapirovski": 1,
+    "joyeecheung": 1,
+    "BridgeAR": 1,
+    "mmarchini": 1
+  }
+}
