@@ -140,7 +140,7 @@ The expected workflow for issues reported to Node.js is:
      reported to the Node.js issue tracker.
    * `INFORMATIVE`: This means we agree that the report contains useful
      information, but we don't intend to publish a fix. This might be because
-     it isn't possible, or because its in an unsupported API or version. We
+     it isn't possible, or because it is in an unsupported API or version. We
      can consider disclosing it if we  think the information should be
      publicized.
    * `DUPLICATE`: The report is a duplicate of an already reported issue. It
