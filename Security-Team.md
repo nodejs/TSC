@@ -147,7 +147,7 @@ The expected workflow for issues reported to Node.js is:
      should not need disclosure, because the original issue will be disclosed
      after it is resolved.
    * `SPAM`: Self-explanatory (and rare).
-5. Disclosure: This not a HackerOne report state, but it is the final state
+5. Disclosure: This is not a HackerOne report state, but it is the final state
    from our perspective. Disclosure should be considered once an issue is
    closed. See the
    [disclosure docs](https://docs.hackerone.com/programs/disclosure.html).
