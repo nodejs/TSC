@@ -134,7 +134,7 @@ The expected workflow for issues reported to Node.js is:
 3. `RESOLVED`: State for an issue that has had a fix published. Issues in this
    state should be disclosed.
 4. ...: Final states for issues that we will not fix:
-   * `NOT-APPLICABLE`: We do not agree this a vulnerability. We can request
+   * `NOT-APPLICABLE`: The issue reported is not a vulnerability. We can request
      that the reporter close it to preserve their H1 "reputation points".  If
      it is an issue, though not a vulnerability, we can suggest that it be
      reported to the Node.js issue tracker.
