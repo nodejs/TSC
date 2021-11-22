@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/nodejs/TSC#readme",
   "devDependencies": {
-    "remark-cli": "^10.0.0",
+    "remark-cli": "^10.0.1",
     "remark-preset-lint-node": "^3.3.0"
   }
 }
