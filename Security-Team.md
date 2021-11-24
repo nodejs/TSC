@@ -35,7 +35,10 @@ includes a fix, documentation, an informational CVE or blog post.
 
 <!-- ncu-team-sync.team(nodejs/security-triage) -->
 
+* [@danielleadams](https://github.com/danielleadams) - Danielle Adams
 * [@mcollina](https://github.com/mcollina) - Matteo Collina
+* [@mhdawson](https://github.com/mhdawson) - Michael Dawson
+* [@Trott](https://github.com/Trott) - Rich Trott
 * [@vdeturckheim](https://github.com/vdeturckheim) - Vladimir de Turckheim
 
 <!-- ncu-team-sync end -->
@@ -63,6 +66,7 @@ the Node.js program on HackerOne.
 
 * [@aduh95](https://github.com/aduh95) - Antoine du Hamel
 * [@alessandrogario](https://github.com/alessandrogario) - Alessandro Gario
+* [@ameily](https://github.com/ameily) - Adam Meily
 * [@apapirovski](https://github.com/apapirovski) - Anatoli Papirovski
 * [@BethGriggs](https://github.com/BethGriggs) - Bethany Nicolle Griggs
 * [@BridgeAR](https://github.com/BridgeAR) - Ruben Bridgewater
@@ -75,7 +79,7 @@ the Node.js program on HackerOne.
 * [@gireeshpunathil](https://github.com/gireeshpunathil) - Gireesh Punathil
 * [@jasnell](https://github.com/jasnell) - James M Snell
 * [@joyeecheung](https://github.com/joyeecheung) - Joyee Cheung
-* [@kumarak](https://github.com/kumarak) - Akshay K
+* [@kumarak](https://github.com/kumarak)
 * [@mcollina](https://github.com/mcollina) - Matteo Collina
 * [@mhdawson](https://github.com/mhdawson) - Michael Dawson
 * [@mike-myers-tob](https://github.com/mike-myers-tob) - Mike Myers
@@ -88,8 +92,8 @@ the Node.js program on HackerOne.
 * [@tniessen](https://github.com/tniessen) - Tobias Nießen
 * [@Trott](https://github.com/Trott) - Rich Trott
 * [@vdeturckheim](https://github.com/vdeturckheim) - Vladimir de Turckheim
-* [@woodruffw-tob](https://github.com/woodruffw) - William Woodruff
-* [@xlauko](https://github.com/xlauko) - Heinrich Lauko
+* [@woodruffw](https://github.com/woodruffw) - William Woodruff
+* [@xlauko](https://github.com/xlauko) - Henrich Lauko
 
 <!-- ncu-team-sync end -->
 
