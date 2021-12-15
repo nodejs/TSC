@@ -1,0 +1,18 @@
+{
+  "description": "Automatic move-to-emeritus for inactive collaborators",
+  "refs": ["https://github.com/nodejs/node/pull/41155"],
+  "votes": {
+    "Trott": 1,
+    "mcollina": 1,
+    "jasnell": 1,
+    "MylesBorins": 1,
+    "targos": 1,
+    "tniessen": 1,
+    "joyeecheung": 1,
+    "richardlau": 1,
+    "danielleadams": 1,
+    "BridgeAR": 1,
+    "mhdawson": 1,
+    "aduh95": 1
+  }
+}
