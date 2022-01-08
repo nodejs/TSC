@@ -17,6 +17,7 @@ invalid and are superseded by the TSC Charter.
 * Add them to the `@pkgjs` org and with an `Owner` role.
 * Add them to the `@pkgjs/node-tsc` team.
 * Invite them to the HackerOne [Node.js team](https://hackerone.com/nodejs/team_members).
+  Have them turn on two-factor authentication after they have joined.
 * Add them to the `tsc` and `crypto-export` mailing lists.
 * Update the `@nodejs/node` repository README to reflect membership in the TSC.
 * Update <https://github.com/nodejs/create-node-meeting-artifacts/blob/master/templates/invited_tsc> and <https://github.com/nodejs/create-node-meeting-artifacts/blob/master/templates/observers_tsc> to reflect membership in the TSC.
