@@ -1,0 +1,24 @@
+{
+  "description": "Nominating Darshan Sen",
+  "refs": ["https://github.com/nodejs/TSC/issues/1141"],
+  "votes": {
+    "aduh95": 1,
+    "apapirovski": 1,
+    "BethGriggs": 1,
+    "cjihrig": 1,
+    "danielleadams": 1,
+    "fhinkel": 1,
+    "gireeshpunathil": 1,
+    "jasnell": 1,
+    "joyeecheung": 1,
+    "mcollina": 1,
+    "mhdawson": 1,
+    "mmarchini": 1,
+    "MylesBorins": 1,
+    "ronag": 1,
+    "richardlau": 1,
+    "targos": 1,
+    "tniessen": 1,
+    "Trott": 1
+  }
+}
