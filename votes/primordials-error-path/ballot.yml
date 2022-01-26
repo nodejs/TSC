@@ -1,0 +1,37 @@
+subject: >-
+  Do we want to make code in the error path tamper proof (and how tamper proof
+  do we want it to be)?
+
+# Please set a score to proposal according to your preferences.
+# Negative scores are allowed, only the order matters.
+# You can tied two or more proposals if you have no preference.
+# To abstain, keep all the propositions tied.
+
+preferences:
+  - title: >-
+      Make the code in the error path full tamper proof by porting it away from
+      JS/main thread (while we are waiting for a PR doing this, primordials
+      should be used).
+    score: 0
+  - title: Make the code in the error path full tamper proof by using primordials.
+    score: 0
+  - title: >-
+      Make  the code in the error path full tamper proof by using primordials +
+      a build step to use bind-this proposal syntax.
+    score: 0
+  - title: >-
+      Use primordials in the error path only if there are no significant perf
+      regression.
+    score: 0
+  - title: >-
+      Don't use primordials for prototype methods (and undo existing ones) in
+      the error path, keep using them otherwise.
+    score: 0
+  - title: Don't use any primordials (and undo existing ones) in the error path.
+    score: 0
+author: undefined <undefined>
+poolChecksum: >-
+  aj8J2Lp5ChTHAFGExPNnVyLamZpOamSL/pUMgkV19l9YRfLj73C/37viGXbK/Zvjzo/nIe2l4/G1Alj/KhXPfw==
+
+# Code in the error path is defined as any code that only runs before (or inside) an inevitable `throw` statement.
+# See https://github.com/nodejs/TSC/issues/1104 for reference.

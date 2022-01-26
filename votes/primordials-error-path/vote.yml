@@ -1,0 +1,109 @@
+subject: >-
+  Do we want to make code in the error path tamper proof (and how tamper proof
+  do we want it to be)?
+
+headerInstructions: |
+  Please set a score to proposal according to your preferences.
+  Negative scores are allowed, only the order matters.
+  You can tied two or more proposals if you have no preference.
+  To abstain, keep all the propositions tied.
+
+candidates:
+  - Make the code in the error path full tamper proof by porting it away from
+    JS/main thread (while we are waiting for a PR doing this, primordials should
+    be used).
+  - Make the code in the error path full tamper proof by using primordials.
+  - Make  the code in the error path full tamper proof by using primordials + a
+    build step to use bind-this proposal syntax.
+  - Use primordials in the error path only if there are no significant perf
+    regression.
+  - Don't use primordials for prototype methods (and undo existing ones) in the
+    error path, keep using them otherwise.
+  - Don't use any primordials (and undo existing ones) in the error path.
+
+footerInstructions: >
+  Code in the error path is defined as any code that only runs before
+  (or inside) an inevitable `throw` statement.
+
+  See https://github.com/nodejs/TSC/issues/1104 for reference.
+
+method: Condorcet
+allowedVoters:
+  - Antoine du Hamel <duhamelantoine1995@gmail.com>
+  - Anatoli Papirovski <apapirovski@mac.com>
+  - Beth Griggs <bgriggs@redhat.com>
+  - Ruben Bridgewater <ruben@bridgewater.de>
+  - Сковорода Никита Андреевич <chalkerx@gmail.com>
+  - Colin Ihrig <cjihrig@gmail.com>
+  - Danielle Adams <adamzdanielle@gmail.com>
+  - Franziska Hinkelmann <franziska.hinkelmann@gmail.com>
+  - Gireesh Punathil <gpunathi@in.ibm.com>
+  - James M Snell <jasnell@gmail.com>
+  - Joyee Cheung <joyeec9h3@gmail.com>
+  - Matteo Collina <matteo.collina@gmail.com>
+  - Michael Dawson <midawson@redhat.com>
+  - Mary Marchini <oss@mmarchini.me>
+  - Myles Borins <myles.borins@gmail.com>
+  - Darshan Sen <raisinten@gmail.com>
+  - Richard Lau <rlau@redhat.com>
+  - Robert Nagy <ronagy@icloud.com>
+  - Michaël Zasso <targos@protonmail.com>
+  - Tobias Nießen <tniessen@tnie.de>
+  - Rich Trott <rtrott@gmail.com>
+
+publicKey: |
+  -----BEGIN PUBLIC KEY-----
+  MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvGxWLQZjY95ZHkXfuHsX
+  Ky4oaVfDaPFL2pMEa8URt0ve8UNQNQMmHdE+LMZijg0o26i6GMXBLXAp2uxjnuB6
+  +wfifokkt0kR9IjPQwTczI4d2UShlO39vHMvml+s1yhc3poyhxA/AopjPyCw9A1B
+  ueKgAmdZbW5XdE6yShe7UTm4Qn6uiHojZcpcuqDLA+E164nCoW/pDt4tAJTtXoBc
+  VLa61ZFH39D9TtCDEyF/gB8BQezE76n40DTsIkXQDBT8Kvm6YarZNbWLtvtz92Ry
+  BcnBTGa/wobL/lGJNTu7JC4LCb+/UkF4nWUUigbDoHTmn7t/3NbiUgBg4qoYMrKA
+  oQIDAQAB
+  -----END PUBLIC KEY-----
+encryptedPrivateKey: |
+  -----BEGIN PGP MESSAGE-----
+
+  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
+  aAVgQ70lLw==
+  =las2
+  -----END PGP MESSAGE-----
