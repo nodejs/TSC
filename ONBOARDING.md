@@ -1,7 +1,7 @@
 # Onboarding/Offboarding
 
 Please refer to the
-[Establishment of the TSC](https://github.com/nodejs/TSC/blob/master/TSC-Charter.md#section-4-establishment-of-the-tsc)
+[Establishment of the TSC](https://github.com/nodejs/TSC/blob/main/TSC-Charter.md#section-4-establishment-of-the-tsc)
 in the TSC Charter. In the event that there is a contradiction between that
 document and this document, the contradictory elements in this document are
 invalid and are superseded by the TSC Charter.
@@ -9,7 +9,7 @@ invalid and are superseded by the TSC Charter.
 ## Onboarding
 
 * Confirm that the new member has read, understands, and agrees to uphold the
-  [Code of Conduct](https://github.com/nodejs/admin/blob/master/CODE_OF_CONDUCT.md).
+  [Code of Conduct](https://github.com/nodejs/admin/blob/main/CODE_OF_CONDUCT.md).
 * Add the new member to the `@nodejs/tsc` and `@nodejs/security-tsc` teams.
 * Change the new member's role in the GitHub `nodejs` organization to `Owner`.
 * Add them to the `@nodejs-private` org and with an `Owner` role.
@@ -20,7 +20,7 @@ invalid and are superseded by the TSC Charter.
   Have them turn on two-factor authentication after they have joined.
 * Add them to the `tsc` and `crypto-export` mailing lists.
 * Update the `@nodejs/node` repository README to reflect membership in the TSC.
-* Update <https://github.com/nodejs/create-node-meeting-artifacts/blob/master/templates/invited_tsc> and <https://github.com/nodejs/create-node-meeting-artifacts/blob/master/templates/observers_tsc> to reflect membership in the TSC.
+* Update <https://github.com/nodejs/create-node-meeting-artifacts/blob/main/templates/invited_tsc> and <https://github.com/nodejs/create-node-meeting-artifacts/blob/main/templates/observers_tsc> to reflect membership in the TSC.
 
 ## Offboarding
 
@@ -37,4 +37,4 @@ invalid and are superseded by the TSC Charter.
 * Remove them from the `tsc` and `crypto-export` mailing lists.
 * Update the `@nodejs/node` repository README to reflect membership in the TSC.
   In all likelihood, they should be listed as TSC Emeritus.
-* Update <https://github.com/nodejs/create-node-meeting-artifacts/blob/master/templates/invited_tsc> to reflect membership in the TSC.
+* Update <https://github.com/nodejs/create-node-meeting-artifacts/blob/main/templates/invited_tsc> to reflect membership in the TSC.
