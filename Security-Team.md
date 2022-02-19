@@ -126,7 +126,7 @@ The expected workflow for issues reported to Node.js is:
    * Once a PR (typically in nodejs-private) is ready for release, add a comment
      indicating when the release is expected.
    * The security release steward will follow the
-     [security release process](https://github.com/nodejs/node/blob/master/doc/guides/security-release-process.md).
+     [security release process](https://github.com/nodejs/node/blob/HEAD/doc/contributing/security-release-process.md).
 3. `RESOLVED`: State for an issue that has had a fix published. Issues in this
    state should be disclosed. The security steward sets this state.
 4. Final states for issues that we will not fix:
