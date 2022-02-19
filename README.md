@@ -146,7 +146,7 @@ To request access, [open an issue](https://github.com/nodejs/TSC/issues/new).
 
 ## Strategic initiatives
 
-* [Strategic initiatives](https://github.com/nodejs/node/blob/HEAD/doc/guides/strategic-initiatives.md)
+* [Strategic initiatives](https://github.com/nodejs/node/blob/HEAD/doc/contributing/strategic-initiatives.md)
 
 ## Working Groups
 
