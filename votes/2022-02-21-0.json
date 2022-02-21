@@ -1,0 +1,149 @@
+{
+  "description": "Do we want to make code in the error path tamper proof (and how tamper proof do we want it to be)?",
+  "refs": [
+    "https://github.com/nodejs/TSC/pull/1158"
+  ],
+  "outcome": {
+    "winner(s)": [
+      "Use primordials in the error path only if there are no significant perf regression."
+    ]
+  },
+  "votes": {
+    "aduh95": {
+      "Make the code in the error path full tamper proof by porting it away from JS/main thread (while we are waiting for a PR doing this, primordials should be used).": 1,
+      "Make the code in the error path full tamper proof by using primordials.": 2,
+      "Make  the code in the error path full tamper proof by using primordials + a build step to use bind-this proposal syntax.": -1,
+      "Use primordials in the error path only if there are no significant perf regression.": 0,
+      "Don't use primordials for prototype methods (and undo existing ones) in the error path, keep using them otherwise.": 0,
+      "Don't use any primordials (and undo existing ones) in the error path.": -2
+    },
+    "BethGriggs": {
+      "Make the code in the error path full tamper proof by porting it away from JS/main thread (while we are waiting for a PR doing this, primordials should be used).": 1,
+      "Make the code in the error path full tamper proof by using primordials.": 1,
+      "Make  the code in the error path full tamper proof by using primordials + a build step to use bind-this proposal syntax.": 1,
+      "Use primordials in the error path only if there are no significant perf regression.": 3,
+      "Don't use primordials for prototype methods (and undo existing ones) in the error path, keep using them otherwise.": 3,
+      "Don't use any primordials (and undo existing ones) in the error path.": 3
+    },
+    "BridgeAR": {
+      "Make the code in the error path full tamper proof by porting it away from JS/main thread (while we are waiting for a PR doing this, primordials should be used).": 0,
+      "Make the code in the error path full tamper proof by using primordials.": 0,
+      "Make  the code in the error path full tamper proof by using primordials + a build step to use bind-this proposal syntax.": 0,
+      "Use primordials in the error path only if there are no significant perf regression.": 70,
+      "Don't use primordials for prototype methods (and undo existing ones) in the error path, keep using them otherwise.": 80,
+      "Don't use any primordials (and undo existing ones) in the error path.": 88
+    },
+    "cjihrig": {
+      "Make the code in the error path full tamper proof by porting it away from JS/main thread (while we are waiting for a PR doing this, primordials should be used).": 0,
+      "Make the code in the error path full tamper proof by using primordials.": 0,
+      "Make  the code in the error path full tamper proof by using primordials + a build step to use bind-this proposal syntax.": 0,
+      "Use primordials in the error path only if there are no significant perf regression.": 0,
+      "Don't use primordials for prototype methods (and undo existing ones) in the error path, keep using them otherwise.": 0,
+      "Don't use any primordials (and undo existing ones) in the error path.": 0
+    },
+    "danielleadams": {
+      "Make the code in the error path full tamper proof by porting it away from JS/main thread (while we are waiting for a PR doing this, primordials should be used).": 0,
+      "Make the code in the error path full tamper proof by using primordials.": 0,
+      "Make  the code in the error path full tamper proof by using primordials + a build step to use bind-this proposal syntax.": 0,
+      "Use primordials in the error path only if there are no significant perf regression.": 0,
+      "Don't use primordials for prototype methods (and undo existing ones) in the error path, keep using them otherwise.": 0,
+      "Don't use any primordials (and undo existing ones) in the error path.": 0
+    },
+    "jasnell": {
+      "Make the code in the error path full tamper proof by porting it away from JS/main thread (while we are waiting for a PR doing this, primordials should be used).": -1,
+      "Make the code in the error path full tamper proof by using primordials.": 0,
+      "Make  the code in the error path full tamper proof by using primordials + a build step to use bind-this proposal syntax.": 0,
+      "Use primordials in the error path only if there are no significant perf regression.": 0,
+      "Don't use primordials for prototype methods (and undo existing ones) in the error path, keep using them otherwise.": -1,
+      "Don't use any primordials (and undo existing ones) in the error path.": -1
+    },
+    "joyeecheung": {
+      "Make the code in the error path full tamper proof by porting it away from JS/main thread (while we are waiting for a PR doing this, primordials should be used).": 3,
+      "Make the code in the error path full tamper proof by using primordials.": 1,
+      "Make  the code in the error path full tamper proof by using primordials + a build step to use bind-this proposal syntax.": 0,
+      "Use primordials in the error path only if there are no significant perf regression.": 2,
+      "Don't use primordials for prototype methods (and undo existing ones) in the error path, keep using them otherwise.": 2,
+      "Don't use any primordials (and undo existing ones) in the error path.": 0
+    },
+    "mcollina": {
+      "Make the code in the error path full tamper proof by porting it away from JS/main thread (while we are waiting for a PR doing this, primordials should be used).": 0,
+      "Make the code in the error path full tamper proof by using primordials.": 2,
+      "Make  the code in the error path full tamper proof by using primordials + a build step to use bind-this proposal syntax.": 1,
+      "Use primordials in the error path only if there are no significant perf regression.": 10,
+      "Don't use primordials for prototype methods (and undo existing ones) in the error path, keep using them otherwise.": 3,
+      "Don't use any primordials (and undo existing ones) in the error path.": 0
+    },
+    "mhdawson": {
+      "Make the code in the error path full tamper proof by porting it away from JS/main thread (while we are waiting for a PR doing this, primordials should be used).": 0,
+      "Make the code in the error path full tamper proof by using primordials.": 0,
+      "Make  the code in the error path full tamper proof by using primordials + a build step to use bind-this proposal syntax.": 0,
+      "Use primordials in the error path only if there are no significant perf regression.": 5,
+      "Don't use primordials for prototype methods (and undo existing ones) in the error path, keep using them otherwise.": 0,
+      "Don't use any primordials (and undo existing ones) in the error path.": 4
+    },
+    "mmarchini": {
+      "Make the code in the error path full tamper proof by porting it away from JS/main thread (while we are waiting for a PR doing this, primordials should be used).": 0,
+      "Make the code in the error path full tamper proof by using primordials.": 0,
+      "Make  the code in the error path full tamper proof by using primordials + a build step to use bind-this proposal syntax.": 0,
+      "Use primordials in the error path only if there are no significant perf regression.": 0,
+      "Don't use primordials for prototype methods (and undo existing ones) in the error path, keep using them otherwise.": 0,
+      "Don't use any primordials (and undo existing ones) in the error path.": 0
+    },
+    "MylesBorins": {
+      "Make the code in the error path full tamper proof by porting it away from JS/main thread (while we are waiting for a PR doing this, primordials should be used).": 0,
+      "Make the code in the error path full tamper proof by using primordials.": 0,
+      "Make  the code in the error path full tamper proof by using primordials + a build step to use bind-this proposal syntax.": 0,
+      "Use primordials in the error path only if there are no significant perf regression.": 0,
+      "Don't use primordials for prototype methods (and undo existing ones) in the error path, keep using them otherwise.": 0,
+      "Don't use any primordials (and undo existing ones) in the error path.": 0
+    },
+    "RaisinTen": {
+      "Make the code in the error path full tamper proof by porting it away from JS/main thread (while we are waiting for a PR doing this, primordials should be used).": 0,
+      "Make the code in the error path full tamper proof by using primordials.": -1,
+      "Make  the code in the error path full tamper proof by using primordials + a build step to use bind-this proposal syntax.": 0,
+      "Use primordials in the error path only if there are no significant perf regression.": -1,
+      "Don't use primordials for prototype methods (and undo existing ones) in the error path, keep using them otherwise.": 1,
+      "Don't use any primordials (and undo existing ones) in the error path.": 1
+    },
+    "richardlau": {
+      "Make the code in the error path full tamper proof by porting it away from JS/main thread (while we are waiting for a PR doing this, primordials should be used).": 2,
+      "Make the code in the error path full tamper proof by using primordials.": 0,
+      "Make  the code in the error path full tamper proof by using primordials + a build step to use bind-this proposal syntax.": 0,
+      "Use primordials in the error path only if there are no significant perf regression.": 1,
+      "Don't use primordials for prototype methods (and undo existing ones) in the error path, keep using them otherwise.": 0,
+      "Don't use any primordials (and undo existing ones) in the error path.": 0
+    },
+    "ronag": {
+      "Make the code in the error path full tamper proof by porting it away from JS/main thread (while we are waiting for a PR doing this, primordials should be used).": 3,
+      "Make the code in the error path full tamper proof by using primordials.": 0,
+      "Make  the code in the error path full tamper proof by using primordials + a build step to use bind-this proposal syntax.": 1,
+      "Use primordials in the error path only if there are no significant perf regression.": 2,
+      "Don't use primordials for prototype methods (and undo existing ones) in the error path, keep using them otherwise.": 4,
+      "Don't use any primordials (and undo existing ones) in the error path.": 5
+    },
+    "targos": {
+      "Make the code in the error path full tamper proof by porting it away from JS/main thread (while we are waiting for a PR doing this, primordials should be used).": 0,
+      "Make the code in the error path full tamper proof by using primordials.": 3,
+      "Make  the code in the error path full tamper proof by using primordials + a build step to use bind-this proposal syntax.": 3,
+      "Use primordials in the error path only if there are no significant perf regression.": 2,
+      "Don't use primordials for prototype methods (and undo existing ones) in the error path, keep using them otherwise.": 1,
+      "Don't use any primordials (and undo existing ones) in the error path.": 0
+    },
+    "tniessen": {
+      "Make the code in the error path full tamper proof by porting it away from JS/main thread (while we are waiting for a PR doing this, primordials should be used).": -1,
+      "Make the code in the error path full tamper proof by using primordials.": 0,
+      "Make  the code in the error path full tamper proof by using primordials + a build step to use bind-this proposal syntax.": -1,
+      "Use primordials in the error path only if there are no significant perf regression.": 0,
+      "Don't use primordials for prototype methods (and undo existing ones) in the error path, keep using them otherwise.": -1,
+      "Don't use any primordials (and undo existing ones) in the error path.": 0
+    },
+    "Trott": {
+      "Make the code in the error path full tamper proof by porting it away from JS/main thread (while we are waiting for a PR doing this, primordials should be used).": 0,
+      "Make the code in the error path full tamper proof by using primordials.": 0,
+      "Make  the code in the error path full tamper proof by using primordials + a build step to use bind-this proposal syntax.": 0,
+      "Use primordials in the error path only if there are no significant perf regression.": 0,
+      "Don't use primordials for prototype methods (and undo existing ones) in the error path, keep using them otherwise.": 0,
+      "Don't use any primordials (and undo existing ones) in the error path.": 0
+    }
+  }
+}
