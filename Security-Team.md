@@ -36,6 +36,7 @@ includes a fix, documentation, an informational CVE or blog post.
 <!-- ncu-team-sync.team(nodejs/security-triage) -->
 
 * [@danielleadams](https://github.com/danielleadams) - Danielle Adams
+* [@jasnell](https://github.com/jasnell) - James M Snell
 * [@mcollina](https://github.com/mcollina) - Matteo Collina
 * [@mhdawson](https://github.com/mhdawson) - Michael Dawson
 * [@Trott](https://github.com/Trott) - Rich Trott
@@ -68,6 +69,7 @@ the Node.js program on HackerOne.
 * [@alessandrogario](https://github.com/alessandrogario) - Alessandro Gario
 * [@ameily](https://github.com/ameily) - Adam Meily
 * [@apapirovski](https://github.com/apapirovski) - Anatoli Papirovski
+* [@bengl](https://github.com/bengl) - Bryan English
 * [@BethGriggs](https://github.com/BethGriggs) - Bethany Nicolle Griggs
 * [@BridgeAR](https://github.com/BridgeAR) - Ruben Bridgewater
 * [@ChALkeR](https://github.com/ChALkeR) - Сковорода Никита Андреевич
@@ -75,9 +77,9 @@ the Node.js program on HackerOne.
 * [@codebytere](https://github.com/codebytere) - Shelley Vohr
 * [@danielleadams](https://github.com/danielleadams) - Danielle Adams
 * [@fhinkel](https://github.com/fhinkel) - F. Hinkelmann
-* [@gabrielschulhof](https://github.com/gabrielschulhof) - Gabriel Schulhof
 * [@gireeshpunathil](https://github.com/gireeshpunathil) - Gireesh Punathil
 * [@jasnell](https://github.com/jasnell) - James M Snell
+* [@joesepi](https://github.com/joesepi) - Joe Sepi
 * [@joyeecheung](https://github.com/joyeecheung) - Joyee Cheung
 * [@kumarak](https://github.com/kumarak)
 * [@mcollina](https://github.com/mcollina) - Matteo Collina
@@ -85,6 +87,7 @@ the Node.js program on HackerOne.
 * [@mike-myers-tob](https://github.com/mike-myers-tob) - Mike Myers
 * [@mmarchini](https://github.com/mmarchini) - mary marchini
 * [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
+* [@RaisinTen](https://github.com/RaisinTen) - Darshan Sen
 * [@richardlau](https://github.com/richardlau) - Richard Lau
 * [@ronag](https://github.com/ronag) - Robert Nagy
 * [@ruyadorno](https://github.com/ruyadorno) - Ruy Adorno
@@ -127,9 +130,9 @@ The expected workflow for issues reported to Node.js is:
      indicating when the release is expected.
    * The security release steward will follow the
      [security release process](https://github.com/nodejs/node/blob/HEAD/doc/contributing/security-release-process.md).
-3. `RESOLVED`: State for an issue that has had a fix published. Issues in this
+4. `RESOLVED`: State for an issue that has had a fix published. Issues in this
    state should be disclosed. The security steward sets this state.
-4. Final states for issues that we will not fix:
+5. Final states for issues that we will not fix:
    * `NOT-APPLICABLE`: The issue reported is not a vulnerability. We can request
      that the reporter close it to preserve their H1 "reputation points".  If
      it is an issue, though not a vulnerability, we can suggest that it be
@@ -143,7 +146,7 @@ The expected workflow for issues reported to Node.js is:
      should not need disclosure, because the original issue will be disclosed
      after it is resolved.
    * `SPAM`: Self-explanatory (and rare).
-5. Disclosure: This is not a HackerOne report state, but it is the final state
+6. Disclosure: This is not a HackerOne report state, but it is the final state
    from our perspective. Disclosure should be considered once an issue is
    closed. See the
    [disclosure docs](https://docs.hackerone.com/programs/disclosure.html).
