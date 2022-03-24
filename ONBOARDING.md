@@ -36,7 +36,7 @@ invalid and are superseded by the TSC Charter.
 * Remove them from the `@pkgjs` org unless they are members for a
   reason other than TSC membership.
 * Remove them from the `tsc` and `crypto-export` mailing lists.
-* Add them to the [nodejs-tsc](https://groups.google.com/g/nodejs-tsc) Google Group so they receive Calendar invites for TSC meetings.
+* Remove them from the [nodejs-tsc](https://groups.google.com/g/nodejs-tsc) Google Group.
 * Update the `@nodejs/node` repository README to reflect membership in the TSC.
   In all likelihood, they should be listed as TSC Emeritus.
 * Update <https://github.com/nodejs/create-node-meeting-artifacts/blob/main/templates/invited_tsc> to reflect membership in the TSC.
