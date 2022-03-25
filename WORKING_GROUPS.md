@@ -414,9 +414,6 @@ Responsibilities include:
 * Ensure the vulnerability data is updated in an efficient and timely manner. For example, ensuring there
   are well-documented processes for reporting vulnerabilities in community
   modules.
-* Define and maintain policies and procedures for the coordination of security
-  concerns within the external Node.js open source ecosystem.
-* Offer help to npm package maintainers to fix high-impact security bugs.
 * Maintain and make available data on disclosed security vulnerabilities in:
   * the core Node.js project
   * other projects maintained by the overall Node.js project
