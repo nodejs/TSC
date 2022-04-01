@@ -2,19 +2,19 @@ name: CI
 on:
   push:
     branches-ignore:
-      - "dependabot/**"
+      - dependabot/**
     paths:
-      - "package*.json"
-      - "**/*.md"
-      - ".github/workflows/ci.yml"
-      - ".github/workflows/remark-lint-problem-matcher.json"
+      - package*.json
+      - '**/*.md'
+      - .github/workflows/ci.yml
+      - .github/workflows/remark-lint-problem-matcher.json
 
   pull_request:
     paths:
-      - "package*.json"
-      - "**/*.md"
-      - ".github/workflows/ci.yml"
-      - ".github/workflows/remark-lint-problem-matcher.json"
+      - package*.json
+      - '**/*.md'
+      - .github/workflows/ci.yml
+      - .github/workflows/remark-lint-problem-matcher.json
 
 jobs:
   lint:
