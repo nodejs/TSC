@@ -2,19 +2,19 @@ name: CI
 on:
   push:
     branches-ignore:
-      - "dependabot/**"
+      - dependabot/**
     paths:
-      - "package*.json"
-      - "**/*.md"
-      - ".github/workflows/ci.yml"
-      - ".github/workflows/remark-lint-problem-matcher.json"
+      - package*.json
+      - '**/*.md'
+      - .github/workflows/ci.yml
+      - .github/workflows/remark-lint-problem-matcher.json
 
   pull_request:
     paths:
-      - "package*.json"
-      - "**/*.md"
-      - ".github/workflows/ci.yml"
-      - ".github/workflows/remark-lint-problem-matcher.json"
+      - package*.json
+      - '**/*.md'
+      - .github/workflows/ci.yml
+      - .github/workflows/remark-lint-problem-matcher.json
 
 jobs:
   lint:
@@ -30,7 +30,12 @@ jobs:
       - name: Install npm dependencies
         run: npm ci
 
-      - name: Test
+      - name: Lint markdown files
         run: |
           echo "::add-matcher::.github/workflows/remark-lint-problem-matcher.json"
           npm test
+
+      - name: Lint YAML files
+        run: |
+          curl https://raw.githubusercontent.com/nodejs/node/HEAD/.yamllint.yaml -o .yamllint.yaml
+          yamllint .
