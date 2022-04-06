@@ -1,0 +1,42 @@
+subject: '`node:`-only core modules and built-in test runner module'
+
+# Please set a score to proposal according to your preferences.
+# Negative scores are allowed, only the order matters.
+# You can tied two or more proposals if you have no preference.
+# To abstain, keep all the propositions tied.
+
+preferences:
+  - title: >-
+      Do not expose the test runner as a new core module (revert it before
+      v18.0.0 is released, the test runner can be reintroduced later by exposing
+      it on an existing core module).
+    score: 0
+  - title: >-
+      Ship the test runner as `test` (also available as `node:test`, like other
+      current core modules).
+    score: 0
+  - title: >-
+      Ship the test runner as `node:test` and `require('test')` loads from
+      userland.
+    score: 0
+  - title: Ship the test runner as `node:test` and `require('test')` throws.
+    score: 0
+  - title: >-
+      Ship the test runner as `test_runner` (also available as
+      `node:test_runner`, like other current core modules).
+    score: 0
+  - title: >-
+      Ship the test runner as `node:test_runner` and `require('test_runner')`
+      loads from userland.
+    score: 0
+  - title: >-
+      Ship the test runner as `node:test_runner` and `require('test_runner')`
+      throws.
+    score: 0
+author: undefined <undefined>
+poolChecksum: >-
+  XmOiPjkkVb7ajSA1vzPhIu/jaPkZxaMf8FNLPQbcimotFLqoTmtBuptvO4rVGWsOIovdpxetccBaB1JyWOd7Ug==
+
+# See email chain for more information.
+# TL;DR is that a new test runner module has landed on `master` only available as `node:test`, while the prefix-less version can still refer to a userland module named `test`. `test` name is already used on the npm public registry by an unrelated package, while `test_runner` is not used and npm doesn't allow packages to be published with this name.
+# Whatever the result of this vote is, the plan is to apply it before the v18.x semver cutoff which is next Tuesday (2022-04-12).
