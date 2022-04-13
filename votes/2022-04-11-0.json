@@ -6,7 +6,7 @@
     ]
   },
   "votes": {
-    "Joyee Cheung <joyeec9h3@gmail.com>": {
+    "joyeecheung": {
       "Do not expose the test runner as a new core module (revert it before v18.0.0 is released, the test runner can be reintroduced later by exposing it on an existing core module).": 0,
       "Ship the test runner as `test` (also available as `node:test`, like other current core modules).": 0,
       "Ship the test runner as `node:test` and `require('test')` loads from userland.": 2,
@@ -15,7 +15,7 @@
       "Ship the test runner as `node:test_runner` and `require('test_runner')` loads from userland.": 0,
       "Ship the test runner as `node:test_runner` and `require('test_runner')` throws.": 0
     },
-    "Myles Borins <myles.borins@gmail.com>": {
+    "MylesBorins": {
       "Do not expose the test runner as a new core module (revert it before v18.0.0 is released, the test runner can be reintroduced later by exposing it on an existing core module).": 0,
       "Ship the test runner as `test` (also available as `node:test`, like other current core modules).": 0,
       "Ship the test runner as `node:test` and `require('test')` loads from userland.": 0,
@@ -24,7 +24,7 @@
       "Ship the test runner as `node:test_runner` and `require('test_runner')` loads from userland.": 0,
       "Ship the test runner as `node:test_runner` and `require('test_runner')` throws.": 0
     },
-    "Danielle Adams <adamzdanielle@gmail.com>": {
+    "danielleadams": {
       "Do not expose the test runner as a new core module (revert it before v18.0.0 is released, the test runner can be reintroduced later by exposing it on an existing core module).": -1,
       "Ship the test runner as `test` (also available as `node:test`, like other current core modules).": 0,
       "Ship the test runner as `node:test` and `require('test')` loads from userland.": 0,
@@ -33,7 +33,7 @@
       "Ship the test runner as `node:test_runner` and `require('test_runner')` loads from userland.": 0,
       "Ship the test runner as `node:test_runner` and `require('test_runner')` throws.": 3
     },
-    "Gireesh Punathil <gpunathi@in.ibm.com>": {
+    "gireeshpunathil": {
       "Do not expose the test runner as a new core module (revert it before v18.0.0 is released, the test runner can be reintroduced later by exposing it on an existing core module).": 1,
       "Ship the test runner as `test` (also available as `node:test`, like other current core modules).": 0,
       "Ship the test runner as `node:test` and `require('test')` loads from userland.": 0,
@@ -42,7 +42,7 @@
       "Ship the test runner as `node:test_runner` and `require('test_runner')` loads from userland.": 0,
       "Ship the test runner as `node:test_runner` and `require('test_runner')` throws.": 0
     },
-    "James M Snell <jasnell@gmail.com>": {
+    "jasnell": {
       "Do not expose the test runner as a new core module (revert it before v18.0.0 is released, the test runner can be reintroduced later by exposing it on an existing core module).": 1,
       "Ship the test runner as `test` (also available as `node:test`, like other current core modules).": -1,
       "Ship the test runner as `node:test` and `require('test')` loads from userland.": -1,
@@ -51,7 +51,7 @@
       "Ship the test runner as `node:test_runner` and `require('test_runner')` loads from userland.": -1,
       "Ship the test runner as `node:test_runner` and `require('test_runner')` throws.": 0
     },
-    "Matteo Collina <matteo.collina@gmail.com>": {
+    "mcollina": {
       "Do not expose the test runner as a new core module (revert it before v18.0.0 is released, the test runner can be reintroduced later by exposing it on an existing core module).": -100,
       "Ship the test runner as `test` (also available as `node:test`, like other current core modules).": -90,
       "Ship the test runner as `node:test` and `require('test')` loads from userland.": 100,
@@ -60,7 +60,7 @@
       "Ship the test runner as `node:test_runner` and `require('test_runner')` loads from userland.": -10,
       "Ship the test runner as `node:test_runner` and `require('test_runner')` throws.": -10
     },
-    "Beth Griggs <bgriggs@redhat.com>": {
+    "BethGriggs": {
       "Do not expose the test runner as a new core module (revert it before v18.0.0 is released, the test runner can be reintroduced later by exposing it on an existing core module).": 0,
       "Ship the test runner as `test` (also available as `node:test`, like other current core modules).": 4,
       "Ship the test runner as `node:test` and `require('test')` loads from userland.": 5,
@@ -69,7 +69,7 @@
       "Ship the test runner as `node:test_runner` and `require('test_runner')` loads from userland.": 0,
       "Ship the test runner as `node:test_runner` and `require('test_runner')` throws.": 0
     },
-    "Richard Lau <rlau@redhat.com>": {
+    "richardlau": {
       "Do not expose the test runner as a new core module (revert it before v18.0.0 is released, the test runner can be reintroduced later by exposing it on an existing core module).": -1,
       "Ship the test runner as `test` (also available as `node:test`, like other current core modules).": 1,
       "Ship the test runner as `node:test` and `require('test')` loads from userland.": 5,
@@ -78,7 +78,7 @@
       "Ship the test runner as `node:test_runner` and `require('test_runner')` loads from userland.": 4,
       "Ship the test runner as `node:test_runner` and `require('test_runner')` throws.": 7
     },
-    "Franziska Hinkelmann <franziska.hinkelmann@gmail.com>": {
+    "fhinkel": {
       "Do not expose the test runner as a new core module (revert it before v18.0.0 is released, the test runner can be reintroduced later by exposing it on an existing core module).": 0,
       "Ship the test runner as `test` (also available as `node:test`, like other current core modules).": 0,
       "Ship the test runner as `node:test` and `require('test')` loads from userland.": 0,
@@ -87,7 +87,7 @@
       "Ship the test runner as `node:test_runner` and `require('test_runner')` loads from userland.": 0,
       "Ship the test runner as `node:test_runner` and `require('test_runner')` throws.": 0
     },
-    "Michaël Zasso <targos@protonmail.com>": {
+    "targos": {
       "Do not expose the test runner as a new core module (revert it before v18.0.0 is released, the test runner can be reintroduced later by exposing it on an existing core module).": 0,
       "Ship the test runner as `test` (also available as `node:test`, like other current core modules).": 3,
       "Ship the test runner as `node:test` and `require('test')` loads from userland.": 1,
@@ -96,7 +96,7 @@
       "Ship the test runner as `node:test_runner` and `require('test_runner')` loads from userland.": 0,
       "Ship the test runner as `node:test_runner` and `require('test_runner')` throws.": 1
     },
-    "Darshan Sen <raisinten@gmail.com>": {
+    "RaisinTen": {
       "Do not expose the test runner as a new core module (revert it before v18.0.0 is released, the test runner can be reintroduced later by exposing it on an existing core module).": 6,
       "Ship the test runner as `test` (also available as `node:test`, like other current core modules).": 4,
       "Ship the test runner as `node:test` and `require('test')` loads from userland.": 7,
@@ -105,7 +105,7 @@
       "Ship the test runner as `node:test_runner` and `require('test_runner')` loads from userland.": 2,
       "Ship the test runner as `node:test_runner` and `require('test_runner')` throws.": 1
     },
-    "Rich Trott <rtrott@gmail.com>": {
+    "Trott": {
       "Do not expose the test runner as a new core module (revert it before v18.0.0 is released, the test runner can be reintroduced later by exposing it on an existing core module).": 0,
       "Ship the test runner as `test` (also available as `node:test`, like other current core modules).": 0,
       "Ship the test runner as `node:test` and `require('test')` loads from userland.": 1,
@@ -114,7 +114,7 @@
       "Ship the test runner as `node:test_runner` and `require('test_runner')` loads from userland.": 1,
       "Ship the test runner as `node:test_runner` and `require('test_runner')` throws.": 1
     },
-    "Anatoli Papirovski <apapirovski@mac.com>": {
+    "apapirovski": {
       "Do not expose the test runner as a new core module (revert it before v18.0.0 is released, the test runner can be reintroduced later by exposing it on an existing core module).": 0,
       "Ship the test runner as `test` (also available as `node:test`, like other current core modules).": 1,
       "Ship the test runner as `node:test` and `require('test')` loads from userland.": 5,
@@ -123,7 +123,7 @@
       "Ship the test runner as `node:test_runner` and `require('test_runner')` loads from userland.": 6,
       "Ship the test runner as `node:test_runner` and `require('test_runner')` throws.": 4
     },
-    "Colin Ihrig <cjihrig@gmail.com>": {
+    "cjihrig": {
       "Do not expose the test runner as a new core module (revert it before v18.0.0 is released, the test runner can be reintroduced later by exposing it on an existing core module).": -100000,
       "Ship the test runner as `test` (also available as `node:test`, like other current core modules).": -5,
       "Ship the test runner as `node:test` and `require('test')` loads from userland.": 1,
@@ -132,7 +132,7 @@
       "Ship the test runner as `node:test_runner` and `require('test_runner')` loads from userland.": -50,
       "Ship the test runner as `node:test_runner` and `require('test_runner')` throws.": -100
     },
-    "Michael Dawson <midawson@redhat.com>": {
+    "mhdawson": {
       "Do not expose the test runner as a new core module (revert it before v18.0.0 is released, the test runner can be reintroduced later by exposing it on an existing core module).": 1,
       "Ship the test runner as `test` (also available as `node:test`, like other current core modules).": 2,
       "Ship the test runner as `node:test` and `require('test')` loads from userland.": 7,
@@ -141,7 +141,7 @@
       "Ship the test runner as `node:test_runner` and `require('test_runner')` loads from userland.": 6,
       "Ship the test runner as `node:test_runner` and `require('test_runner')` throws.": 4
     },
-    "Antoine du Hamel <duhamelantoine1995@gmail.com>": {
+    "aduh95": {
       "Do not expose the test runner as a new core module (revert it before v18.0.0 is released, the test runner can be reintroduced later by exposing it on an existing core module).": 0,
       "Ship the test runner as `test` (also available as `node:test`, like other current core modules).": 0,
       "Ship the test runner as `node:test` and `require('test')` loads from userland.": 0,
@@ -151,7 +151,5 @@
       "Ship the test runner as `node:test_runner` and `require('test_runner')` throws.": 0
     }
   },
-  "refs": [
-    "https://github.com/nodejs/TSC/pull/1206"
-  ]
+  "refs": ["https://github.com/nodejs/TSC/pull/1206"]
 }

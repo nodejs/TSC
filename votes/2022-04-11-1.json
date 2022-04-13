@@ -1,0 +1,25 @@
+{
+  "description": "Ship the test runner as node:test and require('test') loads from userland.",
+  "refs": ["https://github.com/nodejs/TSC/pull/1206#issuecomment-1096855085"],
+  "outcome": "Yes",
+  "votes": {
+    "aduh95": 1,
+    "richardlau": 1,
+    "RaisinTen": 1,
+    "apapirovski": 1,
+    "mhdawson": 1,
+    "BethGriggs": 1,
+    "joyeecheung": 1,
+    "mcollina": 1,
+    "ChALkeR": 1,
+    "cjihrig": -1,
+    "jasnell": -1,
+    "Trott": 0,
+    "targos": 0,
+    "gireeshpunathil": 0,
+    "fhinkel": 0,
+    "tniessen": 0,
+    "BridgeAR": 0,
+    "MylesBorins": 0
+  }
+}
