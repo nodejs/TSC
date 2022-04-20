@@ -151,14 +151,9 @@ of 15.x (which is only about 8 months), that experimental support for OpenSSL
 * Default minimum TLS version is TLSv1.2, default maximum is TLSv1.3. TLSv1
   and TLSv1.1 are _not_ supported by default, only by explicit run-time
   configuration.
-* FIPS: unpredictable, see below
 
 OpenSSL 1.1.1 goes EOL on 2023-09-11, which is before 16.x will go EOL, so is
 not an appropriate choice for 16.x
-
-OpenSSL 3.x may have FIPS support by release date of Node.js 16.x, or it may
-not. If it does not, since its a provider, it may be possible to support in
-a `semver-minor` (ABI, API, and behavioural compatible) update to 16.x.
 
 For minimal disruption, it would probably be helpful if Node.js supported
 building against OpenSSL 1.1.1 out-of-tree, even if OpenSSL 3.x was in-tree.
@@ -168,19 +163,22 @@ The plan described above is to:
 * Once OpenSSL has been updated with support for the QUIC protocol replace the
   temporary quictls/openssl depencency with it.
 
-Challenges are:
-
-1. OpenSSL 3.x moved many algorithms into a legacy library, that is only
-   accessible as a dynamically loaded provider, so cannot ship with Node.js
-2. Node.js has a build system wrapped around OpenSSL 1.1.1, it is currently
-   incompatible with the OpenSSL 3.x build system (effort to fix this is
-   unknown).
-3. OpenSSL 3.x has compile-time warning-deprecated a number of OpenSSL 1.1.1
-   APIs, but the alternatives to those deprecated APIs do not exist in OpenSSL
-   1.1.1. So, Node.js 16.x either needs to ship calling deprecated APIs, or
-   break compatibility with OpenSSL 1.1.1 (so it will _only build with 3.x_).
-
 Tracking issue: <https://github.com/nodejs/node/issues/29817>
+
+## Node.js version 18.x (est Apr 2022) (EOL Apr 2025)
+
+* quictls/OpenSSL version: openssl-3.0.2+quic
+  Node.js currently uses a temporary OpenSSL fork, which closely tracks the main
+  openssl/openssl releases with the addition of APIs to support the QUIC protocol.
+  This will be used until OpenSSL releases support for the QUIC protocol. Details
+  on the fork, as well as the latest sources, can be found at
+  <https://github.com/quictls/openssl>.
+* Allowed shared OpenSSL version: 3.0.0, 3.0.0+quic, 1.1.1, 1.1.1+quic
+
+The plan described above is to:
+
+* Once OpenSSL has been updated with support for the QUIC protocol replace the
+  temporary quictls/openssl depencency with it.
 
 ## Background
 
@@ -240,8 +238,7 @@ Currently, there are three supported versions of OpenSSL as per the
 * Version 1.0.2: supported until 2019-12-31, designated Long-term Support (LTS)
 * Version 1.1.0: supported until 2019-09-11, not a LTS release line
 * Version 1.1.1: supported until 2023-09-11, designated Long-term Support (LTS)
-* Version 3.0.0: first release: Q4 2020 (estimated), designation as LTS:
-  _unknown_
+* Version 3.0.0: supported until 2026-09-07, designated Long-term Support (LTS)
 
 ### OpenSSL 1.0.2 and FIPS
 
