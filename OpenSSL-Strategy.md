@@ -165,6 +165,21 @@ The plan described above is to:
 
 Tracking issue: <https://github.com/nodejs/node/issues/29817>
 
+## Node.js version 18.x (est Apr 2022) (EOL Apr 2025)
+
+* quictls/OpenSSL version: openssl-3.0.2+quic
+  Node.js currently uses a temporary OpenSSL fork, which closely tracks the main
+  openssl/openssl releases with the addition of APIs to support the QUIC protocol.
+  This will be used until OpenSSL releases support for the QUIC protocol. Details
+  on the fork, as well as the latest sources, can be found at
+  <https://github.com/quictls/openssl>.
+* Allowed shared OpenSSL version: 3.0.0, 3.0.0+quic, 1.1.1, 1.1.1+quic
+
+The plan described above is to:
+
+* Once OpenSSL has been updated with support for the QUIC protocol replace the
+  temporary quictls/openssl depencency with it.
+
 ## Background
 
 The Node.js source tree contains a copy of OpenSSL (as it does all of its
@@ -223,8 +238,7 @@ Currently, there are three supported versions of OpenSSL as per the
 * Version 1.0.2: supported until 2019-12-31, designated Long-term Support (LTS)
 * Version 1.1.0: supported until 2019-09-11, not a LTS release line
 * Version 1.1.1: supported until 2023-09-11, designated Long-term Support (LTS)
-* Version 3.0.0: first release: Q4 2020 (estimated), designation as LTS:
-  _unknown_
+* Version 3.0.0: supported until 2026-09-07, designated Long-term Support (LTS)
 
 ### OpenSSL 1.0.2 and FIPS
 
