@@ -53,6 +53,7 @@ In addition, these individuals have access:
 
 * [kumarak](https://github.com/kumarak) - **Akshay K**
 * [mike-myers-tob](https://github.com/mike-myers-tob) - **Mike Myers**
+* [RafaelGSS](https://github.com/RafaelGSS) - **Rafael Gonzaga**
 * [tn3rt](https://github.com/tn3rt) - **Trent Brunson**
 * [vdeturckheim](https://github.com/vdeturckheim) - **Vladimir de Turckheim**
 * [woodruffw-tob](https://github.com/woodruffw) - **William Woodruff**
@@ -88,6 +89,7 @@ the Node.js program on HackerOne.
 * [@mmarchini](https://github.com/mmarchini) - mary marchini
 * [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
 * [@RaisinTen](https://github.com/RaisinTen) - Darshan Sen
+* [@RafaelGSS](https://github.com/RafaelGSS) - Rafael Gonzaga
 * [@richardlau](https://github.com/richardlau) - Richard Lau
 * [@ronag](https://github.com/ronag) - Robert Nagy
 * [@ruyadorno](https://github.com/ruyadorno) - Ruy Adorno
