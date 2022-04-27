@@ -73,12 +73,13 @@ the Node.js program on HackerOne.
 * [@bengl](https://github.com/bengl) - Bryan English
 * [@BethGriggs](https://github.com/BethGriggs) - Bethany Nicolle Griggs
 * [@BridgeAR](https://github.com/BridgeAR) - Ruben Bridgewater
-* [@ChALkeR](https://github.com/ChALkeR) - Сковорода Никита Андреевич
+* [@ChALkeR](https://github.com/ChALkeR) - Nikita Skovoroda
 * [@cjihrig](https://github.com/cjihrig) - Colin Ihrig
 * [@codebytere](https://github.com/codebytere) - Shelley Vohr
 * [@danielleadams](https://github.com/danielleadams) - Danielle Adams
 * [@fhinkel](https://github.com/fhinkel) - F. Hinkelmann
 * [@gireeshpunathil](https://github.com/gireeshpunathil) - Gireesh Punathil
+* [@indutny](https://github.com/indutny) - Fedor Indutny
 * [@jasnell](https://github.com/jasnell) - James M Snell
 * [@joesepi](https://github.com/joesepi) - Joe Sepi
 * [@joyeecheung](https://github.com/joyeecheung) - Joyee Cheung
@@ -86,13 +87,13 @@ the Node.js program on HackerOne.
 * [@mcollina](https://github.com/mcollina) - Matteo Collina
 * [@mhdawson](https://github.com/mhdawson) - Michael Dawson
 * [@mike-myers-tob](https://github.com/mike-myers-tob) - Mike Myers
-* [@mmarchini](https://github.com/mmarchini) - mary marchini
 * [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
-* [@RaisinTen](https://github.com/RaisinTen) - Darshan Sen
 * [@RafaelGSS](https://github.com/RafaelGSS) - Rafael Gonzaga
+* [@RaisinTen](https://github.com/RaisinTen) - Darshan Sen
 * [@richardlau](https://github.com/richardlau) - Richard Lau
 * [@ronag](https://github.com/ronag) - Robert Nagy
 * [@ruyadorno](https://github.com/ruyadorno) - Ruy Adorno
+* [@ShogunPanda](https://github.com/ShogunPanda) - Paolo Insogna
 * [@targos](https://github.com/targos) - Michaël Zasso
 * [@tniessen](https://github.com/tniessen) - Tobias Nießen
 * [@Trott](https://github.com/Trott) - Rich Trott
