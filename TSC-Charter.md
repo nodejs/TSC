@@ -53,10 +53,11 @@ The TSC may, at its discretion, invite any number of non-voting observers to
 participate in the public portion of TSC discussions and meetings.
 
 The TSC shall meet regularly using tools that enable participation by the
-community (e.g. weekly on a Google Hangout On Air, or through any other
+community (e.g. weekly on a Zoom call, or through any other
 appropriate means selected by the TSC). The meeting shall be directed by
-the TSC Chairperson. Responsibility for directing individual meetings may be
-delegated by the TSC Chairperson to any other TSC member. Minutes or an
+the TSC Chairperson or vice Chairperson. Responsibility for directing
+individual meetings may be delegated by the TSC Chairperson or vice
+Chairperson to any other TSC member. Minutes or an
 appropriate recording shall be taken and made available to the community
 through accessible public postings.
 
@@ -117,14 +118,16 @@ election is required if there is only one candidate and no objections to
 the candidate's election. Elections shall be done within the projects by
 the Collaborators active in the project.
 
-The TSC will elect from amongst voting TSC members a TSC Chairperson to
-work on building an agenda for TSC meetings and a OpenJS
-Cross Project Council (CPC) voting member to represent the TSC in
-the OpenJS Foundation for a term of one year. The Chair and voting CPC
-member may be (but are not required to be) the same person.
-The TSC shall hold annual elections to select a TSC Chairperson and
-voting CPC member; there are no limits on the number
-of terms a TSC Chairperson or voting CPC member may serve.
+The TSC will elect from amongst voting TSC members a TSC Chairperson
+and a TSC vice Chairperson to work on building an agenda for
+TSC meetings. The TSC will also elect from amonst voting TSC
+members an OpenJS Cross Project Council (CPC) voting member
+to represent the TSC in the OpenJS Foundation. All of these
+positions will be for term of one year. The voting CPC
+member may be one of the Chairpersons, but is not required to be.
+The TSC shall hold annual elections to select the TSC Chairperson, vice
+Chairperson and voting CPC member; there are no limits on the number
+of terms an indivdual may serve in these roles.
 
 ## Section 7. Voting
 
