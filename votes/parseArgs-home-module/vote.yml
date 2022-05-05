@@ -1,0 +1,100 @@
+subject: Which core module should "host" the args parser API?
+
+headerInstructions: |
+  Please set a score to proposal according to your preferences.
+  You should set the highest score to your favorite option.
+  Negative scores are allowed, only the order matters.
+  You can tied two or more proposals if you have no preference.
+  To abstain, keep all the propositions tied.
+
+candidates:
+  - "`node:process`"
+  - "`node:util`"
+
+footerInstructions: |
+  The goal of this vote is to determine whether the API should be exposed as
+  `require('node:process').parseArgs` or `require('node:util').parseArgs`.
+  Voting here is not an endorsement of the current state of the PR on the node
+  repo, which is still bound to the usual rules regarding objections and code review.
+
+  See https://github.com/nodejs/node/pull/42675 for more context.
+
+method: Condorcet
+allowedVoters:
+  - Antoine du Hamel <duhamelantoine1995@gmail.com>
+  - Anatoli Papirovski <apapirovski@mac.com>
+  - Beth Griggs <bgriggs@redhat.com>
+  - Ruben Bridgewater <ruben@bridgewater.de>
+  - Сковорода Никита Андреевич <chalkerx@gmail.com>
+  - Colin Ihrig <cjihrig@gmail.com>
+  - Danielle Adams <adamzdanielle@gmail.com>
+  - Franziska Hinkelmann <franziska.hinkelmann@gmail.com>
+  - Gireesh Punathil <gpunathi@in.ibm.com>
+  - James M Snell <jasnell@gmail.com>
+  - Joyee Cheung <joyeec9h3@gmail.com>
+  - Matteo Collina <matteo.collina@gmail.com>
+  - Michael Dawson <midawson@redhat.com>
+  - Myles Borins <myles.borins@gmail.com>
+  - Darshan Sen <raisinten@gmail.com>
+  - Richard Lau <rlau@redhat.com>
+  - Robert Nagy <ronagy@icloud.com>
+  - Michaël Zasso <targos@protonmail.com>
+  - Tobias Nießen <tniessen@tnie.de>
+  - Rich Trott <rtrott@gmail.com>
+
+publicKey: |
+  -----BEGIN PUBLIC KEY-----
+  MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwXHlZjhn+ECnCZ7ryX/5
+  4IOkzjlqUYr/82e7/QMWMPH2dxDni0mKFg7NwKhUvxHLEzxXaQVY8MVksrbVUfU4
+  TZKHRJ4bLkPvMXhu+6ymvogLWEoowdZyOCqmUqlFNh/rn9HiGEo9710dnIgZx9zB
+  wEVR3iQvhA432aYh3Orp6r2hjw2TtxK61c6Rgch5eGR33r6XypxeqlBfaxpkBFP0
+  dHt5XXS6+nxT56fpZIs8sxUnxGuzBnWCKN7tVGXN6J41sNGt82ZgbPE8DirPt/+E
+  ttSakOBb/E6xTVCrOW+rJwSxcJFEfYedARNir4WMV6QiDKRQq4lSqfn6bChdqnVB
+  ZQIDAQAB
+  -----END PUBLIC KEY-----
+encryptedPrivateKey: |
+  -----BEGIN PGP MESSAGE-----
+
+  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
+  2pc=
+  =RZI+
+  -----END PGP MESSAGE-----
