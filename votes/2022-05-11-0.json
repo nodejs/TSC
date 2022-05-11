@@ -1,0 +1,18 @@
+{
+  "description": "Should we revert the change of network interfaces family from string to integer as a semver-minor, even though it's technically a breaking change",
+  "refs": ["https://github.com/nodejs/node/issues/43014"],
+  "outcome": "Yes",
+  "votes": {
+    "aduh95": 1,
+    "fhinkel": 1,
+    "joyeecheung": 1,
+    "mcollina": 1,
+    "RaisinTen": 1,
+    "richardlau": 1,
+    "targos": 1,
+    "tniessen": 1,
+    "ChALkeR": 1,
+    "BethGriggs": 1,
+    "apapirovski": 1
+  }
+}
