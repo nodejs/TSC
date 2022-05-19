@@ -6,67 +6,67 @@
     ]
   },
   "votes": {
-    "Anatoli Papirovski <apapirovski@mac.com>": {
-      "`node:process`": 1,
-      "`node:util`": 0
-    },
-    "Franziska Hinkelmann <franziska.hinkelmann@gmail.com>": {
+    "aduh95": {
       "`node:process`": 0,
       "`node:util`": 0
     },
-    "Myles Borins <myles.borins@gmail.com>": {
-      "`node:process`": 0,
-      "`node:util`": 1
-    },
-    "Gireesh Punathil <gpunathi@in.ibm.com>": {
-      "`node:process`": 0,
-      "`node:util`": 1
-    },
-    "Joyee Cheung <joyeec9h3@gmail.com>": {
-      "`node:process`": 0,
-      "`node:util`": 1
-    },
-    "Tobias Nießen <tniessen@tnie.de>": {
-      "`node:process`": 2147483648,
-      "`node:util`": 2147403648
-    },
-    "Beth Griggs <bgriggs@redhat.com>": {
-      "`node:process`": 0,
-      "`node:util`": 1
-    },
-    "Michael Dawson <midawson@redhat.com>": {
+    "apapirovski": {
       "`node:process`": 1,
       "`node:util`": 0
     },
-    "Richard Lau <rlau@redhat.com>": {
-      "`node:process`": 1,
-      "`node:util`": 2
-    },
-    "James M Snell <jasnell@gmail.com>": {
+    "BethGriggs": {
       "`node:process`": 0,
       "`node:util`": 1
     },
-    "Matteo Collina <matteo.collina@gmail.com>": {
+    "cjihrig": {
+      "`node:process`": 0,
+      "`node:util`": 0
+    },
+    "fhinkel": {
+      "`node:process`": 0,
+      "`node:util`": 0
+    },
+    "gireeshpunathil": {
+      "`node:process`": 0,
+      "`node:util`": 1
+    },
+    "jasnell": {
+      "`node:process`": 0,
+      "`node:util`": 1
+    },
+    "joyeecheung": {
+      "`node:process`": 0,
+      "`node:util`": 1
+    },
+    "mcollina": {
       "`node:process`": -100,
       "`node:util`": 1000
     },
-    "Darshan Sen <raisinten@gmail.com>": {
+    "mhdawson": {
+      "`node:process`": 0,
+      "`node:util`": 1
+    },
+    "MylesBorins": {
+      "`node:process`": 0,
+      "`node:util`": 1
+    },
+    "RaisinTen": {
       "`node:process`": 1,
       "`node:util`": 0
     },
-    "Michaël Zasso <targos@protonmail.com>": {
+    "richardlau": {
+      "`node:process`": 1,
+      "`node:util`": 2
+    },
+    "targos": {
       "`node:process`": 0,
       "`node:util`": 0
     },
-    "Rich Trott <rtrott@gmail.com>": {
-      "`node:process`": 0,
-      "`node:util`": 0
+    "tniessen": {
+      "`node:process`": 2147483648,
+      "`node:util`": 2147403648
     },
-    "Colin Ihrig <cjihrig@gmail.com>": {
-      "`node:process`": 0,
-      "`node:util`": 0
-    },
-    "Antoine du Hamel <duhamelantoine1995@gmail.com>": {
+    "Trott": {
       "`node:process`": 0,
       "`node:util`": 0
     }
