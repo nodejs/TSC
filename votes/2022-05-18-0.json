@@ -1,0 +1,77 @@
+{
+  "description": "Which core module should \"host\" the args parser API?",
+  "outcome": {
+    "winner(s)": [
+      "`node:util`"
+    ]
+  },
+  "votes": {
+    "aduh95": {
+      "`node:process`": 0,
+      "`node:util`": 0
+    },
+    "apapirovski": {
+      "`node:process`": 1,
+      "`node:util`": 0
+    },
+    "BethGriggs": {
+      "`node:process`": 0,
+      "`node:util`": 1
+    },
+    "cjihrig": {
+      "`node:process`": 0,
+      "`node:util`": 0
+    },
+    "fhinkel": {
+      "`node:process`": 0,
+      "`node:util`": 0
+    },
+    "gireeshpunathil": {
+      "`node:process`": 0,
+      "`node:util`": 1
+    },
+    "jasnell": {
+      "`node:process`": 0,
+      "`node:util`": 1
+    },
+    "joyeecheung": {
+      "`node:process`": 0,
+      "`node:util`": 1
+    },
+    "mcollina": {
+      "`node:process`": -100,
+      "`node:util`": 1000
+    },
+    "mhdawson": {
+      "`node:process`": 0,
+      "`node:util`": 1
+    },
+    "MylesBorins": {
+      "`node:process`": 0,
+      "`node:util`": 1
+    },
+    "RaisinTen": {
+      "`node:process`": 1,
+      "`node:util`": 0
+    },
+    "richardlau": {
+      "`node:process`": 1,
+      "`node:util`": 2
+    },
+    "targos": {
+      "`node:process`": 0,
+      "`node:util`": 0
+    },
+    "tniessen": {
+      "`node:process`": 2147483648,
+      "`node:util`": 2147403648
+    },
+    "Trott": {
+      "`node:process`": 0,
+      "`node:util`": 0
+    }
+  },
+  "refs": [
+    "https://github.com/nodejs/TSC/pull/1225"
+  ]
+}
