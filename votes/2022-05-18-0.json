@@ -43,6 +43,9 @@
       "`node:util`": 1000
     },
     "mhdawson": {
+      "`node:process`": 0,
+      "`node:util`": 1
+    },
       "`node:process`": 1,
       "`node:util`": 0
     },
