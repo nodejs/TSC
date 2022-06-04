@@ -39,6 +39,7 @@ includes a fix, documentation, an informational CVE or blog post.
 * [@jasnell](https://github.com/jasnell) - James M Snell
 * [@mcollina](https://github.com/mcollina) - Matteo Collina
 * [@mhdawson](https://github.com/mhdawson) - Michael Dawson
+* [@RafaelGSS](https://github.com/RafaelGSS) - Rafael Gonzaga
 * [@Trott](https://github.com/Trott) - Rich Trott
 * [@vdeturckheim](https://github.com/vdeturckheim) - Vladimir de Turckheim
 
@@ -67,8 +68,6 @@ the Node.js program on HackerOne.
 <!-- ncu-team-sync.team(nodejs-private/security) -->
 
 * [@aduh95](https://github.com/aduh95) - Antoine du Hamel
-* [@alessandrogario](https://github.com/alessandrogario) - Alessandro Gario
-* [@ameily](https://github.com/ameily) - Adam Meily
 * [@apapirovski](https://github.com/apapirovski) - Anatoli Papirovski
 * [@bengl](https://github.com/bengl) - Bryan English
 * [@BethGriggs](https://github.com/BethGriggs) - Bethany Nicolle Griggs
@@ -77,12 +76,14 @@ the Node.js program on HackerOne.
 * [@cjihrig](https://github.com/cjihrig) - Colin Ihrig
 * [@codebytere](https://github.com/codebytere) - Shelley Vohr
 * [@danielleadams](https://github.com/danielleadams) - Danielle Adams
+* [@facutuesca](https://github.com/facutuesca) - Facundo Tuesca
 * [@fhinkel](https://github.com/fhinkel) - F. Hinkelmann
 * [@gireeshpunathil](https://github.com/gireeshpunathil) - Gireesh Punathil
 * [@indutny](https://github.com/indutny) - Fedor Indutny
 * [@jasnell](https://github.com/jasnell) - James M Snell
 * [@joesepi](https://github.com/joesepi) - Joe Sepi
 * [@joyeecheung](https://github.com/joyeecheung) - Joyee Cheung
+* [@juanarbol](https://github.com/juanarbol) - Juan José
 * [@kumarak](https://github.com/kumarak)
 * [@mcollina](https://github.com/mcollina) - Matteo Collina
 * [@mhdawson](https://github.com/mhdawson) - Michael Dawson
@@ -98,8 +99,6 @@ the Node.js program on HackerOne.
 * [@tniessen](https://github.com/tniessen) - Tobias Nießen
 * [@Trott](https://github.com/Trott) - Rich Trott
 * [@vdeturckheim](https://github.com/vdeturckheim) - Vladimir de Turckheim
-* [@woodruffw](https://github.com/woodruffw) - William Woodruff
-* [@xlauko](https://github.com/xlauko) - Henrich Lauko
 
 <!-- ncu-team-sync end -->
 
