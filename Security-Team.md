@@ -40,7 +40,6 @@ includes a fix, documentation, an informational CVE or blog post.
 * [@mcollina](https://github.com/mcollina) - Matteo Collina
 * [@mhdawson](https://github.com/mhdawson) - Michael Dawson
 * [@RafaelGSS](https://github.com/RafaelGSS) - Rafael Gonzaga
-* [@Trott](https://github.com/Trott) - Rich Trott
 * [@vdeturckheim](https://github.com/vdeturckheim) - Vladimir de Turckheim
 
 <!-- ncu-team-sync end -->
