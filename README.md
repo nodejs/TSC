@@ -175,5 +175,5 @@ charter.
 
 [Node.js YouTube channel]: https://www.youtube.com/c/nodejs+foundation/
 [TSC Charter]: https://github.com/nodejs/TSC/blob/master/TSC-Charter.md
-[deps]: https://github.com/nodejs/node/tree/master/deps
-[tools]: https://github.com/nodejs/node/tree/master/tools
+[deps]: https://github.com/nodejs/node/tree/main/deps
+[tools]: https://github.com/nodejs/node/tree/main/tools
