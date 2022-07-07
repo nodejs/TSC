@@ -21,7 +21,7 @@ invalid and are superseded by the TSC Charter.
 * Add them to the `tsc` and `crypto-export` mailing lists.
 * Add them to the [nodejs-tsc](https://groups.google.com/g/nodejs-tsc) Google Group as owners, so they receive Calendar invites for TSC meetings.
 * Update the `@nodejs/node` repository README to reflect membership in the TSC.
-* Update <https://github.com/nodejs/create-node-meeting-artifacts/blob/main/templates/invited_tsc> and <https://github.com/nodejs/create-node-meeting-artifacts/blob/main/templates/observers_tsc> to reflect membership in the TSC.
+* Update <https://github.com/nodejs/create-node-meeting-artifacts/blob/main/templates/invited_tsc> to reflect membership in the TSC.
 
 ## Offboarding
 
