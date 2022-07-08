@@ -1,50 +1,20 @@
 {
   "description": "Nomination of Geoffrey Booth as a TSC member",
-  "outcome": {
-    "winner(s)": [
-      "Yes"
-    ]
-  },
+  "outcome": "Yes",
   "votes": {
-    "aduh95": {
-      "Yes": 1
-    },
-    "apapirovski": {
-      "Yes": 1
-    },
-    "BethGriggs": {
-      "Yes": 1
-    },
-    "BridgeAR": {
-      "Yes": 1
-    },
-    "cjihrig": {
-      "Yes": 1
-    },
-    "danielleadams": {
-      "Yes": 1
-    },
-    "gireeshpunathil": {
-      "Yes": 1
-    },
-    "mcollina": {
-      "Yes": 1
-    },
-    "mhdawson": {
-      "Yes": 1
-    },
-    "RaisinTen": {
-      "Yes": 1
-    },
-    "richardlau": {
-      "Yes": 1
-    },
-    "targos": {
-      "Yes": 1
-    },
-    "Trott": {
-      "Yes": 1
-    }
+    "aduh95": 1,
+    "apapirovski": 1,
+    "BethGriggs": 1,
+    "BridgeAR": 1,
+    "cjihrig": 1,
+    "danielleadams": 1,
+    "gireeshpunathil": 1,
+    "mcollina": 1,
+    "mhdawson": 1,
+    "RaisinTen": 1,
+    "richardlau": 1,
+    "targos": 1,
+    "Trott": 1
   },
   "refs": [
     "https://github.com/nodejs/TSC/pull/1225"
