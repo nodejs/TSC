@@ -1,0 +1,22 @@
+{
+    "description": "Re-nomination of Robert Nagy as a TSC member",
+    "outcome": "Yes",
+    "votes": {
+      "aduh95": 1,
+      "BethGriggs": 1,
+      "BridgeAR": 1,
+      "cjihrig": 1,
+      "GeoffreyBooth": 1,
+      "gireeshpunathil": 1,
+      "joyeecheung": 0,
+      "mcollina": 1,
+      "mhdawson": 1,
+      "RaisinTen": 1,
+      "richardlau": 1,
+      "targos": 1,
+      "Trott": 1
+    },
+    "refs": [
+      "https://github.com/nodejs/TSC/issues/1252"
+    ]
+  }
