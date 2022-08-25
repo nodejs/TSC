@@ -5,7 +5,7 @@ We publicly live stream our meetings to YouTube using [Zoom](https://zoom.us/).
 ## Prerequisites
 
 You need the Foundation login credentials for Zoom in order to host the meeting.
-The Zoom user ID is `nodejs-meetings@linuxfoundation.org`, the password needs
+The Zoom user ID is `zoom-nodejs@openjsf.org`, the password needs
 to be communicated privately, ask the TSC Chair.
 
 Your YouTube Account must be a manager of the
