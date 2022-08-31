@@ -1,0 +1,24 @@
+{
+  "description": "Re-nomination of James Snell as a TSC member",
+  "outcome": "Yes",
+  "votes": {
+    "aduh95": 1,
+    "apapirovski": 1,
+    "BridgeAR": 1,
+    "BethGriggs": 1,
+    "ChALkeR": 1,
+    "cjihrig": 1,
+    "GeoffreyBooth": 1,
+    "gireeshpunathil": 1,
+    "joyeecheung": 1,
+    "mcollina": 1,
+    "mhdawson": 1,
+    "RaisinTen": 1,
+    "targos": 1,
+    "tniessen": 1,
+    "Trott": 1
+  },
+  "refs": [
+    "https://github.com/nodejs/TSC/issues/1274"
+  ]
+}
