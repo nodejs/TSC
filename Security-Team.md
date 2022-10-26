@@ -70,6 +70,8 @@ the Node.js program on HackerOne.
 * [@apapirovski](https://github.com/apapirovski) - Anatoli Papirovski
 * [@bengl](https://github.com/bengl) - Bryan English
 * [@BethGriggs](https://github.com/BethGriggs) - Bethany Nicolle Griggs
+* [@bmeck](https://github.com/bmeck) - Bradley Farias
+* [@bnoordhuis](https://github.com/bnoordhuis) - Ben Noordhuis
 * [@BridgeAR](https://github.com/BridgeAR) - Ruben Bridgewater
 * [@ChALkeR](https://github.com/ChALkeR) - Nikita Skovoroda
 * [@cjihrig](https://github.com/cjihrig) - Colin Ihrig
@@ -77,6 +79,7 @@ the Node.js program on HackerOne.
 * [@danielleadams](https://github.com/danielleadams) - Danielle Adams
 * [@facutuesca](https://github.com/facutuesca) - Facundo Tuesca
 * [@fhinkel](https://github.com/fhinkel) - F. Hinkelmann
+* [@GeoffreyBooth](https://github.com/GeoffreyBooth) - Geoffrey Booth
 * [@gireeshpunathil](https://github.com/gireeshpunathil) - Gireesh Punathil
 * [@indutny](https://github.com/indutny) - Fedor Indutny
 * [@jasnell](https://github.com/jasnell) - James M Snell
@@ -84,6 +87,7 @@ the Node.js program on HackerOne.
 * [@joyeecheung](https://github.com/joyeecheung) - Joyee Cheung
 * [@juanarbol](https://github.com/juanarbol) - Juan José
 * [@kumarak](https://github.com/kumarak)
+* [@legendecas](https://github.com/legendecas) - Chengzhong Wu
 * [@mcollina](https://github.com/mcollina) - Matteo Collina
 * [@mhdawson](https://github.com/mhdawson) - Michael Dawson
 * [@mike-myers-tob](https://github.com/mike-myers-tob) - Mike Myers
