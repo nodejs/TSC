@@ -70,6 +70,7 @@ the Node.js program on HackerOne.
 * [@apapirovski](https://github.com/apapirovski) - Anatoli Papirovski
 * [@bengl](https://github.com/bengl) - Bryan English
 * [@BethGriggs](https://github.com/BethGriggs) - Bethany Nicolle Griggs
+* [@bmeck](https://github.com/bmeck) - Bradley Farias
 * [@bnoordhuis](https://github.com/bnoordhuis) - Ben Noordhuis
 * [@BridgeAR](https://github.com/BridgeAR) - Ruben Bridgewater
 * [@ChALkeR](https://github.com/ChALkeR) - Nikita Skovoroda
