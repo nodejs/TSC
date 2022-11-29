@@ -1,7 +1,7 @@
 # Node.js Bug Bounty/Security Fund
 
 The TSC maintains a LFX Crowdfunding account in order to accept
-the project component of bug bounties paid out by the 
+the project component of bug bounties paid out by the
 [Hackerone](https://www.hackerone.com/) bug bounty program.
 
 The funds in the account are intended to be used by the TSC
@@ -10,13 +10,13 @@ security and in particular the handling of vulnearabilities.
 
 This document outlines the use this account.
 
-# Account details
+## Account details
 
 The [account](https://crowdfunding.lfx.linuxfoundation.org/initiative/578a541a-4e7e-47a2-99b9-6cbf49b00c20)
 is associated with the LFX account user id `nodejslfxbounty`.
 The password is shared with TSC members through 1password.
 
-# Disbursements
+## Disbursements
 
 Potential disbursements will be agreed through TSC discussion
 and before approval, documented in an issue in the
