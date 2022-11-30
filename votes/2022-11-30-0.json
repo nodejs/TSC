@@ -1,0 +1,26 @@
+{
+  "description": "Nominating RafaelGSS to the Node.js TSC",
+  "refs": ["https://github.com/nodejs/TSC/issues/1308"],
+  "outcome": "Yes",
+  "votes": {
+    "aduh95": 1,
+    "apapirovski": 1,
+    "BethGriggs": 1,
+    "BridgeAR": 1,
+    "cjihrig": 1,
+    "danielleadams": 1,
+    "fhinkel": 1,
+    "GeoffreyBooth": 1,
+    "gireeshpunathil": 1,
+    "jasnell": 1,
+    "joyeecheung": 1,
+    "legendecas": 1,
+    "mcollina": 1,
+    "mhdawson": 1,
+    "RaisinTen": 1,
+    "richardlau": 1,
+    "ronag": 1,
+    "targos": 1,
+    "Trott": 1
+  }
+}
