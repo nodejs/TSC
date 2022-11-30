@@ -35,7 +35,7 @@ The TSC must have at least four members.
 
 There is no specific set of requirements or qualifications for TSC
 membership beyond these rules. The TSC may add additional members to the
-TSC by a standard TSC motion and vote. A TSC member may be removed from the
+TSC by a standard TSC motion. A TSC member may be removed from the
 TSC by voluntary resignation, by a standard TSC motion, or in accordance to the
 participation rules described below.
 
@@ -145,8 +145,7 @@ discussion will continue.
 For all votes, a simple majority of all TSC members for, or against, the issue
 wins. A TSC member may choose to participate in any vote through abstention.
 
-Note that, in addition to requiring a simple majority vote of the TSC, all
-changes to this charter are also subject to approval from the CPC.
+All changes to this charter must be approved by the CPC.
 
 ## Section 8. Project Roles
 
