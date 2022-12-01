@@ -4,7 +4,7 @@ The TSC maintains a LFX Crowdfunding account to accept
 the project's share of bug bounties paid out by the
 [Hackerone](https://www.hackerone.com/) bug bounty program.
 
-The funds in the account are intended to be used by the TSC
+The funds are to be used
 to encourage contributions to the project with respect to
 security and in particular the handling of vulnearabilities.
 
