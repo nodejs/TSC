@@ -14,7 +14,7 @@ This document outlines the use this account.
 
 The [account](https://crowdfunding.lfx.linuxfoundation.org/initiative/578a541a-4e7e-47a2-99b9-6cbf49b00c20)
 is associated with and LFX account. The user id and password
-is shared with TSC members through 1password.
+are shared with TSC members through 1password.
 
 ## Disbursements
 
