@@ -1,6 +1,6 @@
 # Node.js Bug Bounty/Security Fund
 
-The TSC maintains a LFX Crowdfunding account in order to accept
+The TSC maintains a LFX Crowdfunding account to accept
 the project component of bug bounties paid out by the
 [Hackerone](https://www.hackerone.com/) bug bounty program.
 
