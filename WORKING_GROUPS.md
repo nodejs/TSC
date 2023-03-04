@@ -403,14 +403,12 @@ Responsibilities include:
   backporting changes to these branches.
 * Define the policy for what gets backported to release streams.
 
-### [Ecosystem Security](https://github.com/nodejs/security-wg)
+### [Security](https://github.com/nodejs/security-wg)
 
-The Ecosystem Security Working Group works to improve the security of the Node.js Ecosystem.
+The Security Working Group works to improve the security of Node.js and its ecosystem.
 
 Responsibilities include:
 
-* Work with the Node Security Platform to bring community vulnerability data into
-  the foundation as a shared asset.
 * Ensure the vulnerability data is updated in an efficient and timely manner. For example, ensuring there
   are well-documented processes for reporting vulnerabilities in community
   modules.
