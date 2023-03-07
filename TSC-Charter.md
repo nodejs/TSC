@@ -49,11 +49,8 @@ through accessible public postings.
 
 TSC voting members are expected to regularly participate in TSC activities.
 
-A TSC voting member is automatically converted to a TSC regular member if,
-during a 3-month period, all of the following are true:
-
-* They attend fewer than 25% of the regularly scheduled meetings.
-* They do not participate in three consecutive TSC votes.
+A TSC voting member is automatically converted to a TSC regular member if
+they do not participate in three consecutive TSC votes.
 
 ## Section 4. Responsibilities of the TSC
 
