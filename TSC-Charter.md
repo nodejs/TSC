@@ -17,12 +17,14 @@ In the case of the Node.js project, it is delegated to the Node.js
 Technical Steering Committee (“TSC”). OpenJS Foundation’s business
 leadership is the Board of Directors (the “Board”).
 
-The charter amendment process is for the voting members of the TSC to propose
-for review and approval by the CPC. The CPC may additionally make amendments to
-the TSC charter at any time, though the CPC will not interfere with day-to-day
-discussions, votes or meetings of the TSC.
+This charter can only be amended with the approval of the CPC.
 
 ## Section 3. Establishment of the TSC
+
+TSC members can be either _regular_ members or _voting_ members. Regular
+members can attend meetings and participate in TSC discussions, but do not
+vote. Voting members can do everything regular members can do, and also have
+the ability to cast votes when consensus is not reached on an issue.
 
 TSC memberships are not time-limited. There is no maximum size of the TSC.
 The TSC must have at least four voting members.
