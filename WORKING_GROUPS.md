@@ -436,5 +436,4 @@ Responsibilities include:
 * Documenting the undici API, examples, and best practices.
 * Development of Node.js HTTP Client APIs such as a WHATWG Fetch implementation.
 
-[Node.js TSC]: https://github.com/nodejs/tsc
 [Technical Steering Committee (TSC)]: ./TSC-Charter.md
