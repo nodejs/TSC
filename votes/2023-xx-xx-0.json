@@ -1,0 +1,11 @@
+{
+  "description": "Override objection on ‘bump default highWaterMark‘ PR",
+  "refs": [
+    "https://github.com/nodejs/node/pull/46608#pullrequestreview-1293747415"
+  ],
+  "outcome": "TBD",
+  "votes": {
+    "aduh95": 1,
+    "to_be_removed": "just there so the diff looks cleaner (no comma dangle in JSON)"
+  }
+}
