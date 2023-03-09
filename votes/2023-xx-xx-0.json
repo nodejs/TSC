@@ -6,6 +6,7 @@
   "outcome": "TBD",
   "votes": {
     "aduh95": 1,
+    "ronag": 1,
     "to_be_removed": "just there so the diff looks cleaner (no comma dangle in JSON)"
   }
 }
