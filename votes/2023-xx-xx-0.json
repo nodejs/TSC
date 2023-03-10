@@ -20,6 +20,7 @@
     "Trott": 0,
     "jasnell": 1,
     "mcollina": 1,
+    "BridgeAR": 1,
     "to_be_removed": "just there so the diff looks cleaner (no comma dangle in JSON)"
   }
 }
