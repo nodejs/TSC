@@ -22,6 +22,7 @@ invalid and are superseded by the TSC Charter.
 * Add them to the [nodejs-tsc](https://groups.google.com/g/nodejs-tsc) Google Group as owners, so they receive Calendar invites for TSC meetings.
 * Update the `@nodejs/node` repository README to reflect membership in the TSC.
 * Update <https://github.com/nodejs/create-node-meeting-artifacts/blob/main/templates/invited_tsc> to reflect membership in the TSC.
+* Add them to the `#nodejs-tsc` channel on the OpenJS Slack
 
 ## Offboarding
 
@@ -40,3 +41,4 @@ invalid and are superseded by the TSC Charter.
 * Update the `@nodejs/node` repository README to reflect membership in the TSC.
   In all likelihood, they should be listed as TSC Emeritus.
 * Update <https://github.com/nodejs/create-node-meeting-artifacts/blob/main/templates/invited_tsc> to reflect membership in the TSC.
+* Remove them from the `#nodejs-tsc` channel on the OpenJS Slack. If they are a member of the `#nodejs-personnel` channel, remove them from that channel as well.
