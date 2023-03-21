@@ -7,8 +7,8 @@ Working Groups can be formed at any time but must be ratified by the TSC.
 Once formed the work defined in the Working Group charter is the
 responsibility of the WG rather than the TSC.
 
-It is important that Working Groups are not formed pre-maturely. Working
-Groups are not formed to _begin_ a set of tasks but instead are formed
+It is important that Working Groups are not formed prematurely. Working
+Groups are not formed to begin a set of tasks but instead are formed
 once that work is already underway and the contributors
 think it would benefit from being done as an autonomous project.
 
@@ -26,9 +26,10 @@ the working group's repository.
 
 ## Starting A Core Working Group
 
-A Working Group is established by first defining a charter  that can be
-ratified by the TSC. A charter is a _statement of purpose_, a
-_list of responsibilities_ and a _list of initial membership_.
+A Working Group is established by first defining a charter that can be
+ratified by the TSC. A charter is a statement of purpose and a
+list of responsibilities. When requesting that a working group be chartered, it
+is also necessary to provide a list of initial membership.
 
 A working group needs 3 initial members. These should be individuals
 already undertaking the work described in the charter.
@@ -36,24 +37,23 @@ already undertaking the work described in the charter.
 The list of responsibilities should be specific. Once established, these
 responsibilities are no longer governed by the TSC and therefore should
 not be broad or subjective. The only recourse the TSC has over the working
-group is to revoke the entire charter and take on the work previously
-done by the working group themselves.
+group is to revoke the entire charter.
 
-If the responsibilities described in the charter are currently
-undertaken by another WG then the charter will additionally have to be
-ratified by that WG.
+If the responsibilities described in the charter are currently undertaken by
+another working group then the charter will additionally have to be ratified by
+that working group.
 
-You can submit the WG charter for ratification by sending
-a Pull Request to this document, which adds it to the
-list of current Working Groups. Once ratified the list of
+You can submit the working group charter for ratification by sending
+a pull request to this document to add the charter it to the
+list of current Working Groups. Once ratified, the list of
 members should be maintained in the Working Group's
 README.
 
 ## Bootstrap Governance
 
-Once the TSC ratifies a charter the WG inherits the following
+Once the TSC ratifies a charter, the working group inherits the following
 documentation for governance, contribution, conduct and an MIT
-LICENSE. The WG is free to change these documents through their own
+LICENSE. The working group is free to change these documents through their own
 governance process, hence the term "bootstrap."
 
 ```markdown
@@ -240,7 +240,6 @@ The [Node.js Code of Conduct][] applies to this WG.
 * [Docker](#docker)
 * [Addon API](#addon-api)
 * [Release](#release)
-* [Ecosystem Security](#ecosystem-security)
 * [Package Maintenance](#package-maintenance)
 * [Undici](#undici)
 
@@ -403,27 +402,6 @@ Responsibilities include:
   backporting changes to these branches.
 * Define the policy for what gets backported to release streams.
 
-### [Security](https://github.com/nodejs/security-wg)
-
-The Security Working Group works to improve the security of Node.js and its ecosystem.
-
-Responsibilities include:
-
-* Ensure the vulnerability data is updated in an efficient and timely manner. For example, ensuring there
-  are well-documented processes for reporting vulnerabilities in community
-  modules.
-* Maintain and make available data on disclosed security vulnerabilities in:
-  * the core Node.js project
-  * other projects maintained by the overall Node.js project
-  * the external Node.js open source ecosystem
-* Promote the improvement of security practices within the Node.js ecosystem.
-* Facilitate and promote the expansion of a healthy security service and product
-  provider ecosystem.
-
-This Working Group is _not_ responsible for managing or responding to
-security reports against Node.js itself. That responsibility remains with
-the [Node.js TSC][].
-
 ### [Package Maintenance](https://github.com/nodejs/package-maintenance)
 
 Responsibilities include:
@@ -458,5 +436,4 @@ Responsibilities include:
 * Documenting the undici API, examples, and best practices.
 * Development of Node.js HTTP Client APIs such as a WHATWG Fetch implementation.
 
-[Node.js TSC]: https://github.com/nodejs/tsc
 [Technical Steering Committee (TSC)]: ./TSC-Charter.md
