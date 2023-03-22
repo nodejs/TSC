@@ -58,7 +58,7 @@ they do not participate in three consecutive TSC votes.
 
 ## Section 4. Responsibilities of the TSC
 
-Subject to such policies as may be set by the CPC, the TSC voting members are
+Subject to such policies as may be set by the CPC, the TSC is
 responsible for all technical development within the Node.js project,
 including:
 
@@ -73,11 +73,11 @@ including:
 * Mediating technical conflicts between Collaborators or Foundation
   projects.
 
-The TSC voting members will define Node.js project’s release vehicles.
+The TSC will define Node.js project’s release vehicles.
 
 ## Section 5. Node.js Project Operations
 
-The TSC voting members will establish and maintain a development process for the
+The TSC will establish and maintain a development process for the
 Node.js project. The development process will establish guidelines
 for how the developers and community will operate. It will, for example,
 establish appropriate timelines for TSC review (e.g. agenda items must be
@@ -117,11 +117,11 @@ of terms a TSC Chairperson or voting CPC member may serve.
 ## Section 7. Voting
 
 For internal project decisions, Collaborators shall operate under Lazy
-Consensus. The TSC voting members shall establish appropriate guidelines for
+Consensus. The TSC shall establish appropriate guidelines for
 implementing Lazy Consensus (e.g. expected notification and review time
 periods) within the development process.
 
-The TSC voting members follow a [Consensus Seeking][] decision making model.
+The TSC follows a [Consensus Seeking][] decision making model.
 When an agenda item has appeared to reach a consensus the moderator will ask
 "Does anyone object?" as a final call for dissent from the consensus.
 
@@ -134,8 +134,7 @@ All changes to this charter must be approved by the CPC.
 ## Section 8. Project Roles
 
 The Node.js git repository is maintained by the TSC and
-additional Collaborators who are added by the TSC voting members on an ongoing
-basis.
+additional Collaborators who are added by the TSC on an ongoing basis.
 
 Individuals making significant and valuable contributions are made Collaborators
 and given commit-access to the project. These individuals are identified by the
@@ -146,7 +145,7 @@ basis as defined in the development process.
 Collaborators may opt to elevate significant or controversial
 modifications, or modifications that have not found consensus to the TSC
 for discussion by assigning the `tsc-agenda` tag to a pull request or
-issue. The TSC voting members should serve as the final arbiter where required.
+issue. TSC votes should serve as the final arbiter where required.
 The TSC will maintain and publish a list of current Collaborators, as
 well as a development process guide for Collaborators and Contributors
 looking to participate in the development effort.
