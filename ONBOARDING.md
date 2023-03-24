@@ -6,7 +6,7 @@ in the TSC Charter. In the event that there is a contradiction between that
 document and this document, the contradictory elements in this document are
 invalid and are superseded by the TSC Charter.
 
-## Onboarding
+## Onboarding of voting members
 
 * Confirm that the new member has read, understands, and agrees to uphold the
   [Code of Conduct](https://github.com/nodejs/admin/blob/main/CODE_OF_CONDUCT.md).
@@ -24,7 +24,7 @@ invalid and are superseded by the TSC Charter.
 * Update <https://github.com/nodejs/create-node-meeting-artifacts/blob/main/templates/invited_tsc> to reflect membership in the TSC.
 * Ask them what is their handle on OpenJS Slack – and ask them to create one if they haven't one already. Add that handle to the `#nodejs-tsc` channel.
 
-## Offboarding
+## Offboarding of voting members
 
 * Remove the member from the `@nodejs/tsc` and `@nodejs/security-tsc` teams.
 * Remove them from the HackerOne [Node.js team](https://hackerone.com/nodejs/team_members).
@@ -42,3 +42,7 @@ invalid and are superseded by the TSC Charter.
   In all likelihood, they should be listed as TSC Emeritus.
 * Update <https://github.com/nodejs/create-node-meeting-artifacts/blob/main/templates/invited_tsc> to reflect membership in the TSC.
 * Remove them from the `#nodejs-tsc` channel on the OpenJS Slack. If they are a member of the `#nodejs-personnel` channel, remove them from that channel as well.
+
+## Onboarding/offboarding of regular members
+
+* Update <https://github.com/nodejs/create-node-meeting-artifacts/blob/main/templates/invited_tsc> to reflect membership in the TSC.
