@@ -145,11 +145,10 @@ basis as defined in the development process.
 Collaborators may opt to elevate significant or controversial
 modifications, or modifications that have not found consensus to the TSC
 for discussion by assigning the `tsc-agenda` tag to a pull request or
-issue. When consensus cannot be reached, the TSC voting members should serve as the
-final arbiter by casting a vote.
-The TSC will maintain and publish a list of current Collaborators, as
-well as a development process guide for Collaborators and Contributors
-looking to participate in the development effort.
+issue. When consensus cannot be reached, the TSC voting members should serve as
+the final arbiter by casting a vote. The TSC will maintain and publish a list of
+current Collaborators, as well as a development process guide for Collaborators
+and Contributors looking to participate in the development effort.
 
 ## Section 9. Definitions
 
