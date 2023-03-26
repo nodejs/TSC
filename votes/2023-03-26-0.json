@@ -3,7 +3,7 @@
   "refs": [
     "https://github.com/nodejs/node/pull/46608#pullrequestreview-1293747415"
   ],
-  "outcome": "TBD",
+  "outcome": "Yes",
   "votes": {
     "aduh95": 1,
     "apapirovski": 1,
@@ -23,7 +23,6 @@
     "ronag": 1,
     "targos": 0,
     "tniessen": 0,
-    "Trott": 0,
-    "to_be_removed": "just there so the diff looks cleaner (no comma dangle in JSON)"
+    "Trott": 0
   }
 }
