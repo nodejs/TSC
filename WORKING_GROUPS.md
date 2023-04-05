@@ -363,31 +363,6 @@ Responsibilities include:
 * Decide and implement image improvements and/or fixes.
 * Maintain and improve the images' documentation.
 
-### [Addon API](https://github.com/nodejs/nan)
-
-The Addon API Working Group is responsible for maintaining the NAN project and
-corresponding _nan_ package in npm. The NAN project makes available an
-abstraction layer for native add-on authors for Node.js,
-assisting in the writing of code that is compatible with many actively used
-versions of Node.js, V8 and libuv.
-
-Responsibilities include:
-
-* Maintaining the [NAN](https://github.com/nodejs/nan) GitHub repository,
-  including code, issues and documentation.
-* Maintaining the [addon-examples](https://github.com/nodejs/node-addon-examples)
-  GitHub repository, including code, issues and documentation.
-* Maintaining the C++ Addon API within the Node.js project, in subordination to
-  the Node.js TSC.
-* Maintaining the Addon documentation within the Node.js project, in
-  subordination to the Node.js TSC.
-* Maintaining the _nan_ package in npm, releasing new versions as appropriate.
-* Messaging about the future of the Node.js and NAN interface to give the
-  community advance notice of changes.
-
-The current members can be found in their
-[README](https://github.com/nodejs/nan#collaborators).
-
 ### [Release](https://github.com/nodejs/release)
 
 The Release Working Group manages the release process for Node.js.
