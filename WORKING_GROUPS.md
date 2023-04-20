@@ -59,7 +59,7 @@ governance process, hence the term "bootstrap."
 ```markdown
 ### *[insert WG name]* Working Group
 
-The Node.js *[insert WG name]* is jointly governed by a Working Group (WG)
+The Node.js *[insert WG name]* is governed by a Working Group (WG)
 that is responsible for high-level guidance of the project.
 
 The WG has final authority over this project including:
@@ -236,7 +236,6 @@ The [Node.js Code of Conduct][] applies to this WG.
 * [Streams](#streams)
 * [Build](#build)
 * [Diagnostics](#diagnostics)
-* [i18n](#i18n)
 * [Docker](#docker)
 * [Addon API](#addon-api)
 * [Release](#release)
@@ -296,61 +295,6 @@ Responsibilities include:
   when needed.
 * Defining and adding common structures to the dumps generated in order to
   support tools that want to introspect those dumps.
-
-### [i18n](https://github.com/nodejs/i18n)
-
-The i18n Working Groups handle more than just translations. They
-are endpoints for community members to collaborate with each
-other in their language of choice.
-
-Each team is organized around a common spoken language. Each
-language community might then produce multiple localizations for
-various project resources.
-
-Responsibilities include:
-
-* Translating any Node.js materials they believe are relevant to their
-  community.
-* Reviewing processes for keeping translations up to date and of high quality.
-* Managing and monitoring social media channels in their language.
-* Promoting Node.js speakers for meetups and conferences in their language.
-
-Each language community maintains its own membership.
-
-* [nodejs-ar - Arabic (اللغة العربية)](https://github.com/nodejs/nodejs-ar)
-* [nodejs-bg - Bulgarian (български език)](https://github.com/nodejs/nodejs-bg)
-* [nodejs-bn - Bengali (বাংলা)](https://github.com/nodejs/nodejs-bn)
-* [nodejs-zh-CN - Chinese (中文)](https://github.com/nodejs/nodejs-zh-CN)
-* [nodejs-cs - Czech (Český Jazyk)](https://github.com/nodejs/nodejs-cs)
-* [nodejs-da - Danish (Dansk)](https://github.com/nodejs/nodejs-da)
-* [nodejs-de - German (Deutsch)](https://github.com/nodejs/nodejs-de)
-* [nodejs-el - Greek (Ελληνικά)](https://github.com/nodejs/nodejs-el)
-* [nodejs-es - Spanish (Español)](https://github.com/nodejs/nodejs-es)
-* [nodejs-fa - Persian (فارسی)](https://github.com/nodejs/nodejs-fa)
-* [nodejs-fi - Finnish (Suomi)](https://github.com/nodejs/nodejs-fi)
-* [nodejs-fr - French (Français)](https://github.com/nodejs/nodejs-fr)
-* [nodejs-he - Hebrew (עברית)](https://github.com/nodejs/nodejs-he)
-* [nodejs-hi - Hindi (फिजी बात)](https://github.com/nodejs/nodejs-hi)
-* [nodejs-hu - Hungarian (Magyar)](https://github.com/nodejs/nodejs-hu)
-* [nodejs-id - Indonesian (Bahasa Indonesia)](https://github.com/nodejs/nodejs-id)
-* [nodejs-it - Italian (Italiano)](https://github.com/nodejs/nodejs-it)
-* [nodejs-ja - Japanese (日本語)](https://github.com/nodejs/nodejs-ja)
-* [nodejs-ka - Georgian (ქართული)](https://github.com/nodejs/nodejs-ka)
-* [nodejs-ko - Korean (한국어)](https://github.com/nodejs/nodejs-ko)
-* [nodejs-mk - Macedonian (Mакедонски)](https://github.com/nodejs/nodejs-mk)
-* [nodejs-ms - Malay (بهاس ملايو)](https://github.com/nodejs/nodejs-ms)
-* [nodejs-nl - Dutch (Nederlands)](https://github.com/nodejs/nodejs-nl)
-* [nodejs-no - Norwegian (Norsk)](https://github.com/nodejs/nodejs-no)
-* [nodejs-pl - Polish (Język Polski)](https://github.com/nodejs/nodejs-pl)
-* [nodejs-pt - Portuguese (Português)](https://github.com/nodejs/nodejs-pt)
-* [nodejs-ro - Romanian (Română)](https://github.com/nodejs/nodejs-ro)
-* [nodejs-ru - Russian (Русский)](https://github.com/nodejs/nodejs-ru)
-* [nodejs-sv - Swedish (Svenska)](https://github.com/nodejs/nodejs-sv)
-* [nodejs-ta - Tamil (தமிழ்)](https://github.com/nodejs/nodejs-ta)
-* [nodejs-tr - Turkish (Türkçe)](https://github.com/nodejs/nodejs-tr)
-* [nodejs-zh-TW - Taiwanese (Hō-ló)](https://github.com/nodejs/nodejs-zh-TW)
-* [nodejs-uk - Ukrainian (Українська)](https://github.com/nodejs/nodejs-uk)
-* [nodejs-vi - Vietnamese (Tiếng Việtnam)](https://github.com/nodejs/nodejs-vi)
 
 ### [Docker](https://github.com/nodejs/docker-node)
 
