@@ -22,6 +22,7 @@ invalid and are superseded by the TSC Charter.
 * Add them to the [nodejs-tsc](https://groups.google.com/g/nodejs-tsc) Google Group as owners, so they receive Calendar invites for TSC meetings.
 * Update the `@nodejs/node` repository README to reflect membership in the TSC.
 * Update <https://github.com/nodejs/create-node-meeting-artifacts/blob/main/templates/invited_tsc> to reflect membership in the TSC.
+* Inform them of the TSC meeting password.
 * Ask them what is their handle on OpenJS Slack – and ask them to create one if they haven't one already. Add that handle to the `#nodejs-tsc` channel.
 
 ## Offboarding of voting members
