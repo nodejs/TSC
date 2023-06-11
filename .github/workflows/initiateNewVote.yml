@@ -1,0 +1,122 @@
+name: Initiate new vote
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+    paths:
+      - votes/initiateNewVote/_EDIT_ME.yml
+  push:
+    branches:
+      - initiateNewVote
+
+permissions:
+  contents: read
+
+jobs:
+  lint-vote-init-file:
+    if: github.event.pull_request && github.event.pull_request.draft == false
+    permissions:
+      contents: write
+      pull-requests: write
+      repository-projects: read
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab # v3.5.2
+        with:
+          persist-credentials: false
+      # If the subject is still REPLACEME, that would mean it's a PR to modify
+      # the sample file, not a PR initializing a vote.
+      - run: "! grep -q 'subject: REPLACEME' votes/initiateNewVote.yml"
+      - name: Use Node.js ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@64ed1c7eab4cce3362f8c340dee64e5eaeef8f7c # v3.6.0
+        with:
+          node-version: lts/*
+      - name: Validate YAML and ensure there are more than 1 candidate
+        run:
+          npx js-yaml votes/initiateNewVote.yml | jq '.candidates | unique |
+          length > 1 or error("Not enough candidates")'
+      - name: Change base branch
+        if: github.base_ref == github.event.repository.default_branch
+        run: |
+          gh api \
+            --method POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            /repos/${{ github.repository }}/git/refs \
+            -f ref='refs/heads/initiateNewVote' \
+            -f sha='${{ github.event.pull_request.base.sha }}' 
+          gh pr edit ${{ github.event.pull_request.html_url }} --base 'initiateNewVote'
+        env:
+          GH_TOKEN: ${{ github.token }}
+  initiate-new-vote:
+    if: github.event.pusher
+    permissions:
+      contents: write
+      pull-requests: write
+      repository-projects: read
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab # v3.5.2
+        with:
+          persist-credentials: true # we need the credentials to push the new vote branch
+      - name: Install Node.js
+        uses: actions/setup-node@64ed1c7eab4cce3362f8c340dee64e5eaeef8f7c # v3.6.0
+        with:
+          node-version: lts/*
+      - name: Extract info from the pushed file
+        id: data
+        run: |
+          npx js-yaml votes/initiateNewVote/_EDIT_ME.yml > data.json
+          echo "json_data<<EOF" >> "$GITHUB_OUTPUT"
+          cat data.json >> "$GITHUB_OUTPUT"
+          echo "EOF" >> "$GITHUB_OUTPUT"
+          echo "branchName=votes/$(node -p 'require("./data.json")["path-friendly-id"] || crypto.randomUUID()')" >> "$GITHUB_OUTPUT"
+      - name: Reset to the base branch
+        run: git fetch origin HEAD && git reset FETCH_HEAD --hard
+      - name: Install npm dependencies
+        run: npm install @aduh95/caritat
+      - name: Configure git
+        run: |
+          git config --global user.email "github-bot@iojs.org"
+          git config --global user.name "Node.js GitHub Bot"
+      - name: Configure and (re)start GPG agent
+        shell: bash
+        run: |
+          if [ -f /usr/lib/systemd/user/gpg-agent.service ]; then
+            mkdir ~/.gnupg
+            cat <<EOT >> ~/.gnupg/gpg-agent.conf
+            allow-preset-passphrase
+            default-cache-ttl 60
+            max-cache-ttl 50
+          EOT
+            chmod 600 ~/.gnupg/*
+            chmod 700 ~/.gnupg
+            systemctl --user restart gpg-agent
+          else
+            gpg-agent --daemon --allow-preset-passphrase \
+            --default-cache-ttl 60 --max-cache-ttl 60
+          fi
+      - name: Generate the vote branch
+        run: |
+          ./votes/initiateNewVote/generateNewVotePR.mjs \
+            --remote origin \
+            --github-repo-name '${{ github.repository }}' \
+            --tsc-repository-path . \
+            --branch '${{ steps.data.outputs.branchName }}' \
+            --subject '${{ fromJSON(steps.data.outputs.json_data).subject }}' \
+            --candidate '${{ join(fromJSON(steps.data.outputs.json_data).candidates, ''' --candidate ''') }}' \
+            --shuffle-candidates '${{ fromJSON(steps.data.outputs.json_data).canShuffleCandidates }}' \
+            --header-instructions '${{ fromJSON(steps.data.outputs.json_data).headerInstructions }}' \
+            --footer-instructions '${{ fromJSON(steps.data.outputs.json_data).footerInstructions }}' \
+            --create-pull-request --pr-intro '${{ fromJSON(steps.data.outputs.json_data).prBody }}'
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - name: Remove initiateNewVote branch
+        run: |
+          gh api \
+            --method DELETE \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            /repos/${{ github.repository }}/git/${{ github.ref }}
+        env:
+          GH_TOKEN: ${{ github.token }}

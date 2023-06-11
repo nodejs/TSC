@@ -1,0 +1,92 @@
+name: Close vote
+
+on:
+  issue_comment:
+    types: [created]
+  workflow_dispatch:
+    inputs:
+      pr:
+        description: "ID of the Vote PR that contains a vote ready to be closed"
+        required: true
+        type: number
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  close-vote:
+    if: github.event.inputs.pr ||
+        (github.event.issue.pull_request && contains(github.event.comment.body, '-----BEGIN SHAMIR KEY PART-----'))
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get PR URL
+        id: pr-url
+        run: |
+          echo "URL=${{ github.event.repository.html_url }}/pull/${{ github.event.inputs.pr || github.event.issue.number }}" >> "$GITHUB_OUTPUT"
+      - name: Filter comments
+        id: comments
+        run:
+          gh pr view ${{ steps.pr-url.outputs.URL }} --json
+          comments --jq '.comments | map(.body | select(contains("-----BEGIN
+          SHAMIR KEY PART-----"))) | "comments=" + tostring' >> "$GITHUB_OUTPUT"
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - name: Get PR branch
+        id: branch
+        run:
+          gh pr view ${{ steps.pr-url.outputs.URL }} --json
+          headRefName --jq '"head=" + .headRefName' >> "$GITHUB_OUTPUT"
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - name: Compute number of commits in the PR
+        id: nb-of-commits
+        run: |
+          NB_OF_COMMITS=$(gh pr view --json commits --jq '.commits | length' "${{ steps.pr-url.outputs.URL }}")
+          echo "exact=$NB_OF_COMMITS" >> $GITHUB_OUTPUT
+          echo "minusOne=$(($NB_OF_COMMITS - 1))" >> $GITHUB_OUTPUT
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab # v3.5.2
+        with:
+          # Loading the default branch so we use the last version of the mailmap
+          # rather than getting stuck to when the vote PR was open.
+          ref: ${{ github.event.repository.default_branch }}
+          persist-credentials: true # we need the credentials to push the new vote branch
+      - name: Download nodejs/node mailmap file
+        run:
+          curl -L https://raw.githubusercontent.com/nodejs/node/main/.mailmap >>
+          .mailmap
+      - name: Configure git
+        run: |
+          git config --global user.email "github-bot@iojs.org"
+          git config --global user.name "Node.js GitHub Bot"
+      - name: Load vote branch
+        run: |
+          git fetch origin '${{ steps.branch.outputs.head }}'
+          git reset FETCH_HEAD --mixed
+          git checkout HEAD -- '${{ steps.branch.outputs.head }}'
+      - run: npm install @aduh95/caritat
+      - name: Attempt closing the vote
+        id: vote-summary
+        run: |
+          EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
+          echo "markdown<<$EOF" >> "$GITHUB_OUTPUT"
+          ./votes/initiateNewVote/decryptPrivateKeyAndCloseVote.mjs \
+          --remote origin --branch "${{ steps.branch.outputs.head }}" \
+          --fromCommit "FETCH_HEAD~${{ steps.nb-of-commits.outputs.minusOne }}" \
+          --toCommit "FETCH_HEAD" \
+          --prURL "${{ steps.pr-url.outputs.URL }}" \
+          --save-markdown-summary summaryComment.md \
+          --comments "$COMMENTS" --commit-json-summary >> "$GITHUB_OUTPUT"
+          echo "$EOF" >> "$GITHUB_OUTPUT"
+        env:
+          COMMENTS: ${{ steps.comments.outputs.comments }}
+      - name: Push to the PR branch
+        run: git push origin "HEAD:${{ steps.branch.outputs.head }}"
+      - name: Publish vote summary comment
+        run: |
+          gh pr comment "${{ steps.pr-url.outputs.URL }}" --body-file summaryComment.md
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SUMMARY: ${{ steps.vote-summary.outputs.markdown }}

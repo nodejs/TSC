@@ -1,0 +1,45 @@
+# To initiate a new vote, you need to open a PR modifying this file. The vote
+# can start once the PR has approvals and is merged via the GitHub interface.
+
+# 1. Select a subject for the vote. This can be a question addressed to the TSC
+#    voting members.
+subject: REPLACEME
+
+# 2. You can leave the header instructions as is, or modify them if you see fit.
+headerInstructions: |
+  Please set a score to proposal according to your preferences.
+  You should set the highest score to your favorite option.
+  Negative scores are allowed, only the order matters.
+  You can tied two or more proposals if you have no preference.
+  To abstain, keep all the propositions tied.
+
+# 3. Give a list of "candidates". Those should be answers to the subject
+#    question, and should leave as little room to interpretation as possible. Do
+#    not list candidates that don't have a champion, there should be a
+#    clear plan for each candidates in the event where it wins the vote; listing
+#    a "troll candidate" will only hurt the credibility of the voting process if
+#    it wins and everyone realize we have to re-take the vote because it can't
+#    happen. Don't hesitate to list very similar candidates, with however small
+#    nuances: we are using the Condorcet method to count the votes, which lets
+#    voters express their preference for each candidates, no matter how many
+#    there are.
+candidates:
+  - TODO
+  - TODO
+
+# 4. Pass the following to false if it's important to keep the candidates in the
+#    order you define above. Presenting candidates in a fixed order tends to
+#    give an unfair advantage to the first option.
+canShuffleCandidates: true
+
+# 5. Insert here a short description of the vote objectives and link to the
+#    issue it was discussed on to give the full context.
+footerInstructions: |
+  TBD
+
+# 6. Optionally, insert a brief introduction for the vote PR, in the markdown format.
+prBody: |
+
+# 7. Optionally, choose an id that will be used for the branch name as well as
+#    the vote folder name. If not supplied, a UUID will be used.
+path-friendly-id: null
