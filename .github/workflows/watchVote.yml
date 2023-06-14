@@ -46,7 +46,7 @@ jobs:
           "$GITHUB_OUTPUT"; cat "$GITHUB_OUTPUT"
         env:
           SUBPATH: ${{ github.head_ref }}
-          FIRST_COMMIT_REF: 'HEAD^2~${{ steps.nb-of-commits.outputs.minusOne }}'
+          FIRST_COMMIT_REF: HEAD^2~${{ steps.nb-of-commits.outputs.minusOne }}
           LAST_COMMIT_REF: ${{ github.event.after }}
           CHECK_COMMITS_AFTER: ${{ github.event.before }}
           PR_DESCRIPTION: ${{steps.desc.outputs.markdown}}
