@@ -168,7 +168,7 @@ for await (const member of readReadme(readLines({ input, crlfDelay }))) {
 
 input.destroy?.();
 
-const shareholderThreshold = 2; // Math.ceil(tscMembersArray.length / 4);
+const shareholdersThreshold = 3; // Math.ceil(tscMembersArray.length / 4);
 
 const keyServerURL = "hkps://keys.openpgp.org";
 
@@ -189,7 +189,7 @@ await generateNewVoteFolder({
     baseBranch: "main",
     forceClone: !argv["tsc-repository-path"],
   },
-  shareholdersThreshold: shareholderThreshold,
+  shareholdersThreshold,
   shareholders: tscMembersArray.map(({ email }) => email),
   allowedVoters: tscMembersArray.map(
     (voter) => `${voter.name} <${voter.email}>`
