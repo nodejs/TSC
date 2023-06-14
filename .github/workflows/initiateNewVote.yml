@@ -21,14 +21,14 @@ jobs:
       repository-projects: read
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab # v3.5.2
+      - uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab  # v3.5.2
         with:
           persist-credentials: false
       # If the subject is still REPLACEME, that would mean it's a PR to modify
       # the sample file, not a PR initializing a vote.
-      - run: "! grep -q 'subject: REPLACEME' votes/initiateNewVote.yml"
+      - run: '! grep -q "subject: REPLACEME" votes/initiateNewVote.yml'
       - name: Use Node.js ${{ env.NODE_VERSION }}
-        uses: actions/setup-node@64ed1c7eab4cce3362f8c340dee64e5eaeef8f7c # v3.6.0
+        uses: actions/setup-node@64ed1c7eab4cce3362f8c340dee64e5eaeef8f7c  # v3.6.0
         with:
           node-version: lts/*
       - name: Validate YAML and ensure there are more than 1 candidate
@@ -44,7 +44,7 @@ jobs:
             -H "X-GitHub-Api-Version: 2022-11-28" \
             /repos/${{ github.repository }}/git/refs \
             -f ref='refs/heads/initiateNewVote' \
-            -f sha='${{ github.event.pull_request.base.sha }}' 
+            -f sha='${{ github.event.pull_request.base.sha }}'
           gh pr edit ${{ github.event.pull_request.html_url }} --base 'initiateNewVote'
         env:
           GH_TOKEN: ${{ github.token }}
@@ -56,11 +56,11 @@ jobs:
       repository-projects: read
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab # v3.5.2
+      - uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab  # v3.5.2
         with:
-          persist-credentials: true # we need the credentials to push the new vote branch
+          persist-credentials: true  # we need the credentials to push the new vote branch
       - name: Install Node.js
-        uses: actions/setup-node@64ed1c7eab4cce3362f8c340dee64e5eaeef8f7c # v3.6.0
+        uses: actions/setup-node@64ed1c7eab4cce3362f8c340dee64e5eaeef8f7c  # v3.6.0
         with:
           node-version: lts/*
       - name: Extract info from the pushed file

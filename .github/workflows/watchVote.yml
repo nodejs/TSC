@@ -3,7 +3,7 @@ name: Validate vote commit and update participation
 on:
   pull_request:
     types: [synchronize]
-    paths: ["votes/**"]
+    paths: [votes/**]
 
 concurrency: ${{ github.workflow }}--${{ github.head_ref }}
 permissions:
@@ -21,7 +21,7 @@ jobs:
         run: |
           echo "plusOne=$((${{ github.event.pull_request.commits }} + 1))" >> $GITHUB_OUTPUT
           echo "minusOne=$((${{ github.event.pull_request.commits }} - 1))" >> $GITHUB_OUTPUT
-      - uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab # v3.5.2
+      - uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab  # v3.5.2
         with:
           fetch-depth: ${{ steps.nb-of-commits.outputs.plusOne }}
           persist-credentials: false
@@ -46,7 +46,7 @@ jobs:
           "$GITHUB_OUTPUT"; cat "$GITHUB_OUTPUT"
         env:
           SUBPATH: ${{ github.head_ref }}
-          FIRST_COMMIT_REF: "HEAD^2~${{ steps.nb-of-commits.outputs.minusOne }}"
+          FIRST_COMMIT_REF: 'HEAD^2~${{ steps.nb-of-commits.outputs.minusOne }}'
           LAST_COMMIT_REF: ${{ github.event.after }}
           CHECK_COMMITS_AFTER: ${{ github.event.before }}
           PR_DESCRIPTION: ${{steps.desc.outputs.markdown}}
@@ -67,4 +67,4 @@ jobs:
             ${{ fromJSON(steps.status.outputs.prStatus).invalidCommitReason }}
       - name: Mark workflow as failed if some invalid commits were found
         if: fromJSON(steps.status.outputs.prStatus).hasFailures
-        run: "false"
+        run: 'false'

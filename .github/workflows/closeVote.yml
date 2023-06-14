@@ -1,12 +1,13 @@
 name: Close vote
 
 on:
-  issue_comment:
-    types: [created]
+  # Using `issue_comment` is a bit noisy, let's disable it for now.
+  # issue_comment:
+  #   types: [created]
   workflow_dispatch:
     inputs:
       pr:
-        description: "ID of the Vote PR that contains a vote ready to be closed"
+        description: ID of the Vote PR that contains a vote ready to be closed
         required: true
         type: number
 
@@ -17,7 +18,7 @@ permissions:
 jobs:
   close-vote:
     if: github.event.inputs.pr ||
-        (github.event.issue.pull_request && contains(github.event.comment.body, '-----BEGIN SHAMIR KEY PART-----'))
+      (github.event.issue.pull_request && contains(github.event.comment.body, '-----BEGIN SHAMIR KEY PART-----'))
     runs-on: ubuntu-latest
     steps:
       - name: Get PR URL
@@ -26,16 +27,14 @@ jobs:
           echo "URL=${{ github.event.repository.html_url }}/pull/${{ github.event.inputs.pr || github.event.issue.number }}" >> "$GITHUB_OUTPUT"
       - name: Filter comments
         id: comments
-        run:
-          gh pr view ${{ steps.pr-url.outputs.URL }} --json
+        run: gh pr view ${{ steps.pr-url.outputs.URL }} --json
           comments --jq '.comments | map(.body | select(contains("-----BEGIN
           SHAMIR KEY PART-----"))) | "comments=" + tostring' >> "$GITHUB_OUTPUT"
         env:
           GH_TOKEN: ${{ github.token }}
       - name: Get PR branch
         id: branch
-        run:
-          gh pr view ${{ steps.pr-url.outputs.URL }} --json
+        run: gh pr view ${{ steps.pr-url.outputs.URL }} --json
           headRefName --jq '"head=" + .headRefName' >> "$GITHUB_OUTPUT"
         env:
           GH_TOKEN: ${{ github.token }}
@@ -47,12 +46,12 @@ jobs:
           echo "minusOne=$(($NB_OF_COMMITS - 1))" >> $GITHUB_OUTPUT
         env:
           GH_TOKEN: ${{ github.token }}
-      - uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab # v3.5.2
+      - uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab  # v3.5.2
         with:
           # Loading the default branch so we use the last version of the mailmap
           # rather than getting stuck to when the vote PR was open.
           ref: ${{ github.event.repository.default_branch }}
-          persist-credentials: true # we need the credentials to push the new vote branch
+          persist-credentials: true  # we need the credentials to push the new vote branch
       - name: Download nodejs/node mailmap file
         run:
           curl -L https://raw.githubusercontent.com/nodejs/node/main/.mailmap >>
