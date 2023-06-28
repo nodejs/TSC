@@ -65,7 +65,7 @@ jobs:
           git fetch origin '${{ steps.branch.outputs.head }}'
           git reset FETCH_HEAD --mixed
           git checkout HEAD -- '${{ steps.branch.outputs.head }}'
-      - run: npm install @aduh95/caritat
+      - run: npm install @node-core/caritat
       - name: Attempt closing the vote
         id: vote-summary
         run: |

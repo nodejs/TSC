@@ -6,7 +6,7 @@ import { createInterface as readLines } from "node:readline";
 import { fileURLToPath } from "node:url";
 import { parseArgs } from "node:util";
 
-import countFromGit from "@aduh95/caritat/countBallotsFromGit";
+import countFromGit from "@node-core/caritat/countBallotsFromGit";
 
 const { values: parsedArgs } = parseArgs({
   options: {

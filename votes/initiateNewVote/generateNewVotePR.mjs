@@ -9,7 +9,7 @@ import { open, readFile } from "node:fs/promises";
 import { parseArgs } from "node:util";
 import { spawn } from "node:child_process";
 
-import generateNewVoteFolder from "@aduh95/caritat/generateNewVoteFolder";
+import generateNewVoteFolder from "@node-core/caritat/generateNewVoteFolder";
 
 import readReadme from "./extractInfoFromReadme.mjs";
 
@@ -255,6 +255,8 @@ Vote instructions:
 
 To close the vote, at least ${shareholderThreshold} secret holder(s)[^1] must \
 run the following command: ${"`"}git node vote ${prUrl} --decrypt-key-part --post-comment${"`"}
+
+/cc @nodejs/tsc
 
 [^1]: secret holders are folks who have access to the private key associated with \
 a public key on <${keyServerURL}> that references an email address listed on the \

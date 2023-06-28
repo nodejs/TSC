@@ -74,7 +74,7 @@ jobs:
       - name: Reset to the base branch
         run: git fetch origin HEAD && git reset FETCH_HEAD --hard
       - name: Install npm dependencies
-        run: npm install @aduh95/caritat
+        run: npm install @node-core/caritat
       - name: Configure git
         run: |
           git config --global user.email "github-bot@iojs.org"

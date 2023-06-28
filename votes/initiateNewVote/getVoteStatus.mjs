@@ -2,7 +2,7 @@
 
 import { exit } from "node:process";
 import { env } from "node:process";
-import count from "@aduh95/caritat/countParticipationFromGit";
+import count from "@node-core/caritat/countParticipationFromGit";
 
 const START_MARKER = "<!-- BEGIN PARTICIPATION -->";
 const END_MARKER = "<!-- END PARTICIPATION -->";
