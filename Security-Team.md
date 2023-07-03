@@ -36,7 +36,6 @@ includes a fix, documentation, an informational CVE or blog post.
 <!-- ncu-team-sync.team(nodejs/security-triage) -->
 
 * [@danielleadams](https://github.com/danielleadams) - Danielle Adams
-* [@jasnell](https://github.com/jasnell) - James M Snell
 * [@mcollina](https://github.com/mcollina) - Matteo Collina
 * [@mhdawson](https://github.com/mhdawson) - Michael Dawson
 * [@RafaelGSS](https://github.com/RafaelGSS) - Rafael Gonzaga
@@ -69,28 +68,25 @@ the Node.js program on HackerOne.
 * [@aduh95](https://github.com/aduh95) - Antoine du Hamel
 * [@apapirovski](https://github.com/apapirovski) - Anatoli Papirovski
 * [@bengl](https://github.com/bengl) - Bryan English
-* [@BethGriggs](https://github.com/BethGriggs) - Bethany Nicolle Griggs
+* [@BethGriggs](https://github.com/BethGriggs)
 * [@bmeck](https://github.com/bmeck) - Bradley Farias
 * [@bnoordhuis](https://github.com/bnoordhuis) - Ben Noordhuis
 * [@BridgeAR](https://github.com/BridgeAR) - Ruben Bridgewater
-* [@ChALkeR](https://github.com/ChALkeR) - Nikita Skovoroda
 * [@cjihrig](https://github.com/cjihrig) - Colin Ihrig
 * [@codebytere](https://github.com/codebytere) - Shelley Vohr
 * [@danielleadams](https://github.com/danielleadams) - Danielle Adams
-* [@facutuesca](https://github.com/facutuesca) - Facundo Tuesca
-* [@fhinkel](https://github.com/fhinkel) - F. Hinkelmann
 * [@GeoffreyBooth](https://github.com/GeoffreyBooth) - Geoffrey Booth
 * [@gireeshpunathil](https://github.com/gireeshpunathil) - Gireesh Punathil
 * [@indutny](https://github.com/indutny) - Fedor Indutny
 * [@jasnell](https://github.com/jasnell) - James M Snell
+* [@joaocgreis](https://github.com/joaocgreis) - João Reis
 * [@joesepi](https://github.com/joesepi) - Joe Sepi
 * [@joyeecheung](https://github.com/joyeecheung) - Joyee Cheung
 * [@juanarbol](https://github.com/juanarbol) - Juan José
-* [@kumarak](https://github.com/kumarak)
 * [@legendecas](https://github.com/legendecas) - Chengzhong Wu
 * [@mcollina](https://github.com/mcollina) - Matteo Collina
 * [@mhdawson](https://github.com/mhdawson) - Michael Dawson
-* [@mike-myers-tob](https://github.com/mike-myers-tob) - Mike Myers
+* [@MoLow](https://github.com/MoLow) - Moshe Atlow
 * [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
 * [@RafaelGSS](https://github.com/RafaelGSS) - Rafael Gonzaga
 * [@RaisinTen](https://github.com/RaisinTen) - Darshan Sen
