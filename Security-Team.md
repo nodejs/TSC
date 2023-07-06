@@ -45,20 +45,18 @@ includes a fix, documentation, an informational CVE or blog post.
 
 ## Team with access to private security reports against Node.js
 
-The [TSC](https://github.com/nodejs/node#tsc-technical-steering-committee)
+[TSC voting members](https://github.com/nodejs/node#tsc-voting-members)
 have access.
 
 In addition, these individuals have access:
 
-* [kumarak](https://github.com/kumarak) - **Akshay K**
-* [mike-myers-tob](https://github.com/mike-myers-tob) - **Mike Myers**
-* [RafaelGSS](https://github.com/RafaelGSS) - **Rafael Gonzaga**
-* [tn3rt](https://github.com/tn3rt) - **Trent Brunson**
+* [bengl](https://github.com/bengl)- **Bryan English**
+* [BethGriggs](https://github.com/BethGriggs) - **Beth Griggs**
+* [joesepi](https://github.com/joesepi) - **Joe Sepi**
+* [MylesBorins](https://github.com/MylesBorins) -  **Myles Borins**
 * [vdeturckheim](https://github.com/vdeturckheim) - **Vladimir de Turckheim**
-* [woodruffw-tob](https://github.com/woodruffw) - **William Woodruff**
-* [xlauko](https://github.com/xlauko) - **Heinrich Lauko**
 
-The list is from the [member page](https://hackerone.com/nodejs/team_members) for
+The list is from the [member page](https://hackerone.com/organizations/nodejs/settings/users) for
 the Node.js program on HackerOne.
 
 ## Team with access to private security patches to Node.js
