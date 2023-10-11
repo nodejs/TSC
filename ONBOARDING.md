@@ -27,20 +27,27 @@ invalid and are superseded by the TSC Charter.
 
 ## Offboarding of voting members
 
-* Remove the member from the `@nodejs/tsc` and `@nodejs/security-tsc` teams.
-* Remove them from the HackerOne [Node.js team](https://hackerone.com/nodejs/team_members).
-* Change the member's role in the GitHub `nodejs` organization to `Member`
-  unless they have `Owner` role for a reason other than TSC membership.
-* Remove them from the `@nodejs-private/security-tsc` team.
-* Remove them from the `@nodejs-private` org unless they are members for a
+* Remove the member from the following teams:
+  * [`@nodejs/tsc`](https://github.com/orgs/nodejs/teams/tsc/members)
+  * [`@nodejs/security-tsc`](https://github.com/orgs/nodejs/teams/security-tsc/members)
+  * [`@nodejs-private/security-tsc`](https://github.com/orgs/nodejs-private/teams/security-tsc/members)
+  * [`@pkgjs/node-tsc`](https://github.com/orgs/pkgjs/teams/node-tsc/members)
+* Change the member's role from `Owner` to `Member`
+  (unless they have `Owner` role for a reason other than TSC membership)
+  in the following GitHub orgs:
+  * [`@nodejs-private`](https://github.com/orgs/nodejs-private/people)
+  * [`@nodejs`](https://github.com/orgs/nodejs/people)
+* Remove them from the following GitHub orgs unless they are members for a
+  reason other than TSC membership:
+  * [`@nodejs-private`](https://github.com/orgs/nodejs-private/people)
+  * [`@nodejs`](https://github.com/orgs/nodejs/people)
+  * [`@pkgjs`](https://github.com/orgs/pkgjs/people)
+* Remove them from the HackerOne [Node.js team](https://hackerone.com/nodejs/team_members) unless they need access for a
   reason other than TSC membership.
-* Remove them from the `@pkgjs/node-tsc` team
-* Remove them from the `@pkgjs` org unless they are members for a
-  reason other than TSC membership.
-* Remove them from the `tsc` and `crypto-export` mailing lists.
+* Remove them from the `tsc` and `crypto-export` mailing lists: <https://github.com/nodejs/email/edit/main/iojs.org/aliases.json>.
 * Remove them from the [nodejs-tsc](https://groups.google.com/g/nodejs-tsc) Google Group.
 * Update the `@nodejs/node` repository README to reflect membership in the TSC.
-  In all likelihood, they should be listed as TSC Emeritus.
+  In all likelihood, they should be listed as TSC regular members.
 * Update <https://github.com/nodejs/create-node-meeting-artifacts/blob/main/templates/invited_tsc> to reflect membership in the TSC.
 * Remove them from the `#nodejs-tsc` channel on the OpenJS Slack. If they are a member of the `#nodejs-personnel` channel, remove them from that channel as well.
 
