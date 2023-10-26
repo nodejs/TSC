@@ -38,7 +38,7 @@ includes a fix, documentation, an informational CVE or blog post.
 * [@danielleadams](https://github.com/danielleadams) - Danielle Adams
 * [@mcollina](https://github.com/mcollina) - Matteo Collina
 * [@mhdawson](https://github.com/mhdawson) - Michael Dawson
-* [MoLow]<moshe@atlow.co.il>  - Moshe Atlow 
+* [MoLow](https://github.com/mhdawson/MoLow)  - Moshe Atlow 
 * [@RafaelGSS](https://github.com/RafaelGSS) - Rafael Gonzaga
 * [@vdeturckheim](https://github.com/vdeturckheim) - Vladimir de Turckheim
 
