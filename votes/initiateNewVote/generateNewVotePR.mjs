@@ -45,11 +45,11 @@ const { values: argv } = parseArgs({
       type: "string",
       short: "r",
     },
-    "tsc-repository-path": {
+    "vote-repository-path": {
       type: "string",
       short: "R",
       description:
-        "Path to the local nodejs/TSC repository. If not provided, it will be fetched from GitHub",
+        "Path to the local vote repository. If not provided, it will be fetched from GitHub",
     },
     subject: {
       type: "string",
@@ -112,7 +112,7 @@ if (argv.help) {
       "nodejs/node. If not provided, files will be downloaded from HTTPS."
   );
   console.log(
-    "\t--tsc-repository-path (alias -R): Path to a local clone of " +
+    "\t--vote-repository-path (alias -R): Path to a local clone of " +
       "nodejs/TSC. If not provided, it will be cloned from SSH (or HTTPS if " +
       "an HTTPS remote is provided)."
   );
@@ -187,7 +187,7 @@ await generateNewVoteFolder({
     repo: argv.remote ?? `git@github.com:${argv["github-repo-name"]}.git`,
     branch: argv.branch,
     baseBranch: "main",
-    forceClone: !argv["tsc-repository-path"],
+    forceClone: !argv["vote-repository-path"],
   },
   shareholdersThreshold,
   shareholders: tscMembersArray.map(({ email }) => email),
@@ -195,8 +195,8 @@ await generateNewVoteFolder({
     (voter) => `${voter.name} <${voter.email}>`
   ),
   method: "Condorcet",
-  path: argv["tsc-repository-path"]
-    ? resolve(argv["tsc-repository-path"], argv.branch)
+  path: argv["vote-repository-path"]
+    ? resolve(argv["vote-repository-path"], argv.branch)
     : argv.branch,
 });
 

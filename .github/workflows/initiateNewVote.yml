@@ -101,7 +101,7 @@ jobs:
           ./votes/initiateNewVote/generateNewVotePR.mjs \
             --remote origin \
             --github-repo-name '${{ github.repository }}' \
-            --tsc-repository-path . \
+            --vote-repository-path . \
             --branch '${{ steps.data.outputs.branchName }}' \
             --subject '${{ fromJSON(steps.data.outputs.json_data).subject }}' \
             --candidate '${{ join(fromJSON(steps.data.outputs.json_data).candidates, ''' --candidate ''') }}' \
