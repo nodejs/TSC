@@ -71,6 +71,23 @@ jobs:
           cat data.json >> "$GITHUB_OUTPUT"
           echo "EOF" >> "$GITHUB_OUTPUT"
           echo "branchName=votes/$(node -p 'require("./data.json")["path-friendly-id"] || crypto.randomUUID()')" >> "$GITHUB_OUTPUT"
+          node >> "$GITHUB_ENV" <<'EOF'
+          'use strict';
+          const { createHash } = require('node:crypto');
+          const { candidates } = require("./data.json");
+          for (let i = 0; i < candidates.length; i++) {
+            const delimiter = createHash('sha256').update(candidates[i], 'utf8').digest('base64');
+            console.log(`__CANDIDATES_${i}<<${delimiter}`)
+            process.stdout.write(candidates[i]);
+            process.stdout.write(`\n${delimiter}\n`);
+          }
+          console.log('__CANDIDATES<<EOF');
+          for (let i = 0; i < candidates.length; i++) {
+            console.log(`--candidate "$__CANDIDATES_${i}" \\`);
+          }
+          if (candidates.length) console.log('');
+          console.log('EOF');
+          EOF
       - name: Reset to the base branch
         run: git fetch origin HEAD && git reset FETCH_HEAD --hard
       - name: Install npm dependencies
@@ -96,27 +113,33 @@ jobs:
             gpg-agent --daemon --allow-preset-passphrase \
             --default-cache-ttl 60 --max-cache-ttl 60
           fi
-      - name: Generate the vote branch
+      - name: Generate the vote branch and PR
         run: |
           ./votes/initiateNewVote/generateNewVotePR.mjs \
             --remote origin \
-            --github-repo-name '${{ github.repository }}' \
+            --github-repo-name "$GITHUB_REPOSITORY" \
             --vote-repository-path . \
-            --branch '${{ steps.data.outputs.branchName }}' \
-            --subject '${{ fromJSON(steps.data.outputs.json_data).subject }}' \
-            --candidate '${{ join(fromJSON(steps.data.outputs.json_data).candidates, ''' --candidate ''') }}' \
-            --shuffle-candidates '${{ fromJSON(steps.data.outputs.json_data).canShuffleCandidates }}' \
-            --header-instructions '${{ fromJSON(steps.data.outputs.json_data).headerInstructions }}' \
-            --footer-instructions '${{ fromJSON(steps.data.outputs.json_data).footerInstructions }}' \
-            --create-pull-request --pr-intro '${{ fromJSON(steps.data.outputs.json_data).prBody }}'
+            --branch "$__BRANCH" \
+            --subject "$__SUBJECT" \
+            ${{ env.__CANDIDATES }} \
+            --shuffle-candidates "$__SHUFFLE_CANDIDATES" \
+            --header-instructions "$__HEADER_INSTRUCTIONS" \
+            --footer-instructions "$__FOOTER_INSTRUCTIONS" \
+            --create-pull-request --pr-intro "$__PR_INTRO"
         env:
           GH_TOKEN: ${{ github.token }}
+          __BRANCH: ${{ steps.data.outputs.branchName }}
+          __SUBJECT: ${{ fromJSON(steps.data.outputs.json_data).subject }}
+          __SHUFFLE_CANDIDATES: ${{ fromJSON(steps.data.outputs.json_data).canShuffleCandidates }}
+          __HEADER_INSTRUCTIONS: ${{ fromJSON(steps.data.outputs.json_data).headerInstructions }}
+          __FOOTER_INSTRUCTIONS: ${{ fromJSON(steps.data.outputs.json_data).footerInstructions }}
+          __PR_INTRO: ${{ fromJSON(steps.data.outputs.json_data).prBody }}
       - name: Remove initiateNewVote branch
         run: |
           gh api \
             --method DELETE \
             -H "Accept: application/vnd.github+json" \
             -H "X-GitHub-Api-Version: 2022-11-28" \
-            /repos/${{ github.repository }}/git/${{ github.ref }}
+            "/repos/$GITHUB_REPOSITORY/git/$GITHUB_REF"
         env:
           GH_TOKEN: ${{ github.token }}

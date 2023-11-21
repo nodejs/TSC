@@ -2,7 +2,7 @@
 
 import { createInterface as readLines } from "node:readline";
 import { exit } from "node:process";
-import { get } from "node:https";
+import { Readable } from "node:stream";
 import { resolve } from "node:path";
 import { once } from "node:events";
 import { open, readFile } from "node:fs/promises";
@@ -149,7 +149,7 @@ if (argv["nodejs-repository-path"] == null) {
     if (!res.ok) {
       throw new Error("Wrong status code", { cause: res });
     } else {
-      return res.text();
+      return Readable.fromWeb(res.body);
     }
   });
 } else {
@@ -221,7 +221,7 @@ ${tscMembersArray
   .map(({ name, handle }) => `- ${name} @${handle} (TSC)`)
   .join("\n")}
 
-To close the vote, a minimum of ${shareholderThreshold} key parts would need to be revealed.
+To close the vote, a minimum of ${shareholdersThreshold} key parts would need to be revealed.
 
 Vote instructions will follow.`,
       "--jq",
@@ -253,7 +253,7 @@ Vote instructions:
 - on the CLI: ${"`"}git node vote ${prUrl}${"`"}
 - on the web: <https://nodejs.github.io/caritat/#${prUrl}>
 
-To close the vote, at least ${shareholderThreshold} secret holder(s)[^1] must \
+To close the vote, at least ${shareholdersThreshold} secret holder(s)[^1] must \
 run the following command: ${"`"}git node vote ${prUrl} --decrypt-key-part --post-comment${"`"}
 
 /cc @nodejs/tsc
