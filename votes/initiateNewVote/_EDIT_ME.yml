@@ -7,7 +7,7 @@ subject: REPLACEME
 
 # 2. You can leave the header instructions as is, or modify them if you see fit.
 headerInstructions: |
-  Please set a score to proposal according to your preferences.
+  Please set a score to each proposal according to your preferences.
   You should set the highest score to your favorite option.
   Negative scores are allowed, only the order matters.
   You can tie two or more proposals if you have no preference.
