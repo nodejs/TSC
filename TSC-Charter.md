@@ -2,7 +2,7 @@
 
 ## Section 1. Guiding Principle
 
-The Node.js project is part of the OpenJS Foundation which
+The Node.js project is part of the OpenJS Foundation. The project
 operates transparently, openly, collaboratively, and ethically.
 Project proposals, timelines, and status must not merely be
 open, but also easily visible to outsiders.
