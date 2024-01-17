@@ -16,7 +16,7 @@ invalid and are superseded by the TSC Charter.
 * Add them to the `@nodejs-private/security-tsc` team.
 * Add them to the `@pkgjs` org and with an `Owner` role.
 * Add them to the `@pkgjs/node-tsc` team.
-* Invite them to the HackerOne [Node.js team](https://hackerone.com/nodejs/team_members).
+* Invite them to the HackerOne [Node.js team](https://hackerone.com/organizations/nodejs/settings/users).
   Have them turn on two-factor authentication after they have joined.
 * Add them to the `tsc` and `crypto-export` mailing lists.
 * Add them to the [nodejs-tsc](https://groups.google.com/g/nodejs-tsc) Google Group as owners, so they receive Calendar invites for TSC meetings.
@@ -42,7 +42,7 @@ invalid and are superseded by the TSC Charter.
   * [`@nodejs-private`](https://github.com/orgs/nodejs-private/people)
   * [`@nodejs`](https://github.com/orgs/nodejs/people)
   * [`@pkgjs`](https://github.com/orgs/pkgjs/people)
-* Remove them from the HackerOne [Node.js team](https://hackerone.com/nodejs/team_members) unless they need access for a
+* Remove them from the HackerOne [Node.js team](https://hackerone.com/organizations/nodejs/settings/users) unless they need access for a
   reason other than TSC membership.
 * Remove them from the `tsc` and `crypto-export` mailing lists: <https://github.com/nodejs/email/edit/main/iojs.org/aliases.json>.
 * Remove them from the [nodejs-tsc](https://groups.google.com/g/nodejs-tsc) Google Group.
