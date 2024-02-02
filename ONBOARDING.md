@@ -18,7 +18,7 @@ invalid and are superseded by the TSC Charter.
 * Add them to the `@pkgjs/node-tsc` team.
 * Invite them to the HackerOne [Node.js team](https://hackerone.com/organizations/nodejs/settings/users).
   Have them turn on two-factor authentication after they have joined.
-* Add them to the `tsc` and `crypto-export` mailing lists.
+* Add them to the `tsc` mailing list: <https://github.com/nodejs/email/edit/main/iojs.org/aliases.json>
 * Add them to the [nodejs-tsc](https://groups.google.com/g/nodejs-tsc) Google Group as owners, so they receive Calendar invites for TSC meetings.
 * Update the `@nodejs/node` repository README to reflect membership in the TSC.
 * Update <https://github.com/nodejs/create-node-meeting-artifacts/blob/main/templates/invited_tsc> to reflect membership in the TSC.
@@ -44,7 +44,7 @@ invalid and are superseded by the TSC Charter.
   * [`@pkgjs`](https://github.com/orgs/pkgjs/people)
 * Remove them from the HackerOne [Node.js team](https://hackerone.com/organizations/nodejs/settings/users) unless they need access for a
   reason other than TSC membership.
-* Remove them from the `tsc` and `crypto-export` mailing lists: <https://github.com/nodejs/email/edit/main/iojs.org/aliases.json>.
+* Remove them from the `tsc` mailing lists: <https://github.com/nodejs/email/edit/main/iojs.org/aliases.json>.
 * Remove them from the [nodejs-tsc](https://groups.google.com/g/nodejs-tsc) Google Group.
 * Update the `@nodejs/node` repository README to reflect membership in the TSC.
   In all likelihood, they should be listed as TSC regular members.
