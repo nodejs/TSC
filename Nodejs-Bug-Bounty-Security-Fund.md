@@ -6,7 +6,7 @@ the project's share of bug bounties paid out by the
 
 The funds are to be used
 to encourage contributions to the project with respect to
-security and in particular the handling of vulnearabilities.
+security and in particular the handling of vulnerabilities.
 
 This document outlines the use this account.
 
