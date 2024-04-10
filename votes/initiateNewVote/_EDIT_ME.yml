@@ -24,9 +24,9 @@ headerInstructions: |
 #    voters express their preference for each candidates, no matter how many
 #    there are.
 candidates:
-  - Status Quo ... Keep distributing corepack with node.js, disabled by default, exactly as it is today
-  - Keep distributing corepack with node.js, enabled by default
-  - Stop distributing corepack with node.js
+  - Status Quo: keep distributing `corepack` with Node.js, disabled by default, exactly as it is today.
+  - Keep distributing `corepack` with Node.js, enabling `yarn` and `pnpm` by default.
+  - Stop distributing `corepack` with Node.js.
 
 # 4. Pass the following to false if it's important to keep the candidates in the
 #    order you define above. Presenting candidates in a fixed order tends to
