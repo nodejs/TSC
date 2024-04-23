@@ -41,12 +41,14 @@ footerInstructions: |
 
 # 6. Optionally, insert a brief introduction for the vote PR, in the markdown format.
 prBody: |
-  Currently, Node.js collaborators are considered inactive if they have not
-  contributed to the project for 12 months. The definition of contribution in
-  the context of Node.js collaborators is any approval or review of a pull
-  request, or any commit to the Node.js repository. The proposed reduction
-  in the duration of inactivity for Node.js collaborators, from 12 months
-  to 9 months.
+  Currently, Node.js collaborators are considered inactive if in the
+  past 12 months, they haven't done any of the following:
+  
+  - Authoring any landed commit
+  - Approving any landed commit
+  
+  This vote is to decide whether we want to reduce the timespan from 12 months to
+  9 months.
 
 # 7. Optionally, choose an id that will be used for the branch name as well as
 #    the vote folder name. If not supplied, a UUID will be used.
