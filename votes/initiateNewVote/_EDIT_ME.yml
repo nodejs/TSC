@@ -41,7 +41,12 @@ footerInstructions: |
 
 # 6. Optionally, insert a brief introduction for the vote PR, in the markdown format.
 prBody: |
-  Currently, Node.js collaborators are considered inactive if in the
+  Currently, the bot looks through all commits on `main` that have landed in the last 12 months, and makes two lists:
+  
+    - a list of all the commit authors.
+    - a list of all the collaborators who are listed as reviewers in the commit message (i.e. folks who have approved the PR). 
+    
+    The bot will open a PR to move a collaborator to emeritus if they don’t appear in either of those lists. 
   past 12 months, they haven't done any of the following:
   
   - Authoring any landed commit
