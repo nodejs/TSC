@@ -3,7 +3,7 @@
 
 # 1. Select a subject for the vote. This can be a question addressed to the TSC
 #    voting members.
-subject: REPLACEME
+subject: Reduce in-active collaborator duration
 
 # 2. You can leave the header instructions as is, or modify them if you see fit.
 headerInstructions: |
@@ -24,8 +24,8 @@ headerInstructions: |
 #    voters express their preference for each candidates, no matter how many
 #    there are.
 candidates:
-  - TODO
-  - TODO
+  - Status Quo: Keep the current in-active collaborator duration of 12 months
+  - Reduce the in-active collaborator duration to 9 months
 
 # 4. Pass the following to false if it's important to keep the candidates in the
 #    order you define above. Presenting candidates in a fixed order tends to
@@ -35,10 +35,18 @@ canShuffleCandidates: true
 # 5. Insert here a short description of the vote objectives and link to the
 #    issue it was discussed on to give the full context.
 footerInstructions: |
-  TBD
+  The objective of this vote is to decide whether duration to determine
+  inactivity of a from 12 months to 9 months. This vote was discussed
+  in pull-request https://github.com/nodejs/node/pull/52459 and the issue #1524.
 
 # 6. Optionally, insert a brief introduction for the vote PR, in the markdown format.
 prBody: |
+  Currently, Node.js collaborators are considered inactive if they have not
+  contributed to the project for 12 months. The definition of contribution in
+  the context of Node.js collaborators is any approval or review of a pull
+  request, or any commit to the Node.js repository. The proposed reduction
+  in the duration of inactivity for Node.js collaborators, from 12 months
+  to 9 months.
 
 # 7. Optionally, choose an id that will be used for the branch name as well as
 #    the vote folder name. If not supplied, a UUID will be used.
