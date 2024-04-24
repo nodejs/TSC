@@ -37,7 +37,7 @@ canShuffleCandidates: true
 footerInstructions: |
   The objective of this vote is to decide whether duration to determine
   inactivity should be reduced from 12 months to 9 months. This vote was discussed
-  in pull-request https://github.com/nodejs/node/pull/52459 and the issue #1524.
+  in pull request https://github.com/nodejs/node/pull/52459 and the issue #1524.
 
 # 6. Optionally, insert a brief introduction for the vote PR, in the markdown format.
 prBody: |
