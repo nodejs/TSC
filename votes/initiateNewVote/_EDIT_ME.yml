@@ -24,8 +24,8 @@ headerInstructions: |
 #    voters express their preference for each candidates, no matter how many
 #    there are.
 candidates:
-  - Status Quo: Keep the current in-active collaborator duration of 12 months
-  - Reduce the in-active collaborator duration to 9 months
+  - Status quo: Keep the current inactive collaborator duration of 12 months
+  - Reduce the inactive collaborator duration to 9 months
 
 # 4. Pass the following to false if it's important to keep the candidates in the
 #    order you define above. Presenting candidates in a fixed order tends to
