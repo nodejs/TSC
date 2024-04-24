@@ -46,7 +46,7 @@ prBody: |
     - a list of all the commit authors.
     - a list of all the collaborators who are listed as reviewers in the commit message (i.e. folks who have approved the PR). 
     
-  The bot will open a PR to move a collaborator to emeritus if they don’t appear in either of those lists. 
+  The bot will open a PR to move a collaborator to emeritus if they don't appear in either of those lists. 
   This vote is to decide whether we want to reduce the timespan from 12 months to
   9 months.
 
