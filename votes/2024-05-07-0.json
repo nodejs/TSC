@@ -1,0 +1,91 @@
+{
+  "description": "Reduce inactive collaborator duration",
+  "outcome": {
+    "winner(s)": [
+      "Status quo: Keep the current inactive collaborator duration of 12 months"
+    ]
+  },
+  "votes": {
+    "Ruben Bridgewater <ruben@bridgewater.de>": {
+      "Status quo: Keep the current inactive collaborator duration of 12 months": 1,
+      "Reduce the inactive collaborator duration to 9 months": 0
+    },
+    "Anatoli Papirovski <apapirovski@mac.com>": {
+      "Status quo: Keep the current inactive collaborator duration of 12 months": 1,
+      "Reduce the inactive collaborator duration to 9 months": 0
+    },
+    "Gireesh Punathil <gpunathi@in.ibm.com>": {
+      "Status quo: Keep the current inactive collaborator duration of 12 months": 10,
+      "Reduce the inactive collaborator duration to 9 months": -10
+    },
+    "Matteo Collina <matteo.collina@gmail.com>": {
+      "Reduce the inactive collaborator duration to 9 months": 0,
+      "Status quo: Keep the current inactive collaborator duration of 12 months": 1
+    },
+    "Paolo Insogna <paolo@cowtech.it>": {
+      "Reduce the inactive collaborator duration to 9 months": 10,
+      "Status quo: Keep the current inactive collaborator duration of 12 months": 5
+    },
+    "Chengzhong Wu <legendecas@gmail.com>": {
+      "Status quo: Keep the current inactive collaborator duration of 12 months": 1,
+      "Reduce the inactive collaborator duration to 9 months": 0
+    },
+    "Yagiz Nizipli <yagiz.nizipli@sentry.io>": {
+      "Status quo: Keep the current inactive collaborator duration of 12 months": 0,
+      "Reduce the inactive collaborator duration to 9 months": 1
+    },
+    "Joyee Cheung <joyeec9h3@gmail.com>": {
+      "Status quo: Keep the current inactive collaborator duration of 12 months": 0,
+      "Reduce the inactive collaborator duration to 9 months": 1
+    },
+    "Geoffrey Booth <webadmin@geoffreybooth.com>": {
+      "Reduce the inactive collaborator duration to 9 months": 1,
+      "Status quo: Keep the current inactive collaborator duration of 12 months": 1
+    },
+    "Ruy Adorno <ruy@vlt.sh>": {
+      "Reduce the inactive collaborator duration to 9 months": 0,
+      "Status quo: Keep the current inactive collaborator duration of 12 months": 1
+    },
+    "Moshe Atlow <moshe@atlow.co.il>": {
+      "Status quo: Keep the current inactive collaborator duration of 12 months": 0,
+      "Reduce the inactive collaborator duration to 9 months": 0
+    },
+    "Rafael Gonzaga <rafael.nunu@hotmail.com>": {
+      "Reduce the inactive collaborator duration to 9 months": -1,
+      "Status quo: Keep the current inactive collaborator duration of 12 months": 1
+    },
+    "Richard Lau <rlau@redhat.com>": {
+      "Status quo: Keep the current inactive collaborator duration of 12 months": 1,
+      "Reduce the inactive collaborator duration to 9 months": 0
+    },
+    "Michael Dawson <midawson@redhat.com>": {
+      "Status quo: Keep the current inactive collaborator duration of 12 months": 1,
+      "Reduce the inactive collaborator duration to 9 months": -1
+    },
+    "Robert Nagy <ronagy@icloud.com>": {
+      "Status quo: Keep the current inactive collaborator duration of 12 months": 1,
+      "Reduce the inactive collaborator duration to 9 months": -1
+    },
+    "Antoine du Hamel <duhamelantoine1995@gmail.com>": {
+      "Status quo: Keep the current inactive collaborator duration of 12 months": 1,
+      "Reduce the inactive collaborator duration to 9 months": 0
+    },
+    "Benjamin Gruenbaum <benjamingr@gmail.com>": {
+      "Reduce the inactive collaborator duration to 9 months": 0,
+      "Status quo: Keep the current inactive collaborator duration of 12 months": 100
+    },
+    "Tobias Nießen <tniessen@tnie.de>": {
+      "Status quo: Keep the current inactive collaborator duration of 12 months": 12,
+      "Reduce the inactive collaborator duration to 9 months": 9
+    },
+    "James M Snell <jasnell@gmail.com>": {
+      "Reduce the inactive collaborator duration to 9 months": 0,
+      "Status quo: Keep the current inactive collaborator duration of 12 months": 1
+    },
+    "Michaël Zasso <targos@protonmail.com>": {
+      "Reduce the inactive collaborator duration to 9 months": 0,
+      "Status quo: Keep the current inactive collaborator duration of 12 months": 1
+    }
+  },
+  "refs": "https://github.com/nodejs/TSC/pull/1540"
+}
