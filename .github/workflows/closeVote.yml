@@ -1,9 +1,8 @@
 name: Close vote
 
 on:
-  # Using `issue_comment` is a bit noisy, let's disable it for now.
-  # issue_comment:
-  #   types: [created]
+  issue_comment:
+    types: [created]
   workflow_dispatch:
     inputs:
       pr:
@@ -51,7 +50,6 @@ jobs:
           # Loading the default branch so we use the last version of the mailmap
           # rather than getting stuck to when the vote PR was open.
           ref: ${{ github.event.repository.default_branch }}
-          persist-credentials: true  # we need the credentials to push the new vote branch
       - name: Download nodejs/node mailmap file
         run:
           curl -L https://raw.githubusercontent.com/nodejs/node/main/.mailmap >>
@@ -82,7 +80,21 @@ jobs:
         env:
           COMMENTS: ${{ steps.comments.outputs.comments }}
       - name: Push to the PR branch
-        run: git push origin "HEAD:${{ steps.branch.outputs.head }}"
+        run: |
+          go install github.com/planetscale/ghcommit@840639dc8f8aa7236d987a3074781b79cb304fbc
+          ghcommit -r ${{ github.repository }} -b "${{ steps.branch.outputs.head }}" -m "$(
+            git log -1 --pretty=format:%B
+          )" --sha "$(
+            git rev-parse HEAD^
+          )" $(
+            git log --name-only -1 --diff-filter=D --pretty=format: | awk '{ print "--delete " $0 " \\" }'
+            echo " "
+          ) $(
+            git log --name-only -1 --diff-filter=A --pretty=format: | awk '{ print "--add " $0 " \\" }'
+            echo " "
+          );
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Publish vote summary comment
         run: |
           gh pr comment "${{ steps.pr-url.outputs.URL }}" --body-file summaryComment.md
