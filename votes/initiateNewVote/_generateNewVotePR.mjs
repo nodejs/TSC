@@ -40,8 +40,6 @@ export async function createVotePR(argv, shareholdersThreshold, keyServerURL) {
       "-F",
       `body=${argv["pr-intro"] ?? ""},
 
-/cc @nodejs/tsc
-
 To close the vote, a minimum of ${shareholdersThreshold} key parts would need to be revealed.
 
 Vote instructions will follow.`,
@@ -76,8 +74,6 @@ Vote instructions:
 
 To close the vote, at least ${shareholdersThreshold} secret holder(s)[^1] must \
 run the following command: ${"`"}git node vote ${prUrl} --decrypt-key-part --post-comment${"`"}
-
-/cc @nodejs/tsc
 
 [^1]: secret holders are folks who have access to the private key associated with \
 a public key on <${keyServerURL}> that references an email address listed on the \
