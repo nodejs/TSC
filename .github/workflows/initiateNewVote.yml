@@ -132,7 +132,7 @@ jobs:
           __SHUFFLE_CANDIDATES: ${{ fromJSON(steps.data.outputs.json_data).canShuffleCandidates }}
           __HEADER_INSTRUCTIONS: ${{ fromJSON(steps.data.outputs.json_data).headerInstructions }}
           __FOOTER_INSTRUCTIONS: ${{ fromJSON(steps.data.outputs.json_data).footerInstructions }}
-      - name: Install ghcommit 
+      - name: Install ghcommit
         run: go install github.com/planetscale/ghcommit@840639dc8f8aa7236d987a3074781b79cb304fbc
       - run: git reset HEAD --hard
       - name: Generate the vote branch
@@ -178,7 +178,7 @@ jobs:
           __BRANCH: ${{ steps.data.outputs.branchName }}
           __SUBJECT: ${{ fromJSON(steps.data.outputs.json_data).subject }}
           __PR_INTRO: ${{ fromJSON(steps.data.outputs.json_data).prBody }}
-      - name: Remove initiateNewVote branch if there are no open PRs, or revert commit 
+      - name: Remove initiateNewVote branch if there are no open PRs, or revert commit
         run: |
           set -x
           if [[ "$(gh search prs --repo=${{ github.repository }} --state open -B initiateNewVote --jq '. | length' --json id)" == "0" ]]; then
