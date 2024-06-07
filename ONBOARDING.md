@@ -21,7 +21,7 @@ invalid and are superseded by the TSC Charter.
 * Add them to the `tsc` mailing list: <https://github.com/nodejs/email/edit/main/iojs.org/aliases.json>
 * Add them to the [nodejs-tsc](https://groups.google.com/g/nodejs-tsc) Google Group as owners, so they receive Calendar invites for TSC meetings.
 * Update the `@nodejs/node` repository README to reflect membership in the TSC.
-* Invite them to the projects [1password account](https://nodejs.1password.com/), once they accept confirm them and add them to the owners group.
+* Invite them to the project's [1Password account](https://nodejs.1password.com/), once they accept confirm them and add them to the owners group.
 * Update <https://github.com/nodejs/create-node-meeting-artifacts/blob/main/templates/invited_tsc> to reflect membership in the TSC.
 * Inform them of the TSC meeting password.
 * Ask them what is their handle on OpenJS Slack – and ask them to create one if they haven't one already. Add that handle to the `#nodejs-tsc` channel.
