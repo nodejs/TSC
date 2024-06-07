@@ -188,10 +188,10 @@ jobs:
               -H "X-GitHub-Api-Version: 2022-11-28" \
               "/repos/$GITHUB_REPOSITORY/git/$GITHUB_REF"
           else
-            git reset HEAD^ --hard
+            git reset ${{ github.sha }} --hard
             git revert HEAD --no-edit
             GH_COMMIT_PATH="$(go env GOPATH)/bin/ghcommit" COMMIT_MESSAGE="$(
-              git show HEAD --pretty=format:%B
+              git log -1 HEAD --pretty=format:%B
             )" SHA="$(
               git rev-parse HEAD^
             )" DELETED_FILES="$(
