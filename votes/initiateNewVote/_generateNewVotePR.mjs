@@ -78,7 +78,7 @@ Vote instructions:
 
 - on the web: <https://nodejs.github.io/caritat/#${prUrl}>
 - on the CLI:
-  ${"```bash"}
+  ${"```sh"}
   git node vote ${prUrl}
   ${"`"}
 
