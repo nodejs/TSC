@@ -27,10 +27,6 @@ jobs:
       # If the subject is still REPLACEME, that would mean it's a PR to modify
       # the sample file, not a PR initializing a vote.
       - run: '! grep -q "subject: REPLACEME" votes/initiateNewVote.yml'
-      - name: Use Node.js ${{ env.NODE_VERSION }}
-        uses: actions/setup-node@64ed1c7eab4cce3362f8c340dee64e5eaeef8f7c  # v3.6.0
-        with:
-          node-version: lts/*
       - name: Validate YAML and ensure there are more than 1 candidate
         run:
           npx js-yaml votes/initiateNewVote.yml | jq '.candidates | unique |
@@ -59,10 +55,6 @@ jobs:
       - uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29  # v4.1.6
         with:
           persist-credentials: true  # we need the credentials to push the new vote branch
-      - name: Install Node.js
-        uses: actions/setup-node@64ed1c7eab4cce3362f8c340dee64e5eaeef8f7c  # v3.6.0
-        with:
-          node-version: lts/*
       - name: Extract info from the pushed file
         id: data
         run: |
