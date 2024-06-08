@@ -76,8 +76,11 @@ Vote instructions will follow.`,
 
 Vote instructions:
 
-- on the CLI: ${"`"}git node vote ${prUrl}${"`"}
 - on the web: <https://nodejs.github.io/caritat/#${prUrl}>
+- on the CLI:
+  ${"```bash"}
+  git node vote ${prUrl}
+  ${"`"}
 
 To close the vote, at least ${shareholdersThreshold} secret holder(s)[^1] must \
 run the following command: ${"`"}git node vote ${prUrl} --decrypt-key-part --post-comment${"`"}
