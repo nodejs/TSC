@@ -80,7 +80,7 @@ Vote instructions:
 - on the CLI:
   ${"```sh"}
   git node vote ${prUrl}
-  ${"`"}
+  ${"```"}
 
 To close the vote, at least ${shareholdersThreshold} secret holder(s)[^1] must \
 run the following command: ${"`"}git node vote ${prUrl} --decrypt-key-part --post-comment${"`"}
