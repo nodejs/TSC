@@ -47,7 +47,7 @@ invalid and are superseded by the TSC Charter.
   reason other than TSC membership.
 * Remove them from the `tsc` mailing lists: <https://github.com/nodejs/email/edit/main/iojs.org/aliases.json>.
 * Remove them from the [nodejs-tsc](https://groups.google.com/g/nodejs-tsc) Google Group.
-* Remove them from the owners group in the projects [1password account](https://nodejs.1password.com/) account.
+* Remove them from the owners group in the project's [1Password account](https://nodejs.1password.com/).
 * Update the `@nodejs/node` repository README to reflect membership in the TSC.
   In all likelihood, they should be listed as TSC regular members.
 * Update <https://github.com/nodejs/create-node-meeting-artifacts/blob/main/templates/invited_tsc> to reflect membership in the TSC.
