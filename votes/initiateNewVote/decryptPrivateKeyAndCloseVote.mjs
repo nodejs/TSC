@@ -50,14 +50,14 @@ const { values: parsedArgs } = parseArgs({
   },
 });
 
-const keyParts = JSON.parse(parsedArgs.comments)
+const keyParts = [...new Set(JSON.parse(parsedArgs.comments)
   .map(
     (txt) =>
       /-----BEGIN SHAMIR KEY PART-----(.+)-----END SHAMIR KEY PART-----/s.exec(
         txt
       )?.[1]
   )
-  .filter(Boolean);
+  .filter(Boolean))];
 
 const firstCommitRef = parsedArgs.fromCommit;
 const voteFileCanonicalName = "vote.yml";
@@ -86,6 +86,7 @@ const { result, privateKey } = await countFromGit({
   firstCommitRef,
   lastCommitRef: parsedArgs.toCommit,
   mailmap: parsedArgs.mailmap,
+  pushToRemote: false,
   commitJsonSummary: parsedArgs["commit-json-summary"]
     ? {
         refs: parsedArgs.prURL,

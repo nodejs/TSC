@@ -12,6 +12,10 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
 jobs:
   lint-vote-init-file:
     if: github.event.pull_request && github.event.pull_request.draft == false
@@ -22,8 +26,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29  # v4.1.6
-        with:
-          persist-credentials: false
       # If the subject is still REPLACEME, that would mean it's a PR to modify
       # the sample file, not a PR initializing a vote.
       - run: '! grep -q "subject: REPLACEME" votes/initiateNewVote.yml'
@@ -40,10 +42,10 @@ jobs:
             -H "X-GitHub-Api-Version: 2022-11-28" \
             /repos/${{ github.repository }}/git/refs \
             -f ref='refs/heads/initiateNewVote' \
-            -f sha='${{ github.event.pull_request.base.sha }}'
+            -f sha='${{ github.event.pull_request.base.sha }}' || true
           gh pr edit ${{ github.event.pull_request.html_url }} --base 'initiateNewVote'
         env:
-          GH_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ github.token }}
   initiate-new-vote:
     if: github.event.pusher
     permissions:
@@ -54,7 +56,7 @@ jobs:
     steps:
       - uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29  # v4.1.6
         with:
-          persist-credentials: true  # we need the credentials to push the new vote branch
+          fetch-depth: 2
       - name: Extract info from the pushed file
         id: data
         run: |
@@ -105,9 +107,9 @@ jobs:
             gpg-agent --daemon --allow-preset-passphrase \
             --default-cache-ttl 60 --max-cache-ttl 60
           fi
-      - name: Generate the vote branch and PR
+      - name: Generate the vote init commit
         run: |
-          ./votes/initiateNewVote/generateNewVotePR.mjs \
+          ./votes/initiateNewVote/generateNewVote.mjs \
             --remote origin \
             --github-repo-name "$GITHUB_REPOSITORY" \
             --vote-repository-path . \
@@ -116,22 +118,90 @@ jobs:
             ${{ env.__CANDIDATES }} \
             --shuffle-candidates "$__SHUFFLE_CANDIDATES" \
             --header-instructions "$__HEADER_INSTRUCTIONS" \
-            --footer-instructions "$__FOOTER_INSTRUCTIONS" \
-            --create-pull-request --pr-intro "$__PR_INTRO"
+            --footer-instructions "$__FOOTER_INSTRUCTIONS"
         env:
-          GH_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ github.token }}
           __BRANCH: ${{ steps.data.outputs.branchName }}
           __SUBJECT: ${{ fromJSON(steps.data.outputs.json_data).subject }}
           __SHUFFLE_CANDIDATES: ${{ fromJSON(steps.data.outputs.json_data).canShuffleCandidates }}
           __HEADER_INSTRUCTIONS: ${{ fromJSON(steps.data.outputs.json_data).headerInstructions }}
           __FOOTER_INSTRUCTIONS: ${{ fromJSON(steps.data.outputs.json_data).footerInstructions }}
-          __PR_INTRO: ${{ fromJSON(steps.data.outputs.json_data).prBody }}
-      - name: Remove initiateNewVote branch
+      - name: Install ghcommit
+        run: go install github.com/planetscale/ghcommit@8c6d9af75a7814768ce871cde246224d45bd8c04
+      - run: git reset HEAD --hard
+      - name: Generate the vote branch
         run: |
           gh api \
-            --method DELETE \
+            --method POST \
             -H "Accept: application/vnd.github+json" \
             -H "X-GitHub-Api-Version: 2022-11-28" \
-            "/repos/$GITHUB_REPOSITORY/git/$GITHUB_REF"
+            /repos/${{ github.repository }}/git/refs \
+            -f "ref=refs/heads/${{ steps.data.outputs.branchName }}" -f "sha=$(git rev-parse HEAD^)"
+
+          GH_COMMIT_PATH="$(go env GOPATH)/bin/ghcommit" COMMIT_MESSAGE="$(
+            git log -1 HEAD --pretty=format:%B
+          )" SHA="$(
+            git rev-parse HEAD^
+          )" DELETED_FILES="$(
+            git show HEAD --name-only --diff-filter=D --pretty=format:
+          )" ADDED_FILES="$(
+            git show HEAD --name-only --diff-filter=d --pretty=format:
+          )" node --input-type=module <<'EOF'
+            import { spawnSync } from "node:child_process";
+            const {GH_COMMIT_PATH, COMMIT_MESSAGE, SHA, DELETED_FILES, ADDED_FILES} = process.env;
+            spawnSync(GH_COMMIT_PATH, [
+              '-r', ${{ toJSON(github.repository) }},
+              '-b', ${{ toJSON(steps.data.outputs.branchName) }},
+              '-m', COMMIT_MESSAGE,
+              '--sha', SHA,
+              ...DELETED_FILES.split('\n').filter(Boolean).flatMap(file => ['--delete', file]),
+              ...ADDED_FILES.split('\n').filter(Boolean).flatMap(file => ['--add', file]),
+            ], { stdio: 'inherit' });
+          EOF
         env:
-          GH_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ github.token }}
+      - name: Open the vote PR
+        run: |
+          ./votes/initiateNewVote/generateNewVotePR.mjs \
+            --github-repo-name "$GITHUB_REPOSITORY" \
+            --branch "$__BRANCH" \
+            --subject "$__SUBJECT" \
+            --pr-intro "$__PR_INTRO"
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          __BRANCH: ${{ steps.data.outputs.branchName }}
+          __SUBJECT: ${{ fromJSON(steps.data.outputs.json_data).subject }}
+          __PR_INTRO: ${{ fromJSON(steps.data.outputs.json_data).prBody }}
+      - name: Remove initiateNewVote branch if there are no open PRs, or revert commit
+        run: |
+          set -x
+          if [[ "$(gh search prs --repo=${{ github.repository }} --state open -B initiateNewVote --jq '. | length' --json id)" == "0" ]]; then
+            gh api \
+              --method DELETE \
+              -H "Accept: application/vnd.github+json" \
+              -H "X-GitHub-Api-Version: 2022-11-28" \
+              "/repos/$GITHUB_REPOSITORY/git/$GITHUB_REF"
+          else
+            git reset ${{ github.sha }} --hard
+            git revert HEAD --no-edit
+            GH_COMMIT_PATH="$(go env GOPATH)/bin/ghcommit" COMMIT_MESSAGE="$(
+              git log -1 HEAD --pretty=format:%B
+            )" DELETED_FILES="$(
+              git show HEAD --name-only --diff-filter=D --pretty=format:
+            )" ADDED_FILES="$(
+              git show HEAD --name-only --diff-filter=d --pretty=format:
+            )" node --input-type=module <<'EOF'
+              import { spawnSync } from "node:child_process";
+              const {GH_COMMIT_PATH, COMMIT_MESSAGE, DELETED_FILES, ADDED_FILES} = process.env;
+              spawnSync(GH_COMMIT_PATH, [
+                '-r', ${{ toJSON(github.repository) }},
+                '-b', 'initiateNewVote',
+                '-m', COMMIT_MESSAGE,
+                '--sha', ${{ toJSON(github.sha) }},
+                ...DELETED_FILES.split('\n').filter(Boolean).flatMap(file => ['--delete', file]),
+                ...ADDED_FILES.split('\n').filter(Boolean).flatMap(file => ['--add', file]),
+              ], { stdio: 'inherit' });
+          EOF
+          fi
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
