@@ -3,7 +3,7 @@
 
 # 1. Select a subject for the vote. This can be a question addressed to the TSC
 #    voting members.
-subject: What UX do we want `node` to handle non-existent `.env` files passed to its CLI?
+subject: How should `node` handle non-existent `.env` files passed via CLI flags?
 
 # 2. You can leave the header instructions as is, or modify them if you see fit.
 headerInstructions: |
@@ -25,6 +25,7 @@ headerInstructions: |
 #    there are.
 candidates:
   - Throw when passed to `--env-file` flag, provide no other flag (status quo).
+  - Ignore when passed to `--env-file` flag, provide no other flag.
   - Warn when passed to `--env-file` flag, provide no other flag.
   - Throw when passed to `--env-file` flag, warn when passed to a new `--env-file-if-exists`.
   - Throw when passed to `--env-file` flag, do nothing when passed to a new `--env-file-if-exists`.
