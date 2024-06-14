@@ -3,7 +3,7 @@
 
 # 1. Select a subject for the vote. This can be a question addressed to the TSC
 #    voting members.
-subject: REPLACEME
+subject: What UX do we want `node` to handle non-existent `.env` files passed to its CLI?
 
 # 2. You can leave the header instructions as is, or modify them if you see fit.
 headerInstructions: |
@@ -24,8 +24,12 @@ headerInstructions: |
 #    voters express their preference for each candidates, no matter how many
 #    there are.
 candidates:
-  - TODO
-  - TODO
+  - Throw when passed to `--env-file` flag, provide no other flag (status quo).
+  - Warn when passed to `--env-file` flag, provide no other flag.
+  - Throw when passed to `--env-file` flag, warn when passed to a new `--env-file-if-exists`.
+  - Throw when passed to `--env-file` flag, do nothing when passed to a new `--env-file-if-exists`.
+  - Throw when passed to `--env-file` flag, unless new `--env-file-when-missing=warn` is also passed.
+  - Warn when passed to `--env-file` flag, unless new `--env-file-when-missing=throw` is also passed.
 
 # 4. Pass the following to false if it's important to keep the candidates in the
 #    order you define above. Presenting candidates in a fixed order tends to
@@ -35,11 +39,15 @@ canShuffleCandidates: true
 # 5. Insert here a short description of the vote objectives and link to the
 #    issue it was discussed on to give the full context.
 footerInstructions: |
-  TBD
+  Based on the result of this vote, we can unblock either https://github.com/nodejs/node/pull/53177,
+  https://github.com/nodejs/node/pull/53060, or neither if the status quo prevails. The name of the
+  proposed flags are non-binding, and are provided only as examples. If a proposal that includes a
+  new flag, the name of that flag can be bike-shedded per the PR review process.
 
 # 6. Optionally, insert a brief introduction for the vote PR, in the markdown format.
 prBody: |
+  The vote should stay open for 7 days, or until all TSC voting members have case a ballot.
 
 # 7. Optionally, choose an id that will be used for the branch name as well as
 #    the vote folder name. If not supplied, a UUID will be used.
-path-friendly-id: null
+path-friendly-id: how-to-handle-missing-env-files
