@@ -42,11 +42,11 @@ footerInstructions: |
   Based on the result of this vote, we can unblock either https://github.com/nodejs/node/pull/53177,
   https://github.com/nodejs/node/pull/53060, or neither if the status quo prevails. The name of the
   proposed flags are non-binding, and are provided only as examples. If a proposal that includes a
-  new flag, the name of that flag can be bike-shedded per the PR review process.
+  new flag is accepted, the name of that flag can be bike-shed per the PR review process.
 
 # 6. Optionally, insert a brief introduction for the vote PR, in the markdown format.
 prBody: |
-  The vote should stay open for 7 days, or until all TSC voting members have case a ballot.
+  The vote should stay open for 7 days, or until all TSC voting members have cast a ballot.
 
 # 7. Optionally, choose an id that will be used for the branch name as well as
 #    the vote folder name. If not supplied, a UUID will be used.
