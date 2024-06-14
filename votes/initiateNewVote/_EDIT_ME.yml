@@ -28,7 +28,8 @@ candidates:
   - Ignore when passed to `--env-file` flag, provide no other flag.
   - Warn when passed to `--env-file` flag, provide no other flag.
   - Throw when passed to `--env-file` flag, warn when passed to a new `--env-file-if-exists`.
-  - Throw when passed to `--env-file` flag, do nothing when passed to a new `--env-file-if-exists`.
+  - Throw when passed to `--env-file` flag, ignore when passed to a new `--env-file-if-exists`.
+  - Ignore when passed to `--env-file` flag, throw when passed to a new `--env-file-must-exist`.
   - Throw when passed to `--env-file` flag, unless new `--env-file-when-missing=warn` is also passed.
   - Warn when passed to `--env-file` flag, unless new `--env-file-when-missing=throw` is also passed.
 
@@ -44,6 +45,7 @@ footerInstructions: |
   https://github.com/nodejs/node/pull/53060, or neither if the status quo prevails. The name of the
   proposed flags are non-binding, and are provided only as examples. If a proposal that includes a
   new flag is accepted, the name of that flag can be bike-shed per the PR review process.
+  "Ignore" means "do not throw and do not warn" in this context.
 
 # 6. Optionally, insert a brief introduction for the vote PR, in the markdown format.
 prBody: |
