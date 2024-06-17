@@ -1,0 +1,166 @@
+subject: How should `node` handle non-existent `.env` files passed via CLI flags?
+headerInstructions: |
+  Please set a score to each proposal according to your preferences.
+  You should set the highest score to your favorite option.
+  Negative scores are allowed, only the order matters.
+  You can tie two or more proposals if you have no preference.
+  To abstain, keep all the propositions tied.
+candidates:
+  - Throw when passed to `--env-file` flag, provide no other flag (status quo).
+  - Ignore when passed to `--env-file` flag, provide no other flag.
+  - Warn when passed to `--env-file` flag, provide no other flag.
+  - >-
+    Throw when passed to `--env-file` flag, warn when passed to a new
+    `--env-file-if-exists`.
+  - >-
+    Throw when passed to `--env-file` flag, ignore when passed to a new
+    `--env-file-if-exists`.
+  - >-
+    Ignore when passed to `--env-file` flag, throw when passed to a new
+    `--env-file-must-exist`.
+  - >-
+    Throw when passed to `--env-file` flag, unless new
+    `--env-file-when-missing=warn` is also passed.
+  - >-
+    Warn when passed to `--env-file` flag, unless new
+    `--env-file-when-missing=throw` is also passed.
+footerInstructions: >
+  Based on the result of this vote, we can unblock either
+  https://github.com/nodejs/node/pull/53177,
+
+  https://github.com/nodejs/node/pull/53060, or neither if the status quo
+  prevails. The name of the
+
+  proposed flags are non-binding, and are provided only as examples. If a
+  proposal that includes a
+
+  new flag is accepted, the name of that flag can be bike-shed per the PR review
+  process.
+
+  "Ignore" means "do not throw and do not warn" in this context.
+method: Condorcet
+allowedVoters:
+  - Antoine du Hamel <duhamelantoine1995@gmail.com>
+  - Anatoli Papirovski <apapirovski@mac.com>
+  - Benjamin Gruenbaum <benjamingr@gmail.com>
+  - Ruben Bridgewater <ruben@bridgewater.de>
+  - Geoffrey Booth <webadmin@geoffreybooth.com>
+  - Gireesh Punathil <gpunathi@in.ibm.com>
+  - James M Snell <jasnell@gmail.com>
+  - Joyee Cheung <joyeec9h3@gmail.com>
+  - Chengzhong Wu <legendecas@gmail.com>
+  - Marco Ippolito <marcoippolito54@gmail.com>
+  - Matteo Collina <matteo.collina@gmail.com>
+  - Michael Dawson <midawson@redhat.com>
+  - Moshe Atlow <moshe@atlow.co.il>
+  - Rafael Gonzaga <rafael.nunu@hotmail.com>
+  - Richard Lau <rlau@redhat.com>
+  - Robert Nagy <ronagy@icloud.com>
+  - Ruy Adorno <ruy@vlt.sh>
+  - Paolo Insogna <paolo@cowtech.it>
+  - Michaël Zasso <targos@protonmail.com>
+  - Tobias Nießen <tniessen@tnie.de>
+publicKey: |
+  -----BEGIN PUBLIC KEY-----
+  MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1MNIIZo5Xhi3GfBnYKwA
+  K/y6UbobzlAs4Oba2ide8oAywFYh9KvPPzCKeXT22K2BsES5ves2n3gWgx+IlpyJ
+  sr99BseQlCHUrR0w8iNX5ol/0zdxOM/iAsCmIjJz0xEptT+ukUrRWzHqAnuvZMVr
+  xfPId4ma5K4Z+McPTl8MJzYfKet6uoDpKPx1ZEquUAZK/+CSAeJpAb1NbrqeF6h+
+  4oW6ldT7ARIGg6pFJUl4ipiONlv0dzJHGzxKqOr6Hgvy2evNUr0taN8AW4xry67p
+  sB0dSAT370OOV0AewmBG6ogokotAorclitkJUTvaAslBT4FxsnM4bBhadZ6rmqij
+  1wIDAQAB
+  -----END PUBLIC KEY-----
+encryptedPrivateKey: >-
+  U2FsdGVkX1/Al9wUFR69lELT19FDV872Q9J9wcO1ZnG544322rPXG9l252bYnerYuPCQlTd02D5Ng17nz4uVpEX0+ZzX8Pt/WwMhP0HNNI99rbhxtB5WC3ADuvQ0+/6VccY/OSaQC9MVeHOXdjyZ8WqqrTryfANgDtIPy5UDbDZlohx00R+yHNFZOpy9BpwLX0vxR4hExlLIb2uj459adAuxmLHvfuSsFIGZkcsZkCaXvVBJgr2RPhU/d/hEl0B2u407CeIv2m4kQ/+O28tzgHT7szMJr30hhPGuIuE5dvy1MbJx/15lrJzRVOsS0EHx1VMARypNVhHxs8ZF0WU3Oas04+Ew2xzkKxWjpPWw21YGU15MM3Mt31K6KMjM+rSwV/0l9Q0ZnMa7MVnQ5jT4wMXFEw3jhbTJllmCxb7o544E8nDMwf2YD1kP38nhJ4uXwKVlUkSwk8BtW3KsAoPNJAqS1NULcMPD+ogYQndeLvM+SrYU1p8/83oME2PmG0sSZFr+o3KPklJvt+uMSkPXALoqU1E/MaRkuPlC4d8RB8ZLIxZuvV/+NUpS5dN+Qd3qKs4hfVwhQfhUTJ8VRt4sLL4JX7cTYqmghqMUXZjfottoBu2KtQhe3VwxN8f28I6EPrLTZRnQLtD54YJkyPE9R7LGr/FOHvczqztdwCP5FFvtCSUc8WwSoee6uq3aIgd2O+9LNi2L2AhawUalJpbA23kLfGPHP+7MA0DwU/4I84+R8JA9TXBwwFURIXwg08ewTEZ1/UX0Z4z14fFyCNVa/GwtymcMvrkxIDG2p+AQBB3/dGTYVDmEdeZXQFtsahscsVqa830pZ951GkGAWSpJuGb1J4KmbsZAANhTyuSYJ3Caa1xLOdRYnOKj4ibf9KqW+GR36rR+RXwQPG8UfGJKpAsTjqLLfyvz1DHUve0qXm5U0PVVjWjiZtLdZSNTDh90M5stTzhEIjQh/5tuyZhcpskEL7HTNa60MmO5JK3BNMv+fMypS83WVDPjfFMMQnUfDoseHTgEh/JxoUkjKaTkKXLjVDH1IgQ5dn3F/dcV+pC15GZSmqCeqAkIaEMj0rejFj9VXgAgrSGny7XE7yxZ95gz6pqpwXWFJbVL+gW0o7IdWj/rFS3N82cDacNGYflM/Y0LHvv4JTceogit/OTfWva+leY2lprbasIMM5h5/w20QCj1Wao1EFJlHMmzmrixXC0YRb3QFyTYF2dGaH5R6Q/l8r9X9FZ8Udz5Y08SeOAvBzeyzlVVS+PSu39WIhWgiGxzS5BHJTbUVDHuUhyUwWZued+fKA2Ch2ZR3ilrAEC4bMdM4TEXkEMfwhvAVIdtTpDaG1hVVubiLVZmayobgiDo7aK/XcYpTwSjcroUmvNOwrmMLkx/No606p7/3dWmzfFZlYvqCQ4vDT5Pc9idZYVAE+GfeFPwDvsyx+aYf2MPNctX408J1kxi7vZ60meXecgCCkXrNGWSlgHTms8MCVhU5byq7PIbN/JRSsw0QAjxYEM0SpKEbNpaI5vpgtLgZ0BLDqDh0rmwgzOjYBR1qhHYEP8XZSn9OgQ3dp8J+jm4hhBNoROqpcrQ3x+KppFXMwaTwk2Xb3F1oXc5d1qgqlXSFx8Zi5O0fBQBh52sqNvFbuuF5huupJ4aNTNgE3De
+shares:
+  - |
+    -----BEGIN PGP MESSAGE-----
+
+    hQIMA4Xnr1TWhKdfAQ/8DQV1TAjLjxx47K/NpONOMu8TqpWONLW3g3RO9ljLS6XW
+    hGwz0MPXhvB4Ux5FVpPPGQeVwDGA33RQOczYRnD936/VICpPXZ9xKtqinkLd3rYO
+    waiSJTrKZbFMbzN4eh8V0yIZ+NCxA7nKP4FQOG7iclauCFU8g/2oHhxEQK/WA6i0
+    h04SgTQlnEyTlhfsMwz4DQsgD6/vJA/qnQZ2qR2iaqJ/lRd3nv3zazEpqn8pW6Bh
+    gapLhxpNYlAyRh2oDNa0onPIIlFXTfwsTonlg+fSbK1iFTuxBjLHdCO8OmieYlNT
+    mrGR5oMZTRsAiZ19ikEWld8C9wzWrQuCgz++I5Mw+AMaKC4YHjRJKoiENjqqwLIh
+    GQ99rmoyMAvwrXMzqOUHX4llr/xfCecvd9PavXfPAgJDD7C0X+lF/0yxOYYA4mei
+    yMUPH8+uKck3b88QBFCdwgBFAZR1yYsANZIHPt68/IJrph3bDyS+FtYEywT0mmns
+    KZTFpP/HTkt/cOnhjF8xzNIoBQFineCjYjVyf/9aMPeI+0ns/QEcppxrzoZi2IcZ
+    0ngKQw3crl0yXaZNnA0KB8v7vVxfVJj6h/hxwFuZFKHz1DT1Mkh9ojNXMNa5GV1a
+    ncsE4XUPydqCZV5z5gGlgzxfFU7uIrvkNiiAxMIYkGBbBdbPehFqE+F8Z3CgmrLS
+    XQFcQu2DqKLlVjGOjdyEgmE/G1/WTzLKtZfQtnSy6Im/JkVcYEZ+XQxpperM1KyU
+    2huV9+C94uN3a0Ncf4xNoDMIGlEkK3kt0WC2YAkT+udCtxfwkB0P3VioELMM7Q==
+    =xhx7
+    -----END PGP MESSAGE-----
+  - |
+    -----BEGIN PGP MESSAGE-----
+
+    hQIMA8Crf6Tcj0BjAQ/8DXWiOvxPgVndHcXJMyUuWyH/BsWr1ozrkWDu9fLP5CtS
+    XXwBbGVywqPFcQVjmMWMPkOtovKQVj75U2RzPj5ml2ScDRMHSXNKCzWKx8xJRU7s
+    u1iQe8Di7gZMx0VcR1jK9rv0Dor1PkG9K8HGcI8gSQ5WseYYQ0s5iK/IKybL1Wp7
+    D5F0d2d92DHCJFzkVMyaf0NbvWJbWHbffKEcD7ZxwTpoOqUQyaXG0lH9vGPYS1I9
+    KIdHU6PjdQsfaGRKtdoYZF6assQhniZkLMk44x9LPQM/mIywFcuzstdFX2qqgdKx
+    7Y7JtzNWxbkycDhbWYdqUA1BFXsjPzM6S2KBS3dj1rwvFR4Tal1dcoS4w+h+0pGV
+    kjgbqnxUP32sQj5+gTjiwPln42Ii4Blz3u0nlB2DcpMD8L9E8/CYNEfkXbjKls5N
+    76iyJlrFayhZ5xHrbhttjaTe2R7CNZdX/WfUlOeURMcdFJzy6XfGGIVBG+X9t3Vd
+    oxwDLvt2FvUrAeMdBK7qdBqKemOfPbtGMVFvZO6OsQf7HARiycDCQq4rnMeC9UfA
+    Y3sfTStWlnqxt6NN74d84OjjVfnp2iZKwTuAyycxdKCzuRh5yy5B/fNQ3B4hZb/d
+    Z2Z5Yi0BfUN80CXQglBePInntUnGPMnGn4eG5Or6knW73bL8oWd4Z2kPOhTzOxrS
+    XwFV2N98vMLd0aPII8J8KM/WfrdDboU/KJIlh02rL7CEZ7U01uQv8MI3YJEXSVX+
+    a8KPvY7Vl4bfhBNgqn4ZPG7hemu035kNwkYu119r9Ed6u+hJPmkQuuEp7r50fw4R
+    =EJfw
+    -----END PGP MESSAGE-----
+  - |
+    -----BEGIN PGP MESSAGE-----
+
+    hQIMA6CMQfEFjOFGAQ/+LDjKIhZ0r3Xcpjl3OKenP4mhRJfCFG+XmuaHO7Agjhdc
+    J8ISxgvjRAR64rRplPDCuJDBD4IPmZPwRCevsGjKZuBLVuJLpQNXBNtOrtE0qKAI
+    Jq++YVRSaluGNpLE8i/7v/Nsp5vNue7/QL2FpZvzRYFUoE/OoawbGI8achsPqAiw
+    BuSdzI/U566h3oe/f92tS3f+ZTs2GgdkzKEeL7XDrH51BvkcvzUCdoHjw4UYJeD7
+    ArG93Jom0r+eRHpAyNUXNc2/+ZXo+J7NSbUoOwUpUF4QJRr+8G8ALVy/2DJ/yLky
+    9FjeSTabCXiPCOviy6DcYmeJbFuyjQTFkhbHZ8r5wVZcmY/K5xDNUIJoRw7Qi9SM
+    ByXmKzd3oJWlUe2EGt7d0juB0SUvN8D5vW+xgNkx7tYcsbXJNzE0u2d1Jl87xPci
+    UBz1ofgYUuWmgTQhwhklSMxwg9zgbjT5Lcyr/upQeRvTGbH9nNb+FktWpjdOft96
+    efI9lP7O42UNNEPSu/LenOwNLoLXHp6WjS5Ko6GYpBmb+YE+fSJooF9c1DdQ8WQJ
+    aU5myp6a0bKtOa14Kk7MPj2dDaND0MwGbklkZvZLpebGEliNkONRHiYZLW5Esb/H
+    e9NH4nJQ3I6Esp37JCYbH2f8AIcWcA17IBiqaMFCGJzBMh7+YR1WUDVl7rUSkSLS
+    XQGWhkFDDrH/b7ykpgNng/ZoZuZqDqFKaMvmJxOpex1U5BEkVzNg3SLtK5VRfx+n
+    0ENcHrVqFFtlHGExTsKiD3ONU09jdrwnQA4BxKaTuk5iqGBrYZ8Ri9cuwsoOdA==
+    =uWET
+    -----END PGP MESSAGE-----
+  - |
+    -----BEGIN PGP MESSAGE-----
+
+    hQIMA+FA9hvFl53MAQ//fmTReX/qRYCWcam0LIKdNFEr3f2ymnJjlj3ZUpGS/25j
+    p6vuTMDCVLsPs3qngcYh/t64fiFWryrcaOunGcEPCx/uwDdA5HKZEIvCfC2lfxI/
+    L4Axp/2cQpwhS285fpbUZQO0/rX5IdzUJKpnOfS/8fgKlzlXMCFGMYAdWmQt0GPE
+    6+fH7qVPYP2vcQSer2O/MuQnq+piTdh8Zrn/MbQ10VDQOaFGyaQNXDuqLDXM4eRX
+    fTOk5EOfN0lQxLs05fNGqZlkfz2iJ6AZLGPKHWd7wmTt3qxEnHiFXuLMzEf2WWH4
+    Vn8FxK5Gl1TIFGwxF7mAXmKOJvIrYrhZx7bBAdmbIUldV3FdHCeMpxta7ugeSpb1
+    YFtP/7bgiVzDzYZA0Z/VtcIzn57ZSNW9JZzyjASGSriWcVLbi1x1iReqWVYYwuN4
+    P9mL9xOugEStDdPNGPOCaKEwyNMyVZLYok+/c9HF4duu1mqLCxoWkW9cfDT5rU8o
+    REhOkA/sZ7GuBx82EHpmcpf+ORTwebq2Z71XtyKzOb3kyjJuSKx0wRCv6tjeASGp
+    tyJSKHPm6PJUwPTZXjgDDgegt/vHMCyJPx+TlMg+DAe/YEZYDyyCfKoPZid4CEkN
+    Houy0xTmDNqHS4So18VMqa8gWbUaKcnaoNE/VX+yZvGiw/etG8onOtthAEM+yfXS
+    XwHfOLYj7azIBxy3YdqdVxhM1raZCBd4mBl0IjGc1xiLojD3SPTiQexVpfqVU4TY
+    MkPXJob3bznwsndokwM8MiAWll1FfzEcjPhXBjcWYNRMHJdJIbORfnXI/OY9XfPi
+    =g9o/
+    -----END PGP MESSAGE-----
+  - |
+    -----BEGIN PGP MESSAGE-----
+
+    hQIMA0cIlk+Ahd/nAQ//SaHG0wi03txrNZCiTvQDOHDrSgjpz3iyUWV0AyyoM2DO
+    YMU7BfCsxuZQNx8YiRnpsqPpK7XuwBMq9LSElsU+imUqmmq1NvKl80Gq3TbBLnRr
+    aNbzT+xXNxqn/XQ3E01eMoX8VdxB7ivx8DYN/nl638TsrTk2gvp5gBBM8TL0HyVZ
+    Dad13ieSOIX9MxXhjpHf2uOF47Bd2i8i3e518jb+x2V1+R3lb3quV8l3iDyIIry2
+    3JGnAdbP5OHsI4j/AKi3Q2fP5jYOCsZLTO5uxGwummsRWstCDpe+666v37yT1lnr
+    Twwvm1hQYoqABPblVU4zG/PdQfxBorys6+2sE640ezBfq6Ax6qnito+K2g98yHdy
+    OAJBNGgMn0W5CXqjdVvaKTjFUicNGpG1JJN+kTolR0BsTri1vRwwKUBDWQihpt1b
+    YTZatOoASSqnHCmG8pFJdfEIhExvf731BdBDSEv7QkjSzMczVuE7Sm7anJtG4sfC
+    o5WfOPN3bCIhvuV4GkiFpecebLGD4QZufGsYxBDSsWbIZjhn3d1Jc6NJtCFXrVvW
+    dmuSBmX5t+CsbGF36siny8xtVDDVFKEc5wgW6BD9C99i+6uYtU37yCPv2i7XCxko
+    wvIZe1sUQR+/3q+GhJ/59I3W5ObkldNLraadibtR4TtLf/tueWJf//8EKUAq1IjS
+    XwG+Ck1fKPwJ2oAWsriztt545pv0Flb3QBEW2qXvC72fAFMKz32AV7b5ludo8flx
+    e0fflNwE9wDjys36CcZGwaprFZlHtfmeLjVPwW53MTcNLbalYq1svq2lbYXeCz9e
+    =V04D
+    -----END PGP MESSAGE-----
+canShuffleCandidates: true
