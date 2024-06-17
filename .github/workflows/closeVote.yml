@@ -46,7 +46,7 @@ jobs:
           echo "minusOne=$(($NB_OF_COMMITS - 1))" >> $GITHUB_OUTPUT
         env:
           GH_TOKEN: ${{ github.token }}
-      - uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29  # v4.1.6
+      - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332  # v4.1.7
         with:
           # Loading the default branch so we use the last version of the mailmap
           # rather than getting stuck to when the vote PR was open.
