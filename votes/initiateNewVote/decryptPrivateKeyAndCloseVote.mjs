@@ -195,7 +195,7 @@ if (parsedArgs["prepare-json-summary-graphql-query"]) {
       fileChanges: {
         additions: [{
           path: ${JSON.stringify(await generateSummaryFilePath())},
-          contents: ${JSON.stringify(Buffer.from(JSON.stringify(summary)).toString("base64"))},
+          contents: ${JSON.stringify(Buffer.from(JSON.stringify(summary, undefined, 2)).toString("base64"))},
         }],
         deletions: [${
           await new Promise(async (resolve, reject) => {
