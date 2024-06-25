@@ -1,0 +1,181 @@
+{
+  "description": "How should `node` handle non-existent `.env` files passed via CLI flags?",
+  "outcome": {
+    "winner(s)": [
+      "Throw when passed to `--env-file` flag, warn when passed to a new `--env-file-if-exists`."
+    ]
+  },
+  "votes": {
+    "Paolo Insogna <paolo@cowtech.it>": {
+      "Warn when passed to `--env-file` flag, unless new `--env-file-when-missing=throw` is also passed.": 0,
+      "Ignore when passed to `--env-file` flag, provide no other flag.": 0,
+      "Warn when passed to `--env-file` flag, provide no other flag.": 0,
+      "Throw when passed to `--env-file` flag, ignore when passed to a new `--env-file-if-exists`.": 0,
+      "Throw when passed to `--env-file` flag, unless new `--env-file-when-missing=warn` is also passed.": 0,
+      "Throw when passed to `--env-file` flag, warn when passed to a new `--env-file-if-exists`.": 0,
+      "Throw when passed to `--env-file` flag, provide no other flag (status quo).": 0,
+      "Ignore when passed to `--env-file` flag, throw when passed to a new `--env-file-must-exist`.": 0
+    },
+    "Michael Dawson <midawson@redhat.com>": {
+      "Throw when passed to `--env-file` flag, ignore when passed to a new `--env-file-if-exists`.": 5,
+      "Throw when passed to `--env-file` flag, unless new `--env-file-when-missing=warn` is also passed.": 6,
+      "Throw when passed to `--env-file` flag, provide no other flag (status quo).": 3,
+      "Ignore when passed to `--env-file` flag, throw when passed to a new `--env-file-must-exist`.": 10,
+      "Throw when passed to `--env-file` flag, warn when passed to a new `--env-file-if-exists`.": 4,
+      "Warn when passed to `--env-file` flag, unless new `--env-file-when-missing=throw` is also passed.": 9,
+      "Ignore when passed to `--env-file` flag, provide no other flag.": 7,
+      "Warn when passed to `--env-file` flag, provide no other flag.": 8
+    },
+    "Matteo Collina <matteo.collina@gmail.com>": {
+      "Throw when passed to `--env-file` flag, unless new `--env-file-when-missing=warn` is also passed.": -1,
+      "Throw when passed to `--env-file` flag, ignore when passed to a new `--env-file-if-exists`.": -1,
+      "Warn when passed to `--env-file` flag, provide no other flag.": 1,
+      "Ignore when passed to `--env-file` flag, throw when passed to a new `--env-file-must-exist`.": -1,
+      "Ignore when passed to `--env-file` flag, provide no other flag.": 1,
+      "Throw when passed to `--env-file` flag, warn when passed to a new `--env-file-if-exists`.": -1,
+      "Warn when passed to `--env-file` flag, unless new `--env-file-when-missing=throw` is also passed.": -1,
+      "Throw when passed to `--env-file` flag, provide no other flag (status quo).": 0
+    },
+    "Chengzhong Wu <legendecas@gmail.com>": {
+      "Ignore when passed to `--env-file` flag, throw when passed to a new `--env-file-must-exist`.": 1,
+      "Ignore when passed to `--env-file` flag, provide no other flag.": -1,
+      "Warn when passed to `--env-file` flag, provide no other flag.": 2,
+      "Throw when passed to `--env-file` flag, ignore when passed to a new `--env-file-if-exists`.": -1,
+      "Warn when passed to `--env-file` flag, unless new `--env-file-when-missing=throw` is also passed.": 2,
+      "Throw when passed to `--env-file` flag, unless new `--env-file-when-missing=warn` is also passed.": 0,
+      "Throw when passed to `--env-file` flag, warn when passed to a new `--env-file-if-exists`.": 0,
+      "Throw when passed to `--env-file` flag, provide no other flag (status quo).": 0
+    },
+    "Robert Nagy <ronagy@icloud.com>": {
+      "Ignore when passed to `--env-file` flag, provide no other flag.": 0,
+      "Throw when passed to `--env-file` flag, unless new `--env-file-when-missing=warn` is also passed.": 0,
+      "Throw when passed to `--env-file` flag, provide no other flag (status quo).": 0,
+      "Warn when passed to `--env-file` flag, provide no other flag.": 0,
+      "Throw when passed to `--env-file` flag, warn when passed to a new `--env-file-if-exists`.": 0,
+      "Warn when passed to `--env-file` flag, unless new `--env-file-when-missing=throw` is also passed.": 0,
+      "Ignore when passed to `--env-file` flag, throw when passed to a new `--env-file-must-exist`.": 0,
+      "Throw when passed to `--env-file` flag, ignore when passed to a new `--env-file-if-exists`.": 0
+    },
+    "Michaël Zasso <targos@protonmail.com>": {
+      "Ignore when passed to `--env-file` flag, provide no other flag.": -2,
+      "Throw when passed to `--env-file` flag, provide no other flag (status quo).": -1,
+      "Warn when passed to `--env-file` flag, provide no other flag.": 0,
+      "Ignore when passed to `--env-file` flag, throw when passed to a new `--env-file-must-exist`.": -2,
+      "Warn when passed to `--env-file` flag, unless new `--env-file-when-missing=throw` is also passed.": 0,
+      "Throw when passed to `--env-file` flag, ignore when passed to a new `--env-file-if-exists`.": 0,
+      "Throw when passed to `--env-file` flag, unless new `--env-file-when-missing=warn` is also passed.": 1,
+      "Throw when passed to `--env-file` flag, warn when passed to a new `--env-file-if-exists`.": 1
+    },
+    "Ruy Adorno <ruy@vlt.sh>": {
+      "Throw when passed to `--env-file` flag, ignore when passed to a new `--env-file-if-exists`.": 30,
+      "Throw when passed to `--env-file` flag, unless new `--env-file-when-missing=warn` is also passed.": 0,
+      "Warn when passed to `--env-file` flag, provide no other flag.": 0,
+      "Warn when passed to `--env-file` flag, unless new `--env-file-when-missing=throw` is also passed.": 0,
+      "Ignore when passed to `--env-file` flag, throw when passed to a new `--env-file-must-exist`.": 10,
+      "Throw when passed to `--env-file` flag, provide no other flag (status quo).": 0,
+      "Throw when passed to `--env-file` flag, warn when passed to a new `--env-file-if-exists`.": 0,
+      "Ignore when passed to `--env-file` flag, provide no other flag.": 60
+    },
+    "James M Snell <jasnell@gmail.com>": {
+      "Warn when passed to `--env-file` flag, provide no other flag.": 0,
+      "Throw when passed to `--env-file` flag, unless new `--env-file-when-missing=warn` is also passed.": 0,
+      "Ignore when passed to `--env-file` flag, throw when passed to a new `--env-file-must-exist`.": 0,
+      "Throw when passed to `--env-file` flag, provide no other flag (status quo).": 0,
+      "Ignore when passed to `--env-file` flag, provide no other flag.": 0,
+      "Throw when passed to `--env-file` flag, ignore when passed to a new `--env-file-if-exists`.": 0,
+      "Warn when passed to `--env-file` flag, unless new `--env-file-when-missing=throw` is also passed.": 0,
+      "Throw when passed to `--env-file` flag, warn when passed to a new `--env-file-if-exists`.": 1
+    },
+    "Rafael Gonzaga <rafael.nunu@hotmail.com>": {
+      "Throw when passed to `--env-file` flag, provide no other flag (status quo).": 1,
+      "Warn when passed to `--env-file` flag, unless new `--env-file-when-missing=throw` is also passed.": -2,
+      "Throw when passed to `--env-file` flag, ignore when passed to a new `--env-file-if-exists`.": -2,
+      "Ignore when passed to `--env-file` flag, provide no other flag.": 0,
+      "Throw when passed to `--env-file` flag, warn when passed to a new `--env-file-if-exists`.": -2,
+      "Warn when passed to `--env-file` flag, provide no other flag.": 2,
+      "Ignore when passed to `--env-file` flag, throw when passed to a new `--env-file-must-exist`.": 0,
+      "Throw when passed to `--env-file` flag, unless new `--env-file-when-missing=warn` is also passed.": -1
+    },
+    "Moshe Atlow <moshe@atlow.co.il>": {
+      "Ignore when passed to `--env-file` flag, provide no other flag.": 6,
+      "Throw when passed to `--env-file` flag, warn when passed to a new `--env-file-if-exists`.": 0,
+      "Throw when passed to `--env-file` flag, ignore when passed to a new `--env-file-if-exists`.": 0,
+      "Throw when passed to `--env-file` flag, unless new `--env-file-when-missing=warn` is also passed.": 1,
+      "Throw when passed to `--env-file` flag, provide no other flag (status quo).": 0,
+      "Warn when passed to `--env-file` flag, unless new `--env-file-when-missing=throw` is also passed.": 3,
+      "Warn when passed to `--env-file` flag, provide no other flag.": 15,
+      "Ignore when passed to `--env-file` flag, throw when passed to a new `--env-file-must-exist`.": 0
+    },
+    "Joyee Cheung <joyeec9h3@gmail.com>": {
+      "Throw when passed to `--env-file` flag, provide no other flag (status quo).": 0,
+      "Warn when passed to `--env-file` flag, unless new `--env-file-when-missing=throw` is also passed.": 1,
+      "Ignore when passed to `--env-file` flag, provide no other flag.": 0,
+      "Warn when passed to `--env-file` flag, provide no other flag.": 0,
+      "Ignore when passed to `--env-file` flag, throw when passed to a new `--env-file-must-exist`.": 0,
+      "Throw when passed to `--env-file` flag, ignore when passed to a new `--env-file-if-exists`.": 1,
+      "Throw when passed to `--env-file` flag, unless new `--env-file-when-missing=warn` is also passed.": 1,
+      "Throw when passed to `--env-file` flag, warn when passed to a new `--env-file-if-exists`.": 1
+    },
+    "Benjamin Gruenbaum <benjamingr@gmail.com>": {
+      "Throw when passed to `--env-file` flag, unless new `--env-file-when-missing=warn` is also passed.": 0,
+      "Throw when passed to `--env-file` flag, ignore when passed to a new `--env-file-if-exists`.": 0,
+      "Warn when passed to `--env-file` flag, unless new `--env-file-when-missing=throw` is also passed.": 50,
+      "Ignore when passed to `--env-file` flag, throw when passed to a new `--env-file-must-exist`.": 100,
+      "Throw when passed to `--env-file` flag, warn when passed to a new `--env-file-if-exists`.": 0,
+      "Throw when passed to `--env-file` flag, provide no other flag (status quo).": 0,
+      "Ignore when passed to `--env-file` flag, provide no other flag.": 90,
+      "Warn when passed to `--env-file` flag, provide no other flag.": 80
+    },
+    "Richard Lau <rlau@redhat.com>": {
+      "Throw when passed to `--env-file` flag, unless new `--env-file-when-missing=warn` is also passed.": -1,
+      "Throw when passed to `--env-file` flag, ignore when passed to a new `--env-file-if-exists`.": 2,
+      "Warn when passed to `--env-file` flag, provide no other flag.": 0,
+      "Ignore when passed to `--env-file` flag, throw when passed to a new `--env-file-must-exist`.": 1,
+      "Throw when passed to `--env-file` flag, provide no other flag (status quo).": 0,
+      "Ignore when passed to `--env-file` flag, provide no other flag.": 0,
+      "Throw when passed to `--env-file` flag, warn when passed to a new `--env-file-if-exists`.": 2,
+      "Warn when passed to `--env-file` flag, unless new `--env-file-when-missing=throw` is also passed.": -1
+    },
+    "Geoffrey Booth <webadmin@geoffreybooth.com>": {
+      "Throw when passed to `--env-file` flag, unless new `--env-file-when-missing=warn` is also passed.": 2,
+      "Ignore when passed to `--env-file` flag, throw when passed to a new `--env-file-must-exist`.": 1,
+      "Warn when passed to `--env-file` flag, provide no other flag.": 4,
+      "Throw when passed to `--env-file` flag, ignore when passed to a new `--env-file-if-exists`.": 7,
+      "Warn when passed to `--env-file` flag, unless new `--env-file-when-missing=throw` is also passed.": 3,
+      "Throw when passed to `--env-file` flag, warn when passed to a new `--env-file-if-exists`.": 6,
+      "Ignore when passed to `--env-file` flag, provide no other flag.": 5,
+      "Throw when passed to `--env-file` flag, provide no other flag (status quo).": 8
+    },
+    "Marco Ippolito <marcoippolito54@gmail.com>": {
+      "Throw when passed to `--env-file` flag, warn when passed to a new `--env-file-if-exists`.": 10,
+      "Ignore when passed to `--env-file` flag, throw when passed to a new `--env-file-must-exist`.": 5,
+      "Throw when passed to `--env-file` flag, unless new `--env-file-when-missing=warn` is also passed.": 6,
+      "Throw when passed to `--env-file` flag, provide no other flag (status quo).": 7,
+      "Warn when passed to `--env-file` flag, unless new `--env-file-when-missing=throw` is also passed.": 4,
+      "Throw when passed to `--env-file` flag, ignore when passed to a new `--env-file-if-exists`.": 9,
+      "Ignore when passed to `--env-file` flag, provide no other flag.": 3,
+      "Warn when passed to `--env-file` flag, provide no other flag.": 8
+    },
+    "Tobias Nießen <tniessen@tnie.de>": {
+      "Throw when passed to `--env-file` flag, provide no other flag (status quo).": 99,
+      "Ignore when passed to `--env-file` flag, provide no other flag.": 0,
+      "Ignore when passed to `--env-file` flag, throw when passed to a new `--env-file-must-exist`.": 0,
+      "Throw when passed to `--env-file` flag, warn when passed to a new `--env-file-if-exists`.": 100,
+      "Warn when passed to `--env-file` flag, unless new `--env-file-when-missing=throw` is also passed.": 0,
+      "Throw when passed to `--env-file` flag, unless new `--env-file-when-missing=warn` is also passed.": 1,
+      "Throw when passed to `--env-file` flag, ignore when passed to a new `--env-file-if-exists`.": 1,
+      "Warn when passed to `--env-file` flag, provide no other flag.": 1
+    },
+    "Antoine du Hamel <duhamelantoine1995@gmail.com>": {
+      "Throw when passed to `--env-file` flag, provide no other flag (status quo).": 0,
+      "Throw when passed to `--env-file` flag, unless new `--env-file-when-missing=warn` is also passed.": 3,
+      "Throw when passed to `--env-file` flag, ignore when passed to a new `--env-file-if-exists`.": 4,
+      "Warn when passed to `--env-file` flag, provide no other flag.": -1,
+      "Throw when passed to `--env-file` flag, warn when passed to a new `--env-file-if-exists`.": 4,
+      "Ignore when passed to `--env-file` flag, provide no other flag.": -1,
+      "Warn when passed to `--env-file` flag, unless new `--env-file-when-missing=throw` is also passed.": 1,
+      "Ignore when passed to `--env-file` flag, throw when passed to a new `--env-file-must-exist`.": 3
+    }
+  },
+  "refs": "https://github.com/nodejs/TSC/pull/1581"
+}
