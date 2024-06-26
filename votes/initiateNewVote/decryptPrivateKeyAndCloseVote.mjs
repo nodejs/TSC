@@ -99,6 +99,7 @@ const subPath = await new Promise(async (resolve, reject) => {
       if (line.endsWith(`/${voteFileCanonicalName}`))
         return resolve(line.slice(0, -voteFileCanonicalName.length));
     }
+    reject(new Error(`Unable to find ${voteFileCanonicalName} in commit "${firstCommitRef}"`))
   } catch (err) {
     reject(err);
   }
