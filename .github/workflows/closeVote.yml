@@ -7,9 +7,8 @@ on:
   workflow_dispatch:
     inputs:
       pr:
-        description: ID of the Vote PR that contains a vote ready to be closed
+        description: Vote PR that contains a vote ready to be closed (<number> | <url> | <branch>)
         required: true
-        type: number
 
 permissions:
   contents: write
@@ -21,31 +20,21 @@ jobs:
       (github.event.issue.pull_request && contains(github.event.comment.body, '-----BEGIN SHAMIR KEY PART-----'))
     runs-on: ubuntu-latest
     steps:
-      - name: Get PR URL
-        id: pr-url
+      - name: Get vote PR info
+        id: pr-info
         run: |
-          echo "URL=${{ github.event.repository.html_url }}/pull/${{ github.event.inputs.pr || github.event.issue.number }}" >> "$GITHUB_OUTPUT"
-      - name: Filter comments
-        id: comments
-        run: gh pr view ${{ steps.pr-url.outputs.URL }} --json
-          comments --jq '.comments | map(.body | select(contains("-----BEGIN
-          SHAMIR KEY PART-----"))) | "comments=" + tostring' >> "$GITHUB_OUTPUT"
+          gh pr view "$PR_REF" \
+            -R "$GITHUB_REPOSITORY" \
+            --json comments,headRefName,commits,url \
+            --jq '[
+              (.comments | map(.body | select(contains("-----BEGIN SHAMIR KEY PART-----"))) | "comments=" + tostring),
+              ("head=" + .headRefName),
+              (.commits | length - 1 | "nbOfBallots=" + tostring),
+              ("URL=" + .url)
+            ] | join("\n")' >> "$GITHUB_OUTPUT"
         env:
           GH_TOKEN: ${{ github.token }}
-      - name: Get PR branch
-        id: branch
-        run: gh pr view ${{ steps.pr-url.outputs.URL }} --json
-          headRefName --jq '"head=" + .headRefName' >> "$GITHUB_OUTPUT"
-        env:
-          GH_TOKEN: ${{ github.token }}
-      - name: Compute number of commits in the PR
-        id: nb-of-commits
-        run: |
-          NB_OF_COMMITS=$(gh pr view --json commits --jq '.commits | length' "${{ steps.pr-url.outputs.URL }}")
-          echo "exact=$NB_OF_COMMITS" >> $GITHUB_OUTPUT
-          echo "minusOne=$(($NB_OF_COMMITS - 1))" >> $GITHUB_OUTPUT
-        env:
-          GH_TOKEN: ${{ github.token }}
+          PR_REF: ${{ github.event.inputs.pr || github.event.issue.number }}
       - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332  # v4.1.7
         with:
           # Loading the default branch so we use the last version of the mailmap
@@ -55,62 +44,33 @@ jobs:
         run:
           curl -L https://raw.githubusercontent.com/nodejs/node/main/.mailmap >>
           .mailmap
-      - name: Configure git
-        run: |
-          git config --global user.email "github-bot@iojs.org"
-          git config --global user.name "Node.js GitHub Bot"
-      - name: Load vote branch
-        run: |
-          git fetch origin '${{ steps.branch.outputs.head }}'
-          git reset FETCH_HEAD --mixed
-          git checkout HEAD -- '${{ steps.branch.outputs.head }}'
-      - run: npm install @node-core/caritat
+      - name: Fetch vote branch
+        run: git fetch origin "$BRANCH"
+        env:
+          BRANCH: ${{ steps.pr-info.outputs.head }}
+      - run: npm install --no-save @node-core/caritat
       - name: Attempt closing the vote
         id: vote-summary
         run: |
-          {
-            EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
-            echo "markdown<<$EOF"
-            ./votes/initiateNewVote/decryptPrivateKeyAndCloseVote.mjs \
-              --remote origin --branch "${{ steps.branch.outputs.head }}" \
-              --fromCommit "FETCH_HEAD~${{ steps.nb-of-commits.outputs.minusOne }}" \
-              --toCommit "FETCH_HEAD" \
-              --prURL "${{ steps.pr-url.outputs.URL }}" \
-              --save-markdown-summary summaryComment.md \
-              --comments "$COMMENTS" --commit-json-summary
-            echo "$EOF"
-          } >> "$GITHUB_OUTPUT"
+          ./votes/initiateNewVote/decryptPrivateKeyAndCloseVote.mjs \
+            --remote origin --branch "$BRANCH" \
+            --fromCommit "FETCH_HEAD~${{ steps.pr-info.outputs.numberOfBallots }}" \
+            --toCommit "FETCH_HEAD" \
+            --prURL "${{ steps.pr-info.outputs.URL }}" \
+            --save-markdown-summary summaryComment.md \
+            --prepare-json-summary-graphql-query createCommitOnBranch.gql --prepare-json-summary-dirname ./votes \
+            --comments "$COMMENTS"
         env:
-          COMMENTS: ${{ steps.comments.outputs.comments }}
-      - name: Install ghcommit
-        run: go install github.com/planetscale/ghcommit@8c6d9af75a7814768ce871cde246224d45bd8c04
+          BRANCH: ${{ steps.pr-info.outputs.head }}
+          COMMENTS: ${{ steps.pr-info.outputs.comments }}
       - name: Push to the PR branch
         run: |
-          GH_COMMIT_PATH="$(go env GOPATH)/bin/ghcommit" COMMIT_MESSAGE="$(
-            git log -1 HEAD --pretty=format:%B
-          )" SHA="$(
-            git rev-parse HEAD^
-          )" DELETED_FILES="$(
-            git show HEAD --name-only --diff-filter=D --pretty=format:
-          )" ADDED_FILES="$(
-            git show HEAD --name-only --diff-filter=d --pretty=format:
-          )" node --input-type=module <<'EOF'
-            import { spawnSync } from "node:child_process";
-            const {GH_COMMIT_PATH, COMMIT_MESSAGE, SHA, DELETED_FILES, ADDED_FILES} = process.env;
-            spawnSync(GH_COMMIT_PATH, [
-              '-r', ${{ toJSON(github.repository) }},
-              '-b', ${{ toJSON(steps.branch.outputs.head) }},
-              '-m', COMMIT_MESSAGE,
-              '--sha', SHA,
-              ...DELETED_FILES.split('\n').filter(Boolean).flatMap(file => ['--delete', file]),
-              ...ADDED_FILES.split('\n').filter(Boolean).flatMap(file => ['--add', file]),
-            ], { stdio: 'inherit' });
-          EOF
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Publish vote summary comment
-        run: |
-          gh pr comment "${{ steps.pr-url.outputs.URL }}" --body-file summaryComment.md
+          cat createCommitOnBranch.gql
+          gh api graphql -F repo="$GITHUB_REPOSITORY" -F commit_title="close vote and aggregate results" -f query="$(< createCommitOnBranch.gql)"
         env:
           GH_TOKEN: ${{ github.token }}
-          SUMMARY: ${{ steps.vote-summary.outputs.markdown }}
+      - name: Publish vote summary comment
+        run: |
+          gh pr comment "${{ steps.pr-info.outputs.URL }}" --body-file summaryComment.md
+        env:
+          GH_TOKEN: ${{ github.token }}
