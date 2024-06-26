@@ -7,9 +7,8 @@ on:
   workflow_dispatch:
     inputs:
       pr:
-        description: ID of the Vote PR that contains a vote ready to be closed
+        description: Vote PR that contains a vote ready to be closed (<number> | <url> | <branch>)
         required: true
-        type: number
 
 permissions:
   contents: write
