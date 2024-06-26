@@ -69,18 +69,14 @@ const { values: parsedArgs } = parseArgs({
   },
 });
 
-const keyParts = [
-  ...new Set(
-    JSON.parse(parsedArgs.comments || "[]")
-      .map(
-        (txt) =>
-          /-----BEGIN SHAMIR KEY PART-----(.+)-----END SHAMIR KEY PART-----/s.exec(
-            txt,
-          )?.[1],
-      )
-      .filter(Boolean),
-  ),
-];
+const keyParts = [...new Set(JSON.parse(parsedArgs.comments)
+  .map(
+    (txt) =>
+      /-----BEGIN SHAMIR KEY PART-----(.+)-----END SHAMIR KEY PART-----/s.exec(
+        txt
+      )?.[1]
+  )
+  .filter(Boolean))];
 
 const firstCommitRef = parsedArgs.fromCommit;
 const voteFileCanonicalName = "vote.yml";
