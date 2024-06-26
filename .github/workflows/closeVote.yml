@@ -46,13 +46,15 @@ jobs:
           curl -L https://raw.githubusercontent.com/nodejs/node/main/.mailmap >>
           .mailmap
       - name: Fetch vote branch
-        run: git fetch origin '${{ steps.pr-info.outputs.head }}'
+        run: git fetch origin "$BRANCH"
+        env:
+          BRANCH: ${{ steps.pr-info.outputs.head }}
       - run: npm install --no-save @node-core/caritat
       - name: Attempt closing the vote
         id: vote-summary
         run: |
           ./votes/initiateNewVote/decryptPrivateKeyAndCloseVote.mjs \
-            --remote origin --branch "${{ steps.pr-info.outputs.head }}" \
+            --remote origin --branch "$BRANCH" \
             --fromCommit "FETCH_HEAD~${{ steps.pr-info.outputs.numberOfBallots }}" \
             --toCommit "FETCH_HEAD" \
             --prURL "${{ steps.pr-info.outputs.URL }}" \
@@ -60,13 +62,14 @@ jobs:
             --prepare-json-summary-graphql-query createCommitOnBranch.gql --prepare-json-summary-dirname ./votes \
             --comments "$COMMENTS"
         env:
+          BRANCH: ${{ steps.pr-info.outputs.head }}
           COMMENTS: ${{ steps.pr-info.outputs.comments }}
       - name: Push to the PR branch
         run: |
           cat createCommitOnBranch.gql
           gh api graphql -F repo="$GITHUB_REPOSITORY" -F commit_title="close vote and aggregate results" -f query="$(< createCommitOnBranch.gql)"
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
       - name: Publish vote summary comment
         run: |
           gh pr comment "${{ steps.pr-info.outputs.URL }}" --body-file summaryComment.md
