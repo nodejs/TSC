@@ -21,31 +21,21 @@ jobs:
       (github.event.issue.pull_request && contains(github.event.comment.body, '-----BEGIN SHAMIR KEY PART-----'))
     runs-on: ubuntu-latest
     steps:
-      - name: Get PR URL
-        id: pr-url
+      - name: Get vote PR info
+        id: pr-info
         run: |
-          echo "URL=${{ github.event.repository.html_url }}/pull/${{ github.event.inputs.pr || github.event.issue.number }}" >> "$GITHUB_OUTPUT"
-      - name: Filter comments
-        id: comments
-        run: gh pr view ${{ steps.pr-url.outputs.URL }} --json
-          comments --jq '.comments | map(.body | select(contains("-----BEGIN
-          SHAMIR KEY PART-----"))) | "comments=" + tostring' >> "$GITHUB_OUTPUT"
+          gh pr view "$PR_REF" \
+            -R "$GITHUB_REPOSITORY" \
+            --json comments,headRefName,commits,url \
+            --jq '[
+              (.comments | map(.body | select(contains("-----BEGIN SHAMIR KEY PART-----"))) | "comments=" + tostring),
+              ("head=" + .headRefName),
+              (.commits | length - 1 | "nbOfBallots=" + tostring),
+              ("URL=" + .url)
+            ] | join("\n")' >> "$GITHUB_OUTPUT"
         env:
           GH_TOKEN: ${{ github.token }}
-      - name: Get PR branch
-        id: branch
-        run: gh pr view ${{ steps.pr-url.outputs.URL }} --json
-          headRefName --jq '"head=" + .headRefName' >> "$GITHUB_OUTPUT"
-        env:
-          GH_TOKEN: ${{ github.token }}
-      - name: Compute number of commits in the PR
-        id: nb-of-commits
-        run: |
-          NB_OF_COMMITS=$(gh pr view --json commits --jq '.commits | length' "${{ steps.pr-url.outputs.URL }}")
-          echo "exact=$NB_OF_COMMITS" >> $GITHUB_OUTPUT
-          echo "minusOne=$(($NB_OF_COMMITS - 1))" >> $GITHUB_OUTPUT
-        env:
-          GH_TOKEN: ${{ github.token }}
+          PR_REF: ${{ github.event.inputs.pr || github.event.issue.number }}
       - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332  # v4.1.7
         with:
           # Loading the default branch so we use the last version of the mailmap
@@ -55,25 +45,22 @@ jobs:
         run:
           curl -L https://raw.githubusercontent.com/nodejs/node/main/.mailmap >>
           .mailmap
-      - name: Load vote branch
-        run: |
-          git fetch origin '${{ steps.branch.outputs.head }}'
-          git reset FETCH_HEAD --mixed
-          git checkout HEAD -- '${{ steps.branch.outputs.head }}'
-      - run: npm install @node-core/caritat
+      - name: Fetch vote branch
+        run: git fetch origin '${{ steps.pr-info.outputs.head }}'
+      - run: npm install --no-save @node-core/caritat
       - name: Attempt closing the vote
         id: vote-summary
         run: |
           ./votes/initiateNewVote/decryptPrivateKeyAndCloseVote.mjs \
-            --remote origin --branch "${{ steps.branch.outputs.head }}" \
-            --fromCommit "FETCH_HEAD~${{ steps.nb-of-commits.outputs.minusOne }}" \
+            --remote origin --branch "${{ steps.pr-info.outputs.head }}" \
+            --fromCommit "FETCH_HEAD~${{ steps.pr-info.outputs.numberOfBallots }}" \
             --toCommit "FETCH_HEAD" \
-            --prURL "${{ steps.pr-url.outputs.URL }}" \
+            --prURL "${{ steps.pr-info.outputs.URL }}" \
             --save-markdown-summary summaryComment.md \
             --prepare-json-summary-graphql-query createCommitOnBranch.gql --prepare-json-summary-dirname ./votes \
             --comments "$COMMENTS"
         env:
-          COMMENTS: ${{ steps.comments.outputs.comments }}
+          COMMENTS: ${{ steps.pr-info.outputs.comments }}
       - name: Push to the PR branch
         run: |
           cat createCommitOnBranch.gql
@@ -82,6 +69,6 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Publish vote summary comment
         run: |
-          gh pr comment "${{ steps.pr-url.outputs.URL }}" --body-file summaryComment.md
+          gh pr comment "${{ steps.pr-info.outputs.URL }}" --body-file summaryComment.md
         env:
           GH_TOKEN: ${{ github.token }}
