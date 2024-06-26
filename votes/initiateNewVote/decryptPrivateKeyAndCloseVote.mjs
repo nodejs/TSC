@@ -55,8 +55,12 @@ const { values: parsedArgs } = parseArgs({
       describe: "Path to store mutation request to commit JSON summary",
       type: "string",
     },
+    "save-json-summary": {
+      describe: "Write the JSON summary to a file",
+      type: "string",
+    },
     "save-markdown-summary": {
-      describe: "Write the markdown to a file (use - for stdout)",
+      describe: "Write the markdown summary to a file",
       type: "string",
     },
     "nodejs-repository-path": {
@@ -144,7 +148,7 @@ async function getSHA(ref) {
   });
 }
 
-if (parsedArgs["prepare-json-summary-graphql-query"]) {
+async function generateJSONSummary() {
   let input, crlfDelay;
   if (parsedArgs["nodejs-repository-path"] == null) {
     input = await fetch(
@@ -177,7 +181,13 @@ if (parsedArgs["prepare-json-summary-graphql-query"]) {
   }
 
   summary.refs = parsedArgs.prURL;
+  return JSON.stringify(summary, undefined, 2) + "\n";
+}
 
+if (parsedArgs["save-json-summary"]) {
+  await writeFile(parsedArgs['save-json-summary'], await generateJSONSummary(), 'utf-8');
+}
+if (parsedArgs["prepare-json-summary-graphql-query"]) {
   const lastCommitSHA = await getSHA(parsedArgs.toCommit);
   await writeFile(
     parsedArgs["prepare-json-summary-graphql-query"],
@@ -195,7 +205,9 @@ if (parsedArgs["prepare-json-summary-graphql-query"]) {
       fileChanges: {
         additions: [{
           path: ${JSON.stringify(await generateSummaryFilePath())},
-          contents: ${JSON.stringify(Buffer.from(JSON.stringify(summary, undefined, 2)).toString("base64"))},
+          contents: ${JSON.stringify(
+            Buffer.from(await generateJSONSummary()).toString("base64")
+          )},
         }],
         deletions: [${
           await new Promise(async (resolve, reject) => {
@@ -211,7 +223,7 @@ if (parsedArgs["prepare-json-summary-graphql-query"]) {
               for await (const path of readLines(cp.stdout)) {
                 files.push(`\n          { path: ${JSON.stringify(path)} }`);
               }
-              resolve(files.join(','));
+              resolve(files.join(","));
             } catch (err) {
               reject(err);
             }
