@@ -62,7 +62,7 @@ prBody: |
   // ESM users get...
   import foo from 'foo';
   // CommmonJS users get..
-  const foo = require('foo').default;
+  const foo = require('foo').default;   // <--- This is now different!
   ```
 
   As you can see, for CommonJS consumers this will not be exactly equivalent. Since in ESM the default exports is a property of the name space, they need to access `.default` from the result returned by
