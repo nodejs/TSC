@@ -37,6 +37,7 @@ canShuffleCandidates: true
 footerInstructions: |
   This is a follow-up to the naming bikeshed in https://github.com/nodejs/loaders/issues/221
   which is for the implementation in https://github.com/nodejs/node/pull/54563
+  and the follow-on issue in https://github.com/nodejs/node/pull/53848
   A short summary can be found in https://github.com/nodejs/node/pull/54563#pullrequestreview-2288424604
 
 # 6. Optionally, insert a brief introduction for the vote PR, in the markdown format.
