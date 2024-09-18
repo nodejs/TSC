@@ -65,7 +65,9 @@ prBody: |
   const foo = require('foo').default;
   ```
 
-  As you can see, for CommonJS consumers this will not be exactly equivalent. So the idea is that Node.js can take a marker from package authors to customize what `require(esm)` gets in this case. To keep `const foo = require('foo')` working, the two proposed markers are:
+  As you can see, for CommonJS consumers this will not be exactly equivalent. Since in ESM the default exports is a property of the name space, they need to access `.default` from the result returned by
+  `require(esm)`. So the idea is that Node.js can take a marker from package authors to directly customize what `require(esm)` returns in this case.
+  To keep `const foo = require('foo')` working, the two proposed markers are:
 
   ```js
   export default function foo () { };
