@@ -90,7 +90,7 @@ prBody: |
     module.exports = 'bar';
   ```
 
-  Users importing with `console.log(await import('bar'))` the user would a namespace object either of the form `ModuleNamespace { __cjsUnwrapDefault: true, default: 'bar' }` or `ModuleNamespace { default: 'bar', 'module.exports': 'bar' }` depending on which option is chosen for this first PR.
+  Users importing with `console.log(await import('bar'))` would obtain a namespace object either of the form `ModuleNamespace { __cjsUnwrapDefault: true, default: 'bar' }` or `ModuleNamespace { default: 'bar', 'module.exports': 'bar' }` depending on which option is chosen for this first PR.
 
   The vote should stay open for 7 days, or until all TSC voting members have cast a ballot.
 
