@@ -82,9 +82,15 @@ prBody: |
   export { foo as "module.exports" };
   ```
 
-  Note that to follow up with this vote, there is [a proposal](https://github.com/nodejs/node/pull/53848) to reuse this marker for detecting whether the imported module is CJS.
-  There is no consensus on whether that is the right way to solve the problem yet ([see](https://github.com/nodejs/node/pull/53848#issuecomment-2244500584)), so this vote is just about
-  the marker naming bikeshed.
+  Further to this vote, there is [a follow-on proposal](https://github.com/nodejs/node/pull/53848) to reuse this marker on namespaces representing CJS modules imported into ESM, where attaching this marker would effectively define a scheme for converting CJS into ESM that would retain full transitive interop semantics allowing arbitrary CJS to be converted into ESM as a non-breaking change.
+
+  Under this follow-on marking, when importing some CJS module `bar` into ESM:
+
+  ```js
+    module.exports = 'bar';
+  ```
+
+  Users importing with `console.log(await import('bar'))` the user would a namespace object either of the form `ModuleNamespace { __cjsUnwrapDefault: true, default: 'bar' }` or `ModuleNamespace { default: 'bar', 'module.exports': 'bar' }` depending on which option is chosen for this first PR.
 
   The vote should stay open for 7 days, or until all TSC voting members have cast a ballot.
 
