@@ -1,0 +1,75 @@
+{
+  "description": "Choosing a marker to customize default exports returned by `require(esm)`",
+  "outcome": {
+    "winner(s)": [
+      "`export { foo as \"module.exports\" };`"
+    ]
+  },
+  "votes": {
+    "aduh95": {
+      "`export const __cjsUnwrapDefault = true;`": 0,
+      "`export { foo as \"module.exports\" };`": 1
+    },
+    "anonrig": {
+      "`export const __cjsUnwrapDefault = true;`": 1,
+      "`export { foo as \"module.exports\" };`": 0
+    },
+    "benjamingr": {
+      "`export const __cjsUnwrapDefault = true;`": 1,
+      "`export { foo as \"module.exports\" };`": 1
+    },
+    "BridgeAR": {
+      "`export const __cjsUnwrapDefault = true;`": 0,
+      "`export { foo as \"module.exports\" };`": 1
+    },
+    "gireeshpunathil": {
+      "`export { foo as \"module.exports\" };`": 1,
+      "`export const __cjsUnwrapDefault = true;`": 0
+    },
+    "jasnell": {
+      "`export { foo as \"module.exports\" };`": 0,
+      "`export const __cjsUnwrapDefault = true;`": 1
+    },
+    "joyeecheung": {
+      "`export const __cjsUnwrapDefault = true;`": 0,
+      "`export { foo as \"module.exports\" };`": 1
+    },
+    "legendecas": {
+      "`export const __cjsUnwrapDefault = true;`": 0,
+      "`export { foo as \"module.exports\" };`": 1
+    },
+    "marco-ippolito": {
+      "`export const __cjsUnwrapDefault = true;`": 0,
+      "`export { foo as \"module.exports\" };`": 1
+    },
+    "mcollina": {
+      "`export const __cjsUnwrapDefault = true;`": 0,
+      "`export { foo as \"module.exports\" };`": 10
+    },
+    "mhdawson": {
+      "`export { foo as \"module.exports\" };`": 1,
+      "`export const __cjsUnwrapDefault = true;`": -1
+    },
+    "MoLow": {
+      "`export const __cjsUnwrapDefault = true;`": 0,
+      "`export { foo as \"module.exports\" };`": 1
+    },
+    "RafaelGSS": {
+      "`export { foo as \"module.exports\" };`": 0,
+      "`export const __cjsUnwrapDefault = true;`": 1
+    },
+    "richardlau": {
+      "`export const __cjsUnwrapDefault = true;`": 0,
+      "`export { foo as \"module.exports\" };`": 1
+    },
+    "ShogunPanda": {
+      "`export const __cjsUnwrapDefault = true;`": 0,
+      "`export { foo as \"module.exports\" };`": 110
+    },
+    "targos": {
+      "`export const __cjsUnwrapDefault = true;`": 1,
+      "`export { foo as \"module.exports\" };`": 0
+    }
+  },
+  "refs": "https://github.com/nodejs/TSC/pull/1622"
+}
