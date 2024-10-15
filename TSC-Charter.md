@@ -129,7 +129,7 @@ For all votes, the winning candidate option is the one that wins a simple
 majority of all TSC voting members in every head-to-head election against each
 of the other candidates. A TSC voting member may choose to participate in any
 vote through abstention. As long as a vote is open, TSC voting members' choices
-must not be disclosed, to avoid influencing other voting members. 
+must not be disclosed, to avoid influencing other voting members.
 
 All changes to this charter must be approved by the CPC.
 
