@@ -55,6 +55,13 @@ TSC voting members are expected to regularly participate in TSC activities.
 
 A TSC voting member is automatically converted to a TSC regular member if
 they do not participate in three consecutive TSC votes.
+Regular membership is expected to be a temporary status, with the
+expectation that the regular member will return to be active and be
+converted to voting members after a period of time.
+A TSC regular member can be asked to become emeritus in the event that they
+are not able to participate in TSC activities for an extended period of time.
+An emeritus member can ask to be reactivated as a regular member by a standard TSC
+motion, otherwise, they will need to be re-elected as a voting member.
 
 ## Section 4. Responsibilities of the TSC
 
