@@ -35,7 +35,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           PR_REF: ${{ github.event.inputs.pr || github.event.issue.number }}
-      - uses: actions/checkout@eef61447b9ff4aafe5dcd4e0bbf5d482be7e7871  # v4.2.1
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
         with:
           # Loading the default branch so we use the last version of the mailmap
           # rather than getting stuck to when the vote PR was open.
