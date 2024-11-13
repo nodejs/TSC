@@ -43,7 +43,7 @@ If a change in TSC voting membership or a change of employment by a TSC voting m
 creates a situation where more than one-fourth of the TSC voting membership are
 affiliated with the same company, then the situation must be immediately remedied
 by the removal of voting member status from one or more TSC voting members affiliated
-with the over-represented company. 
+with the over-represented company.
 
 The TSC shall meet regularly using tools that enable participation by the
 community (e.g. weekly on a Google Hangout On Air, or through any other
