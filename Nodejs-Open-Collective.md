@@ -25,7 +25,7 @@ a request through open collective in the amout approved.
 The Chair of the Technical Steering committee will then
 "push the required buttons" in the Open collective account
 to initiate the payout in accordance with the agreement reached in the
-TSC PR and if possible include a reference to the PR 
+TSC PR and if possible include a reference to the PR
 in the TSC repository adding the intended use and funding
 envelope to this page.
 
