@@ -7,7 +7,7 @@ documented on this page.
 
 ## Account details
 
-The [account](tbd) is manged by the TSC. The user id and password
+The account is manged by the TSC. The user id and password
 are shared with TSC members through 1password.
 
 ## Disbursements - management
@@ -31,6 +31,5 @@ envelope to this page.
 
 ## Disbursements approved
 
-| Intended use                             | funding envelop   | paid          |
-|------------------------------------------|-------------------| --------------|
-|                                          |                   |               |
+| Intended use                             | funding envelop   | paid         |
+|------------------------------------------|-------------------|--------------|

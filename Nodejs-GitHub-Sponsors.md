@@ -10,7 +10,7 @@ documented on this page.
 
 ## Account details
 
-The [account](tbd) is manged by the TSC. The user id and password
+The account is manged by the TSC. The user id and password
 are shared with TSC members through 1password. All payments for
 sponsorships received will be made to the OpenJS Foundation who has
 agreed to manage the funds that are received on behalf of the project.
@@ -32,4 +32,3 @@ the TSC to do the work.
 
 | Intended use                             | funding envelope   | paid         |
 |------------------------------------------|--------------------|--------------|
-|                                          |                    |              |
