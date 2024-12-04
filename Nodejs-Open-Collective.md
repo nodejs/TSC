@@ -16,8 +16,9 @@ Potential disbursements will be agreed through TSC discussion
 and before approval, documented in an PR in the
 [TSC repository](https://github.com/nodejs/TSC) which adds
 the intended use and funding envelope to this page. The disbursement
-is considered approved once TSC consensus in the PR has
-been reached.
+is considered approved if there's no objections from a project member
+in 72 hours, and at least one approval from a TSC voting member.
+Objections can be overridden with a TSC vote.
 
 Once work has been completed the recipient will open
 a request through open collective in the amout approved.
