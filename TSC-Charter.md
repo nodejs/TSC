@@ -121,7 +121,7 @@ Consensus. The TSC shall establish appropriate guidelines for
 implementing Lazy Consensus (e.g. expected notification and review time
 periods) within the development process.
 
-The TSC follows a [Consensus Seeking][] decision making model.
+The TSC follows a [Consensus Seeking][] decision making model among voting members.
 When an agenda item has appeared to reach a consensus the moderator will ask
 "Does anyone object?" as a final call for dissent from the consensus.
 
