@@ -36,7 +36,7 @@ TSC by voluntary resignation or by a standard TSC motion. A standard TSC motion
 can be used to change a regular TSC member to a voting TSC member, or to change
 a voting TSC member to a regular TSC member.
 
-In order to ensure that hostile takeovers of the Node.js project are not possible,
+In order to ensure adequate representation of the interests of diverse stakeholders,
 no more than one-fourth of the TSC voting membership may be affiliated with the same company or other entity. 
 If a change in TSC voting membership or a change of affiliation by a TSC voting member
 creates a situation where more than one-fourth of the TSC voting membership are
