@@ -38,8 +38,6 @@ a voting TSC member to a regular TSC member.
 
 In order to ensure that hostile takeovers of the Node.js project are not possible,
 no more than one-fourth of the TSC voting membership may be affiliated with the same company or other entity. 
-As a result, no more than one-fourth of the TSC voting members may be affiliated with the
-the same company.
 If a change in TSC voting membership or a change of affiliation by a TSC voting member
 creates a situation where more than one-fourth of the TSC voting membership are
 affiliated with the same company, then the situation must be immediately remedied
