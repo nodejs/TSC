@@ -37,7 +37,8 @@ can be used to change a regular TSC member to a voting TSC member, or to change
 a voting TSC member to a regular TSC member.
 
 In order to ensure adequate representation of the interests of diverse stakeholders,
-no more than one-fourth of the TSC voting membership may be affiliated with the same company or other entity. 
+no more than one-fourth of the TSC voting membership may be affiliated with the same
+company or other entity.
 If a change in TSC voting membership or a change of affiliation by a TSC voting member
 creates a situation where more than one-fourth of the TSC voting membership are
 affiliated with the same company, then the situation must be immediately remedied
