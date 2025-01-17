@@ -1,16 +1,14 @@
-# Node.js GitHub sponsors
+# Node.js Funding Sources
 
-The project has enabled GitHub sponsors in order to to accept
-sponsorships. Currently there is only a single one time tier which is
-called "sponsor" and one monthly tier which is called "monthly-sponsor"
-with no specific rewards.
+The project has enabled GitHub sponsors and an Open Collective
+in order to to accept sponsorships.
 
 The funds are to be used for specific efforts as decided by the TSC and
 documented on this page.
 
 ## Account details
 
-The account is manged by the TSC. The user id and password
+The accounts are manged by the TSC. The user ids and passwords
 are shared with TSC members through 1password. All payments for
 sponsorships received will be made to the OpenJS Foundation who has
 agreed to manage the funds that are received on behalf of the project.
