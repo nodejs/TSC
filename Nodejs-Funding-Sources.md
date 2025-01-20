@@ -38,7 +38,7 @@ urgent issues along with their regular job.
 
 **Target:** 60,000 US
 
-** Description:** Progress of the project has been impacted by flaky tests over
+**Description:** Progress of the project has been impacted by flaky tests over
 a number of years, making it the top pain point for the project contributors.
 The project needs a dedicated resource who will:
 * lead a test reliability strategic initiative, rallying and supporting
