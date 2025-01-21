@@ -51,7 +51,7 @@ The project needs a dedicated resource who will:
 
 ### Project health and collaboration
 
-**Target:** 20,000US
+**Target:** 20,000 USD
 
 **Description:** Funds to be used to support general project health
 and collaboration.
