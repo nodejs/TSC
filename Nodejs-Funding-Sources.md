@@ -10,7 +10,7 @@ documented on this page.
 
 The main funding goals for the project include:
 * Security Lead
-* CI stability improvments
+* CI stability improvements
 * Project health and collaboration
 
 These goals are as documented in the sections which follow and will
