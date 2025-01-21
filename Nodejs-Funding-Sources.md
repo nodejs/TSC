@@ -29,7 +29,7 @@ defining the threat model for Node.js, tracking progress against the
 OpenSSF scorecard, and more.
 
 The urgency and fixed deadlines that are often associated with security issues
-are a poor fit for volunteers. Having a security resource whoes job it is to
+are a poor fit for volunteers. Having a security resource whose job is to
 work on these issues not only results in faster resolution of security issues,
 but it also avoids burn out of volunteers who might try to squeeze in
 urgent issues along with their regular job.
