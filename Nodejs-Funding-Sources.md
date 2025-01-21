@@ -18,7 +18,7 @@ be documented in GitHub sponsors and Open Colletive pages.
 
 ### Security Lead
 
-**Target:** 300,000 US
+**Target:** 300,000 USD
 
 **Description:** For the past two years the OSSF has funded a security
 lead. This has enabled the project to improve its turn around time for fixing
