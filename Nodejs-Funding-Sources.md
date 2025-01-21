@@ -36,7 +36,7 @@ urgent issues along with their regular job.
 
 ### CI stability improvments
 
-**Target:** 60,000 US
+**Target:** 60,000 USD
 
 **Description:** Progress of the project has been impacted by flaky tests over
 a number of years, making it the top pain point for the project contributors.
