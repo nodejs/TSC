@@ -24,7 +24,7 @@ be documented in GitHub sponsors and Open Colletive pages.
 lead. This has enabled the project to improve its turn around time for fixing
 vulnerabilities, delivering security releases, making the security release
 process more efficient through automation and reinvigorate the project's
-security team.  The reinvigorated security team has mad progress by
+security team.  This renewed security team has made progress by
 defining the threat model for Node.js, tracking progress against the
 OpenSSF scorecard, and more.
 
