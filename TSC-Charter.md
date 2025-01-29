@@ -36,12 +36,14 @@ TSC by voluntary resignation or by a standard TSC motion. A standard TSC motion
 can be used to change a regular TSC member to a voting TSC member, or to change
 a voting TSC member to a regular TSC member.
 
-No more than one-fourth of the TSC voting members may be affiliated with the
-same employer. If change in TSC voting membership or a change of
-employment by a TSC voting member creates a situation where more than
-one-fourth of the TSC voting membership shares an employer, then the situation
-must be immediately remedied by the removal of voting member status from one or
-more TSC voting members affiliated with the over-represented employer(s).
+In order to ensure adequate representation of the interests of diverse stakeholders,
+no more than one-fourth of the TSC voting membership may be affiliated with the same
+company/entity.
+If a change in TSC voting membership or a change of affiliation by a TSC voting member
+creates a situation where more than one-fourth of the TSC voting membership are
+affiliated with the same company/entity, then the situation must be immediately remedied
+by the removal of voting member status from one or more TSC voting members affiliated
+with the over-represented company.
 
 The TSC shall meet regularly using tools that enable participation by the
 community (e.g. weekly on a Google Hangout On Air, or through any other
