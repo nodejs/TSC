@@ -24,9 +24,10 @@ headerInstructions: |
 #    voters express their preference for each candidates, no matter how many
 #    there are.
 candidates:
-  - Status Quo: keep distributing `corepack` with Node.js, disabled by default, exactly as it is today.
-  - Keep distributing `corepack` with Node.js, enabling `yarn` and `pnpm` by default.
-  - Stop distributing `corepack` with Node.js.
+  - "Status Quo: keep distributing Corepack with Node.js, experimental and disabled (i.e. only the `corepack` executable in the distribution), exactly as it is today."
+  - "Stable and Disabled: keep distributing Corepack disabled (i.e. only the `corepack` executable in the distribution), and mark it stable in a future release line."
+  - "Stable and Enabled: keep distributing Corepack with Node.js, enabled (i.e. `corepack`, `pnpm`, and `yarn` executables in the distribution), and mark it stable in a future release line."
+  - "Phase out: stop distributing Corepack (i.e. the distribution will no longer contain a `corepack` executable) on future release lines of Node.js – existing release lines will keep it as experimental."
 
 # 4. Pass the following to false if it's important to keep the candidates in the
 #    order you define above. Presenting candidates in a fixed order tends to
