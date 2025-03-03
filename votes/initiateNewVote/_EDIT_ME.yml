@@ -37,10 +37,7 @@ canShuffleCandidates: true
 # 5. Insert here a short description of the vote objectives and link to the
 #    issue it was discussed on to give the full context.
 footerInstructions: |
-  The objective of the vote is to determine a basic question: do we continue bundling
-  the corepack binary with Node.js or not, and if so, do we enable bundling jumper
-  binaries for its supported package managers (such as yarn and pnpm) by default or not.
-  There are additional questions to resolve that will be handled separately.
+ The objective of the vote is to determine the strategy for Corepack’s distribution in future Node.js releases.
 
 # 6. Optionally, insert a brief introduction for the vote PR, in the markdown format.
 prBody: |
