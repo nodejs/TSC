@@ -14,7 +14,7 @@ The main funding goals for the project include:
 * Project health and collaboration
 
 These goals are as documented in the sections which follow and will
-be documented in GitHub sponsors and Open Colletive pages.
+be documented in GitHub sponsors and Open Collective pages.
 
 ### Security Lead
 
@@ -34,7 +34,7 @@ work on these issues not only results in faster resolution of security issues,
 but it also avoids the burnout of volunteers who might try to squeeze in
 urgent issues along with their regular job.
 
-### CI stability improvments
+### CI stability improvements
 
 **Target:** 60,000 USD
 
@@ -60,7 +60,7 @@ and collaboration.
 
 It is important that we promote non-monetary sponsors at least as well as
 monetary sponsors. We may have limited ability to do that through Open
-Colletive and GitHub sponsors so we should avoid providing links to those
+Collective and GitHub sponsors so we should avoid providing links to those
 on the Nodejs.org website or Node.js README.md until we figure out
 how to do that.
 
