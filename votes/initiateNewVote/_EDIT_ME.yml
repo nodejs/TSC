@@ -3,7 +3,7 @@
 
 # 1. Select a subject for the vote. This can be a question addressed to the TSC
 #    voting members.
-subject: Corepack
+subject: Should Corepack stay in the Node.js distribution?
 
 # 2. You can leave the header instructions as is, or modify them if you see fit.
 headerInstructions: |
