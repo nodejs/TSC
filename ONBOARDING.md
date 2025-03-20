@@ -33,14 +33,14 @@ invalid and are superseded by the TSC Charter.
   * [`@nodejs-private`](https://github.com/orgs/nodejs-private/people)
   * [`@nodejs`](https://github.com/orgs/nodejs/people)
   * [`@pkgjs`](https://github.com/orgs/pkgjs/people) (unless they're listed on
-     [ADMINISTRATIVE-MEMBERS](https://github.com/nodejs/package-maintenance/blob/main/ADMINISTRATIVE-MEMBERS.md))
+    [ADMINISTRATIVE-MEMBERS](https://github.com/nodejs/package-maintenance/blob/main/ADMINISTRATIVE-MEMBERS.md))
 * Change the member's role from `Owner` to `Member`
   (unless they have `Owner` role for a reason other than TSC membership)
   in the following GitHub orgs:
   * [`@nodejs-private`](https://github.com/orgs/nodejs-private/people)
   * [`@nodejs`](https://github.com/orgs/nodejs/people)
   * [`@pkgjs`](https://github.com/orgs/pkgjs/people) (unless they're listed on
-     [ADMINISTRATIVE-MEMBERS](https://github.com/nodejs/package-maintenance/blob/main/ADMINISTRATIVE-MEMBERS.md))
+    [ADMINISTRATIVE-MEMBERS](https://github.com/nodejs/package-maintenance/blob/main/ADMINISTRATIVE-MEMBERS.md))
 * Remove the member from the following teams:
   * [`@nodejs/tsc`](https://github.com/orgs/nodejs/teams/tsc/members)
   * [`@nodejs/security-tsc`](https://github.com/orgs/nodejs/teams/security-tsc/members)
