@@ -32,8 +32,8 @@ invalid and are superseded by the TSC Charter.
   reason other than TSC membership:
   * [`@nodejs-private`](https://github.com/orgs/nodejs-private/people)
   * [`@nodejs`](https://github.com/orgs/nodejs/people)
-  * [`@pkgjs`](https://github.com/orgs/pkgjs/people) (unless they're listed on
-    [ADMINISTRATIVE-MEMBERS](https://github.com/nodejs/package-maintenance/blob/main/ADMINISTRATIVE-MEMBERS.md))
+  * [`@pkgjs`](https://github.com/orgs/pkgjs/people) (unless they're listed on the
+    [MEMBERS](https://github.com/nodejs/package-maintenance/blob/main/MEMBERS.md) list)
 * Change the member's role from `Owner` to `Member`
   (unless they have `Owner` role for a reason other than TSC membership)
   in the following GitHub orgs:
