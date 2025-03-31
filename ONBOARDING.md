@@ -28,21 +28,24 @@ invalid and are superseded by the TSC Charter.
 
 ## Offboarding of voting members
 
-* Remove the member from the following teams:
-  * [`@nodejs/tsc`](https://github.com/orgs/nodejs/teams/tsc/members)
-  * [`@nodejs/security-tsc`](https://github.com/orgs/nodejs/teams/security-tsc/members)
-  * [`@nodejs-private/security-tsc`](https://github.com/orgs/nodejs-private/teams/security-tsc/members)
-  * [`@pkgjs/node-tsc`](https://github.com/orgs/pkgjs/teams/node-tsc/members)
+* Remove them from the following GitHub orgs unless they are members for a
+  reason other than TSC membership:
+  * [`@nodejs-private`](https://github.com/orgs/nodejs-private/people)
+  * [`@nodejs`](https://github.com/orgs/nodejs/people)
+  * [`@pkgjs`](https://github.com/orgs/pkgjs/people) (unless they're listed on the
+    [MEMBERS](https://github.com/nodejs/package-maintenance/blob/main/MEMBERS.md) list)
 * Change the member's role from `Owner` to `Member`
   (unless they have `Owner` role for a reason other than TSC membership)
   in the following GitHub orgs:
   * [`@nodejs-private`](https://github.com/orgs/nodejs-private/people)
   * [`@nodejs`](https://github.com/orgs/nodejs/people)
-* Remove them from the following GitHub orgs unless they are members for a
-  reason other than TSC membership:
-  * [`@nodejs-private`](https://github.com/orgs/nodejs-private/people)
-  * [`@nodejs`](https://github.com/orgs/nodejs/people)
-  * [`@pkgjs`](https://github.com/orgs/pkgjs/people)
+  * [`@pkgjs`](https://github.com/orgs/pkgjs/people) (unless they're listed on
+    [ADMINISTRATIVE-MEMBERS](https://github.com/nodejs/package-maintenance/blob/main/ADMINISTRATIVE-MEMBERS.md))
+* Remove the member from the following teams:
+  * [`@nodejs/tsc`](https://github.com/orgs/nodejs/teams/tsc/members)
+  * [`@nodejs/security-tsc`](https://github.com/orgs/nodejs/teams/security-tsc/members)
+  * [`@nodejs-private/security-tsc`](https://github.com/orgs/nodejs-private/teams/security-tsc/members)
+  * [`@pkgjs/node-tsc`](https://github.com/orgs/pkgjs/teams/node-tsc/members)
 * Remove them from the HackerOne [Node.js team](https://hackerone.com/organizations/nodejs/settings/users) unless they need access for a
   reason other than TSC membership.
 * Remove them from the `tsc` mailing lists: <https://github.com/nodejs/email/edit/main/iojs.org/aliases.json>.
