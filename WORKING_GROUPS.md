@@ -237,7 +237,6 @@ The [Node.js Code of Conduct][] applies to this WG.
 * [Build](#build)
 * [Diagnostics](#diagnostics)
 * [Docker](#docker)
-* [Addon API](#addon-api)
 * [Release](#release)
 * [Package Maintenance](#package-maintenance)
 * [Undici](#undici)
