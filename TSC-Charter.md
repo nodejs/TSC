@@ -74,7 +74,7 @@ including:
 * Development process and any coding standards.
 * Mediating technical conflicts between Collaborators or Foundation
   projects.
-* Technical communication.
+* Overseeing official communications related to technical content from project contributors.
 
 The TSC will define Node.js project’s release vehicles.
 
