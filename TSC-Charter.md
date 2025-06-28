@@ -76,7 +76,7 @@ including:
   projects.
 * Official communication about the above and what they govern, and the development process of said communication.
 
- The TSC will define Node.js project’s release vehicles.
+The TSC will define Node.js project’s release vehicles.
 
 Specific exclusions from the communication oversight responsibilities include: brand marketing, fundraising and financial sponsorship (including, but not limited to, the OpenJS Foundation's financial sponsorship of the project), legal matters, and marketing/ community events, except when specifically approved by the OpenJS Foundation. 
 
