@@ -78,7 +78,14 @@ including:
 
 The TSC will define Node.js project’s release vehicles.
 
-Specific exclusions from the communication oversight responsibilities include: brand marketing, fundraising and financial sponsorship (including, but not limited to, the OpenJS Foundation's financial sponsorship of the project), legal matters, and marketing/ community events, except when specifically approved by the OpenJS Foundation. 
+Specific exclusions from the communication oversight responsibilities include:
+
+* Brand marketing
+* Fundraising and financial sponsorship (including, but not limited to, the OpenJS Foundation's financial sponsorship of the project)
+* Legal matters
+* Marketing/ community events
+
+except when specifically approved by the OpenJS Foundation. 
 
 All uses of OpenJS Foundation-owned trademarks and IP are, of course, subject to review and approval by the Foundation in all project-relevant communication across all media formats and modes in accordance to the OpenJS Foundation Trademark Policy. This includes use of the marks, in full or in part, in domain names, social media account handles, event names and other similar identifiers. 
 
