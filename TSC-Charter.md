@@ -85,13 +85,13 @@ Specific exclusions from the communication oversight responsibilities include:
 * Legal matters
 * Marketing/ community events
 
-except when specifically approved by the OpenJS Foundation. 
+except when specifically approved by the OpenJS Foundation.
 
-All uses of OpenJS Foundation-owned trademarks and IP are, of course, subject to review and approval by the Foundation in all project-relevant communication across all media formats and modes in accordance to the OpenJS Foundation Trademark Policy. This includes use of the marks, in full or in part, in domain names, social media account handles, event names and other similar identifiers. 
+All uses of OpenJS Foundation-owned trademarks and IP are, of course, subject to review and approval by the Foundation in all project-relevant communication across all media formats and modes in accordance to the OpenJS Foundation Trademark Policy. This includes use of the marks, in full or in part, in domain names, social media account handles, event names and other similar identifiers.
 
-The TSC may establish project-specific communication channels, such as social media accounts and discussion forums, administered under the oversight of the TSC, subject to the above requirements. Such communication channels must be capable of being administered jointly by both the TSC and the Foundation. 
+The TSC may establish project-specific communication channels, such as social media accounts and discussion forums, administered under the oversight of the TSC, subject to the above requirements. Such communication channels must be capable of being administered jointly by both the TSC and the Foundation.
 
-Nothing in this charter should be interpreted as preventing the Foundation from also publishing about any aspect of the project, including all technical aspects, so long as those communications are not presented as being endorsed by, or representative of, the TSC or the body of project contributors except when specifically approved by the TSC. 
+Nothing in this charter should be interpreted as preventing the Foundation from also publishing about any aspect of the project, including all technical aspects, so long as those communications are not presented as being endorsed by, or representative of, the TSC or the body of project contributors except when specifically approved by the TSC.
 
 ## Section 5. Node.js Project Operations
 
