@@ -74,8 +74,42 @@ including:
 * Development process and any coding standards.
 * Mediating technical conflicts between Collaborators or Foundation
   projects.
+* Establishing guidelines for communication by project contributors about the
+  technical development processes of the project, releases and release announcements,
+  technical documentation, contributor onboarding and conduct, project governance,
+  and technical direction.
 
 The TSC will define Node.js project’s release vehicles.
+
+### Exclusions and limitations of TSC responsibilities
+
+The Foundation handles all matters related to fundraising and financial
+sponsorship on behalf of the project. The Foundation shall, on the project's
+behalf, solicit funding and financial sponsorship for the Node.js project.
+
+The TSC may not enter into any legal agreements.
+
+Specific exclusions from the communication oversight responsibilities include:
+
+ * Brand marketing
+ * Fundraising and financial sponsorship of the project (including, but not
+   limited to, the OpenJS Foundation's own financial sponsorship of the project)
+ * Legal matters
+
+All communication from the project touching on these topics must be reviewed
+and approved by the Foundation.
+
+All uses of OpenJS Foundation-owned trademarks and intellectual property by the
+project are subject to the [OpenJS Foundation Trademark Policy](https://trademark-policy.openjsf.org/).
+This includes use of any marks -- in full or in part -- in domain names, social
+media account handles, event names and other similar identifiers.
+
+The TSC may establish and administer project-specific communication channels,
+such as social media accounts and discussion forums, administered under the
+oversight of the TSC, subject to the above requirements. Should such channels
+make any use of OpenJS Foundation-owned trademarks or intellectual property, the
+channels must be capable of being administered jointly by both the TSC and the
+Foundation.
 
 ## Section 5. Node.js Project Operations
 
