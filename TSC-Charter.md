@@ -89,7 +89,7 @@ except when specifically approved by the OpenJS Foundation.
 
 All uses of OpenJS Foundation-owned trademarks and IP are, of course, subject to review and approval by the Foundation in all project-relevant communication across all media formats and modes in accordance to the OpenJS Foundation Trademark Policy. This includes use of the marks, in full or in part, in domain names, social media account handles, event names and other similar identifiers.
 
-The TSC may establish project-specific communication channels, such as social media accounts and discussion forums, administered under the oversight of the TSC, subject to the above requirements. Such communication channels must be capable of being administered jointly by both the TSC and the Foundation.
+The community may establish project-specific communication channels, such as social media accounts and discussion forums, subject to the above requirements. If the communication channels are used to represent the project, administrator access should be granted to both the TSC and the Foundation for oversight, while the day-to-day operation can be delegated to another party as long as they respect the consensus seeking process of the project.
 
 Nothing in this charter should be interpreted as preventing the Foundation from also publishing about any aspect of the project, including all technical aspects, so long as those communications are not presented as being endorsed by, or representative of, the TSC or the body of project contributors except when specifically approved by the TSC.
 
