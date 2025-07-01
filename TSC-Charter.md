@@ -74,7 +74,7 @@ including:
 * Development process and any coding standards.
 * Mediating technical conflicts between Collaborators or Foundation
   projects.
-* Official communication about the above and what they govern, and the development process of said communication.
+* Establishing and stewarding a consensus-seeking process to represent the technical community and its work in external communications.
 
 The TSC will define Node.js project’s release vehicles.
 
