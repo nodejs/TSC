@@ -78,6 +78,15 @@ including:
 
 The TSC will define Node.js project’s release vehicles.
 
+The communication oversight responsibilities include:
+
+* Technical development processes of the project
+* Releases and release announcements
+* Technical documentation
+* Contributor onboarding and conduct
+* Project governance
+* Technical direction
+
 Specific exclusions from the communication oversight responsibilities include:
 
 * Brand marketing
