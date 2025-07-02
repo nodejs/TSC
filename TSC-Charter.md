@@ -98,7 +98,7 @@ Communication on excluded oversight areas that intersect with included responsib
 
 The community may establish project-specific communication channels, such as social media accounts and discussion forums, subject to the above requirements. If the communication channels are used to represent the project, administrator access should be granted to both the TSC and the Foundation for oversight, while the day-to-day operation can be delegated to another party as long as they respect the consensus seeking process of the project.
 
-Nothing in this charter should be interpreted as preventing the Foundation from also publishing about any aspect of the project, including all technical aspects, so long as those communications are not presented as being endorsed by, or representative of, the TSC or the body of project contributors except when specifically approved by the TSC.
+If the TSC becomes aware of external communications that appear inconsistent with the project’s consensus, it may engage with the communicating party, directly or through appropriate channels, to help align the message with the project’s consensus-seeking processes.
 
 ## Section 5. Node.js Project Operations
 
