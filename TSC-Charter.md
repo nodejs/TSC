@@ -96,7 +96,6 @@ Specific exclusions from the communication oversight responsibilities include:
 
 except when specifically approved by the OpenJS Foundation.
 
-All uses of OpenJS Foundation-owned trademarks and IP are, of course, subject to review and approval by the Foundation in all project-relevant communication across all media formats and modes in accordance to the OpenJS Foundation Trademark Policy. This includes use of the marks, in full or in part, in domain names, social media account handles, event names and other similar identifiers.
 
 The community may establish project-specific communication channels, such as social media accounts and discussion forums, subject to the above requirements. If the communication channels are used to represent the project, administrator access should be granted to both the TSC and the Foundation for oversight, while the day-to-day operation can be delegated to another party as long as they respect the consensus seeking process of the project.
 
