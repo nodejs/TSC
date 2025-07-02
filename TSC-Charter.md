@@ -94,7 +94,7 @@ Specific exclusions from the communication oversight responsibilities include:
 * Legal matters
 * Marketing/ community events
 
-except when specifically approved by the OpenJS Foundation.
+Communication on excluded oversight areas that intersect with included responsibilities will be handled in collaboration with the OpenJS Foundation.
 
 The community may establish project-specific communication channels, such as social media accounts and discussion forums, subject to the above requirements. If the communication channels are used to represent the project, administrator access should be granted to both the TSC and the Foundation for oversight, while the day-to-day operation can be delegated to another party as long as they respect the consensus seeking process of the project.
 
