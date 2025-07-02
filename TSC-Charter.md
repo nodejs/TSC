@@ -3,7 +3,8 @@
 ## Section 1. Guiding Principle
 
 The Node.js project is part of the OpenJS Foundation. The project
-operates transparently, openly, collaboratively, and ethically.
+operates transparently, openly, collaboratively, and ethically, and in
+close partnership with the OpenJS Foundation and the broader ecosystem.
 Project proposals, timelines, and status must not merely be
 open, but also easily visible to outsiders.
 
@@ -39,6 +40,7 @@ a voting TSC member to a regular TSC member.
 In order to ensure adequate representation of the interests of diverse stakeholders,
 no more than one-fourth of the TSC voting membership may be affiliated with the same
 company/entity.
+
 If a change in TSC voting membership or a change of affiliation by a TSC voting member
 creates a situation where more than one-fourth of the TSC voting membership are
 affiliated with the same company/entity, then the situation must be immediately remedied
