@@ -93,10 +93,10 @@ The TSC may not enter into any legal agreements.
 
 Specific exclusions from the communication oversight responsibilities include:
 
- * Brand marketing
- * Fundraising and financial sponsorship of the project (including, but not
-   limited to, the OpenJS Foundation's own financial sponsorship of the project)
- * Legal matters
+* Brand marketing
+* Fundraising and financial sponsorship of the project (including, but not
+  limited to, the OpenJS Foundation's own financial sponsorship of the project)
+* Legal matters
 
 All communication from the project touching on these topics must be reviewed
 and approved by the Foundation.
