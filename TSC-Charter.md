@@ -96,7 +96,7 @@ Specific exclusions from the communication oversight responsibilities include:
 
 Communication on excluded oversight areas that intersect with included responsibilities will be handled in collaboration with the OpenJS Foundation.
 
-The community may establish project-specific communication channels, such as social media accounts and discussion forums, subject to the above requirements. If the communication channels are used to represent the project, administrator access should be granted to both the TSC and the Foundation for oversight, while the day-to-day operation can be delegated to another party as long as they respect the consensus seeking process of the project.
+If a Node.js-specific communication channel, such as a social media account or a discussion forum, is established by another party and used to represent the technical work or the technical community of the project, the TSC may request administrator or moderator access to ensure representation is aligned with the consensus within the project. Day-to-day operation in such channels can be delegated to another party as long as they follow the Code of Conduct, and respect the consensus seeking process before representation of the project is manifested.
 
 If the TSC becomes aware of external communications that appear inconsistent with the project’s consensus, it may engage with the communicating party, directly or through appropriate channels, to help align the message with the project’s consensus-seeking processes.
 
