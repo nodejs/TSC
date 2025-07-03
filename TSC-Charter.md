@@ -74,7 +74,15 @@ including:
 * Development process and any coding standards.
 * Mediating technical conflicts between Collaborators or Foundation
   projects.
-* Establishing and stewarding a consensus-seeking process to represent the technical community and its work in external communications.
+* Establishing and stewarding a consensus-seeking process to represent the technical community and its work in external communications. The scope includes:
+  * Technical development and its process in the the project
+  * Releases and release announcements
+  * Technical documentation
+  * Contributor onboarding and conduct
+  * Project governance
+  * Technical direction
+  * The project website and download server
+  * Petition from the technical community that can be surfaced to the CPC level
 
 The TSC will define Node.js project’s release vehicles.
 
