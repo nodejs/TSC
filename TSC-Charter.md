@@ -78,23 +78,7 @@ including:
 
 The TSC will define Node.js project’s release vehicles.
 
-The communication oversight responsibilities include:
-
-* Technical development processes of the project
-* Releases and release announcements
-* Technical documentation
-* Contributor onboarding and conduct
-* Project governance
-* Technical direction
-
-Specific exclusions from the communication oversight responsibilities include:
-
-* Brand marketing
-* Fundraising and financial sponsorship (including, but not limited to, the OpenJS Foundation's financial sponsorship of the project)
-* Legal matters
-* Marketing/ community events
-
-Communication on excluded oversight areas that intersect with included responsibilities will be handled in collaboration with the OpenJS Foundation.
+Communication on topics where the scope of the TSC intersects with that of the [OpenJS CPC](https://github.com/openjs-foundation/cross-project-council/blob/main/CPC-CHARTER.md) or the [OpenJS board](https://images.prismic.io/openjsf/c31b195a-83c9-4d89-9d92-d0cb8840ea20_OpenJS-Foundation-Bylaws-2023-09-18.pdf) will be handled in collaboration with the other two bodies, facilitated by the TSC representative on the CPC.
 
 If a Node.js-specific communication channel, such as a social media account or a discussion forum, is established by another party and used to represent the technical work or the technical community of the project, the TSC may request administrator or moderator access to ensure representation is aligned with the consensus within the project. Day-to-day operation in such channels can be delegated to another party as long as they follow the Code of Conduct, and respect the consensus seeking process before representation of the project is manifested.
 
