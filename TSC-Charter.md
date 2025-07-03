@@ -183,6 +183,6 @@ and Contributors looking to participate in the development effort.
 
 [Condorcet]: https://en.wikipedia.org/wiki/Condorcet_method
 [Consensus Seeking]: https://en.wikipedia.org/wiki/Consensus-seeking_decision-making
-[Single Transferable Vote]: https://en.wikipedia.org/wiki/Single_transferable_vote
 [OpenJS CPC]: https://github.com/openjs-foundation/cross-project-council/blob/main/CPC-CHARTER.md
 [OpenJS board]: https://images.prismic.io/openjsf/c31b195a-83c9-4d89-9d92-d0cb8840ea20_OpenJS-Foundation-Bylaws-2023-09-18.pdf
+[Single Transferable Vote]: https://en.wikipedia.org/wiki/Single_transferable_vote
