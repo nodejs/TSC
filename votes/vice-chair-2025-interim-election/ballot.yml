@@ -1,0 +1,19 @@
+subject: Who should fill in the role of Vice Chair of the TSC for 2025?
+
+# Please set a score to each proposal according to your preferences.
+# You should set the highest score to your favorite option.
+# Negative scores are allowed, only the order matters.
+# You can tie two or more proposals if you have no preference.
+# To abstain, keep all the propositions tied.
+
+preferences:
+  - title: Both (jasnell and ruyadorno, as co-vice-chairs)
+    score: 0
+  - title: Ruy (ruyadorno)
+    score: 0
+  - title: James (jasnell)
+    score: 0
+poolChecksum: >-
+  /sjnc/rMa4Ux6zRgl3a/DvDpWp+hLwiAR6E2Nj34bUWzkojmy96uw7KkCV1FpKqU28rS3trF1AvKFOOwnDdxOg==
+
+# See https://github.com/nodejs/TSC/issues/1763 for more info.
