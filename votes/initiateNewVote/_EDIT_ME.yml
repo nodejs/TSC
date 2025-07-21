@@ -40,6 +40,8 @@ footerInstructions: |
 
 # 6. Optionally, insert a brief introduction for the vote PR, in the markdown format.
 prBody: |
+  The vote can be closed after seven days, or as soon as all voting members have sent a ballot.
+  
   Refs: https://github.com/nodejs/TSC/issues/1763
 
 # 7. Optionally, choose an id that will be used for the branch name as well as
