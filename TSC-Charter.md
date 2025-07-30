@@ -80,6 +80,7 @@ including:
   technical development processes of the project, releases and release announcements,
   technical documentation, contributor onboarding and conduct, project governance,
   and technical direction.
+  * All technical infrastructure needed to support the development and distribution of the project, including the Website, CI infrastructure, Download service, etc.
 
 The TSC will define Node.js project’s release vehicles.
 
