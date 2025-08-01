@@ -1,0 +1,111 @@
+{
+  "description": "Who should fill in the role of Vice Chair of the TSC for 2025?",
+  "outcome": {
+    "winner(s)": [
+      "Both (jasnell and ruyadorno, as co-vice-chairs)"
+    ]
+  },
+  "votes": {
+    "aduh95": {
+      "James (jasnell)": 0,
+      "Ruy (ruyadorno)": 0,
+      "Both (jasnell and ruyadorno, as co-vice-chairs)": 0
+    },
+    "anonrig": {
+      "Both (jasnell and ruyadorno, as co-vice-chairs)": 0,
+      "James (jasnell)": 0,
+      "Ruy (ruyadorno)": 1
+    },
+    "benjamingr": {
+      "Ruy (ruyadorno)": 0,
+      "Both (jasnell and ruyadorno, as co-vice-chairs)": 0,
+      "James (jasnell)": 2
+    },
+    "BridgeAR": {
+      "James (jasnell)": 0,
+      "Ruy (ruyadorno)": 0,
+      "Both (jasnell and ruyadorno, as co-vice-chairs)": 1
+    },
+    "gireeshpunathil": {
+      "Ruy (ruyadorno)": 2,
+      "Both (jasnell and ruyadorno, as co-vice-chairs)": 0,
+      "James (jasnell)": 1
+    },
+    "jasnell": {
+      "James (jasnell)": 0,
+      "Ruy (ruyadorno)": 0,
+      "Both (jasnell and ruyadorno, as co-vice-chairs)": 1
+    },
+    "joyeecheung": {
+      "James (jasnell)": 1,
+      "Both (jasnell and ruyadorno, as co-vice-chairs)": 2,
+      "Ruy (ruyadorno)": 3
+    },
+    "legendecas": {
+      "Both (jasnell and ruyadorno, as co-vice-chairs)": 2,
+      "James (jasnell)": 1,
+      "Ruy (ruyadorno)": 1
+    },
+    "marco-ippolito": {
+      "Both (jasnell and ruyadorno, as co-vice-chairs)": 2,
+      "Ruy (ruyadorno)": 1,
+      "James (jasnell)": 1
+    },
+    "mcollina": {
+      "Ruy (ruyadorno)": 0,
+      "Both (jasnell and ruyadorno, as co-vice-chairs)": 2,
+      "James (jasnell)": 1
+    },
+    "mhdawson": {
+      "Both (jasnell and ruyadorno, as co-vice-chairs)": 0,
+      "Ruy (ruyadorno)": 1,
+      "James (jasnell)": -1
+    },
+    "panva": {
+      "James (jasnell)": 1,
+      "Ruy (ruyadorno)": 0,
+      "Both (jasnell and ruyadorno, as co-vice-chairs)": 0
+    },
+    "RafaelGSS": {
+      "Both (jasnell and ruyadorno, as co-vice-chairs)": 2,
+      "James (jasnell)": 1,
+      "Ruy (ruyadorno)": 1
+    },
+    "RaisinTen": {
+      "James (jasnell)": 0,
+      "Both (jasnell and ruyadorno, as co-vice-chairs)": 1,
+      "Ruy (ruyadorno)": 0
+    },
+    "richardlau": {
+      "James (jasnell)": 0,
+      "Ruy (ruyadorno)": 0,
+      "Both (jasnell and ruyadorno, as co-vice-chairs)": 5
+    },
+    "ronag": {
+      "Ruy (ruyadorno)": 10,
+      "James (jasnell)": -10,
+      "Both (jasnell and ruyadorno, as co-vice-chairs)": 0
+    },
+    "ruyadorno": {
+      "Ruy (ruyadorno)": 0,
+      "Both (jasnell and ruyadorno, as co-vice-chairs)": 0,
+      "James (jasnell)": 0
+    },
+    "ShogunPanda": {
+      "Both (jasnell and ruyadorno, as co-vice-chairs)": 2,
+      "James (jasnell)": 1,
+      "Ruy (ruyadorno)": 0
+    },
+    "targos": {
+      "Ruy (ruyadorno)": 1,
+      "Both (jasnell and ruyadorno, as co-vice-chairs)": 0,
+      "James (jasnell)": 1
+    },
+    "tniessen": {
+      "Ruy (ruyadorno)": 9007199254740992,
+      "Both (jasnell and ruyadorno, as co-vice-chairs)": 9007199254740994,
+      "James (jasnell)": 9007199254740992
+    }
+  },
+  "refs": "https://github.com/nodejs/TSC/pull/1770"
+}
