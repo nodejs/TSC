@@ -100,6 +100,11 @@
       "Ruy (ruyadorno)": 1,
       "Both (jasnell and ruyadorno, as co-vice-chairs)": 0,
       "James (jasnell)": 1
+    },
+    "tniessen": {
+      "Ruy (ruyadorno)": 9007199254740992,
+      "Both (jasnell and ruyadorno, as co-vice-chairs)": 9007199254740994,
+      "James (jasnell)": 9007199254740992
     }
   },
   "refs": "https://github.com/nodejs/TSC/pull/1770"
