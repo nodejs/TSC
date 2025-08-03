@@ -3,7 +3,7 @@
 
 # 1. Select a subject for the vote. This can be a question addressed to the TSC
 #    voting members.
-subject: REPLACEME
+subject: jasnell nomination to the moderation team
 
 # 2. You can leave the header instructions as is, or modify them if you see fit.
 headerInstructions: |
@@ -24,8 +24,8 @@ headerInstructions: |
 #    voters express their preference for each candidates, no matter how many
 #    there are.
 candidates:
-  - TODO
-  - TODO
+  - James should join the Moderation Team despite the anonymous objection.
+  - James should not join the Moderation Team until the anonymous objection is resolved.
 
 # 4. Pass the following to false if it's important to keep the candidates in the
 #    order you define above. Presenting candidates in a fixed order tends to
@@ -35,10 +35,23 @@ canShuffleCandidates: true
 # 5. Insert here a short description of the vote objectives and link to the
 #    issue it was discussed on to give the full context.
 footerInstructions: |
-  TBD
+  James self-nominated to the Moderation Team. A Node.js Collaborator has
+  communicated privately they are objecting to that nomination, they are not
+  sharing publicly the reasoning.
+  Per our Moderation Policy, the nomination cannot proceed without a TSC vote.
+  
+  Refs: https://github.com/nodejs/TSC/issues/1773#issuecomment-3131028605
 
 # 6. Optionally, insert a brief introduction for the vote PR, in the markdown format.
 prBody: |
+  The ballots from this vote should not be communicated publicly, as suggested in
+  https://github.com/nodejs/TSC/issues/1773#issuecomment-3137209359.
+  After the vote has been opened for seven days and/or all TSC voting members have
+  sent an encrypted ballot, the secret parts should be communicated to the
+  Moderation Team which would be charged to communnicate the result, while keeping
+  the ballots secret.
+  
+  Refs: https://github.com/nodejs/TSC/issues/1773#issuecomment-3131028605
 
 # 7. Optionally, choose an id that will be used for the branch name as well as
 #    the vote folder name. If not supplied, a UUID will be used.
