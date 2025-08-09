@@ -1,0 +1,24 @@
+subject: jasnell nomination to the moderation team
+
+# Please set a score to each proposal according to your preferences.
+# You should set the highest score to your favorite option.
+# Negative scores are allowed, only the order matters.
+# You can tie two or more proposals if you have no preference.
+# To abstain, keep all the propositions tied.
+
+preferences:
+  - title: James should join the Moderation Team despite the anonymous objection.
+    score: 0
+  - title: >-
+      James should not join the Moderation Team until the anonymous objection is
+      resolved.
+    score: 0
+poolChecksum: >-
+  gxDts9Ck3niskA1hGYRcY1JG3y9J6ESf2PzzBDcOPms6ZoEU3lYfKSbBPhTAKmJWyYmLb6YBjL5rD48dBss2YQ==
+
+# James self-nominated to the Moderation Team. A Node.js Collaborator has
+# communicated privately they are objecting to that nomination, they are not
+# sharing publicly the reasoning.
+# Per our Moderation Policy, the nomination cannot proceed without a TSC vote.
+# 
+# Refs: https://github.com/nodejs/TSC/issues/1773#issuecomment-3131028605
