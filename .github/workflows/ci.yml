@@ -1,8 +1,8 @@
 name: CI
 on:
   push:
-    branches-ignore:
-      - dependabot/**
+    branches:
+      - main
     paths:
       - package*.json
       - '**/*.md'
