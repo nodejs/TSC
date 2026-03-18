@@ -1,7 +1,7 @@
 # Onboarding/Offboarding
 
 Please refer to the
-[Establishment of the TSC](https://github.com/nodejs/TSC/blob/main/TSC-Charter.md#section-4-establishment-of-the-tsc)
+[Establishment of the TSC](./TSC-Charter.md#section-3-establishment-of-the-tsc)
 in the TSC Charter. In the event that there is a contradiction between that
 document and this document, the contradictory elements in this document are
 invalid and are superseded by the TSC Charter.
