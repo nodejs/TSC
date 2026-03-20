@@ -165,7 +165,3 @@ and Contributors looking to participate in the development effort.
 * **Project**: a technical collaboration effort, e.g. a subsystem, that
   is organized through the project creation process and approved by the
   TSC.
-
-[Condorcet]: https://en.wikipedia.org/wiki/Condorcet_method
-[Consensus Seeking]: https://en.wikipedia.org/wiki/Consensus-seeking_decision-making
-[Single Transferable Vote]: https://en.wikipedia.org/wiki/Single_transferable_vote
