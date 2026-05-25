@@ -16,6 +16,9 @@ on:
       - .github/workflows/ci.yml
       - .github/workflows/remark-lint-problem-matcher.json
 
+permissions:
+  contents: read
+
 jobs:
   lint:
     runs-on: ubuntu-latest
