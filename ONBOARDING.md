@@ -22,7 +22,7 @@ invalid and are superseded by the TSC Charter.
 * Add them to the [nodejs-tsc](https://groups.google.com/g/nodejs-tsc) Google Group as owners, so they receive Calendar invites for TSC meetings.
 * Update the `@nodejs/node` repository README to reflect membership in the TSC.
 * Invite them to the project's [1Password account](https://nodejs.1password.com/), once they accept confirm them and add them to the owners group.
-* Update <https://github.com/nodejs/create-node-meeting-artifacts/blob/main/templates/invited_tsc> to reflect membership in the TSC.
+* Update <https://github.com/nodejs/create-node-meeting-artifacts/blob/main/meetings/tsc.meeting.json> to reflect membership in the TSC.
 * Inform them of the TSC meeting password.
 * Ask them what is their handle on OpenJS Slack – and ask them to create one if they haven't one already. Add that handle to the `#nodejs-tsc` channel.
 
@@ -53,9 +53,9 @@ invalid and are superseded by the TSC Charter.
 * Remove them from the owners group in the project's [1Password account](https://nodejs.1password.com/).
 * Update the `@nodejs/node` repository README to reflect membership in the TSC.
   In all likelihood, they should be listed as TSC regular members.
-* Update <https://github.com/nodejs/create-node-meeting-artifacts/blob/main/templates/invited_tsc> to reflect membership in the TSC.
+* Update <https://github.com/nodejs/create-node-meeting-artifacts/blob/main/meetings/tsc.meeting.json> to reflect membership in the TSC.
 * Remove them from the `#nodejs-tsc` channel on the OpenJS Slack. If they are a member of the `#nodejs-personnel` channel, remove them from that channel as well.
 
 ## Onboarding/offboarding of regular members
 
-* Update <https://github.com/nodejs/create-node-meeting-artifacts/blob/main/templates/invited_tsc> to reflect membership in the TSC.
+* Update <https://github.com/nodejs/create-node-meeting-artifacts/blob/main/meetings/tsc.meeting.json> to reflect membership in the TSC.
