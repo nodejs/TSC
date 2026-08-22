@@ -240,6 +240,7 @@ The [Node.js Code of Conduct][] applies to this WG.
 * [Release](#release)
 * [Package Maintenance](#package-maintenance)
 * [Undici](#undici)
+* [Web](#web)
 
 ### [Streams](https://github.com/nodejs/readable-stream)
 
@@ -353,5 +354,38 @@ Responsibilities include:
 * Management of the core undici repository.
 * Documenting the undici API, examples, and best practices.
 * Development of Node.js HTTP Client APIs such as a WHATWG Fetch implementation.
+
+### [Web](https://github.com/nodejs/web-team)
+
+The Web Working Group is responsible for the Node.js project's web presence: the
+development, operation, and security of nodejs.org and the infrastructure that
+serves it.
+
+Responsibilities include:
+
+* Technical direction and day-to-day development of the Node.js website and its
+  supporting projects, including `nodejs/nodejs.org`, `nodejs/learn`,
+  `nodejs/doc-kit`, and `nodejs/node.js.org`.
+* Operating and maintaining the infrastructure serving the Node.js web presence,
+  including CI/CD pipelines, `nodejs/website-cloudflare-worker`,
+  `nodejs/release-cloudflare-worker`, and `nodejs/discord-status-worker`.
+* Managing access to, and administration of, the third-party services used to run
+  the Node.js web presence, as enumerated in the Working Group's
+  [PERMISSIONS.md](https://github.com/nodejs/web-team/blob/main/PERMISSIONS.md).
+* Responding to availability and security incidents affecting the Node.js web
+  presence, per the Working Group's
+  [incident response plan](https://github.com/nodejs/web-team/blob/main/INCIDENT_RESPONSE_PLAN.md).
+* Maintaining localization tooling and workflows for the Node.js website.
+* Project governance and process for the Working Group, including this policy, its
+  contribution policy, and its permissions model.
+* Managing the membership of `@nodejs/web` and its subteams, including
+  `@nodejs/nodejs-website`, `@nodejs/web-infra`, and `@nodejs/web-admins`.
+* Overseeing repositories within the Working Group's scope (creating, moving,
+  archiving, removing) and their maintainer teams.
+
+Changes to the Node.js website that express a position about a global event or
+group of people remain subject to TSC approval, as described in the Working
+Group's
+[GOVERNANCE.md](https://github.com/nodejs/web-team/blob/main/GOVERNANCE.md#tsc-oversight).
 
 [Technical Steering Committee (TSC)]: ./TSC-Charter.md
