@@ -364,8 +364,8 @@ serves it.
 Responsibilities include:
 
 * Technical direction and day-to-day development of the Node.js website and its
-  supporting projects, including `nodejs/nodejs.org`, `nodejs/learn`,
-  `nodejs/doc-kit`, and `nodejs/node.js.org`.
+  supporting projects, including `nodejs/nodejs.org`, `nodejs/learn`, and
+  `nodejs/doc-kit`.
 * Operating and maintaining the infrastructure serving the Node.js web presence,
   including CI/CD pipelines, `nodejs/website-cloudflare-worker`,
   `nodejs/release-cloudflare-worker`, and `nodejs/discord-status-worker`.
