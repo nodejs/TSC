@@ -383,6 +383,8 @@ Responsibilities include:
 * Overseeing repositories within the Working Group's scope (creating, moving,
   archiving, removing) and their maintainer teams.
 
+Website content within, but not limited to, the [blog](https://nodejs.org/en/blog), [about](https://nodejs.org/en/about), and [partner](https://nodejs.org/en/about/partners) pages are governed by the [content vs. code](https://github.com/nodejs/nodejs.org/blob/main/docs/content-vs-code.md) guidance. Additionally, OpenJS Foundation requests are always honored, such as including project and foundation links in the footer.
+
 Changes to the Node.js website that express a position about a global event or
 group of people remain subject to TSC approval, as described in the Working
 Group's
