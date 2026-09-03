@@ -380,7 +380,7 @@ Responsibilities include:
   governance, contribution, and permissions policies.
 * Managing the membership of `@nodejs/web` and its subteams, including
   `@nodejs/nodejs-website`, `@nodejs/web-infra`, and `@nodejs/web-admins`.
-* Overseeing repositories within the Working Group's scope (creating, moving,
+* Overseeing repositories within the Working Group's scope (
   archiving, removing) and their maintainer teams.
 
 The following remain outside the charter:
