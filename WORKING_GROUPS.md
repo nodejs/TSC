@@ -376,18 +376,21 @@ Responsibilities include:
   presence, per the Working Group's
   [incident response plan](https://github.com/nodejs/web-team/blob/main/INCIDENT_RESPONSE_PLAN.md).
 * Maintaining localization tooling and workflows for the Node.js website.
-* Project governance and process for the Working Group, including this policy, its
-  contribution policy, and its permissions model.
+* Project governance and process for the Working Group, including its own
+  governance, contribution, and permissions policies.
 * Managing the membership of `@nodejs/web` and its subteams, including
   `@nodejs/nodejs-website`, `@nodejs/web-infra`, and `@nodejs/web-admins`.
 * Overseeing repositories within the Working Group's scope (creating, moving,
   archiving, removing) and their maintainer teams.
 
-Website content within, but not limited to, the [blog](https://nodejs.org/en/blog), [about](https://nodejs.org/en/about), and [partner](https://nodejs.org/en/about/partners) pages are governed by the [content vs. code](https://github.com/nodejs/nodejs.org/blob/main/docs/content-vs-code.md) guidance. Additionally, OpenJS Foundation requests are always honored, such as including project and foundation links in the footer.
+The following remain outside the charter:
 
-Changes to the Node.js website that express a position about a global event or
-group of people remain subject to TSC approval, as described in the Working
-Group's
-[GOVERNANCE.md](https://github.com/nodejs/web-team/blob/main/GOVERNANCE.md#tsc-oversight).
+* Website changes expressing a position about a global event or group of people,
+  which continue to require TSC approval.
+* Website content governed by the
+  [content vs. code](https://github.com/nodejs/nodejs.org/blob/main/docs/content-vs-code.md)
+  guidance, including OpenJS Foundation requests.
+* Cloudflare, which is owned by the Build Working Group; the Web Working Group
+  holds scoped access only.
 
 [Technical Steering Committee (TSC)]: ./TSC-Charter.md
