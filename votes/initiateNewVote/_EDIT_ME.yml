@@ -3,7 +3,7 @@
 
 # 1. Select a subject for the vote. This can be a question addressed to the TSC
 #    voting members.
-subject: REPLACEME
+subject: Should nodejs/node#63869 (`--experimental-strip-private-modules`) land?
 
 # 2. You can leave the header instructions as is, or modify them if you see fit.
 headerInstructions: |
@@ -24,8 +24,8 @@ headerInstructions: |
 #    voters express their preference for each candidates, no matter how many
 #    there are.
 candidates:
-  - TODO
-  - TODO
+  - 'Land nodejs/node#63869: add `--experimental-strip-private-modules`, which allows type stripping under `node_modules` only when every enclosing package has `"private": true`. Extending it to non-private packages stays a documented non-goal.'
+  - 'Do not land nodejs/node#63869: Node.js keeps refusing to strip types from every file under `node_modules`.'
 
 # 4. Pass the following to false if it's important to keep the candidates in the
 #    order you define above. Presenting candidates in a fixed order tends to
@@ -35,11 +35,35 @@ canShuffleCandidates: true
 # 5. Insert here a short description of the vote objectives and link to the
 #    issue it was discussed on to give the full context.
 footerInstructions: |
-  TBD
+  This vote decides whether nodejs/node#63869 can land despite an
+  objection. The pull request adds an opt-in, experimental flag that allows
+  type stripping for TypeScript files under `node_modules` when they belong to
+  packages marked `"private": true`.
+  Full discussion: https://github.com/nodejs/node/pull/63869
+  Earlier proposal it follows up on: https://github.com/nodejs/node/pull/63853
+  Collaborator Summit session: https://github.com/openjs-foundation/summit/issues/517
 
 # 6. Optionally, insert a brief introduction for the vote PR, in the markdown format.
 prBody: |
+  Node.js refuses to strip types from TypeScript files under `node_modules`
+  and throws `ERR_UNSUPPORTED_NODE_MODULES_TYPE_STRIPPING`. This keeps
+  uncompiled TypeScript from becoming the entry point of packages published
+  to a registry.
+
+  [nodejs/node#63869](https://github.com/nodejs/node/pull/63869) adds
+  `--experimental-strip-private-modules`. With the flag, a TypeScript file under
+  `node_modules` can be type stripped only if every package enclosing it in the
+  `node_modules` chain has `"private": true` in its root `package.json`. Nested
+  `package.json` files are ignored, and a non-private package anywhere in the
+  chain (for example, a published package that bundles a private one) refuses
+  stripping. npm-compatible clients refuse to publish a `"private": true`
+  package. The intended use case is workspace packages that are copied rather
+  than symlinked into `node_modules`, such as `pnpm deploy` output, Docker
+  build contexts and vendored code.
+  If the first option wins, the request for changes is dismissed and the pull
+  request lands once it has passed CI. If the second option wins, the pull
+  request is closed.
 
 # 7. Optionally, choose an id that will be used for the branch name as well as
 #    the vote folder name. If not supplied, a UUID will be used.
-path-friendly-id: null
+path-friendly-id: strip-private-modules
