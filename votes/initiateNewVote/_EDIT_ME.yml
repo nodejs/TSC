@@ -25,7 +25,7 @@ headerInstructions: |
 #    there are.
 candidates:
   - 'Land nodejs/node#63869: add `--experimental-strip-private-modules`, which allows type stripping under `node_modules` only when every enclosing package has `"private": true`. Extending it to non-private packages stays a documented non-goal.'
-  - 'Do not land nodejs/node#63869: Node.js keeps refusing to strip types from every file under `node_modules`.'
+  - 'Do not land nodejs/node#63869: Type stripping files in `node_modules` remains supported only through loaders.'
 
 # 4. Pass the following to false if it's important to keep the candidates in the
 #    order you define above. Presenting candidates in a fixed order tends to
