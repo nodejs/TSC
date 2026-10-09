@@ -1,0 +1,194 @@
+subject: Should nodejs/node#63869 (`--experimental-strip-private-modules`) land?
+headerInstructions: |
+  Please set a score to each proposal according to your preferences.
+  You should set the highest score to your favorite option.
+  Negative scores are allowed, only the order matters.
+  You can tie two or more proposals if you have no preference.
+  To abstain, keep all the propositions tied.
+candidates:
+  - >-
+    Land nodejs/node#63869: add `--experimental-strip-private-modules`, which
+    allows type stripping under `node_modules` only when every enclosing package
+    has `"private": true`. Extending it to non-private packages stays a
+    documented non-goal.
+  - >-
+    Do not land nodejs/node#63869: Type stripping files in `node_modules`
+    remains supported only through loaders.
+footerInstructions: >
+  This vote decides whether nodejs/node#63869 can land despite an
+
+  objection. The pull request adds an opt-in, experimental flag that allows
+
+  type stripping for TypeScript files under `node_modules` when they belong to
+
+  packages marked `"private": true`.
+
+  Full discussion: https://github.com/nodejs/node/pull/63869
+
+  Earlier proposal it follows up on: https://github.com/nodejs/node/pull/63853
+
+  Collaborator Summit session:
+  https://github.com/openjs-foundation/summit/issues/517
+method: Condorcet
+allowedVoters:
+  - Antoine du Hamel <duhamelantoine1995@gmail.com>
+  - Yagiz Nizipli <yagiz@nizipli.com>
+  - Benjamin Gruenbaum <benjamingr@gmail.com>
+  - Ruben Bridgewater <ruben@bridgewater.de>
+  - Gireesh Punathil <gpunathi@in.ibm.com>
+  - James M Snell <jasnell@gmail.com>
+  - Joyee Cheung <joyeec9h3@gmail.com>
+  - Chengzhong Wu <legendecas@gmail.com>
+  - Marco Ippolito <marcoippolito54@gmail.com>
+  - Matteo Collina <matteo.collina@gmail.com>
+  - Filip Skokan <panva.ip@gmail.com>
+  - Rafael Gonzaga <rafael.nunu@hotmail.com>
+  - Darshan Sen <raisinten@gmail.com>
+  - Richard Lau <richard.lau@ibm.com>
+  - Robert Nagy <ronagy@icloud.com>
+  - Ruy Adorno <ruy@vlt.sh>
+  - Paolo Insogna <paolo@cowtech.it>
+  - Tobias Nießen <tniessen@tnie.de>
+publicKey: |
+  -----BEGIN PUBLIC KEY-----
+  MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmCvg6R+s/KDOegMs7O6T
+  GNjUMWD3+bZGdfpIkU+DLpB6bwY1N9j/kckBSBFEcQPTyKTu5yM73xOfQi60poPb
+  ukwZF/IbSgxvpzX2oON9CRNkZWVb4kr3EWrRvgxeIV15E9oaps0xZrYTfE5TWmfl
+  559Z26CdDZgEOPDbzApgBVqfobVPunoqFSTy4LJ/fzAHpZERi4t4PLyMWQSRWM42
+  5PVbQacRg+8TNVzVPEzbnqbQNckvzMHsEy8/z0p/v4OPfWlAOkUYhkqPfelnonEf
+  R/rDc+dfkUt5Pbqduw2O9sYN1F6LUA5VYSmyO6YKwsR7iJw0E934zcE+tXKbsEn4
+  swIDAQAB
+  -----END PUBLIC KEY-----
+encryptedPrivateKey: >-
+  U2FsdGVkX1/nL5VOEj0IWkB6n7NvkLvjqSaF0bcRBOHFNJBSWUXBjmM+M6TxdR5fZ432Soea7XWWD1yHJWkqzRZxcLSsM12DfDXjtwbWQmIOk0AK4tTdMCMvmNJ09sITyBgLoEVLwHVYBWbQRpSeRNOm5WXdhbGaSlegf7ZRPuWL/hvRQyRb3JDrwUxEULZnwnftsrxwLMA9bSxAAdbSxIop7KswNTEIVXq8lQVJQ50qFgnq7ZKLlL3XJluLvMdzA15nQxOAIud+GdJUDcK4R2u00D9ovowbqf3DxmTZukNXuHG4Bmo/hnCMySRUWutnzi5ACXnTkW7RfoAQjiVXX/i5ikFC8tyZMkZo4zpWX98lFaCD8k4uC2+6mDDPciHSR4+ivLY+L0ag3uiq1nN0P7ekVmM9YLpaE3kpc2iPa1q7AAB1SEwTuEbgXMOfvkVfTEx+6T4+pbT7Y8CLeJvWe0/ZRqq/B+BMNLT+ozjAsXwQieodFZvkiDT6qtQhJsFCwCqK8GRP+/rINObFiSAZfEcezuXLlDgMkOYcGB5ZDvKbpzmjpGhLASzfEP/zbZ8hjEgb43CPOWc66OnfX1hd15DAH6SttQZueNpS44ryCRwL2tPTWev8SPdljoN3c02csgXjC26+E7VgzCtI9w55mJ4T8jmi3zGnLSRIPQjtAlpmkLlvm96OTIFrqBNfWJsW+SPL9bH+SyJQEoVpEXujgL3HHiiJWXAi35hPm/55/K7bidiJFIDWH9Voey4+5n6zN7gyMaHVISYAjetT506iM1gdCd2+wD0vCjMN1+jrbL+Hb/rjaLMazmxw0YrjzhDv/Nx+QQNxzDAk/YlI83ydWNvyUDgWgZc8j7QKdw+HCUo0slTwU+zc+sZpV1Xq2u3FAXekZVxeXVVdK2cii2sasemS4FeB8yOsYfjGfb1RnwsZ4aBrLeJG3mP2E/mFgX0p4hqaG3gqpdZfpxVfHi1WI6ytYOiRgWpHKgnIrlN8sqmmJicKx3D2dn876/AagpHHUtrdrwxfumd2jU+4h9HXoc3pkZWjew7pE8Xx/HpXsRbI2SF2oJWAz2qs2gcP3sCTEFbNtAp8WhI1F1rLhutb4nlxhxvZ/v/8pBOV0n5txy2gOxkOWn/VfDkkAF5VzPkaCAiBxYiGl/1l5Kao8RmL7M5D0zCiG6vXQ4LhsfAxlt4y/1U+aaGpP6O+ahV0M8iVbKQazGn/P5RneKIjAargJH7k6U2+nBo2AS95tim40WicNb0kx6yeG3l2+JTkQ02pj35MvuLIehbjJXjVw4eZC5/sglpxFWdz58dE3CqHzeMCic4wJFHi+STpNioFJzus1r9jksWwSWnJvsgG0km0EB/m9xLGRXiMYGamuXOO+IgrVIt/O2TW0/v7KMdrsnxlhK+itYv/l0iYF30at53lmoGCMswvPYYJvSaZstq9I3URNLc277ga18pigGD+pb3Y1pafZOqjwowdNEFO3IBCSQu/9g0luQ47iTaNXWYoQ+i1Re730CQD1ti5hALZeoo1C76pT1l+/HYZ4yJDnWnZNvlA8beLmudGVVCuaqcA1LMK2nUGHa4G9lZrS6m1pSBWZ090QYmv14oJ41h3I4h6aR/yXkG/6VHm6q8lX/UsIMx+m/8zJvbAzIdXxPzxmIWW
+shares:
+  - |
+    -----BEGIN PGP MESSAGE-----
+
+    hF4DA5+U6Jgm+JESAQdA7cJRJZWhe8tErZn4MWt1OeirvbYrMBKSf0AbhT/kjDgw
+    mmbw1ZdI79fq28U5kw0IzhAKt4w/daorZnE3fDy4i47b8G09kWoKNkTfuw5egEE0
+    0l8ByEVDYJ0ISE7MLbGm2M0EMLn26M2tPJZfK1pxrBMIZVTASp37WJM+HLh4TXGR
+    0i+KCcgZmtjNPD0ghIdQoLJShXX0iQFhK9FEx86xh8bpZLlRJA65FhXyNce/z4es
+    iQ==
+    =Ur4g
+    -----END PGP MESSAGE-----
+  - |
+    -----BEGIN PGP MESSAGE-----
+
+    hQIMA6znxcte3baSARAAlUs7GpIDaktEDbLemghrUIlI+abMBTNTa6mV3RJge0su
+    gjT763cIXRVAMC60hwdhfjHkgu99ibqm4Cop/FaS8+yeybTAEs3RbW32kNH9p9Zw
+    VUviTPZ4t7ZSfUgDYL0tguLk1BOgpMTtM/D5Ii8w10Cp2/JiGEEbHMLIkFBaBssY
+    KhvDUu2wXGfRpe/Nwex6M621sVE99qh3TYxnnvxMzn5Xo1r6qhVd7P86srD9cBIC
+    e4+5iiGChNgU8lJqNYoHKXIeuiN9S1e3BZlXor8KdeVgKUjJ/4DbDqS6uBWsOtaD
+    X4R9o64xVSgS9OpPlG+wUgkhP83kEf4u8EjF4M/fvArpqGFcLHdT5Jka/e+fiVAM
+    cvHn1YAVFt5iXS+DpCbczIO8d8IKf00vEh5MhfrLs5qXeaOwbD1WOXXxCrE41zw2
+    UGSoY2CE2yDteAREbeiq+h406kt/ATnw/QS8lerW/kktGraqpBqHbAZPBnMeeEt+
+    cO1ioEWVub1HEtlfYnt0XE2SvssLmiZv9ej8MWfuBt7aZA10gbcFSfcIbs/sZ418
+    E7+G+EN0gAjFHqAHW8YAhUESD65L3aqRdr/h7Xc3RS8m0chYgyB26v2vUV8UBoVN
+    jyLDM1KiW+VDftdgi3m/wYxqEqlrRCpgSUFjkqKWpryf1fpA6QIKue6MKnpKlpvS
+    XQHw8xlsF/LP606a8G+qmm5OaQKyLqbFcK6VZBX/FeTA5o5QSqdXIUqKhBjkVXYl
+    Pjhpw3q7EMi9X7GIhkiTGRAyLAkQuafl6KeYp+ZGm4sTw+yJcTZ3TWzQXb+6wg==
+    =cRXi
+    -----END PGP MESSAGE-----
+  - |
+    -----BEGIN PGP MESSAGE-----
+
+    hQIMA2rBs2t3+8g2AQ/5AUgFeeS3wDxxovwimdTjoccM7Yue7RbhU/uWEtLgIuwt
+    A2hmJLnpRO4mc3geWQp+ZUiGyCfeklNx5UI9ekAudu4ahhmlbjGlHqFzWMP+Q2sU
+    Zuicft8OjLylpn40Cmv9RW6TkqETent5FcKlzQ/R0meos4ijQqtSeugOQt5/Jzuk
+    kgYp919EG6GpgKAOZV1OvIZEVATMCsGNyEGKf034JN+/udvKvOGClP1uyqM4v38s
+    iGleiIOdNMkFfSP861yFeKIP0Se1ARE2eKmuFtNgII8bjmGoPR8I5lDzwOaKD0SX
+    fEP4INlCO3JtmHqZ6dhCzFKo0dCciQZJeYMOdhD0Jtl6Lxo9BQ993fjsllDUy/dV
+    4JoBZHKrFWCLttBtAb3vxB/ojpueSleCfLecRmgOE67m/YLhOlWdYnWyKQo9BIA+
+    I2v4eZv3lvyBKX65gxeXPUfEENuRFuewudQ9lnBqKWtWEuL/+gtLPJsNhOqbZI+t
+    am50EaHroLL43uTVaPII4cCQGgVLZ5RZgCgYaEPxfTpHLm79vHawg4Ix1obGhkXX
+    9oW0UayzBvdTp5HjBSIZqORhA9bsbpxujJ+tjqOpzQXCxTy0HlpdPVHvTO17S99A
+    cBUZz+33K2sPxbkBVahw0zgL2vtFOh0/dfXIb410ytor8RaYF1ywLOfynQGSGufU
+    ZwEJAhDHA1ih95WvfbyriqLFgcgaj/ThKvxM8IhWNjhEVI+3ldDukDv337kc7zXB
+    Ibq5hYc3psX/XQoDb4JNK1CzD6qNKlYu9X+Nve+Mv6POYCX58MHlx9TIrJfGYTAi
+    2DNa14mrxac=
+    =AVW+
+    -----END PGP MESSAGE-----
+  - |
+    -----BEGIN PGP MESSAGE-----
+
+    hQIMA8Crf6Tcj0BjARAApmtebWPvI35u/XMC8L/JTZ2OLNA2InsMFpE/EF5hka9G
+    QEvvRhPMWfAiKAjuhvDpCLJ2R7FpPoDeQbKwlUrDdEaK2/3XWyrBT4dRiTk4vbdc
+    uyP9BDnoWLLDqvot7GvSJeTmh4KVOfSULkyG7V6jr8a04NZ5B0ggQqvVyea9wCxB
+    xOWPj147l2a3remj17S6QjDWpqD5gdRESqNuA/oCvl46geC3iVGvgbS4VH8g9djW
+    f9YpSZZPzg1IcBED9JnvYsfgTtOoPFn2UbP1uWzqSfJAI27nR50NkzdKStu8cYmp
+    Bongzbvzwz74N2G4xVQdfs/c0qE2mitYdE1we+JIWlXHJwSsKjdxewVDZLLgIO3B
+    yUNmGPWGTqG+jtQe9oTSrJ+zyC/pfcdW97lRY3NcfD/Ngv4dRJFJQdQwk66ArroQ
+    cTVVXzWE2s11J+3KWgtohcL6MA21Dur3x+FzCV1vO5oJvq9cv1mVOXeqPvUHEAAE
+    rOxblbD5liF/Q1dY3V9XacIes7us3VKqVmhyTjnrIEnIdTpX81kEIvQ4dlb+epJC
+    OCvqV3nIjQR7EVk+lut7chjQD7+ZSte9bD7APHr9JKzeQ5E1NgkZuYRMe5ch8q5c
+    xCYk6AajlKdqhIjCRUzCeCafQYVFl2oaiYOxCv9DH6kEfVhyxelsVktOC632dmDU
+    aQEJAhCgK3C7GG0AHlFm/bIHhjafcCzx0c0EVjkfkn8k2cTeY6Xzaj+t7H1IM4zh
+    YDkejIRhLMpwWRWISbs3LEBNQZW1SxlZveixZ+HN3HD5Nh8cRXrvgoIUJv6aXQcx
+    /l52OhxU0y5DRQ==
+    =0Hhs
+    -----END PGP MESSAGE-----
+  - |
+    -----BEGIN PGP MESSAGE-----
+
+    hQIMA6CMQfEFjOFGAQ//TD15mU9vrTH3G3sJxfqN8uAkoBgt59mZqvdxyODBkPto
+    fZ0/R68U2nUVy2C54PrSAQLgPNv2qNGQFrfssm2HmJFvDto81fPsDneK3O+jNGrk
+    Ai9V6Xt9Kh0YftpIEQj7N7UOFvYZNnmPq0Zm+0jgJxFMux6/G/0IKnX3sKTRI7hJ
+    D/y9raZvh9tDOWXaXm4G06urDPtjyynopOeSAZZ8PLhQYkWop8NDbdRjo70p+XTH
+    4sfZQd0ZXnX0MxKWKYfXlLzoeP82iyDOsVO/qTR1VyjJyzGjq7QLXfl6wVZkIrda
+    cVcBdu2IJ3XIzctZVwtLcbOm6pSVO8Z5GYyAkfE0/FBheoqq7urD7Uz10rNM7KBy
+    qcUd8hTWDaSyZptbtZx6+FQsqJZ06TZgQBnyy69SAU1PE3k1z2Can8JbSmBAtgy+
+    HJBgJkkKZtHzSkdGuUlE1QJkJUfz+NiDZ9NjlFqGfC0WLg89tQreJY1WOoAGbfYy
+    yO70yXfBNL0QW2raFRYYAYET43lK4Dk2n8KojRsqb1ysgPGLO6oQMdjsMM3gO6oy
+    86sgjQEE8/3BAr1wnaKIZYy9GRt+ClCY2p7nUpTFpKrjGOe9SmMWn5X39lDwD3zK
+    mrjQoT/62Wgw9kL6xHM3TU1vKANPX9ygLQkYHUxuk/gFlrFW9mPMdearur/jt3TS
+    XwFWZ86611x3wMsXQ0pjkW2xrxaQpDmSFbAaYXZ7aYJjuIHiqyQIl7LLhoIr5avP
+    p+VHHiaa9GQwh1pJVlAEvkOnjKNK60uc9LkH5l37EZWeSBQWY5xoU3kdRByH/3s0
+    =vPOj
+    -----END PGP MESSAGE-----
+  - |
+    -----BEGIN PGP MESSAGE-----
+
+    hQGMAwXeeSgQfz3AAQv/WO/y/3HClc08UGXmpBtpHooenPwwv3hyJ6Qn7/RPz/JH
+    HCTEcfdUwNsGVC/b/DRuDRxrv35epJwqoX851laUxk4qKMhu2xcMqVYK4zehM7V0
+    EQzHaytcg5IbgiKwWBwlR8yqmeLWBYvNi48LTLUoS4r4n1vTapx/Lz96k4G4BOrP
+    N0k1+3OEn1akFKxVl/lKGjtxqrB71S6dEewcp3S2EIwvOha+KrHzwrOkvx6krS8g
+    roc/LDVAnzAH6ybxSl0JKODGuUI7VHDpvZUz1XpRC7vE79MBvKnrt63eKsdixF1a
+    30gksoxuzHeKwflfN7Li1ErRESCU+tc8PbONW6Psz1Xl3isqvH6umVlkFR7zC1sT
+    659IubKyAZX47WfWR/Par7ELcZgha2xmWOil3Y9FGbdDaYv4FpyE5pPUjv2CyFd+
+    PJqWJ4W6ohNRdCQ5ICl7/aCnzkdzxv7Qw928JM1Ae3SF8rW+dtTPdQAnCjvoeLHc
+    +1r4mK1RAFr7quxVV1080l8Bx3xhl5iSmoYdTcX6kGx5fQ/GhJBE5cNsNcmSBJWy
+    t4r5ghTDQ2cSisdeem/9x/VPBUDxMrQtnGn9WK3HuskueSoIUyaPmHcrtCx+V1vV
+    oV+gHsXxgeXQbvtzG2zjKA==
+    =2Idm
+    -----END PGP MESSAGE-----
+  - |
+    -----BEGIN PGP MESSAGE-----
+
+    hQIMA+FA9hvFl53MAQ//Tl19QCXH6ybSp+tNjoTOx5gii5ZRMfgzDzYTE4E2c+3B
+    bLZHRd+PTT2395F5VJItn4b77lZiHVcwv65xmca8w/uDEFGXuCh1XvRgonr64L+W
+    XdOdhSeUEzLwmd3rbc4L0EDiKP0BEDwB0+SBR8ZjgODkDS/v8EOiATs+/rjUx3h9
+    GsSzBqW0dafee/L9+AWCBKEDmh4228s8P/KQClLXioaSzTVajjFfKT9AvD/EXubR
+    uypp4bN7ezlMyEzG8wnL2l6nOcHeEnGQf42d2NDPfhbnIk2yV+HJiEr6FXwdH7CA
+    Et5gL6UbkUUmtSW1E+/H7e1eYBgeobtBBRBFkjpLi87UiiUEG3sQHfDIBViHzl9F
+    W3GGctVggm9312N/46np0S2aYB/k+L9n5+nB8frlJ98IrX2ZFDGELGSzlwVk9qfV
+    dfVizh7epJTvaAq3uffDd6scEkzvwKgDJkY/+JPDtUN50pSy+CPzLvhkvNCLrJkf
+    RpChvUxqCnU+3sST/6qesk3IBQA1I/OIjNQ7r6xzPfmJADHiV7N9EXtZxlM5EOuo
+    F6Ozbm9x7uu4liTvQA05UMO5hfIn4BP7/Kf+xUMsYnqgZTcf6uCQHksKEqJ8YfQD
+    oamzj4k0q1oIy4BJicpioHnLci8OMlAXgnVLwcsR66FTSzv/UyuEtPWZTuyfa9jU
+    aQEJAhC3259GnSpUTKG3oUiFRMrpvURTEwT9hltcG+ke1/S9vZUUrH2qBT7NQ9jH
+    Xr1KbLuqEKD7yAPRmv8a0tCUzwvAxrYHfoD3awez/UWNIzRocwke9pK3SxVhXH2n
+    UrHDPUssaJXxsw==
+    =H8Y6
+    -----END PGP MESSAGE-----
+  - |
+    -----BEGIN PGP MESSAGE-----
+
+    hF4DzhK1FiFqLWASAQdASbf0v8DnJOykF+ll737CcmNWKIPxwztTOw4VfCVMiigw
+    LALqHeFMCj0/3cIOgH593aZOrAhO/lb3WNGHKfddLV/jr1s8JtyIjDjMf/nkUb7i
+    1GkBCQIQgeNYtN4ej+9dWSueD6U0Kb/qO4ysumMtrunWo6Lg1mQp3mHfQWgb07yB
+    VsTFVY6biuUS+Ze2B2k5rwy0pj6mli9PAPUAdIBAojWXq8MnIokE5FHmvpZtdPH1
+    rxy5y+We0SWyjSI=
+    =b54Q
+    -----END PGP MESSAGE-----
+canShuffleCandidates: true
