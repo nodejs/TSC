@@ -1,0 +1,79 @@
+{
+  "description": "Should nodejs/node#63869 (`--experimental-strip-private-modules`) land?",
+  "outcome": {
+    "winner(s)": [
+      "Land nodejs/node#63869: add `--experimental-strip-private-modules`, which allows type stripping under `node_modules` only when every enclosing package has `\"private\": true`. Extending it to non-private packages stays a documented non-goal."
+    ]
+  },
+  "votes": {
+    "aduh95": {
+      "Do not land nodejs/node#63869: Type stripping files in `node_modules` remains supported only through loaders.": 1,
+      "Land nodejs/node#63869: add `--experimental-strip-private-modules`, which allows type stripping under `node_modules` only when every enclosing package has `\"private\": true`. Extending it to non-private packages stays a documented non-goal.": -1
+    },
+    "anonrig": {
+      "Do not land nodejs/node#63869: Type stripping files in `node_modules` remains supported only through loaders.": 0,
+      "Land nodejs/node#63869: add `--experimental-strip-private-modules`, which allows type stripping under `node_modules` only when every enclosing package has `\"private\": true`. Extending it to non-private packages stays a documented non-goal.": 1
+    },
+    "benjamingr": {
+      "Do not land nodejs/node#63869: Type stripping files in `node_modules` remains supported only through loaders.": 0,
+      "Land nodejs/node#63869: add `--experimental-strip-private-modules`, which allows type stripping under `node_modules` only when every enclosing package has `\"private\": true`. Extending it to non-private packages stays a documented non-goal.": 1
+    },
+    "gireeshpunathil": {
+      "Land nodejs/node#63869: add `--experimental-strip-private-modules`, which allows type stripping under `node_modules` only when every enclosing package has `\"private\": true`. Extending it to non-private packages stays a documented non-goal.": 1,
+      "Do not land nodejs/node#63869: Type stripping files in `node_modules` remains supported only through loaders.": 0
+    },
+    "jasnell": {
+      "Do not land nodejs/node#63869: Type stripping files in `node_modules` remains supported only through loaders.": 0,
+      "Land nodejs/node#63869: add `--experimental-strip-private-modules`, which allows type stripping under `node_modules` only when every enclosing package has `\"private\": true`. Extending it to non-private packages stays a documented non-goal.": 1
+    },
+    "joyeecheung": {
+      "Do not land nodejs/node#63869: Type stripping files in `node_modules` remains supported only through loaders.": 0,
+      "Land nodejs/node#63869: add `--experimental-strip-private-modules`, which allows type stripping under `node_modules` only when every enclosing package has `\"private\": true`. Extending it to non-private packages stays a documented non-goal.": 1
+    },
+    "legendecas": {
+      "Do not land nodejs/node#63869: Type stripping files in `node_modules` remains supported only through loaders.": 0,
+      "Land nodejs/node#63869: add `--experimental-strip-private-modules`, which allows type stripping under `node_modules` only when every enclosing package has `\"private\": true`. Extending it to non-private packages stays a documented non-goal.": 1
+    },
+    "marco-ippolito": {
+      "Land nodejs/node#63869: add `--experimental-strip-private-modules`, which allows type stripping under `node_modules` only when every enclosing package has `\"private\": true`. Extending it to non-private packages stays a documented non-goal.": 1,
+      "Do not land nodejs/node#63869: Type stripping files in `node_modules` remains supported only through loaders.": 0
+    },
+    "mcollina": {
+      "Do not land nodejs/node#63869: Type stripping files in `node_modules` remains supported only through loaders.": 0,
+      "Land nodejs/node#63869: add `--experimental-strip-private-modules`, which allows type stripping under `node_modules` only when every enclosing package has `\"private\": true`. Extending it to non-private packages stays a documented non-goal.": 10
+    },
+    "panva": {
+      "Land nodejs/node#63869: add `--experimental-strip-private-modules`, which allows type stripping under `node_modules` only when every enclosing package has `\"private\": true`. Extending it to non-private packages stays a documented non-goal.": 1,
+      "Do not land nodejs/node#63869: Type stripping files in `node_modules` remains supported only through loaders.": 0
+    },
+    "RafaelGSS": {
+      "Land nodejs/node#63869: add `--experimental-strip-private-modules`, which allows type stripping under `node_modules` only when every enclosing package has `\"private\": true`. Extending it to non-private packages stays a documented non-goal.": -50,
+      "Do not land nodejs/node#63869: Type stripping files in `node_modules` remains supported only through loaders.": -50
+    },
+    "RaisinTen": {
+      "Land nodejs/node#63869: add `--experimental-strip-private-modules`, which allows type stripping under `node_modules` only when every enclosing package has `\"private\": true`. Extending it to non-private packages stays a documented non-goal.": 1,
+      "Do not land nodejs/node#63869: Type stripping files in `node_modules` remains supported only through loaders.": 0
+    },
+    "richardlau": {
+      "Land nodejs/node#63869: add `--experimental-strip-private-modules`, which allows type stripping under `node_modules` only when every enclosing package has `\"private\": true`. Extending it to non-private packages stays a documented non-goal.": 1,
+      "Do not land nodejs/node#63869: Type stripping files in `node_modules` remains supported only through loaders.": 0
+    },
+    "ronag": {
+      "Do not land nodejs/node#63869: Type stripping files in `node_modules` remains supported only through loaders.": 0,
+      "Land nodejs/node#63869: add `--experimental-strip-private-modules`, which allows type stripping under `node_modules` only when every enclosing package has `\"private\": true`. Extending it to non-private packages stays a documented non-goal.": 1
+    },
+    "ruyadorno": {
+      "Land nodejs/node#63869: add `--experimental-strip-private-modules`, which allows type stripping under `node_modules` only when every enclosing package has `\"private\": true`. Extending it to non-private packages stays a documented non-goal.": 50,
+      "Do not land nodejs/node#63869: Type stripping files in `node_modules` remains supported only through loaders.": 50
+    },
+    "ShogunPanda": {
+      "Land nodejs/node#63869: add `--experimental-strip-private-modules`, which allows type stripping under `node_modules` only when every enclosing package has `\"private\": true`. Extending it to non-private packages stays a documented non-goal.": 1,
+      "Do not land nodejs/node#63869: Type stripping files in `node_modules` remains supported only through loaders.": 0
+    },
+    "tniessen": {
+      "Land nodejs/node#63869: add `--experimental-strip-private-modules`, which allows type stripping under `node_modules` only when every enclosing package has `\"private\": true`. Extending it to non-private packages stays a documented non-goal.": 7,
+      "Do not land nodejs/node#63869: Type stripping files in `node_modules` remains supported only through loaders.": -7
+    }
+  },
+  "refs": "https://github.com/nodejs/TSC/pull/1900"
+}
