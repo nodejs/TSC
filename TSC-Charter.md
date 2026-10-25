@@ -3,7 +3,8 @@
 ## Section 1. Guiding Principle
 
 The Node.js project is part of the OpenJS Foundation. The project
-operates transparently, openly, collaboratively, and ethically.
+operates transparently, openly, collaboratively, and ethically, and in
+close partnership with the OpenJS Foundation and the broader ecosystem.
 Project proposals, timelines, and status must not merely be
 open, but also easily visible to outsiders.
 
@@ -39,6 +40,7 @@ a voting TSC member to a regular TSC member.
 In order to ensure adequate representation of the interests of diverse stakeholders,
 no more than one-fourth of the TSC voting membership may be affiliated with the same
 company/entity.
+
 If a change in TSC voting membership or a change of affiliation by a TSC voting member
 creates a situation where more than one-fourth of the TSC voting membership are
 affiliated with the same company/entity, then the situation must be immediately remedied
@@ -74,8 +76,43 @@ including:
 * Development process and any coding standards.
 * Mediating technical conflicts between Collaborators or Foundation
   projects.
+* Establishing guidelines for communication by project contributors about the
+  technical development processes of the project, releases and release announcements,
+  technical documentation, contributor onboarding and conduct, project governance,
+  and technical direction.
+  * All technical infrastructure needed to support the development and distribution of the project, including the Website, CI infrastructure, Download service, etc.
 
 The TSC will define Node.js project’s release vehicles.
+
+### Exclusions and limitations of TSC responsibilities
+
+The Foundation handles all matters related to fundraising and financial
+sponsorship on behalf of the project. The Foundation shall, on the project's
+behalf, solicit funding and financial sponsorship for the Node.js project.
+
+The TSC may not enter into any legal agreements.
+
+Specific exclusions from the communication oversight responsibilities include:
+
+* Brand marketing
+* Fundraising and financial sponsorship of the project (including, but not
+  limited to, the OpenJS Foundation's own financial sponsorship of the project)
+* Legal matters
+
+All communication from the project touching on these topics must be reviewed
+and approved by the Foundation.
+
+All uses of OpenJS Foundation-owned trademarks and intellectual property by the
+project are subject to the [OpenJS Foundation Trademark Policy](https://trademark-policy.openjsf.org/).
+This includes use of any marks -- in full or in part -- in domain names, social
+media account handles, event names and other similar identifiers.
+
+The TSC may establish and administer project-specific communication channels,
+such as social media accounts and discussion forums, administered under the
+oversight of the TSC, subject to the above requirements. Should such channels
+make any use of OpenJS Foundation-owned trademarks or intellectual property, the
+channels must be capable of being administered jointly by both the TSC and the
+Foundation.
 
 ## Section 5. Node.js Project Operations
 
