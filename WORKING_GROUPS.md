@@ -236,7 +236,6 @@ The [Node.js Code of Conduct][] applies to this WG.
 * [Streams](#streams)
 * [Build](#build)
 * [Diagnostics](#diagnostics)
-* [Docker](#docker)
 * [Release](#release)
 * [Package Maintenance](#package-maintenance)
 * [Undici](#undici)
@@ -294,17 +293,6 @@ Responsibilities include:
   when needed.
 * Defining and adding common structures to the dumps generated in order to
   support tools that want to introspect those dumps.
-
-### [Docker](https://github.com/nodejs/docker-node)
-
-The Docker Working Group's purpose is to build, maintain, and improve official
-Docker images for the Node.js project.
-
-Responsibilities include:
-
-* Keeping the official Docker images updated in line with new Node.js releases.
-* Decide and implement image improvements and/or fixes.
-* Maintain and improve the images' documentation.
 
 ### [Release](https://github.com/nodejs/release)
 
