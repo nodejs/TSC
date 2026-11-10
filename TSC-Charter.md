@@ -74,8 +74,23 @@ including:
 * Development process and any coding standards.
 * Mediating technical conflicts between Collaborators or Foundation
   projects.
+* Establishing and stewarding a consensus-seeking process to represent the technical community and its work in external communications. The scope includes:
+  * Technical development and its process in the the project
+  * Releases and release announcements
+  * Technical documentation
+  * Contributor onboarding and conduct
+  * Project governance
+  * Technical direction
+  * The project website and download server
+  * Petition from the technical community that can be surfaced to the CPC level
 
 The TSC will define Node.js project’s release vehicles.
+
+Communication on topics where the scope of the TSC intersects with that of the [OpenJS CPC][] or the [OpenJS board][] will be handled in collaboration with the other two bodies, facilitated by the TSC representative on the CPC.
+
+If a Node.js-specific communication channel, such as a social media account or a discussion forum, is established by another party and used to represent the technical work or the technical community of the project, the TSC may request administrator or moderator access to ensure representation is aligned with the consensus within the project. Day-to-day operation in such channels can be delegated to another party as long as they follow the Code of Conduct, and respect the consensus seeking process before representation of the project is manifested.
+
+If the TSC becomes aware of external communications that appear inconsistent with the project’s consensus, it may engage with the communicating party, directly or through appropriate channels, to help align the message with the project’s consensus-seeking processes.
 
 ## Section 5. Node.js Project Operations
 
@@ -168,4 +183,6 @@ and Contributors looking to participate in the development effort.
 
 [Condorcet]: https://en.wikipedia.org/wiki/Condorcet_method
 [Consensus Seeking]: https://en.wikipedia.org/wiki/Consensus-seeking_decision-making
+[OpenJS CPC]: https://github.com/openjs-foundation/cross-project-council/blob/main/CPC-CHARTER.md
+[OpenJS board]: https://images.prismic.io/openjsf/c31b195a-83c9-4d89-9d92-d0cb8840ea20_OpenJS-Foundation-Bylaws-2023-09-18.pdf
 [Single Transferable Vote]: https://en.wikipedia.org/wiki/Single_transferable_vote
